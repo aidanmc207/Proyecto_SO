@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle">
+   <string>Production Line Simulator</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="rootLayout">
+    <item>
+     <layout class="QHBoxLayout" name="toolbarLayout">
+      <item><widget class="QPushButton" name="btnStart"><property name="text"><string>Start</string></property></widget></item>
+      <item><widget class="QPushButton" name="btnPause"><property name="text"><string>Pause</string></property></widget></item>
+      <item><widget class="QPushButton" name="btnStop"><property name="text"><string>Stop</string></property></widget></item>
+      <item><spacer name="hspacer"><property name="orientation"><enum>Qt::Horizontal</enum></property></spacer></item>
+      <item><widget class="QComboBox" name="cmbSpeed"><property name="toolTip"><string>Production speed</string></property></widget></item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="stationsLayout">
+      <item row="0" column="0"><widget class="QGroupBox" name="grpAssembler"><property name="title"><string>Assembler</string></property><layout class="QVBoxLayout"><item><widget class="QLabel" name="lblAsmState"><property name="text"><string>Idle</string></property></widget></item><item><widget class="QProgressBar" name="barAsm"/></item></layout></widget></item>
+      <item row="0" column="1"><widget class="QGroupBox" name="grpTester"><property name="title"><string>Tester</string></property><layout class="QVBoxLayout"><item><widget class="QLabel" name="lblTesState"><property name="text"><string>Idle</string></property></widget></item><item><widget class="QProgressBar" name="barTes"/></item></layout></widget></item>
+      <item row="0" column="2"><widget class="QGroupBox" name="grpPacker"><property name="title"><string>Packer</string></property><layout class="QVBoxLayout"><item><widget class="QLabel" name="lblPacState"><property name="text"><string>Idle</string></property></widget></item><item><widget class="QProgressBar" name="barPac"/></item></layout></widget></item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="txtLogs">
+      <property name="readOnly"><bool>true</bool></property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tblThreads">
+      <column><property name="text"><string>Thread</string></property></column>
+      <column><property name="text"><string>State</string></property></column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
