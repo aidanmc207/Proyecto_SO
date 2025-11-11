@@ -1,6 +1,7 @@
 #pragma once
 #include <QObject>
 #include <QThread>
+#include <QString>
 #include <atomic>
 #include "Buffer.h"
 #include "Product.h"
@@ -8,9 +9,14 @@
 class WorkStation : public QObject {
     Q_OBJECT
 public:
-    void launch();   // arranca QThread desde el hilo llamador (GUI)
+    explicit WorkStation(const QString& name, QObject* parent=nullptr);
+    virtual ~WorkStation();
+
+    void setBuffers(Buffer<Product>* in, Buffer<Product>* out){ m_in=in; m_out=out; }
+    void launch();
+
 public slots:
-    void start();    // solo cambia flags (no llama m_thread.start)
+    void start();
     void pause();
     void stop();
 
@@ -23,6 +29,10 @@ protected:
     void runLoop();
 
 private:
-    QString m_name; QThread m_thread; std::atomic_bool m_running{false}; std::atomic_bool m_paused{false};
-    Buffer<Product>* m_in=nullptr; Buffer<Product>* m_out=nullptr;
+    QString m_name;
+    QThread m_thread;
+    std::atomic_bool m_running{false};
+    std::atomic_bool m_paused{false};
+    Buffer<Product>* m_in=nullptr;
+    Buffer<Product>* m_out=nullptr;
 };

@@ -24,8 +24,8 @@ void ProductionLine::addStation(WorkStation* st) {
 
 void ProductionLine::start() {
     for (auto* s : m_stations) {
-        s->launch();                                    // <-- arranca QThread ya
-        QMetaObject::invokeMethod(s, "start");          // ahora sí, la cola se procesa
+        s->launch();
+        QMetaObject::invokeMethod(s, "start");
     }
 }
 void ProductionLine::pause(){
