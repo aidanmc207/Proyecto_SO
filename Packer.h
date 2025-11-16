@@ -5,8 +5,8 @@
 class Packer : public WorkStation {
     Q_OBJECT
 public:
-    explicit Packer(const QString& name, QObject* parent=nullptr)
-        : WorkStation(name, parent) {}
+    explicit Packer(const QString& name, QObject* parent=nullptr);
+
 protected:
-    void process(Product& p) override { QThread::msleep(120); p.advance(); }
+    void process(Product& p) override;
 };

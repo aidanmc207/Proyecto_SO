@@ -29,10 +29,27 @@ void ProductionController::init(){
     QObject::connect(m_line, &ProductionLine::log, this, &ProductionController::logLine);
 }
 
-void ProductionController::start(){
-    static long gid=1;
-    for(int i=0;i<20;++i){ Product p; p.id=gid++; m_line->firstBuffer()->push(p); }
-    m_line->start(); emit logLine("Controller: start()");
+void ProductionController::start()
+{
+    static long gid = 1;
+
+    m_line->start();   // primero arrancan las estaciones
+
+    // Productos normales
+    for (int i = 0; i < 20; ++i) {
+        Product p;
+        p.id = gid++;
+        m_line->firstBuffer()->push(p);
+    }
+
+    // Sentinela de fin de producción
+    Product stop;
+    stop.isStopSignal = true;
+    m_line->firstBuffer()->push(stop);
+
+    emit logLine("Controller: start()");
 }
+
+
 void ProductionController::pause(){ m_line->pause(); emit logLine("Controller: pause()"); }
 void ProductionController::stop(){ m_line->stop(); emit logLine("Controller: stop()"); }

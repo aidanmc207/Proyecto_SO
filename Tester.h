@@ -5,8 +5,8 @@
 class Tester : public WorkStation {
     Q_OBJECT
 public:
-    explicit Tester(const QString& name, QObject* parent=nullptr)
-        : WorkStation(name, parent) {}
+    explicit Tester(const QString& name, QObject* parent=nullptr);
+
 protected:
-    void process(Product& p) override { QThread::msleep(150); p.advance(); }
+    void process(Product& p) override;
 };

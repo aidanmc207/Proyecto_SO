@@ -5,8 +5,8 @@
 class Assembler : public WorkStation {
     Q_OBJECT
 public:
-    explicit Assembler(const QString& name, QObject* parent=nullptr)
-        : WorkStation(name, parent) {}
+    explicit Assembler(const QString& name, QObject* parent=nullptr);
+
 protected:
-    void process(Product& p) override { QThread::msleep(200); p.advance(); }
+    void process(Product& p) override;
 };

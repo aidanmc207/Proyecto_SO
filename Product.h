@@ -1,11 +1,15 @@
-
 #pragma once
 #include <QString>
 
 enum class ProductState { New, Assembled, Tested, Packed };
 
 struct Product {
-    long id = 0; QString type = "Blender"; ProductState state = ProductState::New;
+    long id = 0;
+    QString type = "Blender";
+    ProductState state = ProductState::New;
+
+    bool isStopSignal = false;      // <--- NUEVO
+
     void advance(){
         if(state==ProductState::New) state=ProductState::Assembled;
         else if(state==ProductState::Assembled) state=ProductState::Tested;

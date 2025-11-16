@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = proyecto_so_20251.0.0
-DISTDIR = /home/aimurr/Downloads/Proyecto_SO/build/Desktop-Debug/.tmp/proyecto_so_20251.0.0
+DISTDIR = /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/.tmp/proyecto_so_20251.0.0
 LINK          = clang++
 LFLAGS        = -ccc-gcc-name g++
 LIBS          = $(SUBLIBS) /usr/lib/x86_64-linux-gnu/libQt5Widgets.so /usr/lib/x86_64-linux-gnu/libQt5Gui.so /usr/lib/x86_64-linux-gnu/libQt5Concurrent.so /usr/lib/x86_64-linux-gnu/libQt5Core.so -lGL -lpthread   
@@ -74,7 +74,10 @@ SOURCES       = ../../main.cpp \
 		moc_Packer.cpp \
 		moc_Logger.cpp \
 		moc_StatsMonitor.cpp \
-		moc_CleanUpService.cpp
+		moc_CleanUpService.cpp \
+		moc_Persistence.cpp \
+		moc_ThreadManager.cpp \
+		moc_PipeManager.cpp
 OBJECTS       = main.o \
 		MainWindow.o \
 		ProductionController.o \
@@ -98,7 +101,10 @@ OBJECTS       = main.o \
 		moc_Packer.o \
 		moc_Logger.o \
 		moc_StatsMonitor.o \
-		moc_CleanUpService.o
+		moc_CleanUpService.o \
+		moc_Persistence.o \
+		moc_ThreadManager.o \
+		moc_PipeManager.o
 DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/linux.conf \
@@ -421,33 +427,33 @@ compiler_moc_predefs_clean:
 moc_predefs.h: /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 	clang++ -pipe -g -std=gnu++1z -Wall -Wextra -dM -E -o moc_predefs.h /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 
-compiler_moc_header_make_all: moc_MainWindow.cpp moc_ProductionController.cpp moc_ProductionLine.cpp moc_WorkStation.cpp moc_Assembler.cpp moc_Tester.cpp moc_Packer.cpp moc_Logger.cpp moc_StatsMonitor.cpp moc_CleanUpService.cpp
+compiler_moc_header_make_all: moc_MainWindow.cpp moc_ProductionController.cpp moc_ProductionLine.cpp moc_WorkStation.cpp moc_Assembler.cpp moc_Tester.cpp moc_Packer.cpp moc_Logger.cpp moc_StatsMonitor.cpp moc_CleanUpService.cpp moc_Persistence.cpp moc_ThreadManager.cpp moc_PipeManager.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_MainWindow.cpp moc_ProductionController.cpp moc_ProductionLine.cpp moc_WorkStation.cpp moc_Assembler.cpp moc_Tester.cpp moc_Packer.cpp moc_Logger.cpp moc_StatsMonitor.cpp moc_CleanUpService.cpp
+	-$(DEL_FILE) moc_MainWindow.cpp moc_ProductionController.cpp moc_ProductionLine.cpp moc_WorkStation.cpp moc_Assembler.cpp moc_Tester.cpp moc_Packer.cpp moc_Logger.cpp moc_StatsMonitor.cpp moc_CleanUpService.cpp moc_Persistence.cpp moc_ThreadManager.cpp moc_PipeManager.cpp
 moc_MainWindow.cpp: ../../MainWindow.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Downloads/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/aimurr/Downloads/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../MainWindow.h -o moc_MainWindow.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../MainWindow.h -o moc_MainWindow.cpp
 
 moc_ProductionController.cpp: ../../ProductionController.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Downloads/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/aimurr/Downloads/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../ProductionController.h -o moc_ProductionController.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../ProductionController.h -o moc_ProductionController.cpp
 
 moc_ProductionLine.cpp: ../../ProductionLine.h \
-		../../WorkStation.h \
 		../../Buffer.h \
 		../../Product.h \
+		../../WorkStation.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Downloads/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/aimurr/Downloads/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../ProductionLine.h -o moc_ProductionLine.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../ProductionLine.h -o moc_ProductionLine.cpp
 
 moc_WorkStation.cpp: ../../WorkStation.h \
 		../../Buffer.h \
 		../../Product.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Downloads/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/aimurr/Downloads/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../WorkStation.h -o moc_WorkStation.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../WorkStation.h -o moc_WorkStation.cpp
 
 moc_Assembler.cpp: ../../Assembler.h \
 		../../WorkStation.h \
@@ -455,7 +461,7 @@ moc_Assembler.cpp: ../../Assembler.h \
 		../../Product.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Downloads/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/aimurr/Downloads/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../Assembler.h -o moc_Assembler.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../Assembler.h -o moc_Assembler.cpp
 
 moc_Tester.cpp: ../../Tester.h \
 		../../WorkStation.h \
@@ -463,7 +469,7 @@ moc_Tester.cpp: ../../Tester.h \
 		../../Product.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Downloads/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/aimurr/Downloads/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../Tester.h -o moc_Tester.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../Tester.h -o moc_Tester.cpp
 
 moc_Packer.cpp: ../../Packer.h \
 		../../WorkStation.h \
@@ -471,22 +477,41 @@ moc_Packer.cpp: ../../Packer.h \
 		../../Product.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Downloads/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/aimurr/Downloads/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../Packer.h -o moc_Packer.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../Packer.h -o moc_Packer.cpp
 
 moc_Logger.cpp: ../../Logger.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Downloads/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/aimurr/Downloads/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../Logger.h -o moc_Logger.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../Logger.h -o moc_Logger.cpp
 
 moc_StatsMonitor.cpp: ../../StatsMonitor.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Downloads/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/aimurr/Downloads/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../StatsMonitor.h -o moc_StatsMonitor.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../StatsMonitor.h -o moc_StatsMonitor.cpp
 
 moc_CleanUpService.cpp: ../../CleanUpService.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Downloads/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/aimurr/Downloads/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../CleanUpService.h -o moc_CleanUpService.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../CleanUpService.h -o moc_CleanUpService.cpp
+
+moc_Persistence.cpp: ../../Persistence.h \
+		../../Product.h \
+		moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../Persistence.h -o moc_Persistence.cpp
+
+moc_ThreadManager.cpp: ../../ThreadManager.h \
+		moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../ThreadManager.h -o moc_ThreadManager.cpp
+
+moc_PipeManager.cpp: ../../PipeManager.h \
+		../../Product.h \
+		../../WorkStation.h \
+		../../Buffer.h \
+		moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/danielsv/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/danielsv/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../PipeManager.h -o moc_PipeManager.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -519,9 +544,9 @@ MainWindow.o: ../../MainWindow.cpp ../../MainWindow.h \
 
 ProductionController.o: ../../ProductionController.cpp ../../ProductionController.h \
 		../../ProductionLine.h \
-		../../WorkStation.h \
 		../../Buffer.h \
 		../../Product.h \
+		../../WorkStation.h \
 		../../Logger.h \
 		../../StatsMonitor.h \
 		../../CleanUpService.h \
@@ -531,9 +556,9 @@ ProductionController.o: ../../ProductionController.cpp ../../ProductionControlle
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ProductionController.o ../../ProductionController.cpp
 
 ProductionLine.o: ../../ProductionLine.cpp ../../ProductionLine.h \
-		../../WorkStation.h \
 		../../Buffer.h \
-		../../Product.h
+		../../Product.h \
+		../../WorkStation.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ProductionLine.o ../../ProductionLine.cpp
 
 WorkStation.o: ../../WorkStation.cpp ../../WorkStation.h \
@@ -541,13 +566,22 @@ WorkStation.o: ../../WorkStation.cpp ../../WorkStation.h \
 		../../Product.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o WorkStation.o ../../WorkStation.cpp
 
-Assembler.o: ../../Assembler.cpp 
+Assembler.o: ../../Assembler.cpp ../../Assembler.h \
+		../../WorkStation.h \
+		../../Buffer.h \
+		../../Product.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Assembler.o ../../Assembler.cpp
 
-Tester.o: ../../Tester.cpp 
+Tester.o: ../../Tester.cpp ../../Tester.h \
+		../../WorkStation.h \
+		../../Buffer.h \
+		../../Product.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Tester.o ../../Tester.cpp
 
-Packer.o: ../../Packer.cpp 
+Packer.o: ../../Packer.cpp ../../Packer.h \
+		../../WorkStation.h \
+		../../Buffer.h \
+		../../Product.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Packer.o ../../Packer.cpp
 
 Logger.o: ../../Logger.cpp ../../Logger.h
@@ -559,13 +593,17 @@ StatsMonitor.o: ../../StatsMonitor.cpp ../../StatsMonitor.h
 CleanUpService.o: ../../CleanUpService.cpp ../../CleanUpService.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o CleanUpService.o ../../CleanUpService.cpp
 
-Persistence.o: ../../Persistence.cpp 
+Persistence.o: ../../Persistence.cpp ../../Persistence.h \
+		../../Product.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Persistence.o ../../Persistence.cpp
 
-ThreadManager.o: ../../ThreadManager.cpp 
+ThreadManager.o: ../../ThreadManager.cpp ../../ThreadManager.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ThreadManager.o ../../ThreadManager.cpp
 
-PipeManager.o: ../../PipeManager.cpp 
+PipeManager.o: ../../PipeManager.cpp ../../PipeManager.h \
+		../../Product.h \
+		../../WorkStation.h \
+		../../Buffer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o PipeManager.o ../../PipeManager.cpp
 
 moc_MainWindow.o: moc_MainWindow.cpp 
@@ -597,6 +635,15 @@ moc_StatsMonitor.o: moc_StatsMonitor.cpp
 
 moc_CleanUpService.o: moc_CleanUpService.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_CleanUpService.o moc_CleanUpService.cpp
+
+moc_Persistence.o: moc_Persistence.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_Persistence.o moc_Persistence.cpp
+
+moc_ThreadManager.o: moc_ThreadManager.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_ThreadManager.o moc_ThreadManager.cpp
+
+moc_PipeManager.o: moc_PipeManager.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_PipeManager.o moc_PipeManager.cpp
 
 ####### Install
 

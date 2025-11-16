@@ -1,30 +1,37 @@
 #pragma once
+
 #include <QObject>
-#include <QVector>
-#include <memory>
-#include <vector>              // <<< añade esto
-#include "WorkStation.h"
+#include <QList>
+
 #include "Buffer.h"
 #include "Product.h"
+#include "WorkStation.h"
 
-class ProductionLine : public QObject {
+class ProductionLine : public QObject
+{
     Q_OBJECT
 public:
-    explicit ProductionLine(QObject* parent=nullptr);
+    explicit ProductionLine(QObject* parent = nullptr);
     ~ProductionLine();
 
-    void addStation(WorkStation* st);
+    void addStation(WorkStation* station);
+    void link(WorkStation* from, WorkStation* to);   // opcional si quieres enlaces manuales
+
+    Buffer<Product>* firstBuffer() { return &m_entryBuffer; }
+
+public slots:
     void start();
     void pause();
     void stop();
 
-    Buffer<Product>* firstBuffer() { return m_buffers.front().get(); } // ok con std::vector
-
 signals:
-    void stationUpdated(const QString&, const QString&, int);
-    void log(const QString&);
+    void stationUpdated(const QString& name, const QString& state, int queueSize);
+    void log(const QString& line);
 
 private:
-    QVector<WorkStation*> m_stations;                          // puede quedarse en QVector
-    std::vector<std::unique_ptr<Buffer<Product>>> m_buffers;   // <<< cambia a std::vector
+    QList<WorkStation*> m_stations;
+    QList<Buffer<Product>*> m_internalBuffers;
+    Buffer<Product> m_entryBuffer;   // entrada a la primera estación
+
+    void autoLinkStations();         // enlaza secuencialmente
 };

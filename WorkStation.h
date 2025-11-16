@@ -1,38 +1,54 @@
 #pragma once
+
 #include <QObject>
-#include <QThread>
 #include <QString>
+#include <QThread>
+#include <QMutex>
+#include <QWaitCondition>
 #include <atomic>
+
 #include "Buffer.h"
 #include "Product.h"
 
-class WorkStation : public QObject {
+class WorkStation : public QObject
+{
     Q_OBJECT
 public:
-    explicit WorkStation(const QString& name, QObject* parent=nullptr);
+    explicit WorkStation(const QString& name, QObject* parent = nullptr);
     virtual ~WorkStation();
 
-    void setBuffers(Buffer<Product>* in, Buffer<Product>* out){ m_in=in; m_out=out; }
-    void launch();
+    void setInputBuffer(Buffer<Product>* buf);
+    void setOutputBuffer(Buffer<Product>* buf);
+
+    QString name() const { return m_name; }
 
 public slots:
-    void start();
-    void pause();
-    void stop();
+    void start();   // inicia el hilo y el loop
+    void pause();   // pausa el procesamiento
+    void stop();    // detiene el hilo
 
 signals:
-    void updated(const QString& station, const QString& state, int progress);
+    // name, estado ("Running", "Paused", "Stopped"), tamaño de cola de entrada
+    void stationUpdated(const QString& name, const QString& state, int queueSize);
     void log(const QString& line);
 
 protected:
-    virtual void process(Product& p)=0;
-    void runLoop();
+    virtual void process(Product& p) = 0;   // implementado por Assembler/Tester/Packer
+
+private slots:
+    void runLoop(); // loop interno que se conecta a QThread::started()
 
 private:
     QString m_name;
+    Buffer<Product>* m_input { nullptr };
+    Buffer<Product>* m_output { nullptr };
+
     QThread m_thread;
-    std::atomic_bool m_running{false};
-    std::atomic_bool m_paused{false};
-    Buffer<Product>* m_in=nullptr;
-    Buffer<Product>* m_out=nullptr;
+    std::atomic<bool> m_running { false };
+    std::atomic<bool> m_paused  { false };
+
+    QMutex m_pauseMutex;
+    QWaitCondition m_pauseCond;
+
+    QString stateString() const;
 };
