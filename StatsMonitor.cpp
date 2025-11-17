@@ -43,3 +43,15 @@ QVector<double> StatsMonitor::getStationData(const QString& station) const
 {
     return m_stationData.value(station, QVector<double>());
 }
+
+void StatsMonitor::reset()
+{
+    m_timestamps.clear();
+    m_totalProcessed.clear();
+    m_totalInQueue.clear();
+    m_totalRework.clear();
+    m_stationData.clear();
+    m_currentTime = 0.0;
+
+    emit dataUpdated();
+}

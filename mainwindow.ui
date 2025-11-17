@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>648</width>
+    <width>1200</width>
     <height>900</height>
    </rect>
   </property>
@@ -25,7 +25,7 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>628</width>
+         <width>1180</width>
          <height>857</height>
         </rect>
        </property>
@@ -34,7 +34,7 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>630</width>
+          <width>1180</width>
           <height>28</height>
          </rect>
         </property>
@@ -73,13 +73,6 @@
            </property>
           </spacer>
          </item>
-         <item>
-          <widget class="QComboBox" name="cmbSpeed">
-           <property name="toolTip">
-            <string>Production speed</string>
-           </property>
-          </widget>
-         </item>
         </layout>
        </widget>
        <widget class="QWidget" name="layoutWidget">
@@ -87,8 +80,8 @@
          <rect>
           <x>0</x>
           <y>30</y>
-          <width>630</width>
-          <height>450</height>
+          <width>1180</width>
+          <height>600</height>
          </rect>
         </property>
         <layout class="QGridLayout" name="stationsLayout">

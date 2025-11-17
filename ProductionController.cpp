@@ -105,6 +105,7 @@ void ProductionController::start()
         m_paused  = false;
 
         m_line->start();
+        maintenance->startAll(); // Reiniciar los hilos de mantenimiento
         generateProduct(); // primer producto
 
         emit logLine("Controller: start()");
@@ -150,7 +151,12 @@ void ProductionController::stop()
         }
     }
 
-    emit logLine("Controller: stop() - Contadores reseteados");
+    // Resetear el StatsMonitor para reiniciar el gráfico
+    if (m_statsMonitor) {
+        m_statsMonitor->reset();
+    }
+
+    emit logLine("Controller: stop() - Contadores y gráfico reseteados");
 }
 
 void ProductionController::generateProduct()
