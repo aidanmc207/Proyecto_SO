@@ -13,8 +13,7 @@ void QualityControl::process(Product& p)
 
     QThread::msleep(Config::qcDelay);
 
-    bool fail = (QRandomGenerator::global()->bounded(100) < 20);//probabilidad de fallo
-
+    bool fail= (QRandomGenerator::global()->bounded(100) < Config::failProb);//probabilidad de fallo
     if (fail)
     {
         emit log(QString("%1: FAILED inspection sending back to Assembly").arg(name()));

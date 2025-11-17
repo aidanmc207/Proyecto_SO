@@ -82,13 +82,8 @@ FirstView::~FirstView()
 
 void FirstView::openProduction()
 {
-    if (!productionWin) {
+    if (!productionWin)
         productionWin = new MainWindow();
-
-        // Conectar la señal del botón Return
-        connect(productionWin, &MainWindow::returnToFirstView,
-                this, &FirstView::show);
-    }
     productionWin->show();
     productionWin->raise();
     this->hide();
@@ -100,10 +95,7 @@ void FirstView::openLogs()
         logWin = new LogWindow();
         //senal de retorno
         connect(logWin, &LogWindow::returnToFirstView,
-                this, [this]() {
-                    logWin->hide();
-                    this->show();
-                    this->raise();
+                this, [this]() {logWin->hide();this->show(); this->raise();
                 });
     }
 
