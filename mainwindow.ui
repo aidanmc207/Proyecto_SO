@@ -87,8 +87,8 @@
          <rect>
           <x>0</x>
           <y>30</y>
-          <width>630</width>
-          <height>225</height>
+          <width>634</width>
+          <height>177</height>
          </rect>
         </property>
         <layout class="QGridLayout" name="stationsLayout">
@@ -117,6 +117,73 @@
             </item>
             <item>
              <widget class="QProgressBar" name="barPac">
+              <property name="value">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QGroupBox" name="grpTester">
+           <property name="title">
+            <string>Tester</string>
+           </property>
+           <layout class="QVBoxLayout">
+            <item>
+             <widget class="QLabel" name="lblTesState">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lblTesProcessed">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QProgressBar" name="barTes">
+              <property name="value">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="0" column="2" alignment="Qt::AlignHCenter">
+          <widget class="QGroupBox" name="groupBoxQC">
+           <property name="title">
+            <string>Quality Control</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QLabel" name="lblQCState">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lblQCProcessed">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lblQCRework">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QProgressBar" name="barQC">
               <property name="value">
                <number>0</number>
               </property>
@@ -169,93 +236,34 @@
            </layout>
           </widget>
          </item>
-         <item row="0" column="1">
-          <widget class="QGroupBox" name="grpTester">
+         <item row="0" column="4">
+          <widget class="QGroupBox" name="groupBox">
            <property name="title">
-            <string>Tester</string>
+            <string>Shipping</string>
            </property>
-           <layout class="QVBoxLayout">
+           <layout class="QVBoxLayout" name="verticalLayout_2">
             <item>
-             <widget class="QLabel" name="lblTesState">
+             <widget class="QLabel" name="lblShipState">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lblTesProcessed">
+             <widget class="QLabel" name="lblShipProcessed">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QProgressBar" name="barTes">
+             <widget class="QProgressBar" name="barShip">
               <property name="value">
                <number>0</number>
               </property>
              </widget>
             </item>
            </layout>
-          </widget>
-         </item>
-         <item row="0" column="2">
-          <widget class="QGroupBox" name="groupBoxQC">
-           <property name="title">
-            <string>Quality Control</string>
-           </property>
-           <widget class="QLabel" name="lblQCProcessed">
-            <property name="geometry">
-             <rect>
-              <x>10</x>
-              <y>60</y>
-              <width>111</width>
-              <height>18</height>
-             </rect>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-           <widget class="QLabel" name="lblQCState">
-            <property name="geometry">
-             <rect>
-              <x>10</x>
-              <y>30</y>
-              <width>111</width>
-              <height>18</height>
-             </rect>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-           <widget class="QProgressBar" name="barQC">
-            <property name="geometry">
-             <rect>
-              <x>0</x>
-              <y>190</y>
-              <width>118</width>
-              <height>23</height>
-             </rect>
-            </property>
-            <property name="value">
-             <number>0</number>
-            </property>
-           </widget>
-           <widget class="QLabel" name="lblQCRework">
-            <property name="geometry">
-             <rect>
-              <x>10</x>
-              <y>80</y>
-              <width>111</width>
-              <height>18</height>
-             </rect>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
           </widget>
          </item>
         </layout>

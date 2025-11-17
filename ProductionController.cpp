@@ -13,12 +13,14 @@ ProductionController::ProductionController(QObject* parent)
     auto* test   = new Tester("Tester");
     auto* pack   = new Packer("Packer");
     auto* qc = new QualityControl("QualityControl");
+    auto* sh = new Shipping("Shipping");
 
     m_line->addStation(asmbl1);
     m_line->addStation(asmbl2);
     m_line->addStation(test);
     m_line->addStation(qc);
     m_line->addStation(pack);
+    m_line->addStation(sh);
 
     // buffer compartido entre assemblers y tester
     m_bufAsmToTest = new Buffer<Product>(128);
@@ -28,7 +30,7 @@ ProductionController::ProductionController(QObject* parent)
 
     asmbl1->setInputBuffer(m_entry1);
     asmbl2->setInputBuffer(m_entry2);
-
+//LO QUE ENSAMBLAN va a test
     asmbl1->setOutputBuffer(m_bufAsmToTest);
     asmbl2->setOutputBuffer(m_bufAsmToTest);
 
@@ -42,7 +44,7 @@ ProductionController::ProductionController(QObject* parent)
     connect(m_pipeManager, &PipeManager::log,
             this, &ProductionController::logLine);
 
-    // signals de consumo para producción "just in time"
+    // signals de consumo para producción "just in time" osea que no genera otro producto hasta desocupar un assembler
     connect(asmbl1, &WorkStation::consumed,
             this, &ProductionController::onStationConsumed);
     connect(asmbl2, &WorkStation::consumed,

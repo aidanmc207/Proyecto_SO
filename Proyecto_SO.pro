@@ -5,6 +5,7 @@ TARGET = proyecto_so_2025
 
 SOURCES += \
     QualityControl.cpp \
+    Shipping.cpp \
     main.cpp \
     MainWindow.cpp \
     ProductionController.cpp \
@@ -26,6 +27,7 @@ HEADERS += \
     ProductionController.h \
     ProductionLine.h \
     QualityControl.h \
+    Shipping.h \
     WorkStation.h \
     Assembler.h \
     Tester.h \

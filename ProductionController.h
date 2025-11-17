@@ -11,6 +11,7 @@
 #include "ThreadManager.h"
 #include "QualityControl.h"
 #include "PipeManager.h"
+#include "Shipping.h"
 
 
 class ProductionController : public QObject

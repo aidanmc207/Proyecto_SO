@@ -49,23 +49,29 @@ public:
     QLabel *lblPacState;
     QLabel *lblPacProcessed;
     QProgressBar *barPac;
-    QGroupBox *grpAssembler;
+    QGroupBox *grpTester;
     QVBoxLayout *vboxLayout1;
+    QLabel *lblTesState;
+    QLabel *lblTesProcessed;
+    QProgressBar *barTes;
+    QGroupBox *groupBoxQC;
+    QVBoxLayout *verticalLayout;
+    QLabel *lblQCState;
+    QLabel *lblQCProcessed;
+    QLabel *lblQCRework;
+    QProgressBar *barQC;
+    QGroupBox *grpAssembler;
+    QVBoxLayout *vboxLayout2;
     QLabel *lblAsmState;
     QLabel *lblAsm1Processed;
     QLabel *lblAsm2Processed;
     QProgressBar *barAsm1;
     QProgressBar *barAsm2;
-    QGroupBox *grpTester;
-    QVBoxLayout *vboxLayout2;
-    QLabel *lblTesState;
-    QLabel *lblTesProcessed;
-    QProgressBar *barTes;
-    QGroupBox *groupBoxQC;
-    QLabel *lblQCProcessed;
-    QLabel *lblQCState;
-    QProgressBar *barQC;
-    QLabel *lblQCRework;
+    QGroupBox *groupBox;
+    QVBoxLayout *verticalLayout_2;
+    QLabel *lblShipState;
+    QLabel *lblShipProcessed;
+    QProgressBar *barShip;
     QPlainTextEdit *txtLogs;
     QLabel *lblTotalRework;
     QStatusBar *statusbar;
@@ -117,7 +123,7 @@ public:
 
         layoutWidget1 = new QWidget(scrollAreaWidgetContents_2);
         layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
-        layoutWidget1->setGeometry(QRect(0, 30, 630, 225));
+        layoutWidget1->setGeometry(QRect(0, 30, 634, 177));
         stationsLayout = new QGridLayout(layoutWidget1);
         stationsLayout->setObjectName(QString::fromUtf8("stationsLayout"));
         stationsLayout->setContentsMargins(0, 0, 0, 0);
@@ -145,80 +151,113 @@ public:
 
         stationsLayout->addWidget(grpPacker, 0, 3, 1, 1);
 
-        grpAssembler = new QGroupBox(layoutWidget1);
-        grpAssembler->setObjectName(QString::fromUtf8("grpAssembler"));
-        vboxLayout1 = new QVBoxLayout(grpAssembler);
-        vboxLayout1->setObjectName(QString::fromUtf8("vboxLayout1"));
-        lblAsmState = new QLabel(grpAssembler);
-        lblAsmState->setObjectName(QString::fromUtf8("lblAsmState"));
-
-        vboxLayout1->addWidget(lblAsmState);
-
-        lblAsm1Processed = new QLabel(grpAssembler);
-        lblAsm1Processed->setObjectName(QString::fromUtf8("lblAsm1Processed"));
-
-        vboxLayout1->addWidget(lblAsm1Processed);
-
-        lblAsm2Processed = new QLabel(grpAssembler);
-        lblAsm2Processed->setObjectName(QString::fromUtf8("lblAsm2Processed"));
-
-        vboxLayout1->addWidget(lblAsm2Processed);
-
-        barAsm1 = new QProgressBar(grpAssembler);
-        barAsm1->setObjectName(QString::fromUtf8("barAsm1"));
-        barAsm1->setValue(0);
-
-        vboxLayout1->addWidget(barAsm1);
-
-        barAsm2 = new QProgressBar(grpAssembler);
-        barAsm2->setObjectName(QString::fromUtf8("barAsm2"));
-        barAsm2->setValue(0);
-
-        vboxLayout1->addWidget(barAsm2);
-
-
-        stationsLayout->addWidget(grpAssembler, 0, 0, 1, 1);
-
         grpTester = new QGroupBox(layoutWidget1);
         grpTester->setObjectName(QString::fromUtf8("grpTester"));
-        vboxLayout2 = new QVBoxLayout(grpTester);
-        vboxLayout2->setObjectName(QString::fromUtf8("vboxLayout2"));
+        vboxLayout1 = new QVBoxLayout(grpTester);
+        vboxLayout1->setObjectName(QString::fromUtf8("vboxLayout1"));
         lblTesState = new QLabel(grpTester);
         lblTesState->setObjectName(QString::fromUtf8("lblTesState"));
 
-        vboxLayout2->addWidget(lblTesState);
+        vboxLayout1->addWidget(lblTesState);
 
         lblTesProcessed = new QLabel(grpTester);
         lblTesProcessed->setObjectName(QString::fromUtf8("lblTesProcessed"));
 
-        vboxLayout2->addWidget(lblTesProcessed);
+        vboxLayout1->addWidget(lblTesProcessed);
 
         barTes = new QProgressBar(grpTester);
         barTes->setObjectName(QString::fromUtf8("barTes"));
         barTes->setValue(0);
 
-        vboxLayout2->addWidget(barTes);
+        vboxLayout1->addWidget(barTes);
 
 
         stationsLayout->addWidget(grpTester, 0, 1, 1, 1);
 
         groupBoxQC = new QGroupBox(layoutWidget1);
         groupBoxQC->setObjectName(QString::fromUtf8("groupBoxQC"));
-        lblQCProcessed = new QLabel(groupBoxQC);
-        lblQCProcessed->setObjectName(QString::fromUtf8("lblQCProcessed"));
-        lblQCProcessed->setGeometry(QRect(10, 60, 111, 18));
+        verticalLayout = new QVBoxLayout(groupBoxQC);
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         lblQCState = new QLabel(groupBoxQC);
         lblQCState->setObjectName(QString::fromUtf8("lblQCState"));
-        lblQCState->setGeometry(QRect(10, 30, 111, 18));
-        barQC = new QProgressBar(groupBoxQC);
-        barQC->setObjectName(QString::fromUtf8("barQC"));
-        barQC->setGeometry(QRect(0, 190, 118, 23));
-        barQC->setValue(0);
+
+        verticalLayout->addWidget(lblQCState);
+
+        lblQCProcessed = new QLabel(groupBoxQC);
+        lblQCProcessed->setObjectName(QString::fromUtf8("lblQCProcessed"));
+
+        verticalLayout->addWidget(lblQCProcessed);
+
         lblQCRework = new QLabel(groupBoxQC);
         lblQCRework->setObjectName(QString::fromUtf8("lblQCRework"));
-        lblQCRework->setGeometry(QRect(10, 80, 111, 18));
 
-        stationsLayout->addWidget(groupBoxQC, 0, 2, 1, 1);
+        verticalLayout->addWidget(lblQCRework);
+
+        barQC = new QProgressBar(groupBoxQC);
+        barQC->setObjectName(QString::fromUtf8("barQC"));
+        barQC->setValue(0);
+
+        verticalLayout->addWidget(barQC);
+
+
+        stationsLayout->addWidget(groupBoxQC, 0, 2, 1, 1, Qt::AlignHCenter);
+
+        grpAssembler = new QGroupBox(layoutWidget1);
+        grpAssembler->setObjectName(QString::fromUtf8("grpAssembler"));
+        vboxLayout2 = new QVBoxLayout(grpAssembler);
+        vboxLayout2->setObjectName(QString::fromUtf8("vboxLayout2"));
+        lblAsmState = new QLabel(grpAssembler);
+        lblAsmState->setObjectName(QString::fromUtf8("lblAsmState"));
+
+        vboxLayout2->addWidget(lblAsmState);
+
+        lblAsm1Processed = new QLabel(grpAssembler);
+        lblAsm1Processed->setObjectName(QString::fromUtf8("lblAsm1Processed"));
+
+        vboxLayout2->addWidget(lblAsm1Processed);
+
+        lblAsm2Processed = new QLabel(grpAssembler);
+        lblAsm2Processed->setObjectName(QString::fromUtf8("lblAsm2Processed"));
+
+        vboxLayout2->addWidget(lblAsm2Processed);
+
+        barAsm1 = new QProgressBar(grpAssembler);
+        barAsm1->setObjectName(QString::fromUtf8("barAsm1"));
+        barAsm1->setValue(0);
+
+        vboxLayout2->addWidget(barAsm1);
+
+        barAsm2 = new QProgressBar(grpAssembler);
+        barAsm2->setObjectName(QString::fromUtf8("barAsm2"));
+        barAsm2->setValue(0);
+
+        vboxLayout2->addWidget(barAsm2);
+
+
+        stationsLayout->addWidget(grpAssembler, 0, 0, 1, 1);
+
+        groupBox = new QGroupBox(layoutWidget1);
+        groupBox->setObjectName(QString::fromUtf8("groupBox"));
+        verticalLayout_2 = new QVBoxLayout(groupBox);
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
+        lblShipState = new QLabel(groupBox);
+        lblShipState->setObjectName(QString::fromUtf8("lblShipState"));
+
+        verticalLayout_2->addWidget(lblShipState);
+
+        lblShipProcessed = new QLabel(groupBox);
+        lblShipProcessed->setObjectName(QString::fromUtf8("lblShipProcessed"));
+
+        verticalLayout_2->addWidget(lblShipProcessed);
+
+        barShip = new QProgressBar(groupBox);
+        barShip->setObjectName(QString::fromUtf8("barShip"));
+        barShip->setValue(0);
+
+        verticalLayout_2->addWidget(barShip);
+
+
+        stationsLayout->addWidget(groupBox, 0, 4, 1, 1);
 
         txtLogs = new QPlainTextEdit(scrollAreaWidgetContents_2);
         txtLogs->setObjectName(QString::fromUtf8("txtLogs"));
@@ -253,17 +292,20 @@ public:
         grpPacker->setTitle(QCoreApplication::translate("MainWindow", "Packer", nullptr));
         lblPacState->setText(QString());
         lblPacProcessed->setText(QString());
-        grpAssembler->setTitle(QCoreApplication::translate("MainWindow", "Assembler", nullptr));
-        lblAsmState->setText(QString());
-        lblAsm1Processed->setText(QString());
-        lblAsm2Processed->setText(QString());
         grpTester->setTitle(QCoreApplication::translate("MainWindow", "Tester", nullptr));
         lblTesState->setText(QString());
         lblTesProcessed->setText(QString());
         groupBoxQC->setTitle(QCoreApplication::translate("MainWindow", "Quality Control", nullptr));
-        lblQCProcessed->setText(QString());
         lblQCState->setText(QString());
+        lblQCProcessed->setText(QString());
         lblQCRework->setText(QString());
+        grpAssembler->setTitle(QCoreApplication::translate("MainWindow", "Assembler", nullptr));
+        lblAsmState->setText(QString());
+        lblAsm1Processed->setText(QString());
+        lblAsm2Processed->setText(QString());
+        groupBox->setTitle(QCoreApplication::translate("MainWindow", "Shipping", nullptr));
+        lblShipState->setText(QString());
+        lblShipProcessed->setText(QString());
         lblTotalRework->setText(QCoreApplication::translate("MainWindow", "Total Reworks:", nullptr));
     } // retranslateUi
 

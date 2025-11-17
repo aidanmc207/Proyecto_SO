@@ -14742,3 +14742,126 @@
 [12:25:04] Tester: stop()
 [12:25:04] QualityControl: stop()
 [12:25:04] Packer: stop()
+[13:12:01] ProductionLine: start()
+[13:12:01] ProductionLine: start()
+[13:12:01] Assembler-1: start()
+[13:12:01] Assembler-1: start()
+[13:12:01] Assembler-2: start()
+[13:12:01] Assembler-2: start()
+[13:12:01] Tester: start()
+[13:12:01] Tester: start()
+[13:12:01] QualityControl: start()
+[13:12:01] QualityControl: start()
+[13:12:01] Packer: start()
+[13:12:01] Packer: start()
+[13:12:01] Shipping: start()
+[13:12:01] Shipping: start()
+[13:12:01] Generated #89 (Oven | New)
+[13:12:01] Controller: start()
+[13:12:01] Assembler-1 runLoop started
+[13:12:01] Assembler-1 runLoop started
+[13:12:01] Assembler-2 runLoop started
+[13:12:01] Assembler-2 runLoop started
+[13:12:01] Tester runLoop started
+[13:12:01] Tester runLoop started
+[13:12:01] QualityControl runLoop started
+[13:12:01] QualityControl runLoop started
+[13:12:01] Packer runLoop started
+[13:12:01] Packer runLoop started
+[13:12:01] Shipping runLoop started
+[13:12:01] Shipping runLoop started
+[13:12:02] Generated #90 (Vacuum Cleaner | New)
+[13:12:02] QualityControl: Inspecting #89 (Oven | Tested)
+[13:12:02] QualityControl: Inspecting #89 (Oven | Tested)
+[13:12:02] QualityControl: PASSED inspection
+[13:12:02] QualityControl: PASSED inspection
+[13:12:02] Generated #91 (Oven | New)
+[13:12:02] QualityControl: Inspecting #90 (Vacuum Cleaner | Tested)
+[13:12:02] QualityControl: Inspecting #90 (Vacuum Cleaner | Tested)
+[13:12:03] QualityControl: PASSED inspection
+[13:12:03] QualityControl: PASSED inspection
+[13:12:03] Generated #92 (Washing Machine | New)
+[13:12:03] QualityControl: Inspecting #91 (Oven | Tested)
+[13:12:03] QualityControl: Inspecting #91 (Oven | Tested)
+[13:12:03] QualityControl: PASSED inspection
+[13:12:03] QualityControl: PASSED inspection
+[13:12:03] Generated #93 (Microwave | New)
+[13:12:03] QualityControl: Inspecting #92 (Washing Machine | Tested)
+[13:12:03] QualityControl: Inspecting #92 (Washing Machine | Tested)
+[13:12:04] QualityControl: PASSED inspection
+[13:12:04] QualityControl: PASSED inspection
+[13:12:04] Generated #94 (Dishwasher | New)
+[13:12:04] QualityControl: Inspecting #93 (Microwave | Tested)
+[13:12:04] QualityControl: Inspecting #93 (Microwave | Tested)
+[13:12:04] QualityControl: PASSED inspection
+[13:12:04] QualityControl: PASSED inspection
+[13:12:04] Generated #95 (Microwave | New)
+[13:12:04] QualityControl: Inspecting #94 (Dishwasher | Tested)
+[13:12:04] QualityControl: Inspecting #94 (Dishwasher | Tested)
+[13:12:05] QualityControl: PASSED inspection
+[13:12:05] QualityControl: PASSED inspection
+[13:12:05] Generated #96 (Vacuum Cleaner | New)
+[13:12:05] QualityControl: Inspecting #95 (Microwave | Tested)
+[13:12:05] QualityControl: Inspecting #95 (Microwave | Tested)
+[13:12:05] QualityControl: PASSED inspection
+[13:12:05] QualityControl: PASSED inspection
+[13:12:05] Generated #97 (Dryer | New)
+[13:12:05] QualityControl: Inspecting #96 (Vacuum Cleaner | Tested)
+[13:12:05] QualityControl: Inspecting #96 (Vacuum Cleaner | Tested)
+[13:12:06] QualityControl: FAILED inspection sending back to Assembly
+[13:12:06] QualityControl: FAILED inspection sending back to Assembly
+[13:12:06] PipeManager: received from pipe #96 (Vacuum Cleaner | Rework) → requeued
+[13:12:06] PipeManager: sent via pipe #96 (Vacuum Cleaner | Rework)
+[13:12:06] Generated #98 (Microwave | New)
+[13:12:06] QualityControl: Inspecting #97 (Dryer | Tested)
+[13:12:06] QualityControl: Inspecting #97 (Dryer | Tested)
+[13:12:06] QualityControl: PASSED inspection
+[13:12:06] QualityControl: PASSED inspection
+[13:12:06] Generated #99 (Washing Machine | New)
+[13:12:06] QualityControl: Inspecting #98 (Microwave | Tested)
+[13:12:06] QualityControl: Inspecting #98 (Microwave | Tested)
+[13:12:07] QualityControl: FAILED inspection sending back to Assembly
+[13:12:07] QualityControl: FAILED inspection sending back to Assembly
+[13:12:07] PipeManager: received from pipe #98 (Microwave | Rework) → requeued
+[13:12:07] PipeManager: sent via pipe #98 (Microwave | Rework)
+[13:12:07] Generated #100 (Oven | New)
+[13:12:07] QualityControl: Inspecting #99 (Washing Machine | Tested)
+[13:12:07] QualityControl: Inspecting #99 (Washing Machine | Tested)
+[13:12:07] QualityControl: PASSED inspection
+[13:12:07] QualityControl: PASSED inspection
+[13:12:07] Generated #101 (Air Conditioner | New)
+[13:12:07] QualityControl: Inspecting #100 (Oven | Tested)
+[13:12:07] QualityControl: Inspecting #100 (Oven | Tested)
+[13:12:08] QualityControl: PASSED inspection
+[13:12:08] QualityControl: PASSED inspection
+[13:12:08] Generated #102 (Dryer | New)
+[13:12:08] QualityControl: Inspecting #101 (Air Conditioner | Tested)
+[13:12:08] QualityControl: Inspecting #101 (Air Conditioner | Tested)
+[13:12:08] QualityControl: PASSED inspection
+[13:12:08] QualityControl: PASSED inspection
+[13:12:08] Generated #103 (Blender | New)
+[13:12:08] QualityControl: Inspecting #102 (Dryer | Tested)
+[13:12:08] QualityControl: Inspecting #102 (Dryer | Tested)
+[13:12:09] QualityControl: PASSED inspection
+[13:12:09] QualityControl: PASSED inspection
+[13:12:09] ProductionLine: pause()
+[13:12:09] ProductionLine: pause()
+[13:12:09] Assembler-1: pause()
+[13:12:09] Assembler-1: pause()
+[13:12:09] Assembler-2: pause()
+[13:12:09] Assembler-2: pause()
+[13:12:09] Tester: pause()
+[13:12:09] Tester: pause()
+[13:12:09] QualityControl: pause()
+[13:12:09] QualityControl: pause()
+[13:12:09] Packer: pause()
+[13:12:09] Packer: pause()
+[13:12:09] Shipping: pause()
+[13:12:09] Shipping: pause()
+[13:12:09] Controller: pause()
+[13:12:09] Generated #104 (Microwave | New)
+[13:12:09] QualityControl: Inspecting #103 (Blender | Tested)
+[13:12:09] QualityControl: Inspecting #103 (Blender | Tested)
+[13:12:09] QualityControl: PASSED inspection
+[13:12:09] QualityControl: PASSED inspection
+[13:12:09] Generated #105 (Dishwasher | New)

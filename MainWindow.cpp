@@ -74,6 +74,10 @@ void MainWindow::updateStation(const QString& station,
         d->ui.lblPacState->setText(state);
         d->ui.barPac->setValue(queueSize);
     }
+    else if(station=="Shipping"){
+        d->ui.lblShipState->setText(state);
+        d->ui.barShip->setValue(queueSize);
+    }
 
     statusBar()->showMessage(QString("%1: %2").arg(station, state), 2000);
 }
@@ -104,6 +108,9 @@ void MainWindow::updateStats(const QString& station,
     else if (station == "Packer") {
         d->ui.lblPacProcessed->setText(QString("Packed: %1").arg(processed));
         d->ui.barPac->setValue(queueSize);
+    }
+    else if (station=="Shipping"){
+        d->ui.lblShipProcessed->setText(QString("Shipped: %1").arg(processed));
     }
 
     updateGlobalRework();
