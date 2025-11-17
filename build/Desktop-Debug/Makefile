@@ -463,6 +463,7 @@ moc_ProductionController.cpp: ../../ProductionController.h \
 		../../ThreadManager.h \
 		../../QualityControl.h \
 		../../PipeManager.h \
+		../../StatsMonitor.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/build/Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-clang -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/llvm-18/lib/clang/18/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../ProductionController.h -o moc_ProductionController.cpp
@@ -607,6 +608,7 @@ MainWindow.o: ../../MainWindow.cpp ../../MainWindow.h \
 		../../ThreadManager.h \
 		../../QualityControl.h \
 		../../PipeManager.h \
+		../../StatsMonitor.h \
 		../../ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o MainWindow.o ../../MainWindow.cpp
 
@@ -622,7 +624,8 @@ ProductionController.o: ../../ProductionController.cpp ../../ProductionControlle
 		../../Persistence.h \
 		../../ThreadManager.h \
 		../../QualityControl.h \
-		../../PipeManager.h
+		../../PipeManager.h \
+		../../StatsMonitor.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ProductionController.o ../../ProductionController.cpp
 
 ProductionLine.o: ../../ProductionLine.cpp ../../ProductionLine.h \
@@ -680,7 +683,8 @@ ThreadManager.o: ../../ThreadManager.cpp ../../ThreadManager.h \
 		../../ProductionLine.h \
 		../../Buffer.h \
 		../../WorkStation.h \
-		../../product.h
+		../../product.h \
+		../../StatsMonitor.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ThreadManager.o ../../ThreadManager.cpp
 
 PipeManager.o: ../../PipeManager.cpp ../../PipeManager.h \

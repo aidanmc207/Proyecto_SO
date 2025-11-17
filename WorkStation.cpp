@@ -56,6 +56,9 @@ void WorkStation::start()
     m_stopped = false;
     m_pauseCond.wakeAll();
     emit log(m_name + ": resume()");
+
+    // Actualizar la GUI inmediatamente para mostrar el estado "Running"
+    emit stationUpdated(m_name, "Running", m_input ? m_input->size() : 0);
 }
 
 void WorkStation::pause()
@@ -63,6 +66,9 @@ void WorkStation::pause()
     if (!m_running) return;
     m_paused = true;
     emit log(m_name + ": pause()");
+
+    // Actualizar la GUI inmediatamente para mostrar el estado "Paused"
+    emit stationUpdated(m_name, "Paused", m_input ? m_input->size() : 0);
 }
 
 void WorkStation::stop()
@@ -74,6 +80,9 @@ void WorkStation::stop()
     m_stopped = true;  // Marcar que se hizo stop completo
     m_pauseCond.wakeAll();
     emit log(m_name + ": stop()");
+
+    // Actualizar la GUI inmediatamente para mostrar el estado "Stopped"
+    emit stationUpdated(m_name, "Stopped", m_input ? m_input->size() : 0);
 }
 
 void WorkStation::runLoop()

@@ -5,11 +5,41 @@ StatsMonitor::StatsMonitor(QObject* parent)
 {
 }
 
-void StatsMonitor::updateThroughput(double value)
+void StatsMonitor::recordStats(long totalProcessed, int totalInQueue, long totalRework)
 {
-    m_series.append(value);
-    if (m_series.size() > 1000)        // corta historial si se hace muy grande
-        m_series.remove(0, m_series.size() - 1000);
+    m_currentTime += 1.0; // Incrementar en 1 segundo
 
-    emit renderSeries(m_series);
+    m_timestamps.append(m_currentTime);
+    m_totalProcessed.append(static_cast<double>(totalProcessed));
+    m_totalInQueue.append(static_cast<double>(totalInQueue));
+    m_totalRework.append(static_cast<double>(totalRework));
+
+    // Mantener solo los últimos MAX_POINTS puntos
+    if (m_timestamps.size() > MAX_POINTS) {
+        m_timestamps.removeFirst();
+        m_totalProcessed.removeFirst();
+        m_totalInQueue.removeFirst();
+        m_totalRework.removeFirst();
+    }
+
+    emit dataUpdated();
+}
+
+void StatsMonitor::recordStationData(const QString& station, long processed)
+{
+    if (!m_stationData.contains(station)) {
+        m_stationData[station] = QVector<double>();
+    }
+
+    m_stationData[station].append(static_cast<double>(processed));
+
+    // Mantener solo los últimos MAX_POINTS puntos
+    if (m_stationData[station].size() > MAX_POINTS) {
+        m_stationData[station].removeFirst();
+    }
+}
+
+QVector<double> StatsMonitor::getStationData(const QString& station) const
+{
+    return m_stationData.value(station, QVector<double>());
 }

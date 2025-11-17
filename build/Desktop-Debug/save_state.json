@@ -12,53 +12,18 @@
         ],
         "entry": [
             {
-                "id": 581,
+                "id": 1404,
                 "state": 4,
-                "type": "Blender"
+                "type": "Dryer"
             },
             {
-                "id": 589,
+                "id": 1407,
                 "state": 4,
                 "type": "Oven"
-            },
-            {
-                "id": 590,
-                "state": 4,
-                "type": "Toaster"
-            },
-            {
-                "id": 609,
-                "state": 4,
-                "type": "Refrigerator"
-            },
-            {
-                "id": 621,
-                "state": 4,
-                "type": "Vacuum Cleaner"
-            },
-            {
-                "id": 630,
-                "state": 4,
-                "type": "Vacuum Cleaner"
-            },
-            {
-                "id": 634,
-                "state": 4,
-                "type": "Vacuum Cleaner"
-            },
-            {
-                "id": 638,
-                "state": 4,
-                "type": "Vacuum Cleaner"
-            },
-            {
-                "id": 644,
-                "state": 4,
-                "type": "Washing Machine"
             }
         ]
     },
-    "next_id": 653,
+    "next_id": 1413,
     "stations": {
         "Assembler-1": {
             "paused": false,
@@ -78,14 +43,14 @@
             "paused": false,
             "running": false,
             "stats": {
-                "processed": 0
+                "processed": 1
             }
         },
         "QualityControl": {
             "paused": false,
             "running": false,
             "stats": {
-                "processed": 1
+                "processed": 0
             }
         },
         "Shipping": {

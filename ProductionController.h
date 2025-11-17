@@ -12,7 +12,7 @@
 #include "ThreadManager.h"
 #include "QualityControl.h"
 #include "PipeManager.h"
-#include "LogWindow.h"
+#include "StatsMonitor.h"
 
 
 class ProductionController : public QObject
@@ -21,6 +21,9 @@ class ProductionController : public QObject
 public:
     explicit ProductionController(QObject* parent = nullptr);
     void saveState();
+
+    // Obtener el StatsMonitor para acceder a los datos
+    StatsMonitor* statsMonitor() const { return m_statsMonitor; }
 
 public slots:
     void start();
@@ -31,12 +34,12 @@ public slots:
     void startStation(const QString& stationName);
     void pauseStation(const QString& stationName);
     void stopStation(const QString& stationName);
-     void setLogWindow(LogWindow* win);
 
 signals:
     void logLine(const QString& line);
     void stationUpdated(const QString& name, const QString& state, int queueSize);
     void statsUpdated(const QString& station, long processed, int queueSize, long rework);
+    void chartDataUpdated(); // Señal para actualizar gráficos
 
 private slots:
     void onStationConsumed(const QString& stationName);
@@ -45,8 +48,7 @@ private:
     void generateProduct();
     Buffer<Product>* m_entry1 = nullptr;
     Buffer<Product>* m_entry2 = nullptr;
-    bool m_toggle = false;   // alternador
-    LogWindow* logWin = nullptr;
+    bool m_toggle = false;   // alternador Round-Robin
 
     ProductionLine* m_line = nullptr;
     bool m_running = false;
@@ -55,6 +57,7 @@ private:
     long nextProductId = 1;
     Persistence* persistence = nullptr;
     ThreadManager*   maintenance     = nullptr;
-    Buffer<Product>* m_bufAsmToTest = nullptr;    
+    Buffer<Product>* m_bufAsmToTest = nullptr;
     PipeManager*     m_pipeManager   = nullptr;
+    StatsMonitor*    m_statsMonitor  = nullptr;
 };
