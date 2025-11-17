@@ -3,7 +3,6 @@
 
 #include "MainWindow.h"
 #include "LogWindow.h"
-#include "StatsWindow.h"
 
 FirstView::FirstView(QWidget *parent)
     : QWidget(parent)
@@ -83,11 +82,16 @@ FirstView::~FirstView()
 
 void FirstView::openProduction()
 {
-    if (!productionWin)
+    if (!productionWin) {
         productionWin = new MainWindow();
 
+        // Conectar la señal del botón Return
+        connect(productionWin, &MainWindow::returnToFirstView,
+                this, &FirstView::show);
+    }
     productionWin->show();
     productionWin->raise();
+    this->hide();
 }
 
 void FirstView::openLogs()
