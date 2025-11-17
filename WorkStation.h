@@ -7,6 +7,10 @@
 #include "Buffer.h"
 #include "product.h"
 
+// Clase base para todas las estaciones de la línea de producción
+// Cada estación corre en su propio hilo (QThread) para trabajar en paralelo
+// Usa QMutex y QWaitCondition para poder pausar y reanudar sin problemas
+// Se comunica con la GUI usando señales y slots de Qt
 class WorkStation : public QObject
 {
     Q_OBJECT

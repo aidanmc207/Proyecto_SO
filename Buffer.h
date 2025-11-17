@@ -4,6 +4,9 @@
 #include <QWaitCondition>
 #include <queue>
 
+// Buffer: Cola de productos protegida para que varios hilos puedan usarla
+// sin problemas. Usa QMutex para que no haya condiciones de carrera
+// y QWaitCondition para esperar cuando está lleno o vacío
 template <typename T>
 class Buffer {
 public:

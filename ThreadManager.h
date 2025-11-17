@@ -3,6 +3,17 @@
 #include <QTimer>
 #include "ProductionLine.h"
 
+// ThreadManager: Maneja los 3 hilos de mantenimiento que necesita el sistema
+//
+// 1. GeneralCleanThreads (cada 15 segundos):
+//    Limpia buffers y resetea contadores para evitar acumulación
+//
+// 2. GeneralLogs (siempre activo):
+//    Guarda todos los eventos en runtime.log con fecha y categoría
+//
+// 3. GeneralStats (cada 1 segundo):
+//    Recopila estadísticas de todas las estaciones y calcula totales
+//
 class ThreadManager : public QObject
 {
     Q_OBJECT

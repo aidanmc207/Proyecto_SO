@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_ProductionController_t {
-    QByteArrayData data[17];
-    char stringdata0[156];
+    QByteArrayData data[20];
+    char stringdata0[194];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -47,15 +47,18 @@ QT_MOC_LITERAL(11, 102, 6), // "rework"
 QT_MOC_LITERAL(12, 109, 5), // "start"
 QT_MOC_LITERAL(13, 115, 5), // "pause"
 QT_MOC_LITERAL(14, 121, 4), // "stop"
-QT_MOC_LITERAL(15, 126, 17), // "onStationConsumed"
-QT_MOC_LITERAL(16, 144, 11) // "stationName"
+QT_MOC_LITERAL(15, 126, 12), // "startStation"
+QT_MOC_LITERAL(16, 139, 11), // "stationName"
+QT_MOC_LITERAL(17, 151, 12), // "pauseStation"
+QT_MOC_LITERAL(18, 164, 11), // "stopStation"
+QT_MOC_LITERAL(19, 176, 17) // "onStationConsumed"
 
     },
     "ProductionController\0logLine\0\0line\0"
     "stationUpdated\0name\0state\0queueSize\0"
     "statsUpdated\0station\0processed\0rework\0"
-    "start\0pause\0stop\0onStationConsumed\0"
-    "stationName"
+    "start\0pause\0stop\0startStation\0stationName\0"
+    "pauseStation\0stopStation\0onStationConsumed"
 };
 #undef QT_MOC_LITERAL
 
@@ -65,7 +68,7 @@ static const uint qt_meta_data_ProductionController[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       7,   14, // methods
+      10,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -73,15 +76,18 @@ static const uint qt_meta_data_ProductionController[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   49,    2, 0x06 /* Public */,
-       4,    3,   52,    2, 0x06 /* Public */,
-       8,    4,   59,    2, 0x06 /* Public */,
+       1,    1,   64,    2, 0x06 /* Public */,
+       4,    3,   67,    2, 0x06 /* Public */,
+       8,    4,   74,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      12,    0,   68,    2, 0x0a /* Public */,
-      13,    0,   69,    2, 0x0a /* Public */,
-      14,    0,   70,    2, 0x0a /* Public */,
-      15,    1,   71,    2, 0x08 /* Private */,
+      12,    0,   83,    2, 0x0a /* Public */,
+      13,    0,   84,    2, 0x0a /* Public */,
+      14,    0,   85,    2, 0x0a /* Public */,
+      15,    1,   86,    2, 0x0a /* Public */,
+      17,    1,   89,    2, 0x0a /* Public */,
+      18,    1,   92,    2, 0x0a /* Public */,
+      19,    1,   95,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString,    3,
@@ -92,6 +98,9 @@ static const uint qt_meta_data_ProductionController[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   16,
+    QMetaType::Void, QMetaType::QString,   16,
+    QMetaType::Void, QMetaType::QString,   16,
     QMetaType::Void, QMetaType::QString,   16,
 
        0        // eod
@@ -109,7 +118,10 @@ void ProductionController::qt_static_metacall(QObject *_o, QMetaObject::Call _c,
         case 3: _t->start(); break;
         case 4: _t->pause(); break;
         case 5: _t->stop(); break;
-        case 6: _t->onStationConsumed((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 6: _t->startStation((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 7: _t->pauseStation((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 8: _t->stopStation((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 9: _t->onStationConsumed((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -167,13 +179,13 @@ int ProductionController::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 10)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 10;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 10)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 7;
+        _id -= 10;
     }
     return _id;
 }

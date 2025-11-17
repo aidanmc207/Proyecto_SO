@@ -13,6 +13,7 @@ SOURCES += \
     Assembler.cpp \
     Tester.cpp \
     Packer.cpp \
+    Shipping.cpp \
     Logger.cpp \
     StatsMonitor.cpp \
     CleanUpService.cpp \
@@ -30,6 +31,7 @@ HEADERS += \
     Assembler.h \
     Tester.h \
     Packer.h \
+    Shipping.h \
     Buffer.h \
     Logger.h \
     StatsMonitor.h \

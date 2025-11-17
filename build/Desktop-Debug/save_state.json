@@ -8,44 +8,53 @@
         ],
         "buf_3": [
         ],
+        "buf_4": [
+        ],
         "entry": [
         ]
     },
-    "next_id": 89,
+    "next_id": 527,
     "stations": {
         "Assembler-1": {
-            "paused": true,
+            "paused": false,
             "running": true,
             "stats": {
-                "processed": 0
+                "processed": 5
             }
         },
         "Assembler-2": {
-            "paused": true,
+            "paused": false,
             "running": true,
             "stats": {
-                "processed": 0
+                "processed": 6
             }
         },
         "Packer": {
-            "paused": true,
+            "paused": false,
             "running": true,
             "stats": {
-                "processed": 0
+                "processed": 8
             }
         },
         "QualityControl": {
-            "paused": true,
+            "paused": false,
             "running": true,
             "stats": {
-                "processed": 0
+                "processed": 8
+            }
+        },
+        "Shipping": {
+            "paused": false,
+            "running": true,
+            "stats": {
+                "processed": 8
             }
         },
         "Tester": {
-            "paused": true,
+            "paused": false,
             "running": true,
             "stats": {
-                "processed": 0
+                "processed": 8
             }
         }
     }

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>648</width>
-    <height>750</height>
+    <height>900</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,7 +26,7 @@
          <x>0</x>
          <y>0</y>
          <width>628</width>
-         <height>707</height>
+         <height>857</height>
         </rect>
        </property>
        <widget class="QWidget" name="layoutWidget">
@@ -88,43 +88,10 @@
           <x>0</x>
           <y>30</y>
           <width>630</width>
-          <height>225</height>
+          <height>450</height>
          </rect>
         </property>
         <layout class="QGridLayout" name="stationsLayout">
-         <item row="0" column="3">
-          <widget class="QGroupBox" name="grpPacker">
-           <property name="title">
-            <string>Packer</string>
-           </property>
-           <layout class="QVBoxLayout">
-            <item>
-             <widget class="QLabel" name="lblPacState">
-              <property name="enabled">
-               <bool>true</bool>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="lblPacProcessed">
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QProgressBar" name="barPac">
-              <property name="value">
-               <number>0</number>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-         </item>
          <item row="0" column="0">
           <widget class="QGroupBox" name="grpAssembler">
            <property name="title">
@@ -166,6 +133,31 @@
               </property>
              </widget>
             </item>
+            <item>
+             <layout class="QHBoxLayout" name="assemblerControls">
+              <item>
+               <widget class="QPushButton" name="btnAsmStart">
+                <property name="text">
+                 <string>Start</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnAsmPause">
+                <property name="text">
+                 <string>Pause</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnAsmStop">
+                <property name="text">
+                 <string>Stop</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
            </layout>
           </widget>
          </item>
@@ -196,66 +188,207 @@
               </property>
              </widget>
             </item>
+            <item>
+             <layout class="QHBoxLayout" name="testerControls">
+              <item>
+               <widget class="QPushButton" name="btnTesStart">
+                <property name="text">
+                 <string>Start</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnTesPause">
+                <property name="text">
+                 <string>Pause</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnTesStop">
+                <property name="text">
+                 <string>Stop</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
            </layout>
           </widget>
          </item>
-         <item row="0" column="2">
+         <item row="1" column="0">
           <widget class="QGroupBox" name="groupBoxQC">
            <property name="title">
             <string>Quality Control</string>
            </property>
-           <widget class="QLabel" name="lblQCProcessed">
-            <property name="geometry">
-             <rect>
-              <x>10</x>
-              <y>60</y>
-              <width>111</width>
-              <height>18</height>
-             </rect>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-           <widget class="QLabel" name="lblQCState">
-            <property name="geometry">
-             <rect>
-              <x>10</x>
-              <y>30</y>
-              <width>111</width>
-              <height>18</height>
-             </rect>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-           <widget class="QProgressBar" name="barQC">
-            <property name="geometry">
-             <rect>
-              <x>0</x>
-              <y>190</y>
-              <width>118</width>
-              <height>23</height>
-             </rect>
-            </property>
-            <property name="value">
-             <number>0</number>
-            </property>
-           </widget>
-           <widget class="QLabel" name="lblQCRework">
-            <property name="geometry">
-             <rect>
-              <x>10</x>
-              <y>80</y>
-              <width>111</width>
-              <height>18</height>
-             </rect>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
+           <layout class="QVBoxLayout">
+            <item>
+             <widget class="QLabel" name="lblQCState">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lblQCProcessed">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lblQCRework">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QProgressBar" name="barQC">
+              <property name="value">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="qcControls">
+              <item>
+               <widget class="QPushButton" name="btnQCStart">
+                <property name="text">
+                 <string>Start</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnQCPause">
+                <property name="text">
+                 <string>Pause</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnQCStop">
+                <property name="text">
+                 <string>Stop</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QGroupBox" name="grpPacker">
+           <property name="title">
+            <string>Packer</string>
+           </property>
+           <layout class="QVBoxLayout">
+            <item>
+             <widget class="QLabel" name="lblPacState">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lblPacProcessed">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QProgressBar" name="barPac">
+              <property name="value">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="packerControls">
+              <item>
+               <widget class="QPushButton" name="btnPacStart">
+                <property name="text">
+                 <string>Start</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnPacPause">
+                <property name="text">
+                 <string>Pause</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnPacStop">
+                <property name="text">
+                 <string>Stop</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QGroupBox" name="grpShipping">
+           <property name="title">
+            <string>Shipping</string>
+           </property>
+           <layout class="QVBoxLayout">
+            <item>
+             <widget class="QLabel" name="lblShipState">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lblShipProcessed">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QProgressBar" name="barShip">
+              <property name="value">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="shippingControls">
+              <item>
+               <widget class="QPushButton" name="btnShipStart">
+                <property name="text">
+                 <string>Start</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnShipPause">
+                <property name="text">
+                 <string>Pause</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btnShipStop">
+                <property name="text">
+                 <string>Stop</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
           </widget>
          </item>
         </layout>
@@ -264,9 +397,9 @@
         <property name="geometry">
          <rect>
           <x>0</x>
-          <y>330</y>
+          <y>510</y>
           <width>630</width>
-          <height>260</height>
+          <height>180</height>
          </rect>
         </property>
         <property name="readOnly">
@@ -277,7 +410,7 @@
         <property name="geometry">
          <rect>
           <x>240</x>
-          <y>260</y>
+          <y>485</y>
           <width>132</width>
           <height>18</height>
          </rect>

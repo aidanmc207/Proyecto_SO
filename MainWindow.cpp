@@ -35,7 +35,7 @@ MainWindow::MainWindow(QWidget* parent)
     connect(d->controller, &ProductionController::statsUpdated,
             this, &MainWindow::updateStats);
 
-    //botones
+    //botones globales
     connect(d->ui.btnStart, &QPushButton::clicked,
             this, [this]{ emit startProduction(); });
 
@@ -44,6 +44,54 @@ MainWindow::MainWindow(QWidget* parent)
 
     connect(d->ui.btnStop, &QPushButton::clicked,
             this, [this]{ emit stopProduction(); });
+
+    // Botones individuales para Assembler
+    connect(d->ui.btnAsmStart, &QPushButton::clicked,
+            this, [this]{ emit startStation("Assembler"); });
+    connect(d->ui.btnAsmPause, &QPushButton::clicked,
+            this, [this]{ emit pauseStation("Assembler"); });
+    connect(d->ui.btnAsmStop, &QPushButton::clicked,
+            this, [this]{ emit stopStation("Assembler"); });
+
+    // Botones individuales para Tester
+    connect(d->ui.btnTesStart, &QPushButton::clicked,
+            this, [this]{ emit startStation("Tester"); });
+    connect(d->ui.btnTesPause, &QPushButton::clicked,
+            this, [this]{ emit pauseStation("Tester"); });
+    connect(d->ui.btnTesStop, &QPushButton::clicked,
+            this, [this]{ emit stopStation("Tester"); });
+
+    // Botones individuales para Quality Control
+    connect(d->ui.btnQCStart, &QPushButton::clicked,
+            this, [this]{ emit startStation("QualityControl"); });
+    connect(d->ui.btnQCPause, &QPushButton::clicked,
+            this, [this]{ emit pauseStation("QualityControl"); });
+    connect(d->ui.btnQCStop, &QPushButton::clicked,
+            this, [this]{ emit stopStation("QualityControl"); });
+
+    // Botones individuales para Packer
+    connect(d->ui.btnPacStart, &QPushButton::clicked,
+            this, [this]{ emit startStation("Packer"); });
+    connect(d->ui.btnPacPause, &QPushButton::clicked,
+            this, [this]{ emit pauseStation("Packer"); });
+    connect(d->ui.btnPacStop, &QPushButton::clicked,
+            this, [this]{ emit stopStation("Packer"); });
+
+    // Botones individuales para Shipping
+    connect(d->ui.btnShipStart, &QPushButton::clicked,
+            this, [this]{ emit startStation("Shipping"); });
+    connect(d->ui.btnShipPause, &QPushButton::clicked,
+            this, [this]{ emit pauseStation("Shipping"); });
+    connect(d->ui.btnShipStop, &QPushButton::clicked,
+            this, [this]{ emit stopStation("Shipping"); });
+
+    // Conectar las señales de controles individuales al controlador
+    connect(this, &MainWindow::startStation,
+            d->controller, &ProductionController::startStation);
+    connect(this, &MainWindow::pauseStation,
+            d->controller, &ProductionController::pauseStation);
+    connect(this, &MainWindow::stopStation,
+            d->controller, &ProductionController::stopStation);
 }
 
 MainWindow::~MainWindow()
@@ -73,6 +121,10 @@ void MainWindow::updateStation(const QString& station,
     else if (station == "Packer") {
         d->ui.lblPacState->setText(state);
         d->ui.barPac->setValue(queueSize);
+    }
+    else if (station == "Shipping") {
+        d->ui.lblShipState->setText(state);
+        d->ui.barShip->setValue(queueSize);
     }
 
     statusBar()->showMessage(QString("%1: %2").arg(station, state), 2000);
@@ -104,6 +156,10 @@ void MainWindow::updateStats(const QString& station,
     else if (station == "Packer") {
         d->ui.lblPacProcessed->setText(QString("Packed: %1").arg(processed));
         d->ui.barPac->setValue(queueSize);
+    }
+    else if (station == "Shipping") {
+        d->ui.lblShipProcessed->setText(QString("Shipped: %1").arg(processed));
+        d->ui.barShip->setValue(queueSize);
     }
 
     updateGlobalRework();

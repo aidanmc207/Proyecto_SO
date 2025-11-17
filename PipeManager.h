@@ -9,6 +9,9 @@
 #include "Buffer.h"
 #include "product.h"
 
+// PipeManager: Maneja la comunicación por pipes (IPC) para los productos
+// que fallan en Quality Control y necesitan regresar a ensamblaje.
+// Usa pipes de Unix reales (no simulados) y un hilo separado para leer
 class PipeManager : public QObject
 {
     Q_OBJECT

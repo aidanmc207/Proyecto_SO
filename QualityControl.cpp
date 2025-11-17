@@ -1,6 +1,7 @@
 #include "QualityControl.h"
 #include "PipeManager.h"
 #include <QThread>
+#include <QRandomGenerator>
 
 QualityControl::QualityControl(const QString& name)
     : WorkStation(name)

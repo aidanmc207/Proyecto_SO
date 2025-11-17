@@ -5,6 +5,7 @@
 #include "Assembler.h"
 #include "Tester.h"
 #include "Packer.h"
+#include "Shipping.h"
 #include "Buffer.h"
 #include "product.h"
 #include "Persistence.h"
@@ -24,6 +25,11 @@ public slots:
     void start();
     void pause();
     void stop();
+
+    // Control individual de estaciones
+    void startStation(const QString& stationName);
+    void pauseStation(const QString& stationName);
+    void stopStation(const QString& stationName);
 
 signals:
     void logLine(const QString& line);

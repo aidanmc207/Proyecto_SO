@@ -31,6 +31,7 @@ struct Product {
     long id = 0;
     QString type;
     ProductState state = ProductState::New;
+    bool shipped = false;
 
     void advance() {
         if (state == ProductState::New)
