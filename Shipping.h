@@ -1,6 +1,8 @@
 #pragma once
 #include "WorkStation.h"
 #include <QThread>
+#include "config.h"
+
 
 class Shipping : public WorkStation
 {

@@ -1,0 +1,10 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#endif // CONFIG_H
+
+#define ASSEMBLER_MILIS 500
+#define TESTER_MILIS 75
+#define QC_MILIS 150
+#define PACKER_MILIS 100
+#define SHIPPING_MILIS 200

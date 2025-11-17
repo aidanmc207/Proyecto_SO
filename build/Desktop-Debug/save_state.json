@@ -5,61 +5,71 @@
         "buf_1": [
         ],
         "buf_2": [
+            {
+                "id": 31,
+                "state": 2,
+                "type": "Blender"
+            }
         ],
         "buf_3": [
         ],
         "buf_4": [
-            {
-                "id": 138,
-                "state": 3,
-                "type": "Dryer"
-            }
         ],
         "entry": [
+            {
+                "id": 25,
+                "state": 4,
+                "type": "Vacuum Cleaner"
+            },
+            {
+                "id": 29,
+                "state": 4,
+                "type": "Toaster"
+            }
         ]
     },
-    "next_id": 143,
+    "next_id": 33,
     "stations": {
         "Assembler-1": {
             "paused": false,
-            "running": true,
+            "running": false,
             "stats": {
-                "processed": 10
+                "processed": 3
             }
         },
         "Assembler-2": {
             "paused": false,
-            "running": true,
+            "running": false,
             "stats": {
-                "processed": 11
+                "processed": 4
             }
         },
         "Packer": {
             "paused": false,
-            "running": true,
+            "running": false,
             "stats": {
-                "processed": 17
+                "processed": 6
             }
         },
         "QualityControl": {
             "paused": false,
-            "running": true,
+            "running": false,
             "stats": {
-                "processed": 18
+                "processed": 6
             }
         },
         "Shipping": {
             "paused": false,
-            "running": true,
+            "running": false,
             "stats": {
-                "processed": 16
+                "processed": 6
             }
         },
         "Tester": {
             "paused": false,
-            "running": true,
+            "running": false,
             "stats": {
-                "processed": 17
+                "processed": 7
             }
         }
     }

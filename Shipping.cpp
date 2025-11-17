@@ -8,6 +8,6 @@ Shipping::Shipping(const QString& name)
 
 void Shipping::process(Product& p)
 {
-    QThread::msleep(200);
+    QThread::msleep(SHIPPING_MILIS);
     p.advance();
 }

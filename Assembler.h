@@ -1,6 +1,7 @@
 #pragma once
 #include "WorkStation.h"
 #include <QThread>
+#include "config.h"
 
 class Assembler : public WorkStation
 {

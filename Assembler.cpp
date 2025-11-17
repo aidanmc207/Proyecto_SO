@@ -14,6 +14,6 @@ void Assembler::process(Product& p)
         p.state = ProductState::New;
     }
 
-    QThread::msleep(500);
+    QThread::msleep(ASSEMBLER_MILIS);
     p.advance();
 }

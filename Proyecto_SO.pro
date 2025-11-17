@@ -39,6 +39,7 @@ HEADERS += \
     Persistence.h \
     ThreadManager.h \
     PipeManager.h \
+    config.h \
     product.h
 
 FORMS += \

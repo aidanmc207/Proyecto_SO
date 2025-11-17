@@ -65,7 +65,7 @@ private:
     QString m_name;
     Buffer<Product>* m_input  = nullptr;
     Buffer<Product>* m_output = nullptr;
-
+    int barSize=0;
     QThread m_thread;
     bool m_running = false;
     bool m_paused  = false;

@@ -16609,3 +16609,3656 @@
 [13:31:42] QualityControl: stop()
 [13:31:42] Packer: stop()
 [13:31:42] Shipping: stop()
+[13:33:59] ProductionLine: start()
+[13:33:59] ProductionLine: start()
+[13:33:59] Assembler-1: start()
+[13:33:59] Assembler-1: start()
+[13:33:59] Assembler-2: start()
+[13:33:59] Assembler-2: start()
+[13:33:59] Tester: start()
+[13:33:59] Tester: start()
+[13:33:59] QualityControl: start()
+[13:33:59] QualityControl: start()
+[13:33:59] Packer: start()
+[13:33:59] Packer: start()
+[13:33:59] Shipping: start()
+[13:33:59] Shipping: start()
+[13:33:59] Generated #143 (Dishwasher | New)
+[13:33:59] Controller: start()
+[13:33:59] Assembler-2 runLoop started
+[13:33:59] Assembler-2 runLoop started
+[13:33:59] Tester runLoop started
+[13:33:59] Tester runLoop started
+[13:33:59] QualityControl runLoop started
+[13:33:59] QualityControl runLoop started
+[13:33:59] Assembler-1 runLoop started
+[13:33:59] Assembler-1 runLoop started
+[13:33:59] Packer runLoop started
+[13:33:59] Packer runLoop started
+[13:33:59] Shipping runLoop started
+[13:33:59] Shipping runLoop started
+[13:34:00] Generated #144 (Vacuum Cleaner | New)
+[13:34:00] QualityControl: Inspecting #143 (Dishwasher | Tested)
+[13:34:00] QualityControl: Inspecting #143 (Dishwasher | Tested)
+[13:34:00] QualityControl: PASSED inspection
+[13:34:00] QualityControl: PASSED inspection
+[13:34:00] Generated #145 (Blender | New)
+[13:34:00] QualityControl: Inspecting #144 (Vacuum Cleaner | Tested)
+[13:34:00] QualityControl: Inspecting #144 (Vacuum Cleaner | Tested)
+[13:34:01] QualityControl: PASSED inspection
+[13:34:01] QualityControl: PASSED inspection
+[13:34:01] Generated #146 (Refrigerator | New)
+[13:34:01] QualityControl: Inspecting #145 (Blender | Tested)
+[13:34:01] QualityControl: Inspecting #145 (Blender | Tested)
+[13:34:01] QualityControl: FAILED inspection sending back to Assembly
+[13:34:01] QualityControl: FAILED inspection sending back to Assembly
+[13:34:01] PipeManager: received from pipe #145 (Blender | Rework) → requeued
+[13:34:01] PipeManager: sent via pipe #145 (Blender | Rework)
+[13:34:01] Generated #147 (Toaster | New)
+[13:34:01] QualityControl: Inspecting #146 (Refrigerator | Tested)
+[13:34:01] QualityControl: Inspecting #146 (Refrigerator | Tested)
+[13:34:02] QualityControl: PASSED inspection
+[13:34:02] QualityControl: PASSED inspection
+[13:34:02] Generated #148 (Microwave | New)
+[13:34:02] QualityControl: Inspecting #147 (Toaster | Tested)
+[13:34:02] QualityControl: Inspecting #147 (Toaster | Tested)
+[13:34:02] QualityControl: FAILED inspection sending back to Assembly
+[13:34:02] QualityControl: FAILED inspection sending back to Assembly
+[13:34:02] PipeManager: received from pipe #147 (Toaster | Rework) → requeued
+[13:34:02] PipeManager: sent via pipe #147 (Toaster | Rework)
+[13:34:02] Generated #149 (Blender | New)
+[13:34:02] QualityControl: Inspecting #148 (Microwave | Tested)
+[13:34:02] QualityControl: Inspecting #148 (Microwave | Tested)
+[13:34:03] QualityControl: PASSED inspection
+[13:34:03] QualityControl: PASSED inspection
+[13:34:03] Generated #150 (Dishwasher | New)
+[13:34:03] QualityControl: Inspecting #149 (Blender | Tested)
+[13:34:03] QualityControl: Inspecting #149 (Blender | Tested)
+[13:34:03] QualityControl: FAILED inspection sending back to Assembly
+[13:34:03] QualityControl: FAILED inspection sending back to Assembly
+[13:34:03] PipeManager: received from pipe #149 (Blender | Rework) → requeued
+[13:34:03] PipeManager: sent via pipe #149 (Blender | Rework)
+[13:34:03] Generated #151 (Dishwasher | New)
+[13:34:03] QualityControl: Inspecting #150 (Dishwasher | Tested)
+[13:34:03] QualityControl: Inspecting #150 (Dishwasher | Tested)
+[13:34:04] QualityControl: PASSED inspection
+[13:34:04] QualityControl: PASSED inspection
+[13:34:04] Generated #152 (Dryer | New)
+[13:34:04] QualityControl: Inspecting #151 (Dishwasher | Tested)
+[13:34:04] QualityControl: Inspecting #151 (Dishwasher | Tested)
+[13:34:04] QualityControl: PASSED inspection
+[13:34:04] QualityControl: PASSED inspection
+[13:34:04] Generated #153 (Washing Machine | New)
+[13:34:04] QualityControl: Inspecting #152 (Dryer | Tested)
+[13:34:04] QualityControl: Inspecting #152 (Dryer | Tested)
+[13:34:05] QualityControl: PASSED inspection
+[13:34:05] QualityControl: PASSED inspection
+[13:34:05] Generated #154 (Blender | New)
+[13:34:05] QualityControl: Inspecting #153 (Washing Machine | Tested)
+[13:34:05] QualityControl: Inspecting #153 (Washing Machine | Tested)
+[13:34:05] QualityControl: PASSED inspection
+[13:34:05] QualityControl: PASSED inspection
+[13:34:05] Generated #155 (Microwave | New)
+[13:34:05] QualityControl: Inspecting #154 (Blender | Tested)
+[13:34:05] QualityControl: Inspecting #154 (Blender | Tested)
+[13:34:06] QualityControl: PASSED inspection
+[13:34:06] QualityControl: PASSED inspection
+[13:34:06] Generated #156 (Refrigerator | New)
+[13:34:06] QualityControl: Inspecting #155 (Microwave | Tested)
+[13:34:06] QualityControl: Inspecting #155 (Microwave | Tested)
+[13:34:06] QualityControl: PASSED inspection
+[13:34:06] QualityControl: PASSED inspection
+[13:34:06] Generated #157 (Toaster | New)
+[13:34:06] QualityControl: Inspecting #156 (Refrigerator | Tested)
+[13:34:06] QualityControl: Inspecting #156 (Refrigerator | Tested)
+[13:34:07] QualityControl: PASSED inspection
+[13:34:07] QualityControl: PASSED inspection
+[13:34:07] Generated #158 (Air Conditioner | New)
+[13:34:07] QualityControl: Inspecting #157 (Toaster | Tested)
+[13:34:07] QualityControl: Inspecting #157 (Toaster | Tested)
+[13:34:07] State saved to file.
+[13:34:07] ProductionLine: stop()
+[13:34:07] Assembler-1: stop()
+[13:34:07] Assembler-2: stop()
+[13:34:07] Tester: stop()
+[13:34:07] QualityControl: stop()
+[13:34:07] Packer: stop()
+[13:34:07] Shipping: stop()
+[13:34:24] ProductionLine: start()
+[13:34:24] ProductionLine: start()
+[13:34:24] Assembler-1: start()
+[13:34:24] Assembler-1: start()
+[13:34:24] Assembler-2: start()
+[13:34:24] Assembler-2: start()
+[13:34:24] Tester: start()
+[13:34:24] Tester: start()
+[13:34:24] QualityControl: start()
+[13:34:24] QualityControl: start()
+[13:34:24] Packer: start()
+[13:34:24] Packer: start()
+[13:34:24] Shipping: start()
+[13:34:24] Shipping: start()
+[13:34:24] Generated #1 (Microwave | New)
+[13:34:24] Controller: start()
+[13:34:24] Assembler-1 runLoop started
+[13:34:24] Assembler-1 runLoop started
+[13:34:24] Assembler-2 runLoop started
+[13:34:24] Assembler-2 runLoop started
+[13:34:24] Tester runLoop started
+[13:34:24] Tester runLoop started
+[13:34:24] QualityControl runLoop started
+[13:34:24] QualityControl runLoop started
+[13:34:24] Packer runLoop started
+[13:34:24] Packer runLoop started
+[13:34:24] Shipping runLoop started
+[13:34:24] Shipping runLoop started
+[13:34:25] Generated #2 (Blender | New)
+[13:34:25] QualityControl: Inspecting #1 (Microwave | Tested)
+[13:34:25] QualityControl: Inspecting #1 (Microwave | Tested)
+[13:34:25] QualityControl: FAILED inspection sending back to Assembly
+[13:34:25] QualityControl: FAILED inspection sending back to Assembly
+[13:34:25] PipeManager: sent via pipe #1 (Microwave | Rework)
+[13:34:25] PipeManager: received from pipe #1 (Microwave | Rework) → requeued
+[13:34:25] Generated #3 (Toaster | New)
+[13:34:25] QualityControl: Inspecting #2 (Blender | Tested)
+[13:34:25] QualityControl: Inspecting #2 (Blender | Tested)
+[13:34:26] QualityControl: FAILED inspection sending back to Assembly
+[13:34:26] QualityControl: FAILED inspection sending back to Assembly
+[13:34:26] PipeManager: received from pipe #2 (Blender | Rework) → requeued
+[13:34:26] PipeManager: sent via pipe #2 (Blender | Rework)
+[13:34:26] Generated #4 (Microwave | New)
+[13:34:26] QualityControl: Inspecting #3 (Toaster | Tested)
+[13:34:26] QualityControl: Inspecting #3 (Toaster | Tested)
+[13:34:26] QualityControl: FAILED inspection sending back to Assembly
+[13:34:26] QualityControl: FAILED inspection sending back to Assembly
+[13:34:26] PipeManager: received from pipe #3 (Toaster | Rework) → requeued
+[13:34:26] PipeManager: sent via pipe #3 (Toaster | Rework)
+[13:34:26] Generated #5 (Air Conditioner | New)
+[13:34:26] QualityControl: Inspecting #4 (Microwave | Tested)
+[13:34:26] QualityControl: Inspecting #4 (Microwave | Tested)
+[13:34:27] QualityControl: PASSED inspection
+[13:34:27] QualityControl: PASSED inspection
+[13:34:27] Generated #6 (Toaster | New)
+[13:34:27] QualityControl: Inspecting #5 (Air Conditioner | Tested)
+[13:34:27] QualityControl: Inspecting #5 (Air Conditioner | Tested)
+[13:34:27] QualityControl: PASSED inspection
+[13:34:27] QualityControl: PASSED inspection
+[13:34:27] Generated #7 (Toaster | New)
+[13:34:27] QualityControl: Inspecting #6 (Toaster | Tested)
+[13:34:27] QualityControl: Inspecting #6 (Toaster | Tested)
+[13:34:28] QualityControl: PASSED inspection
+[13:34:28] QualityControl: PASSED inspection
+[13:34:28] Generated #8 (Toaster | New)
+[13:34:28] QualityControl: Inspecting #7 (Toaster | Tested)
+[13:34:28] QualityControl: Inspecting #7 (Toaster | Tested)
+[13:34:28] QualityControl: PASSED inspection
+[13:34:28] QualityControl: PASSED inspection
+[13:34:28] Generated #9 (Refrigerator | New)
+[13:34:28] QualityControl: Inspecting #8 (Toaster | Tested)
+[13:34:28] QualityControl: Inspecting #8 (Toaster | Tested)
+[13:34:29] QualityControl: PASSED inspection
+[13:34:29] QualityControl: PASSED inspection
+[13:34:29] Generated #10 (Refrigerator | New)
+[13:34:29] QualityControl: Inspecting #9 (Refrigerator | Tested)
+[13:34:29] QualityControl: Inspecting #9 (Refrigerator | Tested)
+[13:34:29] QualityControl: PASSED inspection
+[13:34:29] QualityControl: PASSED inspection
+[13:34:29] Generated #11 (Dishwasher | New)
+[13:34:29] QualityControl: Inspecting #10 (Refrigerator | Tested)
+[13:34:29] QualityControl: Inspecting #10 (Refrigerator | Tested)
+[13:34:30] QualityControl: FAILED inspection sending back to Assembly
+[13:34:30] QualityControl: FAILED inspection sending back to Assembly
+[13:34:30] PipeManager: received from pipe #10 (Refrigerator | Rework) → requeued
+[13:34:30] PipeManager: sent via pipe #10 (Refrigerator | Rework)
+[13:34:30] Generated #12 (Oven | New)
+[13:34:30] QualityControl: Inspecting #11 (Dishwasher | Tested)
+[13:34:30] QualityControl: Inspecting #11 (Dishwasher | Tested)
+[13:34:30] QualityControl: PASSED inspection
+[13:34:30] QualityControl: PASSED inspection
+[13:34:30] Generated #13 (Air Conditioner | New)
+[13:34:30] QualityControl: Inspecting #12 (Oven | Tested)
+[13:34:30] QualityControl: Inspecting #12 (Oven | Tested)
+[13:34:31] QualityControl: PASSED inspection
+[13:34:31] QualityControl: PASSED inspection
+[13:34:31] Generated #14 (Oven | New)
+[13:34:31] QualityControl: Inspecting #13 (Air Conditioner | Tested)
+[13:34:31] QualityControl: Inspecting #13 (Air Conditioner | Tested)
+[13:34:31] QualityControl: PASSED inspection
+[13:34:31] QualityControl: PASSED inspection
+[13:34:31] Generated #15 (Dishwasher | New)
+[13:34:31] QualityControl: Inspecting #14 (Oven | Tested)
+[13:34:31] QualityControl: Inspecting #14 (Oven | Tested)
+[13:34:32] QualityControl: PASSED inspection
+[13:34:32] QualityControl: PASSED inspection
+[13:34:32] Generated #16 (Dishwasher | New)
+[13:34:32] QualityControl: Inspecting #15 (Dishwasher | Tested)
+[13:34:32] QualityControl: Inspecting #15 (Dishwasher | Tested)
+[13:34:32] QualityControl: PASSED inspection
+[13:34:32] QualityControl: PASSED inspection
+[13:34:32] Generated #17 (Washing Machine | New)
+[13:34:32] QualityControl: Inspecting #16 (Dishwasher | Tested)
+[13:34:32] QualityControl: Inspecting #16 (Dishwasher | Tested)
+[13:34:33] QualityControl: PASSED inspection
+[13:34:33] QualityControl: PASSED inspection
+[13:34:33] Generated #18 (Dryer | New)
+[13:34:33] QualityControl: Inspecting #17 (Washing Machine | Tested)
+[13:34:33] QualityControl: Inspecting #17 (Washing Machine | Tested)
+[13:34:33] QualityControl: PASSED inspection
+[13:34:33] QualityControl: PASSED inspection
+[13:34:33] Generated #19 (Vacuum Cleaner | New)
+[13:34:33] QualityControl: Inspecting #18 (Dryer | Tested)
+[13:34:33] QualityControl: Inspecting #18 (Dryer | Tested)
+[13:34:34] QualityControl: PASSED inspection
+[13:34:34] QualityControl: PASSED inspection
+[13:34:34] Generated #20 (Refrigerator | New)
+[13:34:34] QualityControl: Inspecting #19 (Vacuum Cleaner | Tested)
+[13:34:34] QualityControl: Inspecting #19 (Vacuum Cleaner | Tested)
+[13:34:34] QualityControl: PASSED inspection
+[13:34:34] QualityControl: PASSED inspection
+[13:34:34] Generated #21 (Washing Machine | New)
+[13:34:34] QualityControl: Inspecting #20 (Refrigerator | Tested)
+[13:34:34] QualityControl: Inspecting #20 (Refrigerator | Tested)
+[13:34:35] QualityControl: PASSED inspection
+[13:34:35] QualityControl: PASSED inspection
+[13:34:35] Generated #22 (Blender | New)
+[13:34:35] QualityControl: Inspecting #21 (Washing Machine | Tested)
+[13:34:35] QualityControl: Inspecting #21 (Washing Machine | Tested)
+[13:34:35] QualityControl: PASSED inspection
+[13:34:35] QualityControl: PASSED inspection
+[13:34:35] Generated #23 (Dryer | New)
+[13:34:35] QualityControl: Inspecting #22 (Blender | Tested)
+[13:34:35] QualityControl: Inspecting #22 (Blender | Tested)
+[13:34:36] QualityControl: FAILED inspection sending back to Assembly
+[13:34:36] QualityControl: FAILED inspection sending back to Assembly
+[13:34:36] PipeManager: received from pipe #22 (Blender | Rework) → requeued
+[13:34:36] PipeManager: sent via pipe #22 (Blender | Rework)
+[13:34:36] Generated #24 (Dryer | New)
+[13:34:36] QualityControl: Inspecting #23 (Dryer | Tested)
+[13:34:36] QualityControl: Inspecting #23 (Dryer | Tested)
+[13:34:36] QualityControl: FAILED inspection sending back to Assembly
+[13:34:36] QualityControl: FAILED inspection sending back to Assembly
+[13:34:36] PipeManager: received from pipe #23 (Dryer | Rework) → requeued
+[13:34:36] PipeManager: sent via pipe #23 (Dryer | Rework)
+[13:34:36] Generated #25 (Oven | New)
+[13:34:36] QualityControl: Inspecting #24 (Dryer | Tested)
+[13:34:36] QualityControl: Inspecting #24 (Dryer | Tested)
+[13:34:37] QualityControl: PASSED inspection
+[13:34:37] QualityControl: PASSED inspection
+[13:34:37] Generated #26 (Washing Machine | New)
+[13:34:37] QualityControl: Inspecting #25 (Oven | Tested)
+[13:34:37] QualityControl: Inspecting #25 (Oven | Tested)
+[13:34:37] QualityControl: PASSED inspection
+[13:34:37] QualityControl: PASSED inspection
+[13:34:37] Generated #27 (Toaster | New)
+[13:34:37] QualityControl: Inspecting #26 (Washing Machine | Tested)
+[13:34:37] QualityControl: Inspecting #26 (Washing Machine | Tested)
+[13:34:38] QualityControl: PASSED inspection
+[13:34:38] QualityControl: PASSED inspection
+[13:34:38] Generated #28 (Microwave | New)
+[13:34:38] QualityControl: Inspecting #27 (Toaster | Tested)
+[13:34:38] QualityControl: Inspecting #27 (Toaster | Tested)
+[13:34:38] QualityControl: PASSED inspection
+[13:34:38] QualityControl: PASSED inspection
+[13:34:38] Generated #29 (Oven | New)
+[13:34:38] QualityControl: Inspecting #28 (Microwave | Tested)
+[13:34:38] QualityControl: Inspecting #28 (Microwave | Tested)
+[13:34:39] QualityControl: FAILED inspection sending back to Assembly
+[13:34:39] QualityControl: FAILED inspection sending back to Assembly
+[13:34:39] PipeManager: received from pipe #28 (Microwave | Rework) → requeued
+[13:34:39] PipeManager: sent via pipe #28 (Microwave | Rework)
+[13:34:39] Generated #30 (Toaster | New)
+[13:34:39] QualityControl: Inspecting #29 (Oven | Tested)
+[13:34:39] QualityControl: Inspecting #29 (Oven | Tested)
+[13:34:39] QualityControl: PASSED inspection
+[13:34:39] QualityControl: PASSED inspection
+[13:34:39] Generated #31 (Dryer | New)
+[13:34:39] QualityControl: Inspecting #30 (Toaster | Tested)
+[13:34:39] QualityControl: Inspecting #30 (Toaster | Tested)
+[13:34:40] QualityControl: PASSED inspection
+[13:34:40] QualityControl: PASSED inspection
+[13:34:40] Generated #32 (Vacuum Cleaner | New)
+[13:34:40] QualityControl: Inspecting #31 (Dryer | Tested)
+[13:34:40] QualityControl: Inspecting #31 (Dryer | Tested)
+[13:34:40] QualityControl: PASSED inspection
+[13:34:40] QualityControl: PASSED inspection
+[13:34:40] Generated #33 (Washing Machine | New)
+[13:34:40] QualityControl: Inspecting #32 (Vacuum Cleaner | Tested)
+[13:34:40] QualityControl: Inspecting #32 (Vacuum Cleaner | Tested)
+[13:34:41] QualityControl: FAILED inspection sending back to Assembly
+[13:34:41] QualityControl: FAILED inspection sending back to Assembly
+[13:34:41] PipeManager: received from pipe #32 (Vacuum Cleaner | Rework) → requeued
+[13:34:41] PipeManager: sent via pipe #32 (Vacuum Cleaner | Rework)
+[13:34:41] Generated #34 (Microwave | New)
+[13:34:41] QualityControl: Inspecting #33 (Washing Machine | Tested)
+[13:34:41] QualityControl: Inspecting #33 (Washing Machine | Tested)
+[13:34:41] QualityControl: PASSED inspection
+[13:34:41] QualityControl: PASSED inspection
+[13:34:41] Generated #35 (Dryer | New)
+[13:34:41] QualityControl: Inspecting #34 (Microwave | Tested)
+[13:34:41] QualityControl: Inspecting #34 (Microwave | Tested)
+[13:34:42] QualityControl: PASSED inspection
+[13:34:42] QualityControl: PASSED inspection
+[13:34:42] Generated #36 (Microwave | New)
+[13:34:42] QualityControl: Inspecting #35 (Dryer | Tested)
+[13:34:42] QualityControl: Inspecting #35 (Dryer | Tested)
+[13:34:42] QualityControl: PASSED inspection
+[13:34:42] QualityControl: PASSED inspection
+[13:34:42] Generated #37 (Dryer | New)
+[13:34:42] QualityControl: Inspecting #36 (Microwave | Tested)
+[13:34:42] QualityControl: Inspecting #36 (Microwave | Tested)
+[13:34:43] QualityControl: PASSED inspection
+[13:34:43] QualityControl: PASSED inspection
+[13:34:43] Generated #38 (Vacuum Cleaner | New)
+[13:34:43] QualityControl: Inspecting #37 (Dryer | Tested)
+[13:34:43] QualityControl: Inspecting #37 (Dryer | Tested)
+[13:34:43] QualityControl: PASSED inspection
+[13:34:43] QualityControl: PASSED inspection
+[13:34:43] Generated #39 (Dryer | New)
+[13:34:43] QualityControl: Inspecting #38 (Vacuum Cleaner | Tested)
+[13:34:43] QualityControl: Inspecting #38 (Vacuum Cleaner | Tested)
+[13:34:44] QualityControl: FAILED inspection sending back to Assembly
+[13:34:44] QualityControl: FAILED inspection sending back to Assembly
+[13:34:44] PipeManager: received from pipe #38 (Vacuum Cleaner | Rework) → requeued
+[13:34:44] PipeManager: sent via pipe #38 (Vacuum Cleaner | Rework)
+[13:34:44] Generated #40 (Microwave | New)
+[13:34:44] QualityControl: Inspecting #39 (Dryer | Tested)
+[13:34:44] QualityControl: Inspecting #39 (Dryer | Tested)
+[13:34:44] QualityControl: PASSED inspection
+[13:34:44] QualityControl: PASSED inspection
+[13:34:44] Generated #41 (Washing Machine | New)
+[13:34:44] QualityControl: Inspecting #40 (Microwave | Tested)
+[13:34:44] QualityControl: Inspecting #40 (Microwave | Tested)
+[13:34:45] QualityControl: PASSED inspection
+[13:34:45] QualityControl: PASSED inspection
+[13:34:45] Generated #42 (Air Conditioner | New)
+[13:34:45] QualityControl: Inspecting #41 (Washing Machine | Tested)
+[13:34:45] QualityControl: Inspecting #41 (Washing Machine | Tested)
+[13:34:45] QualityControl: PASSED inspection
+[13:34:45] QualityControl: PASSED inspection
+[13:34:45] Generated #43 (Vacuum Cleaner | New)
+[13:34:45] QualityControl: Inspecting #42 (Air Conditioner | Tested)
+[13:34:45] QualityControl: Inspecting #42 (Air Conditioner | Tested)
+[13:34:46] QualityControl: PASSED inspection
+[13:34:46] QualityControl: PASSED inspection
+[13:34:46] Generated #44 (Vacuum Cleaner | New)
+[13:34:46] QualityControl: Inspecting #43 (Vacuum Cleaner | Tested)
+[13:34:46] QualityControl: Inspecting #43 (Vacuum Cleaner | Tested)
+[13:34:46] QualityControl: PASSED inspection
+[13:34:46] QualityControl: PASSED inspection
+[13:34:46] Generated #45 (Oven | New)
+[13:34:46] QualityControl: Inspecting #44 (Vacuum Cleaner | Tested)
+[13:34:46] QualityControl: Inspecting #44 (Vacuum Cleaner | Tested)
+[13:34:47] QualityControl: FAILED inspection sending back to Assembly
+[13:34:47] QualityControl: FAILED inspection sending back to Assembly
+[13:34:47] PipeManager: received from pipe #44 (Vacuum Cleaner | Rework) → requeued
+[13:34:47] PipeManager: sent via pipe #44 (Vacuum Cleaner | Rework)
+[13:34:47] Generated #46 (Toaster | New)
+[13:34:47] QualityControl: Inspecting #45 (Oven | Tested)
+[13:34:47] QualityControl: Inspecting #45 (Oven | Tested)
+[13:34:47] QualityControl: PASSED inspection
+[13:34:47] QualityControl: PASSED inspection
+[13:34:47] Generated #47 (Washing Machine | New)
+[13:34:47] QualityControl: Inspecting #46 (Toaster | Tested)
+[13:34:47] QualityControl: Inspecting #46 (Toaster | Tested)
+[13:34:48] QualityControl: PASSED inspection
+[13:34:48] QualityControl: PASSED inspection
+[13:34:48] Generated #48 (Blender | New)
+[13:34:48] QualityControl: Inspecting #47 (Washing Machine | Tested)
+[13:34:48] QualityControl: Inspecting #47 (Washing Machine | Tested)
+[13:34:48] QualityControl: PASSED inspection
+[13:34:48] QualityControl: PASSED inspection
+[13:34:48] Generated #49 (Microwave | New)
+[13:34:48] QualityControl: Inspecting #48 (Blender | Tested)
+[13:34:48] QualityControl: Inspecting #48 (Blender | Tested)
+[13:34:49] QualityControl: FAILED inspection sending back to Assembly
+[13:34:49] QualityControl: FAILED inspection sending back to Assembly
+[13:34:49] PipeManager: sent via pipe #48 (Blender | Rework)
+[13:34:49] PipeManager: received from pipe #48 (Blender | Rework) → requeued
+[13:34:49] Generated #50 (Blender | New)
+[13:34:49] QualityControl: Inspecting #49 (Microwave | Tested)
+[13:34:49] QualityControl: Inspecting #49 (Microwave | Tested)
+[13:34:49] QualityControl: PASSED inspection
+[13:34:49] QualityControl: PASSED inspection
+[13:34:49] Generated #51 (Dryer | New)
+[13:34:49] QualityControl: Inspecting #50 (Blender | Tested)
+[13:34:49] QualityControl: Inspecting #50 (Blender | Tested)
+[13:34:50] QualityControl: PASSED inspection
+[13:34:50] QualityControl: PASSED inspection
+[13:34:50] Generated #52 (Air Conditioner | New)
+[13:34:50] QualityControl: Inspecting #51 (Dryer | Tested)
+[13:34:50] QualityControl: Inspecting #51 (Dryer | Tested)
+[13:34:50] QualityControl: PASSED inspection
+[13:34:50] QualityControl: PASSED inspection
+[13:34:50] Generated #53 (Vacuum Cleaner | New)
+[13:34:50] QualityControl: Inspecting #52 (Air Conditioner | Tested)
+[13:34:50] QualityControl: Inspecting #52 (Air Conditioner | Tested)
+[13:34:51] QualityControl: FAILED inspection sending back to Assembly
+[13:34:51] QualityControl: FAILED inspection sending back to Assembly
+[13:34:51] PipeManager: received from pipe #52 (Air Conditioner | Rework) → requeued
+[13:34:51] PipeManager: sent via pipe #52 (Air Conditioner | Rework)
+[13:34:51] Generated #54 (Microwave | New)
+[13:34:51] QualityControl: Inspecting #53 (Vacuum Cleaner | Tested)
+[13:34:51] QualityControl: Inspecting #53 (Vacuum Cleaner | Tested)
+[13:34:51] QualityControl: FAILED inspection sending back to Assembly
+[13:34:51] QualityControl: FAILED inspection sending back to Assembly
+[13:34:51] PipeManager: received from pipe #53 (Vacuum Cleaner | Rework) → requeued
+[13:34:51] PipeManager: sent via pipe #53 (Vacuum Cleaner | Rework)
+[13:34:51] Generated #55 (Microwave | New)
+[13:34:51] QualityControl: Inspecting #54 (Microwave | Tested)
+[13:34:51] QualityControl: Inspecting #54 (Microwave | Tested)
+[13:34:52] QualityControl: PASSED inspection
+[13:34:52] QualityControl: PASSED inspection
+[13:34:52] Generated #56 (Washing Machine | New)
+[13:34:52] QualityControl: Inspecting #55 (Microwave | Tested)
+[13:34:52] QualityControl: Inspecting #55 (Microwave | Tested)
+[13:34:52] QualityControl: FAILED inspection sending back to Assembly
+[13:34:52] QualityControl: FAILED inspection sending back to Assembly
+[13:34:52] PipeManager: received from pipe #55 (Microwave | Rework) → requeued
+[13:34:52] PipeManager: sent via pipe #55 (Microwave | Rework)
+[13:34:52] Generated #57 (Toaster | New)
+[13:34:52] QualityControl: Inspecting #56 (Washing Machine | Tested)
+[13:34:52] QualityControl: Inspecting #56 (Washing Machine | Tested)
+[13:34:53] QualityControl: PASSED inspection
+[13:34:53] QualityControl: PASSED inspection
+[13:34:53] Generated #58 (Microwave | New)
+[13:34:53] QualityControl: Inspecting #57 (Toaster | Tested)
+[13:34:53] QualityControl: Inspecting #57 (Toaster | Tested)
+[13:34:53] QualityControl: FAILED inspection sending back to Assembly
+[13:34:53] QualityControl: FAILED inspection sending back to Assembly
+[13:34:53] PipeManager: received from pipe #57 (Toaster | Rework) → requeued
+[13:34:53] PipeManager: sent via pipe #57 (Toaster | Rework)
+[13:34:53] Generated #59 (Dryer | New)
+[13:34:53] QualityControl: Inspecting #58 (Microwave | Tested)
+[13:34:53] QualityControl: Inspecting #58 (Microwave | Tested)
+[13:34:54] QualityControl: PASSED inspection
+[13:34:54] QualityControl: PASSED inspection
+[13:34:54] Generated #60 (Vacuum Cleaner | New)
+[13:34:54] QualityControl: Inspecting #59 (Dryer | Tested)
+[13:34:54] QualityControl: Inspecting #59 (Dryer | Tested)
+[13:34:54] QualityControl: PASSED inspection
+[13:34:54] QualityControl: PASSED inspection
+[13:34:54] Generated #61 (Refrigerator | New)
+[13:34:54] QualityControl: Inspecting #60 (Vacuum Cleaner | Tested)
+[13:34:54] QualityControl: Inspecting #60 (Vacuum Cleaner | Tested)
+[13:34:55] QualityControl: PASSED inspection
+[13:34:55] QualityControl: PASSED inspection
+[13:34:55] Generated #62 (Dishwasher | New)
+[13:34:55] QualityControl: Inspecting #61 (Refrigerator | Tested)
+[13:34:55] QualityControl: Inspecting #61 (Refrigerator | Tested)
+[13:34:55] QualityControl: PASSED inspection
+[13:34:55] QualityControl: PASSED inspection
+[13:34:55] Generated #63 (Washing Machine | New)
+[13:34:55] QualityControl: Inspecting #62 (Dishwasher | Tested)
+[13:34:55] QualityControl: Inspecting #62 (Dishwasher | Tested)
+[13:34:56] QualityControl: PASSED inspection
+[13:34:56] QualityControl: PASSED inspection
+[13:34:56] Generated #64 (Air Conditioner | New)
+[13:34:56] QualityControl: Inspecting #63 (Washing Machine | Tested)
+[13:34:56] QualityControl: Inspecting #63 (Washing Machine | Tested)
+[13:34:56] QualityControl: PASSED inspection
+[13:34:56] QualityControl: PASSED inspection
+[13:34:56] Generated #65 (Microwave | New)
+[13:34:56] QualityControl: Inspecting #64 (Air Conditioner | Tested)
+[13:34:56] QualityControl: Inspecting #64 (Air Conditioner | Tested)
+[13:34:57] QualityControl: FAILED inspection sending back to Assembly
+[13:34:57] QualityControl: FAILED inspection sending back to Assembly
+[13:34:57] PipeManager: received from pipe #64 (Air Conditioner | Rework) → requeued
+[13:34:57] PipeManager: sent via pipe #64 (Air Conditioner | Rework)
+[13:34:57] Generated #66 (Toaster | New)
+[13:34:57] QualityControl: Inspecting #65 (Microwave | Tested)
+[13:34:57] QualityControl: Inspecting #65 (Microwave | Tested)
+[13:34:57] QualityControl: PASSED inspection
+[13:34:57] QualityControl: PASSED inspection
+[13:34:57] Generated #67 (Vacuum Cleaner | New)
+[13:34:57] QualityControl: Inspecting #66 (Toaster | Tested)
+[13:34:57] QualityControl: Inspecting #66 (Toaster | Tested)
+[13:34:58] QualityControl: PASSED inspection
+[13:34:58] QualityControl: PASSED inspection
+[13:34:58] Generated #68 (Air Conditioner | New)
+[13:34:58] QualityControl: Inspecting #67 (Vacuum Cleaner | Tested)
+[13:34:58] QualityControl: Inspecting #67 (Vacuum Cleaner | Tested)
+[13:34:58] QualityControl: PASSED inspection
+[13:34:58] QualityControl: PASSED inspection
+[13:34:58] Generated #69 (Washing Machine | New)
+[13:34:58] QualityControl: Inspecting #68 (Air Conditioner | Tested)
+[13:34:58] QualityControl: Inspecting #68 (Air Conditioner | Tested)
+[13:34:59] QualityControl: PASSED inspection
+[13:34:59] QualityControl: PASSED inspection
+[13:34:59] Generated #70 (Microwave | New)
+[13:34:59] QualityControl: Inspecting #69 (Washing Machine | Tested)
+[13:34:59] QualityControl: Inspecting #69 (Washing Machine | Tested)
+[13:34:59] QualityControl: PASSED inspection
+[13:34:59] QualityControl: PASSED inspection
+[13:34:59] Generated #71 (Washing Machine | New)
+[13:34:59] QualityControl: Inspecting #70 (Microwave | Tested)
+[13:34:59] QualityControl: Inspecting #70 (Microwave | Tested)
+[13:35:00] QualityControl: PASSED inspection
+[13:35:00] QualityControl: PASSED inspection
+[13:35:00] Generated #72 (Washing Machine | New)
+[13:35:00] QualityControl: Inspecting #71 (Washing Machine | Tested)
+[13:35:00] QualityControl: Inspecting #71 (Washing Machine | Tested)
+[13:35:00] QualityControl: PASSED inspection
+[13:35:00] QualityControl: PASSED inspection
+[13:35:00] Generated #73 (Refrigerator | New)
+[13:35:00] QualityControl: Inspecting #72 (Washing Machine | Tested)
+[13:35:00] QualityControl: Inspecting #72 (Washing Machine | Tested)
+[13:35:01] QualityControl: FAILED inspection sending back to Assembly
+[13:35:01] QualityControl: FAILED inspection sending back to Assembly
+[13:35:01] PipeManager: received from pipe #72 (Washing Machine | Rework) → requeued
+[13:35:01] PipeManager: sent via pipe #72 (Washing Machine | Rework)
+[13:35:01] Generated #74 (Oven | New)
+[13:35:01] QualityControl: Inspecting #73 (Refrigerator | Tested)
+[13:35:01] QualityControl: Inspecting #73 (Refrigerator | Tested)
+[13:35:01] QualityControl: FAILED inspection sending back to Assembly
+[13:35:01] QualityControl: FAILED inspection sending back to Assembly
+[13:35:01] PipeManager: received from pipe #73 (Refrigerator | Rework) → requeued
+[13:35:01] PipeManager: sent via pipe #73 (Refrigerator | Rework)
+[13:35:01] Generated #75 (Blender | New)
+[13:35:01] QualityControl: Inspecting #74 (Oven | Tested)
+[13:35:01] QualityControl: Inspecting #74 (Oven | Tested)
+[13:35:02] QualityControl: PASSED inspection
+[13:35:02] QualityControl: PASSED inspection
+[13:35:02] Generated #76 (Toaster | New)
+[13:35:02] QualityControl: Inspecting #75 (Blender | Tested)
+[13:35:02] QualityControl: Inspecting #75 (Blender | Tested)
+[13:35:02] QualityControl: PASSED inspection
+[13:35:02] QualityControl: PASSED inspection
+[13:35:02] Generated #77 (Refrigerator | New)
+[13:35:02] QualityControl: Inspecting #76 (Toaster | Tested)
+[13:35:02] QualityControl: Inspecting #76 (Toaster | Tested)
+[13:35:03] QualityControl: PASSED inspection
+[13:35:03] QualityControl: PASSED inspection
+[13:35:03] Generated #78 (Microwave | New)
+[13:35:03] QualityControl: Inspecting #77 (Refrigerator | Tested)
+[13:35:03] QualityControl: Inspecting #77 (Refrigerator | Tested)
+[13:35:03] QualityControl: PASSED inspection
+[13:35:03] QualityControl: PASSED inspection
+[13:35:03] Generated #79 (Microwave | New)
+[13:35:03] QualityControl: Inspecting #78 (Microwave | Tested)
+[13:35:03] QualityControl: Inspecting #78 (Microwave | Tested)
+[13:35:04] QualityControl: PASSED inspection
+[13:35:04] QualityControl: PASSED inspection
+[13:35:04] Generated #80 (Microwave | New)
+[13:35:04] QualityControl: Inspecting #79 (Microwave | Tested)
+[13:35:04] QualityControl: Inspecting #79 (Microwave | Tested)
+[13:35:04] QualityControl: FAILED inspection sending back to Assembly
+[13:35:04] QualityControl: FAILED inspection sending back to Assembly
+[13:35:04] PipeManager: received from pipe #79 (Microwave | Rework) → requeued
+[13:35:04] PipeManager: sent via pipe #79 (Microwave | Rework)
+[13:35:04] Generated #81 (Dryer | New)
+[13:35:04] QualityControl: Inspecting #80 (Microwave | Tested)
+[13:35:04] QualityControl: Inspecting #80 (Microwave | Tested)
+[13:35:05] QualityControl: FAILED inspection sending back to Assembly
+[13:35:05] QualityControl: FAILED inspection sending back to Assembly
+[13:35:05] PipeManager: received from pipe #80 (Microwave | Rework) → requeued
+[13:35:05] PipeManager: sent via pipe #80 (Microwave | Rework)
+[13:35:05] Generated #82 (Refrigerator | New)
+[13:35:05] QualityControl: Inspecting #81 (Dryer | Tested)
+[13:35:05] QualityControl: Inspecting #81 (Dryer | Tested)
+[13:35:05] QualityControl: FAILED inspection sending back to Assembly
+[13:35:05] QualityControl: FAILED inspection sending back to Assembly
+[13:35:05] PipeManager: received from pipe #81 (Dryer | Rework) → requeued
+[13:35:05] PipeManager: sent via pipe #81 (Dryer | Rework)
+[13:35:05] Generated #83 (Dryer | New)
+[13:35:05] QualityControl: Inspecting #82 (Refrigerator | Tested)
+[13:35:05] QualityControl: Inspecting #82 (Refrigerator | Tested)
+[13:35:06] QualityControl: PASSED inspection
+[13:35:06] QualityControl: PASSED inspection
+[13:35:06] Generated #84 (Refrigerator | New)
+[13:35:06] QualityControl: Inspecting #83 (Dryer | Tested)
+[13:35:06] QualityControl: Inspecting #83 (Dryer | Tested)
+[13:35:06] QualityControl: PASSED inspection
+[13:35:06] QualityControl: PASSED inspection
+[13:35:06] Generated #85 (Dryer | New)
+[13:35:06] QualityControl: Inspecting #84 (Refrigerator | Tested)
+[13:35:06] QualityControl: Inspecting #84 (Refrigerator | Tested)
+[13:35:07] QualityControl: PASSED inspection
+[13:35:07] QualityControl: PASSED inspection
+[13:35:07] Generated #86 (Blender | New)
+[13:35:07] QualityControl: Inspecting #85 (Dryer | Tested)
+[13:35:07] QualityControl: Inspecting #85 (Dryer | Tested)
+[13:35:07] QualityControl: PASSED inspection
+[13:35:07] QualityControl: PASSED inspection
+[13:35:07] Generated #87 (Air Conditioner | New)
+[13:35:07] QualityControl: Inspecting #86 (Blender | Tested)
+[13:35:07] QualityControl: Inspecting #86 (Blender | Tested)
+[13:35:08] QualityControl: PASSED inspection
+[13:35:08] QualityControl: PASSED inspection
+[13:35:08] Generated #88 (Air Conditioner | New)
+[13:35:08] QualityControl: Inspecting #87 (Air Conditioner | Tested)
+[13:35:08] QualityControl: Inspecting #87 (Air Conditioner | Tested)
+[13:35:08] QualityControl: PASSED inspection
+[13:35:08] QualityControl: PASSED inspection
+[13:35:08] Generated #89 (Refrigerator | New)
+[13:35:08] QualityControl: Inspecting #88 (Air Conditioner | Tested)
+[13:35:08] QualityControl: Inspecting #88 (Air Conditioner | Tested)
+[13:35:09] QualityControl: PASSED inspection
+[13:35:09] QualityControl: PASSED inspection
+[13:35:09] Generated #90 (Toaster | New)
+[13:35:09] QualityControl: Inspecting #89 (Refrigerator | Tested)
+[13:35:09] QualityControl: Inspecting #89 (Refrigerator | Tested)
+[13:35:09] QualityControl: PASSED inspection
+[13:35:09] QualityControl: PASSED inspection
+[13:35:09] Generated #91 (Dryer | New)
+[13:35:09] QualityControl: Inspecting #90 (Toaster | Tested)
+[13:35:09] QualityControl: Inspecting #90 (Toaster | Tested)
+[13:35:10] QualityControl: PASSED inspection
+[13:35:10] QualityControl: PASSED inspection
+[13:35:10] Generated #92 (Vacuum Cleaner | New)
+[13:35:10] QualityControl: Inspecting #91 (Dryer | Tested)
+[13:35:10] QualityControl: Inspecting #91 (Dryer | Tested)
+[13:35:10] QualityControl: PASSED inspection
+[13:35:10] QualityControl: PASSED inspection
+[13:35:10] Generated #93 (Toaster | New)
+[13:35:10] QualityControl: Inspecting #92 (Vacuum Cleaner | Tested)
+[13:35:10] QualityControl: Inspecting #92 (Vacuum Cleaner | Tested)
+[13:35:11] QualityControl: PASSED inspection
+[13:35:11] QualityControl: PASSED inspection
+[13:35:11] Generated #94 (Microwave | New)
+[13:35:11] QualityControl: Inspecting #93 (Toaster | Tested)
+[13:35:11] QualityControl: Inspecting #93 (Toaster | Tested)
+[13:35:11] QualityControl: PASSED inspection
+[13:35:11] QualityControl: PASSED inspection
+[13:35:11] Generated #95 (Dryer | New)
+[13:35:11] QualityControl: Inspecting #94 (Microwave | Tested)
+[13:35:11] QualityControl: Inspecting #94 (Microwave | Tested)
+[13:35:12] QualityControl: FAILED inspection sending back to Assembly
+[13:35:12] QualityControl: FAILED inspection sending back to Assembly
+[13:35:12] PipeManager: received from pipe #94 (Microwave | Rework) → requeued
+[13:35:12] PipeManager: sent via pipe #94 (Microwave | Rework)
+[13:35:12] Generated #96 (Washing Machine | New)
+[13:35:12] QualityControl: Inspecting #95 (Dryer | Tested)
+[13:35:12] QualityControl: Inspecting #95 (Dryer | Tested)
+[13:35:12] QualityControl: FAILED inspection sending back to Assembly
+[13:35:12] QualityControl: FAILED inspection sending back to Assembly
+[13:35:12] PipeManager: received from pipe #95 (Dryer | Rework) → requeued
+[13:35:12] PipeManager: sent via pipe #95 (Dryer | Rework)
+[13:35:12] Generated #97 (Refrigerator | New)
+[13:35:12] QualityControl: Inspecting #96 (Washing Machine | Tested)
+[13:35:12] QualityControl: Inspecting #96 (Washing Machine | Tested)
+[13:35:13] QualityControl: PASSED inspection
+[13:35:13] QualityControl: PASSED inspection
+[13:35:13] Generated #98 (Oven | New)
+[13:35:13] QualityControl: Inspecting #97 (Refrigerator | Tested)
+[13:35:13] QualityControl: Inspecting #97 (Refrigerator | Tested)
+[13:35:13] QualityControl: PASSED inspection
+[13:35:13] QualityControl: PASSED inspection
+[13:35:13] Generated #99 (Refrigerator | New)
+[13:35:13] QualityControl: Inspecting #98 (Oven | Tested)
+[13:35:13] QualityControl: Inspecting #98 (Oven | Tested)
+[13:35:14] QualityControl: PASSED inspection
+[13:35:14] QualityControl: PASSED inspection
+[13:35:14] Generated #100 (Vacuum Cleaner | New)
+[13:35:14] QualityControl: Inspecting #99 (Refrigerator | Tested)
+[13:35:14] QualityControl: Inspecting #99 (Refrigerator | Tested)
+[13:35:14] QualityControl: PASSED inspection
+[13:35:14] QualityControl: PASSED inspection
+[13:35:14] Generated #101 (Air Conditioner | New)
+[13:35:14] QualityControl: Inspecting #100 (Vacuum Cleaner | Tested)
+[13:35:14] QualityControl: Inspecting #100 (Vacuum Cleaner | Tested)
+[13:35:15] QualityControl: PASSED inspection
+[13:35:15] QualityControl: PASSED inspection
+[13:35:15] Generated #102 (Vacuum Cleaner | New)
+[13:35:15] QualityControl: Inspecting #101 (Air Conditioner | Tested)
+[13:35:15] QualityControl: Inspecting #101 (Air Conditioner | Tested)
+[13:35:15] QualityControl: FAILED inspection sending back to Assembly
+[13:35:15] QualityControl: FAILED inspection sending back to Assembly
+[13:35:15] PipeManager: received from pipe #101 (Air Conditioner | Rework) → requeued
+[13:35:15] PipeManager: sent via pipe #101 (Air Conditioner | Rework)
+[13:35:15] Generated #103 (Toaster | New)
+[13:35:15] QualityControl: Inspecting #102 (Vacuum Cleaner | Tested)
+[13:35:15] QualityControl: Inspecting #102 (Vacuum Cleaner | Tested)
+[13:35:16] QualityControl: PASSED inspection
+[13:35:16] QualityControl: PASSED inspection
+[13:35:16] Generated #104 (Dryer | New)
+[13:35:16] QualityControl: Inspecting #103 (Toaster | Tested)
+[13:35:16] QualityControl: Inspecting #103 (Toaster | Tested)
+[13:35:16] QualityControl: PASSED inspection
+[13:35:16] QualityControl: PASSED inspection
+[13:35:16] Generated #105 (Dishwasher | New)
+[13:35:17] QualityControl: Inspecting #104 (Dryer | Tested)
+[13:35:17] QualityControl: Inspecting #104 (Dryer | Tested)
+[13:35:17] QualityControl: PASSED inspection
+[13:35:17] QualityControl: PASSED inspection
+[13:35:17] Generated #106 (Microwave | New)
+[13:35:17] QualityControl: Inspecting #105 (Dishwasher | Tested)
+[13:35:17] QualityControl: Inspecting #105 (Dishwasher | Tested)
+[13:35:17] QualityControl: PASSED inspection
+[13:35:17] QualityControl: PASSED inspection
+[13:35:17] Generated #107 (Refrigerator | New)
+[13:35:18] QualityControl: Inspecting #106 (Microwave | Tested)
+[13:35:18] QualityControl: Inspecting #106 (Microwave | Tested)
+[13:35:18] QualityControl: PASSED inspection
+[13:35:18] QualityControl: PASSED inspection
+[13:35:18] Generated #108 (Dishwasher | New)
+[13:35:18] QualityControl: Inspecting #107 (Refrigerator | Tested)
+[13:35:18] QualityControl: Inspecting #107 (Refrigerator | Tested)
+[13:35:18] QualityControl: PASSED inspection
+[13:35:18] QualityControl: PASSED inspection
+[13:35:18] Generated #109 (Air Conditioner | New)
+[13:35:19] QualityControl: Inspecting #108 (Dishwasher | Tested)
+[13:35:19] QualityControl: Inspecting #108 (Dishwasher | Tested)
+[13:35:19] QualityControl: FAILED inspection sending back to Assembly
+[13:35:19] QualityControl: FAILED inspection sending back to Assembly
+[13:35:19] PipeManager: received from pipe #108 (Dishwasher | Rework) → requeued
+[13:35:19] PipeManager: sent via pipe #108 (Dishwasher | Rework)
+[13:35:19] Generated #110 (Oven | New)
+[13:35:19] QualityControl: Inspecting #109 (Air Conditioner | Tested)
+[13:35:19] QualityControl: Inspecting #109 (Air Conditioner | Tested)
+[13:35:19] QualityControl: PASSED inspection
+[13:35:19] QualityControl: PASSED inspection
+[13:35:19] Generated #111 (Air Conditioner | New)
+[13:35:20] QualityControl: Inspecting #110 (Oven | Tested)
+[13:35:20] QualityControl: Inspecting #110 (Oven | Tested)
+[13:35:20] QualityControl: PASSED inspection
+[13:35:20] QualityControl: PASSED inspection
+[13:35:20] Generated #112 (Refrigerator | New)
+[13:35:20] QualityControl: Inspecting #111 (Air Conditioner | Tested)
+[13:35:20] QualityControl: Inspecting #111 (Air Conditioner | Tested)
+[13:35:20] QualityControl: PASSED inspection
+[13:35:20] QualityControl: PASSED inspection
+[13:35:20] Generated #113 (Dryer | New)
+[13:35:21] QualityControl: Inspecting #112 (Refrigerator | Tested)
+[13:35:21] QualityControl: Inspecting #112 (Refrigerator | Tested)
+[13:35:21] QualityControl: FAILED inspection sending back to Assembly
+[13:35:21] QualityControl: FAILED inspection sending back to Assembly
+[13:35:21] PipeManager: received from pipe #112 (Refrigerator | Rework) → requeued
+[13:35:21] PipeManager: sent via pipe #112 (Refrigerator | Rework)
+[13:35:21] Generated #114 (Blender | New)
+[13:35:21] QualityControl: Inspecting #113 (Dryer | Tested)
+[13:35:21] QualityControl: Inspecting #113 (Dryer | Tested)
+[13:35:21] QualityControl: PASSED inspection
+[13:35:21] QualityControl: PASSED inspection
+[13:35:21] Generated #115 (Microwave | New)
+[13:35:22] QualityControl: Inspecting #114 (Blender | Tested)
+[13:35:22] QualityControl: Inspecting #114 (Blender | Tested)
+[13:35:22] QualityControl: FAILED inspection sending back to Assembly
+[13:35:22] QualityControl: FAILED inspection sending back to Assembly
+[13:35:22] PipeManager: received from pipe #114 (Blender | Rework) → requeued
+[13:35:22] PipeManager: sent via pipe #114 (Blender | Rework)
+[13:35:22] Generated #116 (Microwave | New)
+[13:35:22] QualityControl: Inspecting #115 (Microwave | Tested)
+[13:35:22] QualityControl: Inspecting #115 (Microwave | Tested)
+[13:35:22] QualityControl: PASSED inspection
+[13:35:22] QualityControl: PASSED inspection
+[13:35:22] Generated #117 (Vacuum Cleaner | New)
+[13:35:23] QualityControl: Inspecting #116 (Microwave | Tested)
+[13:35:23] QualityControl: Inspecting #116 (Microwave | Tested)
+[13:35:23] QualityControl: FAILED inspection sending back to Assembly
+[13:35:23] QualityControl: FAILED inspection sending back to Assembly
+[13:35:23] PipeManager: received from pipe #116 (Microwave | Rework) → requeued
+[13:35:23] PipeManager: sent via pipe #116 (Microwave | Rework)
+[13:35:23] Generated #118 (Refrigerator | New)
+[13:35:23] QualityControl: Inspecting #117 (Vacuum Cleaner | Tested)
+[13:35:23] QualityControl: Inspecting #117 (Vacuum Cleaner | Tested)
+[13:35:23] QualityControl: PASSED inspection
+[13:35:23] QualityControl: PASSED inspection
+[13:35:23] Generated #119 (Dryer | New)
+[13:35:24] QualityControl: Inspecting #118 (Refrigerator | Tested)
+[13:35:24] QualityControl: Inspecting #118 (Refrigerator | Tested)
+[13:35:24] QualityControl: PASSED inspection
+[13:35:24] QualityControl: PASSED inspection
+[13:35:24] Generated #120 (Dishwasher | New)
+[13:35:24] QualityControl: Inspecting #119 (Dryer | Tested)
+[13:35:24] QualityControl: Inspecting #119 (Dryer | Tested)
+[13:35:24] QualityControl: PASSED inspection
+[13:35:24] QualityControl: PASSED inspection
+[13:35:24] Generated #121 (Dryer | New)
+[13:35:25] QualityControl: Inspecting #120 (Dishwasher | Tested)
+[13:35:25] QualityControl: Inspecting #120 (Dishwasher | Tested)
+[13:35:25] QualityControl: FAILED inspection sending back to Assembly
+[13:35:25] QualityControl: FAILED inspection sending back to Assembly
+[13:35:25] PipeManager: sent via pipe #120 (Dishwasher | Rework)
+[13:35:25] PipeManager: received from pipe #120 (Dishwasher | Rework) → requeued
+[13:35:25] Generated #122 (Dishwasher | New)
+[13:35:25] QualityControl: Inspecting #121 (Dryer | Tested)
+[13:35:25] QualityControl: Inspecting #121 (Dryer | Tested)
+[13:35:25] QualityControl: FAILED inspection sending back to Assembly
+[13:35:25] QualityControl: FAILED inspection sending back to Assembly
+[13:35:25] PipeManager: received from pipe #121 (Dryer | Rework) → requeued
+[13:35:25] PipeManager: sent via pipe #121 (Dryer | Rework)
+[13:35:25] Generated #123 (Washing Machine | New)
+[13:35:26] QualityControl: Inspecting #122 (Dishwasher | Tested)
+[13:35:26] QualityControl: Inspecting #122 (Dishwasher | Tested)
+[13:35:26] QualityControl: PASSED inspection
+[13:35:26] QualityControl: PASSED inspection
+[13:35:26] Generated #124 (Toaster | New)
+[13:35:26] QualityControl: Inspecting #123 (Washing Machine | Tested)
+[13:35:26] QualityControl: Inspecting #123 (Washing Machine | Tested)
+[13:35:26] QualityControl: FAILED inspection sending back to Assembly
+[13:35:26] QualityControl: FAILED inspection sending back to Assembly
+[13:35:26] PipeManager: received from pipe #123 (Washing Machine | Rework) → requeued
+[13:35:26] PipeManager: sent via pipe #123 (Washing Machine | Rework)
+[13:35:26] Generated #125 (Microwave | New)
+[13:35:27] QualityControl: Inspecting #124 (Toaster | Tested)
+[13:35:27] QualityControl: Inspecting #124 (Toaster | Tested)
+[13:35:27] QualityControl: PASSED inspection
+[13:35:27] QualityControl: PASSED inspection
+[13:35:27] Generated #126 (Dishwasher | New)
+[13:35:27] QualityControl: Inspecting #125 (Microwave | Tested)
+[13:35:27] QualityControl: Inspecting #125 (Microwave | Tested)
+[13:35:27] QualityControl: PASSED inspection
+[13:35:27] QualityControl: PASSED inspection
+[13:35:27] Generated #127 (Vacuum Cleaner | New)
+[13:35:28] QualityControl: Inspecting #126 (Dishwasher | Tested)
+[13:35:28] QualityControl: Inspecting #126 (Dishwasher | Tested)
+[13:35:28] QualityControl: PASSED inspection
+[13:35:28] QualityControl: PASSED inspection
+[13:35:28] Generated #128 (Dishwasher | New)
+[13:35:28] QualityControl: Inspecting #127 (Vacuum Cleaner | Tested)
+[13:35:28] QualityControl: Inspecting #127 (Vacuum Cleaner | Tested)
+[13:35:28] QualityControl: PASSED inspection
+[13:35:28] QualityControl: PASSED inspection
+[13:35:28] Generated #129 (Toaster | New)
+[13:35:29] QualityControl: Inspecting #128 (Dishwasher | Tested)
+[13:35:29] QualityControl: Inspecting #128 (Dishwasher | Tested)
+[13:35:29] QualityControl: PASSED inspection
+[13:35:29] QualityControl: PASSED inspection
+[13:35:29] Generated #130 (Blender | New)
+[13:35:29] QualityControl: Inspecting #129 (Toaster | Tested)
+[13:35:29] QualityControl: Inspecting #129 (Toaster | Tested)
+[13:35:29] QualityControl: FAILED inspection sending back to Assembly
+[13:35:29] QualityControl: FAILED inspection sending back to Assembly
+[13:35:29] PipeManager: received from pipe #129 (Toaster | Rework) → requeued
+[13:35:29] PipeManager: sent via pipe #129 (Toaster | Rework)
+[13:35:29] Generated #131 (Refrigerator | New)
+[13:35:30] QualityControl: Inspecting #130 (Blender | Tested)
+[13:35:30] QualityControl: Inspecting #130 (Blender | Tested)
+[13:35:30] QualityControl: PASSED inspection
+[13:35:30] QualityControl: PASSED inspection
+[13:35:30] Generated #132 (Oven | New)
+[13:35:30] QualityControl: Inspecting #131 (Refrigerator | Tested)
+[13:35:30] QualityControl: Inspecting #131 (Refrigerator | Tested)
+[13:35:30] QualityControl: PASSED inspection
+[13:35:30] QualityControl: PASSED inspection
+[13:35:30] Generated #133 (Refrigerator | New)
+[13:35:31] QualityControl: Inspecting #132 (Oven | Tested)
+[13:35:31] QualityControl: Inspecting #132 (Oven | Tested)
+[13:35:31] QualityControl: PASSED inspection
+[13:35:31] QualityControl: PASSED inspection
+[13:35:31] Generated #134 (Washing Machine | New)
+[13:35:31] QualityControl: Inspecting #133 (Refrigerator | Tested)
+[13:35:31] QualityControl: Inspecting #133 (Refrigerator | Tested)
+[13:35:31] QualityControl: PASSED inspection
+[13:35:31] QualityControl: PASSED inspection
+[13:35:31] Generated #135 (Refrigerator | New)
+[13:35:32] QualityControl: Inspecting #134 (Washing Machine | Tested)
+[13:35:32] QualityControl: Inspecting #134 (Washing Machine | Tested)
+[13:35:32] QualityControl: FAILED inspection sending back to Assembly
+[13:35:32] QualityControl: FAILED inspection sending back to Assembly
+[13:35:32] PipeManager: received from pipe #134 (Washing Machine | Rework) → requeued
+[13:35:32] PipeManager: sent via pipe #134 (Washing Machine | Rework)
+[13:35:32] Generated #136 (Toaster | New)
+[13:35:32] QualityControl: Inspecting #135 (Refrigerator | Tested)
+[13:35:32] QualityControl: Inspecting #135 (Refrigerator | Tested)
+[13:35:32] QualityControl: FAILED inspection sending back to Assembly
+[13:35:32] QualityControl: FAILED inspection sending back to Assembly
+[13:35:32] PipeManager: received from pipe #135 (Refrigerator | Rework) → requeued
+[13:35:32] PipeManager: sent via pipe #135 (Refrigerator | Rework)
+[13:35:32] Generated #137 (Vacuum Cleaner | New)
+[13:35:33] QualityControl: Inspecting #136 (Toaster | Tested)
+[13:35:33] QualityControl: Inspecting #136 (Toaster | Tested)
+[13:35:33] QualityControl: PASSED inspection
+[13:35:33] QualityControl: PASSED inspection
+[13:35:33] Generated #138 (Refrigerator | New)
+[13:35:33] QualityControl: Inspecting #137 (Vacuum Cleaner | Tested)
+[13:35:33] QualityControl: Inspecting #137 (Vacuum Cleaner | Tested)
+[13:35:33] QualityControl: PASSED inspection
+[13:35:33] QualityControl: PASSED inspection
+[13:35:34] Generated #139 (Air Conditioner | New)
+[13:35:34] QualityControl: Inspecting #138 (Refrigerator | Tested)
+[13:35:34] QualityControl: Inspecting #138 (Refrigerator | Tested)
+[13:35:34] QualityControl: PASSED inspection
+[13:35:34] QualityControl: PASSED inspection
+[13:35:34] Generated #140 (Vacuum Cleaner | New)
+[13:35:34] QualityControl: Inspecting #139 (Air Conditioner | Tested)
+[13:35:34] QualityControl: Inspecting #139 (Air Conditioner | Tested)
+[13:35:34] QualityControl: PASSED inspection
+[13:35:34] QualityControl: PASSED inspection
+[13:35:35] Generated #141 (Microwave | New)
+[13:35:35] QualityControl: Inspecting #140 (Vacuum Cleaner | Tested)
+[13:35:35] QualityControl: Inspecting #140 (Vacuum Cleaner | Tested)
+[13:35:35] QualityControl: PASSED inspection
+[13:35:35] QualityControl: PASSED inspection
+[13:35:35] Generated #142 (Oven | New)
+[13:35:35] QualityControl: Inspecting #141 (Microwave | Tested)
+[13:35:35] QualityControl: Inspecting #141 (Microwave | Tested)
+[13:35:35] QualityControl: PASSED inspection
+[13:35:35] QualityControl: PASSED inspection
+[13:35:36] Generated #143 (Toaster | New)
+[13:35:36] QualityControl: Inspecting #142 (Oven | Tested)
+[13:35:36] QualityControl: Inspecting #142 (Oven | Tested)
+[13:35:36] QualityControl: PASSED inspection
+[13:35:36] QualityControl: PASSED inspection
+[13:35:36] Generated #144 (Microwave | New)
+[13:35:36] QualityControl: Inspecting #143 (Toaster | Tested)
+[13:35:36] QualityControl: Inspecting #143 (Toaster | Tested)
+[13:35:36] QualityControl: PASSED inspection
+[13:35:36] QualityControl: PASSED inspection
+[13:35:37] Generated #145 (Toaster | New)
+[13:35:37] QualityControl: Inspecting #144 (Microwave | Tested)
+[13:35:37] QualityControl: Inspecting #144 (Microwave | Tested)
+[13:35:37] QualityControl: PASSED inspection
+[13:35:37] QualityControl: PASSED inspection
+[13:35:37] Generated #146 (Oven | New)
+[13:35:37] QualityControl: Inspecting #145 (Toaster | Tested)
+[13:35:37] QualityControl: Inspecting #145 (Toaster | Tested)
+[13:35:37] QualityControl: PASSED inspection
+[13:35:37] QualityControl: PASSED inspection
+[13:35:38] Generated #147 (Dishwasher | New)
+[13:35:38] QualityControl: Inspecting #146 (Oven | Tested)
+[13:35:38] QualityControl: Inspecting #146 (Oven | Tested)
+[13:35:38] QualityControl: PASSED inspection
+[13:35:38] QualityControl: PASSED inspection
+[13:35:38] Generated #148 (Dryer | New)
+[13:35:38] QualityControl: Inspecting #147 (Dishwasher | Tested)
+[13:35:38] QualityControl: Inspecting #147 (Dishwasher | Tested)
+[13:35:38] QualityControl: PASSED inspection
+[13:35:38] QualityControl: PASSED inspection
+[13:35:39] Generated #149 (Refrigerator | New)
+[13:35:39] QualityControl: Inspecting #148 (Dryer | Tested)
+[13:35:39] QualityControl: Inspecting #148 (Dryer | Tested)
+[13:35:39] QualityControl: PASSED inspection
+[13:35:39] QualityControl: PASSED inspection
+[13:35:39] Generated #150 (Microwave | New)
+[13:35:39] QualityControl: Inspecting #149 (Refrigerator | Tested)
+[13:35:39] QualityControl: Inspecting #149 (Refrigerator | Tested)
+[13:35:39] QualityControl: PASSED inspection
+[13:35:39] QualityControl: PASSED inspection
+[13:35:40] Generated #151 (Blender | New)
+[13:35:40] QualityControl: Inspecting #150 (Microwave | Tested)
+[13:35:40] QualityControl: Inspecting #150 (Microwave | Tested)
+[13:35:40] QualityControl: PASSED inspection
+[13:35:40] QualityControl: PASSED inspection
+[13:35:40] Generated #152 (Vacuum Cleaner | New)
+[13:35:40] QualityControl: Inspecting #151 (Blender | Tested)
+[13:35:40] QualityControl: Inspecting #151 (Blender | Tested)
+[13:35:40] QualityControl: PASSED inspection
+[13:35:40] QualityControl: PASSED inspection
+[13:35:41] Generated #153 (Refrigerator | New)
+[13:35:41] QualityControl: Inspecting #152 (Vacuum Cleaner | Tested)
+[13:35:41] QualityControl: Inspecting #152 (Vacuum Cleaner | Tested)
+[13:35:41] QualityControl: FAILED inspection sending back to Assembly
+[13:35:41] QualityControl: FAILED inspection sending back to Assembly
+[13:35:41] PipeManager: sent via pipe #152 (Vacuum Cleaner | Rework)
+[13:35:41] PipeManager: received from pipe #152 (Vacuum Cleaner | Rework) → requeued
+[13:35:41] Generated #154 (Washing Machine | New)
+[13:35:41] QualityControl: Inspecting #153 (Refrigerator | Tested)
+[13:35:41] QualityControl: Inspecting #153 (Refrigerator | Tested)
+[13:35:41] QualityControl: PASSED inspection
+[13:35:41] QualityControl: PASSED inspection
+[13:35:42] Generated #155 (Toaster | New)
+[13:35:42] QualityControl: Inspecting #154 (Washing Machine | Tested)
+[13:35:42] QualityControl: Inspecting #154 (Washing Machine | Tested)
+[13:35:42] QualityControl: PASSED inspection
+[13:35:42] QualityControl: PASSED inspection
+[13:35:42] Generated #156 (Vacuum Cleaner | New)
+[13:35:42] QualityControl: Inspecting #155 (Toaster | Tested)
+[13:35:42] QualityControl: Inspecting #155 (Toaster | Tested)
+[13:35:42] QualityControl: PASSED inspection
+[13:35:42] QualityControl: PASSED inspection
+[13:35:43] Generated #157 (Air Conditioner | New)
+[13:35:43] QualityControl: Inspecting #156 (Vacuum Cleaner | Tested)
+[13:35:43] QualityControl: Inspecting #156 (Vacuum Cleaner | Tested)
+[13:35:43] QualityControl: PASSED inspection
+[13:35:43] QualityControl: PASSED inspection
+[13:35:43] Generated #158 (Toaster | New)
+[13:35:43] QualityControl: Inspecting #157 (Air Conditioner | Tested)
+[13:35:43] QualityControl: Inspecting #157 (Air Conditioner | Tested)
+[13:35:43] QualityControl: PASSED inspection
+[13:35:43] QualityControl: PASSED inspection
+[13:35:44] Generated #159 (Microwave | New)
+[13:35:44] QualityControl: Inspecting #158 (Toaster | Tested)
+[13:35:44] QualityControl: Inspecting #158 (Toaster | Tested)
+[13:35:44] QualityControl: FAILED inspection sending back to Assembly
+[13:35:44] QualityControl: FAILED inspection sending back to Assembly
+[13:35:44] PipeManager: received from pipe #158 (Toaster | Rework) → requeued
+[13:35:44] PipeManager: sent via pipe #158 (Toaster | Rework)
+[13:35:44] Generated #160 (Vacuum Cleaner | New)
+[13:35:44] QualityControl: Inspecting #159 (Microwave | Tested)
+[13:35:44] QualityControl: Inspecting #159 (Microwave | Tested)
+[13:35:44] QualityControl: FAILED inspection sending back to Assembly
+[13:35:44] QualityControl: FAILED inspection sending back to Assembly
+[13:35:44] PipeManager: received from pipe #159 (Microwave | Rework) → requeued
+[13:35:44] PipeManager: sent via pipe #159 (Microwave | Rework)
+[13:35:45] Generated #161 (Vacuum Cleaner | New)
+[13:35:45] QualityControl: Inspecting #160 (Vacuum Cleaner | Tested)
+[13:35:45] QualityControl: Inspecting #160 (Vacuum Cleaner | Tested)
+[13:35:45] QualityControl: PASSED inspection
+[13:35:45] QualityControl: PASSED inspection
+[13:35:45] Generated #162 (Dishwasher | New)
+[13:35:45] QualityControl: Inspecting #161 (Vacuum Cleaner | Tested)
+[13:35:45] QualityControl: Inspecting #161 (Vacuum Cleaner | Tested)
+[13:35:45] QualityControl: PASSED inspection
+[13:35:45] QualityControl: PASSED inspection
+[13:35:46] Generated #163 (Vacuum Cleaner | New)
+[13:35:46] QualityControl: Inspecting #162 (Dishwasher | Tested)
+[13:35:46] QualityControl: Inspecting #162 (Dishwasher | Tested)
+[13:35:46] QualityControl: PASSED inspection
+[13:35:46] QualityControl: PASSED inspection
+[13:35:46] Generated #164 (Dishwasher | New)
+[13:35:46] QualityControl: Inspecting #163 (Vacuum Cleaner | Tested)
+[13:35:46] QualityControl: Inspecting #163 (Vacuum Cleaner | Tested)
+[13:35:46] QualityControl: PASSED inspection
+[13:35:46] QualityControl: PASSED inspection
+[13:35:47] Generated #165 (Dishwasher | New)
+[13:35:47] QualityControl: Inspecting #164 (Dishwasher | Tested)
+[13:35:47] QualityControl: Inspecting #164 (Dishwasher | Tested)
+[13:35:47] QualityControl: PASSED inspection
+[13:35:47] QualityControl: PASSED inspection
+[13:35:47] Generated #166 (Dishwasher | New)
+[13:35:47] QualityControl: Inspecting #165 (Dishwasher | Tested)
+[13:35:47] QualityControl: Inspecting #165 (Dishwasher | Tested)
+[13:35:47] QualityControl: FAILED inspection sending back to Assembly
+[13:35:47] QualityControl: FAILED inspection sending back to Assembly
+[13:35:47] PipeManager: received from pipe #165 (Dishwasher | Rework) → requeued
+[13:35:47] PipeManager: sent via pipe #165 (Dishwasher | Rework)
+[13:35:48] Generated #167 (Toaster | New)
+[13:35:48] QualityControl: Inspecting #166 (Dishwasher | Tested)
+[13:35:48] QualityControl: Inspecting #166 (Dishwasher | Tested)
+[13:35:48] QualityControl: FAILED inspection sending back to Assembly
+[13:35:48] QualityControl: FAILED inspection sending back to Assembly
+[13:35:48] PipeManager: received from pipe #166 (Dishwasher | Rework) → requeued
+[13:35:48] PipeManager: sent via pipe #166 (Dishwasher | Rework)
+[13:35:48] Generated #168 (Oven | New)
+[13:35:48] QualityControl: Inspecting #167 (Toaster | Tested)
+[13:35:48] QualityControl: Inspecting #167 (Toaster | Tested)
+[13:35:48] QualityControl: FAILED inspection sending back to Assembly
+[13:35:48] QualityControl: FAILED inspection sending back to Assembly
+[13:35:48] PipeManager: received from pipe #167 (Toaster | Rework) → requeued
+[13:35:48] PipeManager: sent via pipe #167 (Toaster | Rework)
+[13:35:49] Generated #169 (Air Conditioner | New)
+[13:35:49] QualityControl: Inspecting #168 (Oven | Tested)
+[13:35:49] QualityControl: Inspecting #168 (Oven | Tested)
+[13:35:49] QualityControl: PASSED inspection
+[13:35:49] QualityControl: PASSED inspection
+[13:35:49] Generated #170 (Washing Machine | New)
+[13:35:49] QualityControl: Inspecting #169 (Air Conditioner | Tested)
+[13:35:49] QualityControl: Inspecting #169 (Air Conditioner | Tested)
+[13:35:49] QualityControl: FAILED inspection sending back to Assembly
+[13:35:49] QualityControl: FAILED inspection sending back to Assembly
+[13:35:49] PipeManager: received from pipe #169 (Air Conditioner | Rework) → requeued
+[13:35:49] PipeManager: sent via pipe #169 (Air Conditioner | Rework)
+[13:35:50] Generated #171 (Toaster | New)
+[13:35:50] QualityControl: Inspecting #170 (Washing Machine | Tested)
+[13:35:50] QualityControl: Inspecting #170 (Washing Machine | Tested)
+[13:35:50] QualityControl: PASSED inspection
+[13:35:50] QualityControl: PASSED inspection
+[13:35:50] Generated #172 (Microwave | New)
+[13:35:50] QualityControl: Inspecting #171 (Toaster | Tested)
+[13:35:50] QualityControl: Inspecting #171 (Toaster | Tested)
+[13:35:50] QualityControl: PASSED inspection
+[13:35:50] QualityControl: PASSED inspection
+[13:35:51] Generated #173 (Toaster | New)
+[13:35:51] QualityControl: Inspecting #172 (Microwave | Tested)
+[13:35:51] QualityControl: Inspecting #172 (Microwave | Tested)
+[13:35:51] QualityControl: PASSED inspection
+[13:35:51] QualityControl: PASSED inspection
+[13:35:51] Generated #174 (Dishwasher | New)
+[13:35:51] QualityControl: Inspecting #173 (Toaster | Tested)
+[13:35:51] QualityControl: Inspecting #173 (Toaster | Tested)
+[13:35:51] QualityControl: FAILED inspection sending back to Assembly
+[13:35:51] QualityControl: FAILED inspection sending back to Assembly
+[13:35:51] PipeManager: received from pipe #173 (Toaster | Rework) → requeued
+[13:35:51] PipeManager: sent via pipe #173 (Toaster | Rework)
+[13:35:52] Generated #175 (Oven | New)
+[13:35:52] QualityControl: Inspecting #174 (Dishwasher | Tested)
+[13:35:52] QualityControl: Inspecting #174 (Dishwasher | Tested)
+[13:35:52] QualityControl: PASSED inspection
+[13:35:52] QualityControl: PASSED inspection
+[13:35:52] Generated #176 (Toaster | New)
+[13:35:52] QualityControl: Inspecting #175 (Oven | Tested)
+[13:35:52] QualityControl: Inspecting #175 (Oven | Tested)
+[13:35:52] QualityControl: PASSED inspection
+[13:35:52] QualityControl: PASSED inspection
+[13:35:53] Generated #177 (Dryer | New)
+[13:35:53] QualityControl: Inspecting #176 (Toaster | Tested)
+[13:35:53] QualityControl: Inspecting #176 (Toaster | Tested)
+[13:35:53] QualityControl: FAILED inspection sending back to Assembly
+[13:35:53] QualityControl: FAILED inspection sending back to Assembly
+[13:35:53] PipeManager: received from pipe #176 (Toaster | Rework) → requeued
+[13:35:53] PipeManager: sent via pipe #176 (Toaster | Rework)
+[13:35:53] Generated #178 (Blender | New)
+[13:35:53] QualityControl: Inspecting #177 (Dryer | Tested)
+[13:35:53] QualityControl: Inspecting #177 (Dryer | Tested)
+[13:35:53] QualityControl: PASSED inspection
+[13:35:53] QualityControl: PASSED inspection
+[13:35:54] Generated #179 (Toaster | New)
+[13:35:54] QualityControl: Inspecting #178 (Blender | Tested)
+[13:35:54] QualityControl: Inspecting #178 (Blender | Tested)
+[13:35:54] QualityControl: PASSED inspection
+[13:35:54] QualityControl: PASSED inspection
+[13:35:54] Generated #180 (Air Conditioner | New)
+[13:35:54] QualityControl: Inspecting #179 (Toaster | Tested)
+[13:35:54] QualityControl: Inspecting #179 (Toaster | Tested)
+[13:35:54] QualityControl: PASSED inspection
+[13:35:54] QualityControl: PASSED inspection
+[13:35:55] Generated #181 (Blender | New)
+[13:35:55] QualityControl: Inspecting #180 (Air Conditioner | Tested)
+[13:35:55] QualityControl: Inspecting #180 (Air Conditioner | Tested)
+[13:35:55] QualityControl: PASSED inspection
+[13:35:55] QualityControl: PASSED inspection
+[13:35:55] Generated #182 (Dryer | New)
+[13:35:55] QualityControl: Inspecting #181 (Blender | Tested)
+[13:35:55] QualityControl: Inspecting #181 (Blender | Tested)
+[13:35:55] QualityControl: PASSED inspection
+[13:35:55] QualityControl: PASSED inspection
+[13:35:56] Generated #183 (Vacuum Cleaner | New)
+[13:35:56] QualityControl: Inspecting #182 (Dryer | Tested)
+[13:35:56] QualityControl: Inspecting #182 (Dryer | Tested)
+[13:35:56] QualityControl: PASSED inspection
+[13:35:56] QualityControl: PASSED inspection
+[13:35:56] Generated #184 (Blender | New)
+[13:35:56] QualityControl: Inspecting #183 (Vacuum Cleaner | Tested)
+[13:35:56] QualityControl: Inspecting #183 (Vacuum Cleaner | Tested)
+[13:35:57] QualityControl: PASSED inspection
+[13:35:57] QualityControl: PASSED inspection
+[13:35:57] Generated #185 (Microwave | New)
+[13:35:57] QualityControl: Inspecting #184 (Blender | Tested)
+[13:35:57] QualityControl: Inspecting #184 (Blender | Tested)
+[13:35:57] QualityControl: PASSED inspection
+[13:35:57] QualityControl: PASSED inspection
+[13:35:57] Generated #186 (Blender | New)
+[13:35:57] QualityControl: Inspecting #185 (Microwave | Tested)
+[13:35:57] QualityControl: Inspecting #185 (Microwave | Tested)
+[13:35:58] QualityControl: PASSED inspection
+[13:35:58] QualityControl: PASSED inspection
+[13:35:58] Generated #187 (Toaster | New)
+[13:35:58] QualityControl: Inspecting #186 (Blender | Tested)
+[13:35:58] QualityControl: Inspecting #186 (Blender | Tested)
+[13:35:58] QualityControl: PASSED inspection
+[13:35:58] QualityControl: PASSED inspection
+[13:35:58] Generated #188 (Dryer | New)
+[13:35:58] QualityControl: Inspecting #187 (Toaster | Tested)
+[13:35:58] QualityControl: Inspecting #187 (Toaster | Tested)
+[13:35:59] QualityControl: FAILED inspection sending back to Assembly
+[13:35:59] QualityControl: FAILED inspection sending back to Assembly
+[13:35:59] PipeManager: received from pipe #187 (Toaster | Rework) → requeued
+[13:35:59] PipeManager: sent via pipe #187 (Toaster | Rework)
+[13:35:59] Generated #189 (Dishwasher | New)
+[13:35:59] QualityControl: Inspecting #188 (Dryer | Tested)
+[13:35:59] QualityControl: Inspecting #188 (Dryer | Tested)
+[13:35:59] QualityControl: PASSED inspection
+[13:35:59] QualityControl: PASSED inspection
+[13:35:59] Generated #190 (Toaster | New)
+[13:35:59] QualityControl: Inspecting #189 (Dishwasher | Tested)
+[13:35:59] QualityControl: Inspecting #189 (Dishwasher | Tested)
+[13:36:00] QualityControl: PASSED inspection
+[13:36:00] QualityControl: PASSED inspection
+[13:36:00] Generated #191 (Refrigerator | New)
+[13:36:00] QualityControl: Inspecting #190 (Toaster | Tested)
+[13:36:00] QualityControl: Inspecting #190 (Toaster | Tested)
+[13:36:00] QualityControl: PASSED inspection
+[13:36:00] QualityControl: PASSED inspection
+[13:36:00] Generated #192 (Dryer | New)
+[13:36:00] QualityControl: Inspecting #191 (Refrigerator | Tested)
+[13:36:00] QualityControl: Inspecting #191 (Refrigerator | Tested)
+[13:36:01] QualityControl: PASSED inspection
+[13:36:01] QualityControl: PASSED inspection
+[13:36:01] Generated #193 (Blender | New)
+[13:36:01] QualityControl: Inspecting #192 (Dryer | Tested)
+[13:36:01] QualityControl: Inspecting #192 (Dryer | Tested)
+[13:36:01] QualityControl: PASSED inspection
+[13:36:01] QualityControl: PASSED inspection
+[13:36:01] Generated #194 (Toaster | New)
+[13:36:01] QualityControl: Inspecting #193 (Blender | Tested)
+[13:36:01] QualityControl: Inspecting #193 (Blender | Tested)
+[13:36:02] QualityControl: PASSED inspection
+[13:36:02] QualityControl: PASSED inspection
+[13:36:02] Generated #195 (Toaster | New)
+[13:36:02] QualityControl: Inspecting #194 (Toaster | Tested)
+[13:36:02] QualityControl: Inspecting #194 (Toaster | Tested)
+[13:36:02] QualityControl: PASSED inspection
+[13:36:02] QualityControl: PASSED inspection
+[13:36:02] Generated #196 (Oven | New)
+[13:36:02] QualityControl: Inspecting #195 (Toaster | Tested)
+[13:36:02] QualityControl: Inspecting #195 (Toaster | Tested)
+[13:36:03] QualityControl: PASSED inspection
+[13:36:03] QualityControl: PASSED inspection
+[13:36:03] Generated #197 (Dishwasher | New)
+[13:36:03] QualityControl: Inspecting #196 (Oven | Tested)
+[13:36:03] QualityControl: Inspecting #196 (Oven | Tested)
+[13:36:03] QualityControl: PASSED inspection
+[13:36:03] QualityControl: PASSED inspection
+[13:36:03] Generated #198 (Refrigerator | New)
+[13:36:03] QualityControl: Inspecting #197 (Dishwasher | Tested)
+[13:36:03] QualityControl: Inspecting #197 (Dishwasher | Tested)
+[13:36:04] QualityControl: PASSED inspection
+[13:36:04] QualityControl: PASSED inspection
+[13:36:04] Generated #199 (Air Conditioner | New)
+[13:36:04] QualityControl: Inspecting #198 (Refrigerator | Tested)
+[13:36:04] QualityControl: Inspecting #198 (Refrigerator | Tested)
+[13:36:04] QualityControl: PASSED inspection
+[13:36:04] QualityControl: PASSED inspection
+[13:36:04] Generated #200 (Air Conditioner | New)
+[13:36:04] QualityControl: Inspecting #199 (Air Conditioner | Tested)
+[13:36:04] QualityControl: Inspecting #199 (Air Conditioner | Tested)
+[13:36:05] QualityControl: FAILED inspection sending back to Assembly
+[13:36:05] QualityControl: FAILED inspection sending back to Assembly
+[13:36:05] PipeManager: received from pipe #199 (Air Conditioner | Rework) → requeued
+[13:36:05] PipeManager: sent via pipe #199 (Air Conditioner | Rework)
+[13:36:05] Generated #201 (Oven | New)
+[13:36:05] QualityControl: Inspecting #200 (Air Conditioner | Tested)
+[13:36:05] QualityControl: Inspecting #200 (Air Conditioner | Tested)
+[13:36:05] QualityControl: FAILED inspection sending back to Assembly
+[13:36:05] QualityControl: FAILED inspection sending back to Assembly
+[13:36:05] PipeManager: received from pipe #200 (Air Conditioner | Rework) → requeued
+[13:36:05] PipeManager: sent via pipe #200 (Air Conditioner | Rework)
+[13:36:05] Generated #202 (Toaster | New)
+[13:36:05] QualityControl: Inspecting #201 (Oven | Tested)
+[13:36:05] QualityControl: Inspecting #201 (Oven | Tested)
+[13:36:06] QualityControl: PASSED inspection
+[13:36:06] QualityControl: PASSED inspection
+[13:36:06] Generated #203 (Blender | New)
+[13:36:06] QualityControl: Inspecting #202 (Toaster | Tested)
+[13:36:06] QualityControl: Inspecting #202 (Toaster | Tested)
+[13:36:06] QualityControl: PASSED inspection
+[13:36:06] QualityControl: PASSED inspection
+[13:36:06] Generated #204 (Oven | New)
+[13:36:06] QualityControl: Inspecting #203 (Blender | Tested)
+[13:36:06] QualityControl: Inspecting #203 (Blender | Tested)
+[13:36:07] QualityControl: PASSED inspection
+[13:36:07] QualityControl: PASSED inspection
+[13:36:07] Generated #205 (Blender | New)
+[13:36:07] QualityControl: Inspecting #204 (Oven | Tested)
+[13:36:07] QualityControl: Inspecting #204 (Oven | Tested)
+[13:36:07] QualityControl: PASSED inspection
+[13:36:07] QualityControl: PASSED inspection
+[13:36:07] Generated #206 (Washing Machine | New)
+[13:36:07] QualityControl: Inspecting #205 (Blender | Tested)
+[13:36:07] QualityControl: Inspecting #205 (Blender | Tested)
+[13:36:08] QualityControl: FAILED inspection sending back to Assembly
+[13:36:08] QualityControl: FAILED inspection sending back to Assembly
+[13:36:08] PipeManager: received from pipe #205 (Blender | Rework) → requeued
+[13:36:08] PipeManager: sent via pipe #205 (Blender | Rework)
+[13:36:08] Generated #207 (Refrigerator | New)
+[13:36:08] QualityControl: Inspecting #206 (Washing Machine | Tested)
+[13:36:08] QualityControl: Inspecting #206 (Washing Machine | Tested)
+[13:36:08] QualityControl: PASSED inspection
+[13:36:08] QualityControl: PASSED inspection
+[13:36:08] Generated #208 (Washing Machine | New)
+[13:36:08] QualityControl: Inspecting #207 (Refrigerator | Tested)
+[13:36:08] QualityControl: Inspecting #207 (Refrigerator | Tested)
+[13:36:09] QualityControl: PASSED inspection
+[13:36:09] QualityControl: PASSED inspection
+[13:36:09] Generated #209 (Air Conditioner | New)
+[13:36:09] QualityControl: Inspecting #208 (Washing Machine | Tested)
+[13:36:09] QualityControl: Inspecting #208 (Washing Machine | Tested)
+[13:36:09] QualityControl: PASSED inspection
+[13:36:09] QualityControl: PASSED inspection
+[13:36:09] Generated #210 (Refrigerator | New)
+[13:36:09] QualityControl: Inspecting #209 (Air Conditioner | Tested)
+[13:36:09] QualityControl: Inspecting #209 (Air Conditioner | Tested)
+[13:36:10] QualityControl: PASSED inspection
+[13:36:10] QualityControl: PASSED inspection
+[13:36:10] Generated #211 (Microwave | New)
+[13:36:10] QualityControl: Inspecting #210 (Refrigerator | Tested)
+[13:36:10] QualityControl: Inspecting #210 (Refrigerator | Tested)
+[13:36:10] QualityControl: PASSED inspection
+[13:36:10] QualityControl: PASSED inspection
+[13:36:10] Generated #212 (Washing Machine | New)
+[13:36:10] QualityControl: Inspecting #211 (Microwave | Tested)
+[13:36:10] QualityControl: Inspecting #211 (Microwave | Tested)
+[13:36:11] QualityControl: PASSED inspection
+[13:36:11] QualityControl: PASSED inspection
+[13:36:11] Generated #213 (Refrigerator | New)
+[13:36:11] QualityControl: Inspecting #212 (Washing Machine | Tested)
+[13:36:11] QualityControl: Inspecting #212 (Washing Machine | Tested)
+[13:36:11] QualityControl: FAILED inspection sending back to Assembly
+[13:36:11] QualityControl: FAILED inspection sending back to Assembly
+[13:36:11] PipeManager: received from pipe #212 (Washing Machine | Rework) → requeued
+[13:36:11] PipeManager: sent via pipe #212 (Washing Machine | Rework)
+[13:36:11] Generated #214 (Oven | New)
+[13:36:11] QualityControl: Inspecting #213 (Refrigerator | Tested)
+[13:36:11] QualityControl: Inspecting #213 (Refrigerator | Tested)
+[13:36:12] QualityControl: PASSED inspection
+[13:36:12] QualityControl: PASSED inspection
+[13:36:12] Generated #215 (Washing Machine | New)
+[13:36:12] QualityControl: Inspecting #214 (Oven | Tested)
+[13:36:12] QualityControl: Inspecting #214 (Oven | Tested)
+[13:36:12] QualityControl: PASSED inspection
+[13:36:12] QualityControl: PASSED inspection
+[13:36:12] Generated #216 (Toaster | New)
+[13:36:12] QualityControl: Inspecting #215 (Washing Machine | Tested)
+[13:36:12] QualityControl: Inspecting #215 (Washing Machine | Tested)
+[13:36:13] QualityControl: PASSED inspection
+[13:36:13] QualityControl: PASSED inspection
+[13:36:13] Generated #217 (Blender | New)
+[13:36:13] QualityControl: Inspecting #216 (Toaster | Tested)
+[13:36:13] QualityControl: Inspecting #216 (Toaster | Tested)
+[13:36:13] QualityControl: PASSED inspection
+[13:36:13] QualityControl: PASSED inspection
+[13:36:13] Generated #218 (Vacuum Cleaner | New)
+[13:36:13] QualityControl: Inspecting #217 (Blender | Tested)
+[13:36:13] QualityControl: Inspecting #217 (Blender | Tested)
+[13:36:14] QualityControl: PASSED inspection
+[13:36:14] QualityControl: PASSED inspection
+[13:36:14] Generated #219 (Dryer | New)
+[13:36:14] QualityControl: Inspecting #218 (Vacuum Cleaner | Tested)
+[13:36:14] QualityControl: Inspecting #218 (Vacuum Cleaner | Tested)
+[13:36:14] QualityControl: PASSED inspection
+[13:36:14] QualityControl: PASSED inspection
+[13:36:14] Generated #220 (Oven | New)
+[13:36:14] QualityControl: Inspecting #219 (Dryer | Tested)
+[13:36:14] QualityControl: Inspecting #219 (Dryer | Tested)
+[13:36:15] QualityControl: FAILED inspection sending back to Assembly
+[13:36:15] QualityControl: FAILED inspection sending back to Assembly
+[13:36:15] PipeManager: received from pipe #219 (Dryer | Rework) → requeued
+[13:36:15] PipeManager: sent via pipe #219 (Dryer | Rework)
+[13:36:15] Generated #221 (Refrigerator | New)
+[13:36:15] QualityControl: Inspecting #220 (Oven | Tested)
+[13:36:15] QualityControl: Inspecting #220 (Oven | Tested)
+[13:36:15] QualityControl: PASSED inspection
+[13:36:15] QualityControl: PASSED inspection
+[13:36:15] Generated #222 (Blender | New)
+[13:36:15] QualityControl: Inspecting #221 (Refrigerator | Tested)
+[13:36:15] QualityControl: Inspecting #221 (Refrigerator | Tested)
+[13:36:16] QualityControl: FAILED inspection sending back to Assembly
+[13:36:16] QualityControl: FAILED inspection sending back to Assembly
+[13:36:16] PipeManager: received from pipe #221 (Refrigerator | Rework) → requeued
+[13:36:16] PipeManager: sent via pipe #221 (Refrigerator | Rework)
+[13:36:16] Generated #223 (Vacuum Cleaner | New)
+[13:36:16] QualityControl: Inspecting #222 (Blender | Tested)
+[13:36:16] QualityControl: Inspecting #222 (Blender | Tested)
+[13:36:16] QualityControl: PASSED inspection
+[13:36:16] QualityControl: PASSED inspection
+[13:36:16] Generated #224 (Blender | New)
+[13:36:16] QualityControl: Inspecting #223 (Vacuum Cleaner | Tested)
+[13:36:16] QualityControl: Inspecting #223 (Vacuum Cleaner | Tested)
+[13:36:17] QualityControl: FAILED inspection sending back to Assembly
+[13:36:17] QualityControl: FAILED inspection sending back to Assembly
+[13:36:17] PipeManager: received from pipe #223 (Vacuum Cleaner | Rework) → requeued
+[13:36:17] PipeManager: sent via pipe #223 (Vacuum Cleaner | Rework)
+[13:36:17] Generated #225 (Vacuum Cleaner | New)
+[13:36:17] QualityControl: Inspecting #224 (Blender | Tested)
+[13:36:17] QualityControl: Inspecting #224 (Blender | Tested)
+[13:36:17] QualityControl: PASSED inspection
+[13:36:17] QualityControl: PASSED inspection
+[13:36:17] Generated #226 (Oven | New)
+[13:36:17] QualityControl: Inspecting #225 (Vacuum Cleaner | Tested)
+[13:36:17] QualityControl: Inspecting #225 (Vacuum Cleaner | Tested)
+[13:36:18] QualityControl: PASSED inspection
+[13:36:18] QualityControl: PASSED inspection
+[13:36:18] Generated #227 (Toaster | New)
+[13:36:18] QualityControl: Inspecting #226 (Oven | Tested)
+[13:36:18] QualityControl: Inspecting #226 (Oven | Tested)
+[13:36:18] QualityControl: PASSED inspection
+[13:36:18] QualityControl: PASSED inspection
+[13:36:18] Generated #228 (Washing Machine | New)
+[13:36:18] QualityControl: Inspecting #227 (Toaster | Tested)
+[13:36:18] QualityControl: Inspecting #227 (Toaster | Tested)
+[13:36:19] QualityControl: FAILED inspection sending back to Assembly
+[13:36:19] QualityControl: FAILED inspection sending back to Assembly
+[13:36:19] PipeManager: received from pipe #227 (Toaster | Rework) → requeued
+[13:36:19] PipeManager: sent via pipe #227 (Toaster | Rework)
+[13:36:19] Generated #229 (Dishwasher | New)
+[13:36:19] QualityControl: Inspecting #228 (Washing Machine | Tested)
+[13:36:19] QualityControl: Inspecting #228 (Washing Machine | Tested)
+[13:36:19] QualityControl: PASSED inspection
+[13:36:19] QualityControl: PASSED inspection
+[13:36:19] Generated #230 (Washing Machine | New)
+[13:36:19] QualityControl: Inspecting #229 (Dishwasher | Tested)
+[13:36:19] QualityControl: Inspecting #229 (Dishwasher | Tested)
+[13:36:20] QualityControl: PASSED inspection
+[13:36:20] QualityControl: PASSED inspection
+[13:36:20] Generated #231 (Oven | New)
+[13:36:20] QualityControl: Inspecting #230 (Washing Machine | Tested)
+[13:36:20] QualityControl: Inspecting #230 (Washing Machine | Tested)
+[13:36:20] QualityControl: FAILED inspection sending back to Assembly
+[13:36:20] QualityControl: FAILED inspection sending back to Assembly
+[13:36:20] PipeManager: sent via pipe #230 (Washing Machine | Rework)
+[13:36:20] PipeManager: received from pipe #230 (Washing Machine | Rework) → requeued
+[13:36:20] Generated #232 (Microwave | New)
+[13:36:20] QualityControl: Inspecting #231 (Oven | Tested)
+[13:36:20] QualityControl: Inspecting #231 (Oven | Tested)
+[13:36:21] QualityControl: PASSED inspection
+[13:36:21] QualityControl: PASSED inspection
+[13:36:21] Generated #233 (Washing Machine | New)
+[13:36:21] QualityControl: Inspecting #232 (Microwave | Tested)
+[13:36:21] QualityControl: Inspecting #232 (Microwave | Tested)
+[13:36:21] QualityControl: PASSED inspection
+[13:36:21] QualityControl: PASSED inspection
+[13:36:21] Generated #234 (Washing Machine | New)
+[13:36:21] QualityControl: Inspecting #233 (Washing Machine | Tested)
+[13:36:21] QualityControl: Inspecting #233 (Washing Machine | Tested)
+[13:36:22] QualityControl: FAILED inspection sending back to Assembly
+[13:36:22] QualityControl: FAILED inspection sending back to Assembly
+[13:36:22] PipeManager: received from pipe #233 (Washing Machine | Rework) → requeued
+[13:36:22] PipeManager: sent via pipe #233 (Washing Machine | Rework)
+[13:36:22] Generated #235 (Vacuum Cleaner | New)
+[13:36:22] QualityControl: Inspecting #234 (Washing Machine | Tested)
+[13:36:22] QualityControl: Inspecting #234 (Washing Machine | Tested)
+[13:36:22] QualityControl: PASSED inspection
+[13:36:22] QualityControl: PASSED inspection
+[13:36:22] Generated #236 (Washing Machine | New)
+[13:36:22] QualityControl: Inspecting #235 (Vacuum Cleaner | Tested)
+[13:36:22] QualityControl: Inspecting #235 (Vacuum Cleaner | Tested)
+[13:36:23] QualityControl: PASSED inspection
+[13:36:23] QualityControl: PASSED inspection
+[13:36:23] Generated #237 (Dishwasher | New)
+[13:36:23] QualityControl: Inspecting #236 (Washing Machine | Tested)
+[13:36:23] QualityControl: Inspecting #236 (Washing Machine | Tested)
+[13:36:23] QualityControl: PASSED inspection
+[13:36:23] QualityControl: PASSED inspection
+[13:36:23] Generated #238 (Toaster | New)
+[13:36:23] QualityControl: Inspecting #237 (Dishwasher | Tested)
+[13:36:23] QualityControl: Inspecting #237 (Dishwasher | Tested)
+[13:36:24] QualityControl: PASSED inspection
+[13:36:24] QualityControl: PASSED inspection
+[13:36:24] Generated #239 (Oven | New)
+[13:36:24] QualityControl: Inspecting #238 (Toaster | Tested)
+[13:36:24] QualityControl: Inspecting #238 (Toaster | Tested)
+[13:36:24] QualityControl: PASSED inspection
+[13:36:24] QualityControl: PASSED inspection
+[13:36:24] Generated #240 (Washing Machine | New)
+[13:36:24] QualityControl: Inspecting #239 (Oven | Tested)
+[13:36:24] QualityControl: Inspecting #239 (Oven | Tested)
+[13:36:25] QualityControl: PASSED inspection
+[13:36:25] QualityControl: PASSED inspection
+[13:36:25] Generated #241 (Dishwasher | New)
+[13:36:25] QualityControl: Inspecting #240 (Washing Machine | Tested)
+[13:36:25] QualityControl: Inspecting #240 (Washing Machine | Tested)
+[13:36:25] QualityControl: PASSED inspection
+[13:36:25] QualityControl: PASSED inspection
+[13:36:25] Generated #242 (Air Conditioner | New)
+[13:36:25] QualityControl: Inspecting #241 (Dishwasher | Tested)
+[13:36:25] QualityControl: Inspecting #241 (Dishwasher | Tested)
+[13:36:26] QualityControl: PASSED inspection
+[13:36:26] QualityControl: PASSED inspection
+[13:36:26] Generated #243 (Toaster | New)
+[13:36:26] QualityControl: Inspecting #242 (Air Conditioner | Tested)
+[13:36:26] QualityControl: Inspecting #242 (Air Conditioner | Tested)
+[13:36:26] QualityControl: PASSED inspection
+[13:36:26] QualityControl: PASSED inspection
+[13:36:26] Generated #244 (Air Conditioner | New)
+[13:36:26] QualityControl: Inspecting #243 (Toaster | Tested)
+[13:36:26] QualityControl: Inspecting #243 (Toaster | Tested)
+[13:36:27] QualityControl: FAILED inspection sending back to Assembly
+[13:36:27] QualityControl: FAILED inspection sending back to Assembly
+[13:36:27] PipeManager: received from pipe #243 (Toaster | Rework) → requeued
+[13:36:27] PipeManager: sent via pipe #243 (Toaster | Rework)
+[13:36:27] Generated #245 (Vacuum Cleaner | New)
+[13:36:27] QualityControl: Inspecting #244 (Air Conditioner | Tested)
+[13:36:27] QualityControl: Inspecting #244 (Air Conditioner | Tested)
+[13:36:27] QualityControl: PASSED inspection
+[13:36:27] QualityControl: PASSED inspection
+[13:36:27] Generated #246 (Microwave | New)
+[13:36:27] QualityControl: Inspecting #245 (Vacuum Cleaner | Tested)
+[13:36:27] QualityControl: Inspecting #245 (Vacuum Cleaner | Tested)
+[13:36:28] QualityControl: PASSED inspection
+[13:36:28] QualityControl: PASSED inspection
+[13:36:28] Generated #247 (Oven | New)
+[13:36:28] QualityControl: Inspecting #246 (Microwave | Tested)
+[13:36:28] QualityControl: Inspecting #246 (Microwave | Tested)
+[13:36:28] QualityControl: PASSED inspection
+[13:36:28] QualityControl: PASSED inspection
+[13:36:28] Generated #248 (Air Conditioner | New)
+[13:36:28] QualityControl: Inspecting #247 (Oven | Tested)
+[13:36:28] QualityControl: Inspecting #247 (Oven | Tested)
+[13:36:29] QualityControl: FAILED inspection sending back to Assembly
+[13:36:29] QualityControl: FAILED inspection sending back to Assembly
+[13:36:29] PipeManager: received from pipe #247 (Oven | Rework) → requeued
+[13:36:29] PipeManager: sent via pipe #247 (Oven | Rework)
+[13:36:29] Generated #249 (Refrigerator | New)
+[13:36:29] QualityControl: Inspecting #248 (Air Conditioner | Tested)
+[13:36:29] QualityControl: Inspecting #248 (Air Conditioner | Tested)
+[13:36:29] QualityControl: PASSED inspection
+[13:36:29] QualityControl: PASSED inspection
+[13:36:29] Generated #250 (Dryer | New)
+[13:36:29] QualityControl: Inspecting #249 (Refrigerator | Tested)
+[13:36:29] QualityControl: Inspecting #249 (Refrigerator | Tested)
+[13:36:30] QualityControl: PASSED inspection
+[13:36:30] QualityControl: PASSED inspection
+[13:36:30] Generated #251 (Vacuum Cleaner | New)
+[13:36:30] QualityControl: Inspecting #250 (Dryer | Tested)
+[13:36:30] QualityControl: Inspecting #250 (Dryer | Tested)
+[13:36:30] QualityControl: FAILED inspection sending back to Assembly
+[13:36:30] QualityControl: FAILED inspection sending back to Assembly
+[13:36:30] PipeManager: received from pipe #250 (Dryer | Rework) → requeued
+[13:36:30] PipeManager: sent via pipe #250 (Dryer | Rework)
+[13:36:30] Generated #252 (Dryer | New)
+[13:36:30] QualityControl: Inspecting #251 (Vacuum Cleaner | Tested)
+[13:36:30] QualityControl: Inspecting #251 (Vacuum Cleaner | Tested)
+[13:36:31] QualityControl: PASSED inspection
+[13:36:31] QualityControl: PASSED inspection
+[13:36:31] Generated #253 (Blender | New)
+[13:36:31] QualityControl: Inspecting #252 (Dryer | Tested)
+[13:36:31] QualityControl: Inspecting #252 (Dryer | Tested)
+[13:36:31] QualityControl: PASSED inspection
+[13:36:31] QualityControl: PASSED inspection
+[13:36:31] Generated #254 (Vacuum Cleaner | New)
+[13:36:31] QualityControl: Inspecting #253 (Blender | Tested)
+[13:36:31] QualityControl: Inspecting #253 (Blender | Tested)
+[13:36:32] QualityControl: PASSED inspection
+[13:36:32] QualityControl: PASSED inspection
+[13:36:32] Generated #255 (Oven | New)
+[13:36:32] QualityControl: Inspecting #254 (Vacuum Cleaner | Tested)
+[13:36:32] QualityControl: Inspecting #254 (Vacuum Cleaner | Tested)
+[13:36:32] QualityControl: PASSED inspection
+[13:36:32] QualityControl: PASSED inspection
+[13:36:32] Generated #256 (Dishwasher | New)
+[13:36:32] QualityControl: Inspecting #255 (Oven | Tested)
+[13:36:32] QualityControl: Inspecting #255 (Oven | Tested)
+[13:36:33] QualityControl: PASSED inspection
+[13:36:33] QualityControl: PASSED inspection
+[13:36:33] Generated #257 (Blender | New)
+[13:36:33] QualityControl: Inspecting #256 (Dishwasher | Tested)
+[13:36:33] QualityControl: Inspecting #256 (Dishwasher | Tested)
+[13:36:33] QualityControl: PASSED inspection
+[13:36:33] QualityControl: PASSED inspection
+[13:36:33] Generated #258 (Microwave | New)
+[13:36:33] QualityControl: Inspecting #257 (Blender | Tested)
+[13:36:33] QualityControl: Inspecting #257 (Blender | Tested)
+[13:36:34] QualityControl: PASSED inspection
+[13:36:34] QualityControl: PASSED inspection
+[13:36:34] Generated #259 (Washing Machine | New)
+[13:36:34] QualityControl: Inspecting #258 (Microwave | Tested)
+[13:36:34] QualityControl: Inspecting #258 (Microwave | Tested)
+[13:36:34] QualityControl: PASSED inspection
+[13:36:34] QualityControl: PASSED inspection
+[13:36:34] Generated #260 (Dishwasher | New)
+[13:36:34] QualityControl: Inspecting #259 (Washing Machine | Tested)
+[13:36:34] QualityControl: Inspecting #259 (Washing Machine | Tested)
+[13:36:35] QualityControl: PASSED inspection
+[13:36:35] QualityControl: PASSED inspection
+[13:36:35] Generated #261 (Blender | New)
+[13:36:35] QualityControl: Inspecting #260 (Dishwasher | Tested)
+[13:36:35] QualityControl: Inspecting #260 (Dishwasher | Tested)
+[13:36:35] QualityControl: PASSED inspection
+[13:36:35] QualityControl: PASSED inspection
+[13:36:35] Generated #262 (Dishwasher | New)
+[13:36:35] QualityControl: Inspecting #261 (Blender | Tested)
+[13:36:35] QualityControl: Inspecting #261 (Blender | Tested)
+[13:36:36] QualityControl: PASSED inspection
+[13:36:36] QualityControl: PASSED inspection
+[13:36:36] Generated #263 (Microwave | New)
+[13:36:36] QualityControl: Inspecting #262 (Dishwasher | Tested)
+[13:36:36] QualityControl: Inspecting #262 (Dishwasher | Tested)
+[13:36:36] QualityControl: FAILED inspection sending back to Assembly
+[13:36:36] QualityControl: FAILED inspection sending back to Assembly
+[13:36:36] PipeManager: received from pipe #262 (Dishwasher | Rework) → requeued
+[13:36:36] PipeManager: sent via pipe #262 (Dishwasher | Rework)
+[13:36:36] Generated #264 (Air Conditioner | New)
+[13:36:36] QualityControl: Inspecting #263 (Microwave | Tested)
+[13:36:36] QualityControl: Inspecting #263 (Microwave | Tested)
+[13:36:37] QualityControl: PASSED inspection
+[13:36:37] QualityControl: PASSED inspection
+[13:36:37] Generated #265 (Refrigerator | New)
+[13:36:37] QualityControl: Inspecting #264 (Air Conditioner | Tested)
+[13:36:37] QualityControl: Inspecting #264 (Air Conditioner | Tested)
+[13:36:37] QualityControl: PASSED inspection
+[13:36:37] QualityControl: PASSED inspection
+[13:36:37] Generated #266 (Toaster | New)
+[13:36:37] QualityControl: Inspecting #265 (Refrigerator | Tested)
+[13:36:37] QualityControl: Inspecting #265 (Refrigerator | Tested)
+[13:36:38] QualityControl: PASSED inspection
+[13:36:38] QualityControl: PASSED inspection
+[13:36:38] Generated #267 (Dryer | New)
+[13:36:38] QualityControl: Inspecting #266 (Toaster | Tested)
+[13:36:38] QualityControl: Inspecting #266 (Toaster | Tested)
+[13:36:38] QualityControl: PASSED inspection
+[13:36:38] QualityControl: PASSED inspection
+[13:36:38] Generated #268 (Dishwasher | New)
+[13:36:38] QualityControl: Inspecting #267 (Dryer | Tested)
+[13:36:38] QualityControl: Inspecting #267 (Dryer | Tested)
+[13:36:39] QualityControl: PASSED inspection
+[13:36:39] QualityControl: PASSED inspection
+[13:36:39] Generated #269 (Oven | New)
+[13:36:39] QualityControl: Inspecting #268 (Dishwasher | Tested)
+[13:36:39] QualityControl: Inspecting #268 (Dishwasher | Tested)
+[13:36:39] QualityControl: PASSED inspection
+[13:36:39] QualityControl: PASSED inspection
+[13:36:39] Generated #270 (Refrigerator | New)
+[13:36:39] QualityControl: Inspecting #269 (Oven | Tested)
+[13:36:39] QualityControl: Inspecting #269 (Oven | Tested)
+[13:36:40] QualityControl: PASSED inspection
+[13:36:40] QualityControl: PASSED inspection
+[13:36:40] Generated #271 (Air Conditioner | New)
+[13:36:40] QualityControl: Inspecting #270 (Refrigerator | Tested)
+[13:36:40] QualityControl: Inspecting #270 (Refrigerator | Tested)
+[13:36:40] QualityControl: PASSED inspection
+[13:36:40] QualityControl: PASSED inspection
+[13:36:40] Generated #272 (Dryer | New)
+[13:36:40] QualityControl: Inspecting #271 (Air Conditioner | Tested)
+[13:36:40] QualityControl: Inspecting #271 (Air Conditioner | Tested)
+[13:36:41] QualityControl: PASSED inspection
+[13:36:41] QualityControl: PASSED inspection
+[13:36:41] Generated #273 (Refrigerator | New)
+[13:36:41] QualityControl: Inspecting #272 (Dryer | Tested)
+[13:36:41] QualityControl: Inspecting #272 (Dryer | Tested)
+[13:36:41] ProductionLine: pause()
+[13:36:41] ProductionLine: pause()
+[13:36:41] Assembler-1: pause()
+[13:36:41] Assembler-1: pause()
+[13:36:41] Assembler-2: pause()
+[13:36:41] Assembler-2: pause()
+[13:36:41] Tester: pause()
+[13:36:41] Tester: pause()
+[13:36:41] QualityControl: pause()
+[13:36:41] QualityControl: pause()
+[13:36:41] Packer: pause()
+[13:36:41] Packer: pause()
+[13:36:41] Shipping: pause()
+[13:36:41] Shipping: pause()
+[13:36:41] Controller: pause()
+[13:36:41] QualityControl: PASSED inspection
+[13:36:41] QualityControl: PASSED inspection
+[13:36:41] Generated #274 (Vacuum Cleaner | New)
+[13:36:42] Generated #275 (Blender | New)
+[13:36:43] ProductionLine: stop()
+[13:36:43] ProductionLine: stop()
+[13:36:43] Assembler-1: stop()
+[13:36:43] Assembler-1: stop()
+[13:36:43] Assembler-2: stop()
+[13:36:43] Assembler-2: stop()
+[13:36:43] Tester: stop()
+[13:36:43] Tester: stop()
+[13:36:43] QualityControl: stop()
+[13:36:43] QualityControl: stop()
+[13:36:43] Packer: stop()
+[13:36:43] Packer: stop()
+[13:36:43] Shipping: stop()
+[13:36:43] Shipping: stop()
+[13:36:43] Controller: stop()
+[13:36:43] Assembler-1 loop finished
+[13:36:43] Assembler-1 loop finished
+[13:36:43] Assembler-2 loop finished
+[13:36:43] Assembler-2 loop finished
+[13:36:43] Tester loop finished
+[13:36:43] Tester loop finished
+[13:36:43] QualityControl loop finished
+[13:36:43] QualityControl loop finished
+[13:36:43] Packer loop finished
+[13:36:43] Packer loop finished
+[13:36:43] Shipping loop finished
+[13:36:43] Shipping loop finished
+[13:36:45] ProductionLine: start()
+[13:36:45] ProductionLine: start()
+[13:36:45] Assembler-1: resume()
+[13:36:45] Assembler-1: resume()
+[13:36:45] Assembler-2: resume()
+[13:36:45] Assembler-2: resume()
+[13:36:45] Tester: resume()
+[13:36:45] Tester: resume()
+[13:36:45] QualityControl: resume()
+[13:36:45] QualityControl: resume()
+[13:36:45] Packer: resume()
+[13:36:45] Packer: resume()
+[13:36:45] Shipping: resume()
+[13:36:45] Shipping: resume()
+[13:36:45] Generated #276 (Air Conditioner | New)
+[13:36:45] Controller: start()
+[13:41:48] ProductionLine: start()
+[13:41:48] ProductionLine: start()
+[13:41:48] Assembler-1: start()
+[13:41:48] Assembler-1: start()
+[13:41:48] Assembler-2: start()
+[13:41:48] Assembler-2: start()
+[13:41:48] Tester: start()
+[13:41:48] Tester: start()
+[13:41:48] QualityControl: start()
+[13:41:48] QualityControl: start()
+[13:41:48] Packer: start()
+[13:41:48] Packer: start()
+[13:41:48] Shipping: start()
+[13:41:48] Shipping: start()
+[13:41:48] Generated #1 (Toaster | New)
+[13:41:48] Controller: start()
+[13:41:48] Assembler-1 runLoop started
+[13:41:48] Assembler-1 runLoop started
+[13:41:48] Assembler-2 runLoop started
+[13:41:48] Assembler-2 runLoop started
+[13:41:48] Tester runLoop started
+[13:41:48] Tester runLoop started
+[13:41:48] QualityControl runLoop started
+[13:41:48] QualityControl runLoop started
+[13:41:48] Packer runLoop started
+[13:41:48] Packer runLoop started
+[13:41:48] Shipping runLoop started
+[13:41:48] Shipping runLoop started
+[13:41:48] Generated #2 (Refrigerator | New)
+[13:41:49] QualityControl: Inspecting #1 (Toaster | Tested)
+[13:41:49] QualityControl: Inspecting #1 (Toaster | Tested)
+[13:41:49] QualityControl: PASSED inspection
+[13:41:49] QualityControl: PASSED inspection
+[13:41:49] Generated #3 (Oven | New)
+[13:41:49] QualityControl: Inspecting #2 (Refrigerator | Tested)
+[13:41:49] QualityControl: Inspecting #2 (Refrigerator | Tested)
+[13:41:49] QualityControl: PASSED inspection
+[13:41:49] QualityControl: PASSED inspection
+[13:41:49] Generated #4 (Vacuum Cleaner | New)
+[13:41:50] QualityControl: Inspecting #3 (Oven | Tested)
+[13:41:50] QualityControl: Inspecting #3 (Oven | Tested)
+[13:41:50] QualityControl: FAILED inspection sending back to Assembly
+[13:41:50] QualityControl: FAILED inspection sending back to Assembly
+[13:41:50] PipeManager: sent via pipe #3 (Oven | Rework)
+[13:41:50] PipeManager: received from pipe #3 (Oven | Rework) → requeued
+[13:41:50] Generated #5 (Vacuum Cleaner | New)
+[13:41:50] QualityControl: Inspecting #4 (Vacuum Cleaner | Tested)
+[13:41:50] QualityControl: Inspecting #4 (Vacuum Cleaner | Tested)
+[13:41:50] QualityControl: PASSED inspection
+[13:41:50] QualityControl: PASSED inspection
+[13:41:50] Generated #6 (Toaster | New)
+[13:41:51] QualityControl: Inspecting #5 (Vacuum Cleaner | Tested)
+[13:41:51] QualityControl: Inspecting #5 (Vacuum Cleaner | Tested)
+[13:41:51] QualityControl: PASSED inspection
+[13:41:51] QualityControl: PASSED inspection
+[13:41:51] Generated #7 (Dishwasher | New)
+[13:41:51] QualityControl: Inspecting #6 (Toaster | Tested)
+[13:41:51] QualityControl: Inspecting #6 (Toaster | Tested)
+[13:41:51] QualityControl: PASSED inspection
+[13:41:51] QualityControl: PASSED inspection
+[13:41:51] Generated #8 (Oven | New)
+[13:41:52] QualityControl: Inspecting #7 (Dishwasher | Tested)
+[13:41:52] QualityControl: Inspecting #7 (Dishwasher | Tested)
+[13:41:52] QualityControl: FAILED inspection sending back to Assembly
+[13:41:52] QualityControl: FAILED inspection sending back to Assembly
+[13:41:52] PipeManager: received from pipe #7 (Dishwasher | Rework) → requeued
+[13:41:52] PipeManager: sent via pipe #7 (Dishwasher | Rework)
+[13:41:52] Generated #9 (Dryer | New)
+[13:41:52] QualityControl: Inspecting #8 (Oven | Tested)
+[13:41:52] QualityControl: Inspecting #8 (Oven | Tested)
+[13:41:52] QualityControl: FAILED inspection sending back to Assembly
+[13:41:52] QualityControl: FAILED inspection sending back to Assembly
+[13:41:52] PipeManager: received from pipe #8 (Oven | Rework) → requeued
+[13:41:52] PipeManager: sent via pipe #8 (Oven | Rework)
+[13:41:52] Generated #10 (Dryer | New)
+[13:41:53] QualityControl: Inspecting #9 (Dryer | Tested)
+[13:41:53] QualityControl: Inspecting #9 (Dryer | Tested)
+[13:41:53] QualityControl: PASSED inspection
+[13:41:53] QualityControl: PASSED inspection
+[13:41:53] Generated #11 (Vacuum Cleaner | New)
+[13:41:53] QualityControl: Inspecting #10 (Dryer | Tested)
+[13:41:53] QualityControl: Inspecting #10 (Dryer | Tested)
+[13:41:53] QualityControl: PASSED inspection
+[13:41:53] QualityControl: PASSED inspection
+[13:41:53] Generated #12 (Air Conditioner | New)
+[13:41:54] QualityControl: Inspecting #11 (Vacuum Cleaner | Tested)
+[13:41:54] QualityControl: Inspecting #11 (Vacuum Cleaner | Tested)
+[13:41:54] QualityControl: PASSED inspection
+[13:41:54] QualityControl: PASSED inspection
+[13:41:54] Generated #13 (Blender | New)
+[13:41:54] QualityControl: Inspecting #12 (Air Conditioner | Tested)
+[13:41:54] QualityControl: Inspecting #12 (Air Conditioner | Tested)
+[13:41:54] QualityControl: PASSED inspection
+[13:41:54] QualityControl: PASSED inspection
+[13:41:54] Generated #14 (Dishwasher | New)
+[13:41:55] QualityControl: Inspecting #13 (Blender | Tested)
+[13:41:55] QualityControl: Inspecting #13 (Blender | Tested)
+[13:41:55] QualityControl: PASSED inspection
+[13:41:55] QualityControl: PASSED inspection
+[13:41:55] Generated #15 (Oven | New)
+[13:41:55] QualityControl: Inspecting #14 (Dishwasher | Tested)
+[13:41:55] QualityControl: Inspecting #14 (Dishwasher | Tested)
+[13:41:55] ProductionLine: stop()
+[13:41:55] ProductionLine: stop()
+[13:41:55] Assembler-1: stop()
+[13:41:55] Assembler-1: stop()
+[13:41:55] Assembler-2: stop()
+[13:41:55] Assembler-2: stop()
+[13:41:55] Tester: stop()
+[13:41:55] Tester: stop()
+[13:41:55] QualityControl: stop()
+[13:41:55] QualityControl: stop()
+[13:41:55] Packer: stop()
+[13:41:55] Packer: stop()
+[13:41:55] Shipping: stop()
+[13:41:55] Shipping: stop()
+[13:41:55] Controller: stop()
+[13:41:55] QualityControl: PASSED inspection
+[13:41:55] QualityControl: PASSED inspection
+[13:41:55] QualityControl loop finished
+[13:41:55] QualityControl loop finished
+[13:41:55] Packer loop finished
+[13:41:55] Packer loop finished
+[13:41:55] Tester loop finished
+[13:41:55] Tester loop finished
+[13:41:55] Assembler-1 loop finished
+[13:41:55] Assembler-1 loop finished
+[13:41:56] State saved to file.
+[13:41:56] ProductionLine: stop()
+[13:42:12] ProductionLine: start()
+[13:42:12] ProductionLine: start()
+[13:42:12] Assembler-1: start()
+[13:42:12] Assembler-1: start()
+[13:42:12] Assembler-2: start()
+[13:42:12] Assembler-2: start()
+[13:42:12] Tester: start()
+[13:42:12] Tester: start()
+[13:42:12] QualityControl: start()
+[13:42:12] QualityControl: start()
+[13:42:12] Packer: start()
+[13:42:12] Packer: start()
+[13:42:12] Shipping: start()
+[13:42:12] Shipping: start()
+[13:42:12] Generated #16 (Air Conditioner | New)
+[13:42:12] Controller: start()
+[13:42:12] Assembler-1 runLoop started
+[13:42:12] Assembler-1 runLoop started
+[13:42:12] Assembler-2 runLoop started
+[13:42:12] Assembler-2 runLoop started
+[13:42:12] Tester runLoop started
+[13:42:12] Tester runLoop started
+[13:42:12] QualityControl runLoop started
+[13:42:12] QualityControl runLoop started
+[13:42:12] Packer runLoop started
+[13:42:12] Packer runLoop started
+[13:42:12] Shipping runLoop started
+[13:42:12] Shipping runLoop started
+[13:42:12] Generated #17 (Dishwasher | New)
+[13:42:12] QualityControl: Inspecting #16 (Air Conditioner | Tested)
+[13:42:12] QualityControl: Inspecting #16 (Air Conditioner | Tested)
+[13:42:13] QualityControl: PASSED inspection
+[13:42:13] QualityControl: PASSED inspection
+[13:42:13] Generated #18 (Microwave | New)
+[13:42:13] QualityControl: Inspecting #17 (Dishwasher | Tested)
+[13:42:13] QualityControl: Inspecting #17 (Dishwasher | Tested)
+[13:42:13] QualityControl: PASSED inspection
+[13:42:13] QualityControl: PASSED inspection
+[13:42:13] Generated #19 (Microwave | New)
+[13:42:13] QualityControl: Inspecting #18 (Microwave | Tested)
+[13:42:13] QualityControl: Inspecting #18 (Microwave | Tested)
+[13:42:14] QualityControl: PASSED inspection
+[13:42:14] QualityControl: PASSED inspection
+[13:42:14] Generated #20 (Blender | New)
+[13:42:14] QualityControl: Inspecting #19 (Microwave | Tested)
+[13:42:14] QualityControl: Inspecting #19 (Microwave | Tested)
+[13:42:14] QualityControl: PASSED inspection
+[13:42:14] QualityControl: PASSED inspection
+[13:42:14] Generated #21 (Washing Machine | New)
+[13:42:14] QualityControl: Inspecting #20 (Blender | Tested)
+[13:42:14] QualityControl: Inspecting #20 (Blender | Tested)
+[13:42:15] QualityControl: PASSED inspection
+[13:42:15] QualityControl: PASSED inspection
+[13:42:15] Generated #22 (Blender | New)
+[13:42:15] QualityControl: Inspecting #21 (Washing Machine | Tested)
+[13:42:15] QualityControl: Inspecting #21 (Washing Machine | Tested)
+[13:42:15] QualityControl: FAILED inspection sending back to Assembly
+[13:42:15] QualityControl: FAILED inspection sending back to Assembly
+[13:42:15] PipeManager: received from pipe #21 (Washing Machine | Rework) → requeued
+[13:42:15] PipeManager: sent via pipe #21 (Washing Machine | Rework)
+[13:42:15] Generated #23 (Dishwasher | New)
+[13:42:15] QualityControl: Inspecting #22 (Blender | Tested)
+[13:42:15] QualityControl: Inspecting #22 (Blender | Tested)
+[13:42:16] QualityControl: FAILED inspection sending back to Assembly
+[13:42:16] QualityControl: FAILED inspection sending back to Assembly
+[13:42:16] PipeManager: received from pipe #22 (Blender | Rework) → requeued
+[13:42:16] PipeManager: sent via pipe #22 (Blender | Rework)
+[13:42:16] Generated #24 (Dishwasher | New)
+[13:42:16] QualityControl: Inspecting #23 (Dishwasher | Tested)
+[13:42:16] QualityControl: Inspecting #23 (Dishwasher | Tested)
+[13:42:16] QualityControl: FAILED inspection sending back to Assembly
+[13:42:16] QualityControl: FAILED inspection sending back to Assembly
+[13:42:16] PipeManager: received from pipe #23 (Dishwasher | Rework) → requeued
+[13:42:16] PipeManager: sent via pipe #23 (Dishwasher | Rework)
+[13:42:16] Generated #25 (Toaster | New)
+[13:42:16] QualityControl: Inspecting #24 (Dishwasher | Tested)
+[13:42:16] QualityControl: Inspecting #24 (Dishwasher | Tested)
+[13:42:17] QualityControl: PASSED inspection
+[13:42:17] QualityControl: PASSED inspection
+[13:42:17] Generated #26 (Refrigerator | New)
+[13:42:17] State saved to file.
+[13:42:17] ProductionLine: stop()
+[13:42:17] Assembler-1: stop()
+[13:42:17] Assembler-2: stop()
+[13:42:17] Tester: stop()
+[13:42:17] QualityControl: stop()
+[13:42:17] Packer: stop()
+[13:42:17] Shipping: stop()
+[13:44:05] ProductionLine: start()
+[13:44:05] ProductionLine: start()
+[13:44:05] Assembler-1: start()
+[13:44:05] Assembler-1: start()
+[13:44:05] Assembler-2: start()
+[13:44:05] Assembler-2: start()
+[13:44:05] Tester: start()
+[13:44:05] Tester: start()
+[13:44:05] QualityControl: start()
+[13:44:05] QualityControl: start()
+[13:44:05] Packer: start()
+[13:44:05] Packer: start()
+[13:44:05] Shipping: start()
+[13:44:05] Shipping: start()
+[13:44:05] Generated #27 (Dryer | New)
+[13:44:05] Controller: start()
+[13:44:05] Assembler-1 runLoop started
+[13:44:05] Assembler-1 runLoop started
+[13:44:05] Assembler-2 runLoop started
+[13:44:05] Assembler-2 runLoop started
+[13:44:05] Tester runLoop started
+[13:44:05] Tester runLoop started
+[13:44:05] QualityControl runLoop started
+[13:44:05] QualityControl runLoop started
+[13:44:05] Packer runLoop started
+[13:44:05] Packer runLoop started
+[13:44:05] Shipping runLoop started
+[13:44:05] Shipping runLoop started
+[13:44:05] Generated #28 (Dishwasher | New)
+[13:44:06] QualityControl: Inspecting #27 (Dryer | Tested)
+[13:44:06] QualityControl: Inspecting #27 (Dryer | Tested)
+[13:44:06] QualityControl: PASSED inspection
+[13:44:06] QualityControl: PASSED inspection
+[13:44:06] Generated #29 (Microwave | New)
+[13:44:06] QualityControl: Inspecting #28 (Dishwasher | Tested)
+[13:44:06] QualityControl: Inspecting #28 (Dishwasher | Tested)
+[13:44:06] QualityControl: PASSED inspection
+[13:44:06] QualityControl: PASSED inspection
+[13:44:06] Generated #30 (Washing Machine | New)
+[13:44:07] QualityControl: Inspecting #29 (Microwave | Tested)
+[13:44:07] QualityControl: Inspecting #29 (Microwave | Tested)
+[13:44:07] QualityControl: PASSED inspection
+[13:44:07] QualityControl: PASSED inspection
+[13:44:07] Generated #31 (Refrigerator | New)
+[13:44:07] QualityControl: Inspecting #30 (Washing Machine | Tested)
+[13:44:07] QualityControl: Inspecting #30 (Washing Machine | Tested)
+[13:44:07] QualityControl: PASSED inspection
+[13:44:07] QualityControl: PASSED inspection
+[13:44:07] Generated #32 (Dryer | New)
+[13:44:08] QualityControl: Inspecting #31 (Refrigerator | Tested)
+[13:44:08] QualityControl: Inspecting #31 (Refrigerator | Tested)
+[13:44:08] QualityControl: PASSED inspection
+[13:44:08] QualityControl: PASSED inspection
+[13:44:08] Generated #33 (Vacuum Cleaner | New)
+[13:44:08] QualityControl: Inspecting #32 (Dryer | Tested)
+[13:44:08] QualityControl: Inspecting #32 (Dryer | Tested)
+[13:44:08] QualityControl: PASSED inspection
+[13:44:08] QualityControl: PASSED inspection
+[13:44:08] Generated #34 (Blender | New)
+[13:44:09] QualityControl: Inspecting #33 (Vacuum Cleaner | Tested)
+[13:44:09] QualityControl: Inspecting #33 (Vacuum Cleaner | Tested)
+[13:44:09] QualityControl: PASSED inspection
+[13:44:09] QualityControl: PASSED inspection
+[13:44:09] Generated #35 (Dishwasher | New)
+[13:44:09] QualityControl: Inspecting #34 (Blender | Tested)
+[13:44:09] QualityControl: Inspecting #34 (Blender | Tested)
+[13:44:09] QualityControl: FAILED inspection sending back to Assembly
+[13:44:09] QualityControl: FAILED inspection sending back to Assembly
+[13:44:09] PipeManager: sent via pipe #34 (Blender | Rework)
+[13:44:09] PipeManager: received from pipe #34 (Blender | Rework) → requeued
+[13:44:09] Generated #36 (Refrigerator | New)
+[13:44:10] QualityControl: Inspecting #35 (Dishwasher | Tested)
+[13:44:10] QualityControl: Inspecting #35 (Dishwasher | Tested)
+[13:44:10] QualityControl: PASSED inspection
+[13:44:10] QualityControl: PASSED inspection
+[13:44:10] Generated #37 (Air Conditioner | New)
+[13:44:10] QualityControl: Inspecting #36 (Refrigerator | Tested)
+[13:44:10] QualityControl: Inspecting #36 (Refrigerator | Tested)
+[13:44:10] QualityControl: PASSED inspection
+[13:44:10] QualityControl: PASSED inspection
+[13:44:10] Generated #38 (Washing Machine | New)
+[13:44:11] QualityControl: Inspecting #37 (Air Conditioner | Tested)
+[13:44:11] QualityControl: Inspecting #37 (Air Conditioner | Tested)
+[13:44:11] QualityControl: PASSED inspection
+[13:44:11] QualityControl: PASSED inspection
+[13:44:11] Generated #39 (Oven | New)
+[13:44:11] QualityControl: Inspecting #38 (Washing Machine | Tested)
+[13:44:11] QualityControl: Inspecting #38 (Washing Machine | Tested)
+[13:44:11] QualityControl: PASSED inspection
+[13:44:11] QualityControl: PASSED inspection
+[13:44:11] Generated #40 (Dryer | New)
+[13:44:12] QualityControl: Inspecting #39 (Oven | Tested)
+[13:44:12] QualityControl: Inspecting #39 (Oven | Tested)
+[13:44:12] QualityControl: PASSED inspection
+[13:44:12] QualityControl: PASSED inspection
+[13:44:12] Generated #41 (Vacuum Cleaner | New)
+[13:44:12] QualityControl: Inspecting #40 (Dryer | Tested)
+[13:44:12] QualityControl: Inspecting #40 (Dryer | Tested)
+[13:44:12] QualityControl: FAILED inspection sending back to Assembly
+[13:44:12] QualityControl: FAILED inspection sending back to Assembly
+[13:44:12] PipeManager: received from pipe #40 (Dryer | Rework) → requeued
+[13:44:12] PipeManager: sent via pipe #40 (Dryer | Rework)
+[13:44:12] Generated #42 (Microwave | New)
+[13:44:13] QualityControl: Inspecting #41 (Vacuum Cleaner | Tested)
+[13:44:13] QualityControl: Inspecting #41 (Vacuum Cleaner | Tested)
+[13:44:13] QualityControl: PASSED inspection
+[13:44:13] QualityControl: PASSED inspection
+[13:44:13] Generated #43 (Oven | New)
+[13:44:13] QualityControl: Inspecting #42 (Microwave | Tested)
+[13:44:13] QualityControl: Inspecting #42 (Microwave | Tested)
+[13:44:13] QualityControl: PASSED inspection
+[13:44:13] QualityControl: PASSED inspection
+[13:44:13] Generated #44 (Air Conditioner | New)
+[13:44:14] QualityControl: Inspecting #43 (Oven | Tested)
+[13:44:14] QualityControl: Inspecting #43 (Oven | Tested)
+[13:44:14] QualityControl: PASSED inspection
+[13:44:14] QualityControl: PASSED inspection
+[13:44:14] Generated #45 (Air Conditioner | New)
+[13:44:14] QualityControl: Inspecting #44 (Air Conditioner | Tested)
+[13:44:14] QualityControl: Inspecting #44 (Air Conditioner | Tested)
+[13:44:14] QualityControl: PASSED inspection
+[13:44:14] QualityControl: PASSED inspection
+[13:44:14] Generated #46 (Refrigerator | New)
+[13:44:15] QualityControl: Inspecting #45 (Air Conditioner | Tested)
+[13:44:15] QualityControl: Inspecting #45 (Air Conditioner | Tested)
+[13:44:15] QualityControl: FAILED inspection sending back to Assembly
+[13:44:15] QualityControl: FAILED inspection sending back to Assembly
+[13:44:15] PipeManager: received from pipe #45 (Air Conditioner | Rework) → requeued
+[13:44:15] PipeManager: sent via pipe #45 (Air Conditioner | Rework)
+[13:44:15] Generated #47 (Microwave | New)
+[13:44:15] QualityControl: Inspecting #46 (Refrigerator | Tested)
+[13:44:15] QualityControl: Inspecting #46 (Refrigerator | Tested)
+[13:44:15] QualityControl: PASSED inspection
+[13:44:15] QualityControl: PASSED inspection
+[13:44:15] Generated #48 (Blender | New)
+[13:44:16] QualityControl: Inspecting #47 (Microwave | Tested)
+[13:44:16] QualityControl: Inspecting #47 (Microwave | Tested)
+[13:44:16] QualityControl: PASSED inspection
+[13:44:16] QualityControl: PASSED inspection
+[13:44:16] Generated #49 (Toaster | New)
+[13:44:16] QualityControl: Inspecting #48 (Blender | Tested)
+[13:44:16] QualityControl: Inspecting #48 (Blender | Tested)
+[13:44:16] QualityControl: PASSED inspection
+[13:44:16] QualityControl: PASSED inspection
+[13:44:16] Generated #50 (Air Conditioner | New)
+[13:44:17] QualityControl: Inspecting #49 (Toaster | Tested)
+[13:44:17] QualityControl: Inspecting #49 (Toaster | Tested)
+[13:44:17] QualityControl: PASSED inspection
+[13:44:17] QualityControl: PASSED inspection
+[13:44:17] Generated #51 (Dryer | New)
+[13:44:17] QualityControl: Inspecting #50 (Air Conditioner | Tested)
+[13:44:17] QualityControl: Inspecting #50 (Air Conditioner | Tested)
+[13:44:17] QualityControl: FAILED inspection sending back to Assembly
+[13:44:17] QualityControl: FAILED inspection sending back to Assembly
+[13:44:17] PipeManager: received from pipe #50 (Air Conditioner | Rework) → requeued
+[13:44:17] PipeManager: sent via pipe #50 (Air Conditioner | Rework)
+[13:44:17] Generated #52 (Dishwasher | New)
+[13:44:18] QualityControl: Inspecting #51 (Dryer | Tested)
+[13:44:18] QualityControl: Inspecting #51 (Dryer | Tested)
+[13:44:18] QualityControl: PASSED inspection
+[13:44:18] QualityControl: PASSED inspection
+[13:44:18] Generated #53 (Microwave | New)
+[13:44:18] QualityControl: Inspecting #52 (Dishwasher | Tested)
+[13:44:18] QualityControl: Inspecting #52 (Dishwasher | Tested)
+[13:44:18] QualityControl: PASSED inspection
+[13:44:18] QualityControl: PASSED inspection
+[13:44:18] Generated #54 (Blender | New)
+[13:44:19] QualityControl: Inspecting #53 (Microwave | Tested)
+[13:44:19] QualityControl: Inspecting #53 (Microwave | Tested)
+[13:44:19] QualityControl: FAILED inspection sending back to Assembly
+[13:44:19] QualityControl: FAILED inspection sending back to Assembly
+[13:44:19] PipeManager: received from pipe #53 (Microwave | Rework) → requeued
+[13:44:19] PipeManager: sent via pipe #53 (Microwave | Rework)
+[13:44:19] Generated #55 (Blender | New)
+[13:44:19] QualityControl: Inspecting #54 (Blender | Tested)
+[13:44:19] QualityControl: Inspecting #54 (Blender | Tested)
+[13:44:19] QualityControl: PASSED inspection
+[13:44:19] QualityControl: PASSED inspection
+[13:44:19] Generated #56 (Dryer | New)
+[13:44:20] QualityControl: Inspecting #55 (Blender | Tested)
+[13:44:20] QualityControl: Inspecting #55 (Blender | Tested)
+[13:44:20] QualityControl: PASSED inspection
+[13:44:20] QualityControl: PASSED inspection
+[13:44:20] Generated #57 (Oven | New)
+[13:44:20] QualityControl: Inspecting #56 (Dryer | Tested)
+[13:44:20] QualityControl: Inspecting #56 (Dryer | Tested)
+[13:44:20] QualityControl: PASSED inspection
+[13:44:20] QualityControl: PASSED inspection
+[13:44:20] Generated #58 (Washing Machine | New)
+[13:44:21] QualityControl: Inspecting #57 (Oven | Tested)
+[13:44:21] QualityControl: Inspecting #57 (Oven | Tested)
+[13:44:21] QualityControl: PASSED inspection
+[13:44:21] QualityControl: PASSED inspection
+[13:44:21] Generated #59 (Dishwasher | New)
+[13:44:21] QualityControl: Inspecting #58 (Washing Machine | Tested)
+[13:44:21] QualityControl: Inspecting #58 (Washing Machine | Tested)
+[13:44:21] QualityControl: FAILED inspection sending back to Assembly
+[13:44:21] QualityControl: FAILED inspection sending back to Assembly
+[13:44:21] PipeManager: received from pipe #58 (Washing Machine | Rework) → requeued
+[13:44:21] PipeManager: sent via pipe #58 (Washing Machine | Rework)
+[13:44:21] Generated #60 (Refrigerator | New)
+[13:44:22] QualityControl: Inspecting #59 (Dishwasher | Tested)
+[13:44:22] QualityControl: Inspecting #59 (Dishwasher | Tested)
+[13:44:22] QualityControl: PASSED inspection
+[13:44:22] QualityControl: PASSED inspection
+[13:44:22] Generated #61 (Dryer | New)
+[13:44:22] QualityControl: Inspecting #60 (Refrigerator | Tested)
+[13:44:22] QualityControl: Inspecting #60 (Refrigerator | Tested)
+[13:44:22] QualityControl: PASSED inspection
+[13:44:22] QualityControl: PASSED inspection
+[13:44:23] Generated #62 (Toaster | New)
+[13:44:23] QualityControl: Inspecting #61 (Dryer | Tested)
+[13:44:23] QualityControl: Inspecting #61 (Dryer | Tested)
+[13:44:23] QualityControl: PASSED inspection
+[13:44:23] QualityControl: PASSED inspection
+[13:44:23] Generated #63 (Toaster | New)
+[13:44:23] QualityControl: Inspecting #62 (Toaster | Tested)
+[13:44:23] QualityControl: Inspecting #62 (Toaster | Tested)
+[13:44:23] QualityControl: PASSED inspection
+[13:44:23] QualityControl: PASSED inspection
+[13:44:24] Generated #64 (Washing Machine | New)
+[13:44:24] QualityControl: Inspecting #63 (Toaster | Tested)
+[13:44:24] QualityControl: Inspecting #63 (Toaster | Tested)
+[13:44:24] QualityControl: PASSED inspection
+[13:44:24] QualityControl: PASSED inspection
+[13:44:24] Generated #65 (Refrigerator | New)
+[13:44:24] QualityControl: Inspecting #64 (Washing Machine | Tested)
+[13:44:24] QualityControl: Inspecting #64 (Washing Machine | Tested)
+[13:44:24] QualityControl: PASSED inspection
+[13:44:24] QualityControl: PASSED inspection
+[13:44:25] Generated #66 (Washing Machine | New)
+[13:44:25] QualityControl: Inspecting #65 (Refrigerator | Tested)
+[13:44:25] QualityControl: Inspecting #65 (Refrigerator | Tested)
+[13:44:25] QualityControl: PASSED inspection
+[13:44:25] QualityControl: PASSED inspection
+[13:44:25] Generated #67 (Oven | New)
+[13:44:25] QualityControl: Inspecting #66 (Washing Machine | Tested)
+[13:44:25] QualityControl: Inspecting #66 (Washing Machine | Tested)
+[13:44:25] QualityControl: PASSED inspection
+[13:44:25] QualityControl: PASSED inspection
+[13:44:26] Generated #68 (Air Conditioner | New)
+[13:44:26] QualityControl: Inspecting #67 (Oven | Tested)
+[13:44:26] QualityControl: Inspecting #67 (Oven | Tested)
+[13:44:26] QualityControl: PASSED inspection
+[13:44:26] QualityControl: PASSED inspection
+[13:44:26] Generated #69 (Refrigerator | New)
+[13:44:26] QualityControl: Inspecting #68 (Air Conditioner | Tested)
+[13:44:26] QualityControl: Inspecting #68 (Air Conditioner | Tested)
+[13:44:26] QualityControl: PASSED inspection
+[13:44:26] QualityControl: PASSED inspection
+[13:44:27] Generated #70 (Toaster | New)
+[13:44:27] QualityControl: Inspecting #69 (Refrigerator | Tested)
+[13:44:27] QualityControl: Inspecting #69 (Refrigerator | Tested)
+[13:44:27] QualityControl: PASSED inspection
+[13:44:27] QualityControl: PASSED inspection
+[13:44:27] Generated #71 (Oven | New)
+[13:44:27] QualityControl: Inspecting #70 (Toaster | Tested)
+[13:44:27] QualityControl: Inspecting #70 (Toaster | Tested)
+[13:44:27] QualityControl: PASSED inspection
+[13:44:27] QualityControl: PASSED inspection
+[13:44:28] Generated #72 (Vacuum Cleaner | New)
+[13:44:28] QualityControl: Inspecting #71 (Oven | Tested)
+[13:44:28] QualityControl: Inspecting #71 (Oven | Tested)
+[13:44:28] QualityControl: FAILED inspection sending back to Assembly
+[13:44:28] QualityControl: FAILED inspection sending back to Assembly
+[13:44:28] PipeManager: received from pipe #71 (Oven | Rework) → requeued
+[13:44:28] PipeManager: sent via pipe #71 (Oven | Rework)
+[13:44:28] Generated #73 (Vacuum Cleaner | New)
+[13:44:28] QualityControl: Inspecting #72 (Vacuum Cleaner | Tested)
+[13:44:28] QualityControl: Inspecting #72 (Vacuum Cleaner | Tested)
+[13:44:28] QualityControl: PASSED inspection
+[13:44:28] QualityControl: PASSED inspection
+[13:44:29] Generated #74 (Dryer | New)
+[13:44:29] QualityControl: Inspecting #73 (Vacuum Cleaner | Tested)
+[13:44:29] QualityControl: Inspecting #73 (Vacuum Cleaner | Tested)
+[13:44:29] QualityControl: PASSED inspection
+[13:44:29] QualityControl: PASSED inspection
+[13:44:29] Generated #75 (Air Conditioner | New)
+[13:44:29] QualityControl: Inspecting #74 (Dryer | Tested)
+[13:44:29] QualityControl: Inspecting #74 (Dryer | Tested)
+[13:44:29] QualityControl: PASSED inspection
+[13:44:29] QualityControl: PASSED inspection
+[13:44:30] Generated #76 (Oven | New)
+[13:44:30] QualityControl: Inspecting #75 (Air Conditioner | Tested)
+[13:44:30] QualityControl: Inspecting #75 (Air Conditioner | Tested)
+[13:44:30] QualityControl: FAILED inspection sending back to Assembly
+[13:44:30] QualityControl: FAILED inspection sending back to Assembly
+[13:44:30] PipeManager: received from pipe #75 (Air Conditioner | Rework) → requeued
+[13:44:30] PipeManager: sent via pipe #75 (Air Conditioner | Rework)
+[13:44:30] Generated #77 (Microwave | New)
+[13:44:30] QualityControl: Inspecting #76 (Oven | Tested)
+[13:44:30] QualityControl: Inspecting #76 (Oven | Tested)
+[13:44:30] QualityControl: PASSED inspection
+[13:44:30] QualityControl: PASSED inspection
+[13:44:31] Generated #78 (Dryer | New)
+[13:44:31] QualityControl: Inspecting #77 (Microwave | Tested)
+[13:44:31] QualityControl: Inspecting #77 (Microwave | Tested)
+[13:44:31] QualityControl: FAILED inspection sending back to Assembly
+[13:44:31] QualityControl: FAILED inspection sending back to Assembly
+[13:44:31] PipeManager: received from pipe #77 (Microwave | Rework) → requeued
+[13:44:31] PipeManager: sent via pipe #77 (Microwave | Rework)
+[13:44:31] Generated #79 (Air Conditioner | New)
+[13:44:31] QualityControl: Inspecting #78 (Dryer | Tested)
+[13:44:31] QualityControl: Inspecting #78 (Dryer | Tested)
+[13:44:31] QualityControl: FAILED inspection sending back to Assembly
+[13:44:31] QualityControl: FAILED inspection sending back to Assembly
+[13:44:31] PipeManager: received from pipe #78 (Dryer | Rework) → requeued
+[13:44:31] PipeManager: sent via pipe #78 (Dryer | Rework)
+[13:44:32] Generated #80 (Oven | New)
+[13:44:32] QualityControl: Inspecting #79 (Air Conditioner | Tested)
+[13:44:32] QualityControl: Inspecting #79 (Air Conditioner | Tested)
+[13:44:32] QualityControl: PASSED inspection
+[13:44:32] QualityControl: PASSED inspection
+[13:44:32] Generated #81 (Dryer | New)
+[13:44:32] QualityControl: Inspecting #80 (Oven | Tested)
+[13:44:32] QualityControl: Inspecting #80 (Oven | Tested)
+[13:44:32] QualityControl: PASSED inspection
+[13:44:32] QualityControl: PASSED inspection
+[13:44:33] Generated #82 (Toaster | New)
+[13:44:33] QualityControl: Inspecting #81 (Dryer | Tested)
+[13:44:33] QualityControl: Inspecting #81 (Dryer | Tested)
+[13:44:33] QualityControl: PASSED inspection
+[13:44:33] QualityControl: PASSED inspection
+[13:44:33] Generated #83 (Toaster | New)
+[13:44:33] QualityControl: Inspecting #82 (Toaster | Tested)
+[13:44:33] QualityControl: Inspecting #82 (Toaster | Tested)
+[13:44:33] QualityControl: PASSED inspection
+[13:44:33] QualityControl: PASSED inspection
+[13:44:34] Generated #84 (Washing Machine | New)
+[13:44:34] QualityControl: Inspecting #83 (Toaster | Tested)
+[13:44:34] QualityControl: Inspecting #83 (Toaster | Tested)
+[13:44:34] QualityControl: PASSED inspection
+[13:44:34] QualityControl: PASSED inspection
+[13:44:34] Generated #85 (Toaster | New)
+[13:44:34] QualityControl: Inspecting #84 (Washing Machine | Tested)
+[13:44:34] QualityControl: Inspecting #84 (Washing Machine | Tested)
+[13:44:34] QualityControl: PASSED inspection
+[13:44:34] QualityControl: PASSED inspection
+[13:44:35] Generated #86 (Toaster | New)
+[13:44:35] QualityControl: Inspecting #85 (Toaster | Tested)
+[13:44:35] QualityControl: Inspecting #85 (Toaster | Tested)
+[13:44:35] QualityControl: PASSED inspection
+[13:44:35] QualityControl: PASSED inspection
+[13:44:35] Generated #87 (Refrigerator | New)
+[13:44:35] QualityControl: Inspecting #86 (Toaster | Tested)
+[13:44:35] QualityControl: Inspecting #86 (Toaster | Tested)
+[13:44:35] QualityControl: PASSED inspection
+[13:44:35] QualityControl: PASSED inspection
+[13:44:36] Generated #88 (Vacuum Cleaner | New)
+[13:44:36] ProductionLine: pause()
+[13:44:36] ProductionLine: pause()
+[13:44:36] Assembler-1: pause()
+[13:44:36] Assembler-1: pause()
+[13:44:36] Assembler-2: pause()
+[13:44:36] Assembler-2: pause()
+[13:44:36] Tester: pause()
+[13:44:36] Tester: pause()
+[13:44:36] QualityControl: pause()
+[13:44:36] QualityControl: pause()
+[13:44:36] Packer: pause()
+[13:44:36] Packer: pause()
+[13:44:36] Shipping: pause()
+[13:44:36] Shipping: pause()
+[13:44:36] Controller: pause()
+[13:44:36] QualityControl: Inspecting #87 (Refrigerator | Tested)
+[13:44:36] QualityControl: Inspecting #87 (Refrigerator | Tested)
+[13:44:36] QualityControl: FAILED inspection sending back to Assembly
+[13:44:36] QualityControl: FAILED inspection sending back to Assembly
+[13:44:36] PipeManager: received from pipe #87 (Refrigerator | Rework) → requeued
+[13:44:36] PipeManager: sent via pipe #87 (Refrigerator | Rework)
+[13:44:36] Generated #89 (Microwave | New)
+[13:44:37] Generated #90 (Oven | New)
+[13:45:33] ProductionLine: start()
+[13:45:33] ProductionLine: start()
+[13:45:33] Assembler-1: resume()
+[13:45:33] Assembler-1: resume()
+[13:45:33] Assembler-2: resume()
+[13:45:33] Assembler-2: resume()
+[13:45:33] Tester: resume()
+[13:45:33] Tester: resume()
+[13:45:33] QualityControl: resume()
+[13:45:33] QualityControl: resume()
+[13:45:33] Packer: resume()
+[13:45:33] Packer: resume()
+[13:45:33] Shipping: resume()
+[13:45:33] Shipping: resume()
+[13:45:33] Controller: resume()
+[13:45:33] QualityControl: Inspecting #88 (Vacuum Cleaner | Tested)
+[13:45:33] QualityControl: Inspecting #88 (Vacuum Cleaner | Tested)
+[13:45:33] QualityControl: PASSED inspection
+[13:45:33] QualityControl: PASSED inspection
+[13:45:33] QualityControl: Inspecting #89 (Microwave | Tested)
+[13:45:33] QualityControl: Inspecting #89 (Microwave | Tested)
+[13:45:33] Generated #91 (Blender | New)
+[13:45:34] QualityControl: PASSED inspection
+[13:45:34] QualityControl: PASSED inspection
+[13:45:34] QualityControl: Inspecting #90 (Oven | Tested)
+[13:45:34] QualityControl: Inspecting #90 (Oven | Tested)
+[13:45:34] QualityControl: PASSED inspection
+[13:45:34] QualityControl: PASSED inspection
+[13:45:34] Generated #92 (Dishwasher | New)
+[13:45:34] QualityControl: Inspecting #91 (Blender | Tested)
+[13:45:34] QualityControl: Inspecting #91 (Blender | Tested)
+[13:45:34] QualityControl: PASSED inspection
+[13:45:34] QualityControl: PASSED inspection
+[13:45:34] Generated #93 (Vacuum Cleaner | New)
+[13:45:34] QualityControl: Inspecting #92 (Dishwasher | Tested)
+[13:45:34] QualityControl: Inspecting #92 (Dishwasher | Tested)
+[13:45:35] QualityControl: FAILED inspection sending back to Assembly
+[13:45:35] QualityControl: FAILED inspection sending back to Assembly
+[13:45:35] PipeManager: received from pipe #92 (Dishwasher | Rework) → requeued
+[13:45:35] PipeManager: sent via pipe #92 (Dishwasher | Rework)
+[13:45:35] Generated #94 (Vacuum Cleaner | New)
+[13:45:35] QualityControl: Inspecting #93 (Vacuum Cleaner | Tested)
+[13:45:35] QualityControl: Inspecting #93 (Vacuum Cleaner | Tested)
+[13:45:35] QualityControl: PASSED inspection
+[13:45:35] QualityControl: PASSED inspection
+[13:45:35] Generated #95 (Vacuum Cleaner | New)
+[13:45:35] QualityControl: Inspecting #94 (Vacuum Cleaner | Tested)
+[13:45:35] QualityControl: Inspecting #94 (Vacuum Cleaner | Tested)
+[13:45:36] QualityControl: PASSED inspection
+[13:45:36] QualityControl: PASSED inspection
+[13:45:36] Generated #96 (Blender | New)
+[13:45:36] QualityControl: Inspecting #95 (Vacuum Cleaner | Tested)
+[13:45:36] QualityControl: Inspecting #95 (Vacuum Cleaner | Tested)
+[13:45:36] QualityControl: PASSED inspection
+[13:45:36] QualityControl: PASSED inspection
+[13:45:36] Generated #97 (Toaster | New)
+[13:45:36] QualityControl: Inspecting #96 (Blender | Tested)
+[13:45:36] QualityControl: Inspecting #96 (Blender | Tested)
+[13:45:37] QualityControl: PASSED inspection
+[13:45:37] QualityControl: PASSED inspection
+[13:45:37] Generated #98 (Blender | New)
+[13:45:37] QualityControl: Inspecting #97 (Toaster | Tested)
+[13:45:37] QualityControl: Inspecting #97 (Toaster | Tested)
+[13:45:37] QualityControl: PASSED inspection
+[13:45:37] QualityControl: PASSED inspection
+[13:45:37] Generated #99 (Washing Machine | New)
+[13:45:37] QualityControl: Inspecting #98 (Blender | Tested)
+[13:45:37] QualityControl: Inspecting #98 (Blender | Tested)
+[13:45:38] QualityControl: PASSED inspection
+[13:45:38] QualityControl: PASSED inspection
+[13:45:38] Generated #100 (Refrigerator | New)
+[13:45:38] QualityControl: Inspecting #99 (Washing Machine | Tested)
+[13:45:38] QualityControl: Inspecting #99 (Washing Machine | Tested)
+[13:45:38] QualityControl: PASSED inspection
+[13:45:38] QualityControl: PASSED inspection
+[13:45:38] Generated #101 (Air Conditioner | New)
+[13:45:38] QualityControl: Inspecting #100 (Refrigerator | Tested)
+[13:45:38] QualityControl: Inspecting #100 (Refrigerator | Tested)
+[13:45:39] QualityControl: PASSED inspection
+[13:45:39] QualityControl: PASSED inspection
+[13:45:39] Generated #102 (Air Conditioner | New)
+[13:45:39] QualityControl: Inspecting #101 (Air Conditioner | Tested)
+[13:45:39] QualityControl: Inspecting #101 (Air Conditioner | Tested)
+[13:45:39] QualityControl: FAILED inspection sending back to Assembly
+[13:45:39] QualityControl: FAILED inspection sending back to Assembly
+[13:45:39] PipeManager: received from pipe #101 (Air Conditioner | Rework) → requeued
+[13:45:39] PipeManager: sent via pipe #101 (Air Conditioner | Rework)
+[13:45:39] Generated #103 (Dishwasher | New)
+[13:45:39] QualityControl: Inspecting #102 (Air Conditioner | Tested)
+[13:45:39] QualityControl: Inspecting #102 (Air Conditioner | Tested)
+[13:45:40] QualityControl: PASSED inspection
+[13:45:40] QualityControl: PASSED inspection
+[13:45:40] Generated #104 (Refrigerator | New)
+[13:45:40] QualityControl: Inspecting #103 (Dishwasher | Tested)
+[13:45:40] QualityControl: Inspecting #103 (Dishwasher | Tested)
+[13:45:40] QualityControl: PASSED inspection
+[13:45:40] QualityControl: PASSED inspection
+[13:45:40] Generated #105 (Washing Machine | New)
+[13:45:40] QualityControl: Inspecting #104 (Refrigerator | Tested)
+[13:45:40] QualityControl: Inspecting #104 (Refrigerator | Tested)
+[13:45:41] QualityControl: PASSED inspection
+[13:45:41] QualityControl: PASSED inspection
+[13:45:41] Generated #106 (Refrigerator | New)
+[13:45:41] QualityControl: Inspecting #105 (Washing Machine | Tested)
+[13:45:41] QualityControl: Inspecting #105 (Washing Machine | Tested)
+[13:45:41] QualityControl: PASSED inspection
+[13:45:41] QualityControl: PASSED inspection
+[13:45:41] Generated #107 (Washing Machine | New)
+[13:45:41] QualityControl: Inspecting #106 (Refrigerator | Tested)
+[13:45:41] QualityControl: Inspecting #106 (Refrigerator | Tested)
+[13:45:42] QualityControl: PASSED inspection
+[13:45:42] QualityControl: PASSED inspection
+[13:45:42] Generated #108 (Air Conditioner | New)
+[13:45:42] QualityControl: Inspecting #107 (Washing Machine | Tested)
+[13:45:42] QualityControl: Inspecting #107 (Washing Machine | Tested)
+[13:45:42] QualityControl: PASSED inspection
+[13:45:42] QualityControl: PASSED inspection
+[13:45:42] Generated #109 (Refrigerator | New)
+[13:45:42] QualityControl: Inspecting #108 (Air Conditioner | Tested)
+[13:45:42] QualityControl: Inspecting #108 (Air Conditioner | Tested)
+[13:45:43] QualityControl: PASSED inspection
+[13:45:43] QualityControl: PASSED inspection
+[13:45:43] Generated #110 (Refrigerator | New)
+[13:45:43] QualityControl: Inspecting #109 (Refrigerator | Tested)
+[13:45:43] QualityControl: Inspecting #109 (Refrigerator | Tested)
+[13:45:43] QualityControl: PASSED inspection
+[13:45:43] QualityControl: PASSED inspection
+[13:45:43] Generated #111 (Oven | New)
+[13:45:43] QualityControl: Inspecting #110 (Refrigerator | Tested)
+[13:45:43] QualityControl: Inspecting #110 (Refrigerator | Tested)
+[13:45:44] QualityControl: PASSED inspection
+[13:45:44] QualityControl: PASSED inspection
+[13:45:44] Generated #112 (Washing Machine | New)
+[13:45:44] QualityControl: Inspecting #111 (Oven | Tested)
+[13:45:44] QualityControl: Inspecting #111 (Oven | Tested)
+[13:45:44] QualityControl: PASSED inspection
+[13:45:44] QualityControl: PASSED inspection
+[13:45:44] Generated #113 (Dishwasher | New)
+[13:45:44] QualityControl: Inspecting #112 (Washing Machine | Tested)
+[13:45:44] QualityControl: Inspecting #112 (Washing Machine | Tested)
+[13:45:45] QualityControl: PASSED inspection
+[13:45:45] QualityControl: PASSED inspection
+[13:45:45] Generated #114 (Oven | New)
+[13:45:45] QualityControl: Inspecting #113 (Dishwasher | Tested)
+[13:45:45] QualityControl: Inspecting #113 (Dishwasher | Tested)
+[13:45:45] QualityControl: PASSED inspection
+[13:45:45] QualityControl: PASSED inspection
+[13:45:45] Generated #115 (Refrigerator | New)
+[13:45:46] QualityControl: Inspecting #114 (Oven | Tested)
+[13:45:46] QualityControl: Inspecting #114 (Oven | Tested)
+[13:45:46] QualityControl: PASSED inspection
+[13:45:46] QualityControl: PASSED inspection
+[13:45:46] Generated #116 (Blender | New)
+[13:45:46] QualityControl: Inspecting #115 (Refrigerator | Tested)
+[13:45:46] QualityControl: Inspecting #115 (Refrigerator | Tested)
+[13:45:46] QualityControl: PASSED inspection
+[13:45:46] QualityControl: PASSED inspection
+[13:45:46] Generated #117 (Dishwasher | New)
+[13:45:47] QualityControl: Inspecting #116 (Blender | Tested)
+[13:45:47] QualityControl: Inspecting #116 (Blender | Tested)
+[13:45:47] QualityControl: FAILED inspection sending back to Assembly
+[13:45:47] QualityControl: FAILED inspection sending back to Assembly
+[13:45:47] PipeManager: received from pipe #116 (Blender | Rework) → requeued
+[13:45:47] PipeManager: sent via pipe #116 (Blender | Rework)
+[13:45:47] Generated #118 (Microwave | New)
+[13:45:47] QualityControl: Inspecting #117 (Dishwasher | Tested)
+[13:45:47] QualityControl: Inspecting #117 (Dishwasher | Tested)
+[13:45:47] QualityControl: PASSED inspection
+[13:45:47] QualityControl: PASSED inspection
+[13:45:47] Generated #119 (Vacuum Cleaner | New)
+[13:45:48] QualityControl: Inspecting #118 (Microwave | Tested)
+[13:45:48] QualityControl: Inspecting #118 (Microwave | Tested)
+[13:45:48] QualityControl: PASSED inspection
+[13:45:48] QualityControl: PASSED inspection
+[13:45:48] Generated #120 (Dishwasher | New)
+[13:45:48] QualityControl: Inspecting #119 (Vacuum Cleaner | Tested)
+[13:45:48] QualityControl: Inspecting #119 (Vacuum Cleaner | Tested)
+[13:45:48] QualityControl: PASSED inspection
+[13:45:48] QualityControl: PASSED inspection
+[13:45:48] Generated #121 (Vacuum Cleaner | New)
+[13:45:49] QualityControl: Inspecting #120 (Dishwasher | Tested)
+[13:45:49] QualityControl: Inspecting #120 (Dishwasher | Tested)
+[13:45:49] QualityControl: FAILED inspection sending back to Assembly
+[13:45:49] QualityControl: FAILED inspection sending back to Assembly
+[13:45:49] PipeManager: received from pipe #120 (Dishwasher | Rework) → requeued
+[13:45:49] PipeManager: sent via pipe #120 (Dishwasher | Rework)
+[13:45:49] Generated #122 (Microwave | New)
+[13:45:49] QualityControl: Inspecting #121 (Vacuum Cleaner | Tested)
+[13:45:49] QualityControl: Inspecting #121 (Vacuum Cleaner | Tested)
+[13:45:49] QualityControl: PASSED inspection
+[13:45:49] QualityControl: PASSED inspection
+[13:45:49] Generated #123 (Blender | New)
+[13:45:50] QualityControl: Inspecting #122 (Microwave | Tested)
+[13:45:50] QualityControl: Inspecting #122 (Microwave | Tested)
+[13:45:50] QualityControl: FAILED inspection sending back to Assembly
+[13:45:50] QualityControl: FAILED inspection sending back to Assembly
+[13:45:50] PipeManager: received from pipe #122 (Microwave | Rework) → requeued
+[13:45:50] PipeManager: sent via pipe #122 (Microwave | Rework)
+[13:45:50] Generated #124 (Refrigerator | New)
+[13:45:50] QualityControl: Inspecting #123 (Blender | Tested)
+[13:45:50] QualityControl: Inspecting #123 (Blender | Tested)
+[13:45:50] QualityControl: PASSED inspection
+[13:45:50] QualityControl: PASSED inspection
+[13:45:50] Generated #125 (Dryer | New)
+[13:45:51] QualityControl: Inspecting #124 (Refrigerator | Tested)
+[13:45:51] QualityControl: Inspecting #124 (Refrigerator | Tested)
+[13:45:51] QualityControl: PASSED inspection
+[13:45:51] QualityControl: PASSED inspection
+[13:45:51] Generated #126 (Air Conditioner | New)
+[13:45:51] QualityControl: Inspecting #125 (Dryer | Tested)
+[13:45:51] QualityControl: Inspecting #125 (Dryer | Tested)
+[13:45:51] QualityControl: FAILED inspection sending back to Assembly
+[13:45:51] QualityControl: FAILED inspection sending back to Assembly
+[13:45:51] PipeManager: received from pipe #125 (Dryer | Rework) → requeued
+[13:45:51] PipeManager: sent via pipe #125 (Dryer | Rework)
+[13:45:51] Generated #127 (Dryer | New)
+[13:45:52] QualityControl: Inspecting #126 (Air Conditioner | Tested)
+[13:45:52] QualityControl: Inspecting #126 (Air Conditioner | Tested)
+[13:45:52] QualityControl: FAILED inspection sending back to Assembly
+[13:45:52] QualityControl: FAILED inspection sending back to Assembly
+[13:45:52] PipeManager: received from pipe #126 (Air Conditioner | Rework) → requeued
+[13:45:52] PipeManager: sent via pipe #126 (Air Conditioner | Rework)
+[13:45:52] Generated #128 (Microwave | New)
+[13:45:52] QualityControl: Inspecting #127 (Dryer | Tested)
+[13:45:52] QualityControl: Inspecting #127 (Dryer | Tested)
+[13:45:52] QualityControl: FAILED inspection sending back to Assembly
+[13:45:52] QualityControl: FAILED inspection sending back to Assembly
+[13:45:52] PipeManager: received from pipe #127 (Dryer | Rework) → requeued
+[13:45:52] PipeManager: sent via pipe #127 (Dryer | Rework)
+[13:45:52] Generated #129 (Washing Machine | New)
+[13:45:53] QualityControl: Inspecting #128 (Microwave | Tested)
+[13:45:53] QualityControl: Inspecting #128 (Microwave | Tested)
+[13:45:53] QualityControl: PASSED inspection
+[13:45:53] QualityControl: PASSED inspection
+[13:45:53] Generated #130 (Oven | New)
+[13:45:53] QualityControl: Inspecting #129 (Washing Machine | Tested)
+[13:45:53] QualityControl: Inspecting #129 (Washing Machine | Tested)
+[13:45:53] QualityControl: PASSED inspection
+[13:45:53] QualityControl: PASSED inspection
+[13:45:53] Generated #131 (Oven | New)
+[13:45:54] QualityControl: Inspecting #130 (Oven | Tested)
+[13:45:54] QualityControl: Inspecting #130 (Oven | Tested)
+[13:45:54] QualityControl: PASSED inspection
+[13:45:54] QualityControl: PASSED inspection
+[13:45:54] Generated #132 (Air Conditioner | New)
+[13:45:54] QualityControl: Inspecting #131 (Oven | Tested)
+[13:45:54] QualityControl: Inspecting #131 (Oven | Tested)
+[13:45:54] QualityControl: PASSED inspection
+[13:45:54] QualityControl: PASSED inspection
+[13:45:54] Generated #133 (Dishwasher | New)
+[13:45:55] QualityControl: Inspecting #132 (Air Conditioner | Tested)
+[13:45:55] QualityControl: Inspecting #132 (Air Conditioner | Tested)
+[13:45:55] QualityControl: PASSED inspection
+[13:45:55] QualityControl: PASSED inspection
+[13:45:55] Generated #134 (Oven | New)
+[13:45:55] QualityControl: Inspecting #133 (Dishwasher | Tested)
+[13:45:55] QualityControl: Inspecting #133 (Dishwasher | Tested)
+[13:45:55] QualityControl: PASSED inspection
+[13:45:55] QualityControl: PASSED inspection
+[13:45:55] Generated #135 (Vacuum Cleaner | New)
+[13:45:56] QualityControl: Inspecting #134 (Oven | Tested)
+[13:45:56] QualityControl: Inspecting #134 (Oven | Tested)
+[13:45:56] QualityControl: PASSED inspection
+[13:45:56] QualityControl: PASSED inspection
+[13:45:56] Generated #136 (Washing Machine | New)
+[13:45:56] QualityControl: Inspecting #135 (Vacuum Cleaner | Tested)
+[13:45:56] QualityControl: Inspecting #135 (Vacuum Cleaner | Tested)
+[13:45:56] QualityControl: FAILED inspection sending back to Assembly
+[13:45:56] QualityControl: FAILED inspection sending back to Assembly
+[13:45:56] PipeManager: received from pipe #135 (Vacuum Cleaner | Rework) → requeued
+[13:45:56] PipeManager: sent via pipe #135 (Vacuum Cleaner | Rework)
+[13:45:56] Generated #137 (Dishwasher | New)
+[13:45:57] QualityControl: Inspecting #136 (Washing Machine | Tested)
+[13:45:57] QualityControl: Inspecting #136 (Washing Machine | Tested)
+[13:45:57] QualityControl: PASSED inspection
+[13:45:57] QualityControl: PASSED inspection
+[13:45:57] Generated #138 (Dishwasher | New)
+[13:45:57] QualityControl: Inspecting #137 (Dishwasher | Tested)
+[13:45:57] QualityControl: Inspecting #137 (Dishwasher | Tested)
+[13:45:57] QualityControl: PASSED inspection
+[13:45:57] QualityControl: PASSED inspection
+[13:45:57] Generated #139 (Refrigerator | New)
+[13:45:58] QualityControl: Inspecting #138 (Dishwasher | Tested)
+[13:45:58] QualityControl: Inspecting #138 (Dishwasher | Tested)
+[13:45:58] QualityControl: PASSED inspection
+[13:45:58] QualityControl: PASSED inspection
+[13:45:58] Generated #140 (Air Conditioner | New)
+[13:45:58] QualityControl: Inspecting #139 (Refrigerator | Tested)
+[13:45:58] QualityControl: Inspecting #139 (Refrigerator | Tested)
+[13:45:58] QualityControl: PASSED inspection
+[13:45:58] QualityControl: PASSED inspection
+[13:45:58] Generated #141 (Microwave | New)
+[13:45:59] QualityControl: Inspecting #140 (Air Conditioner | Tested)
+[13:45:59] QualityControl: Inspecting #140 (Air Conditioner | Tested)
+[13:45:59] QualityControl: PASSED inspection
+[13:45:59] QualityControl: PASSED inspection
+[13:45:59] Generated #142 (Air Conditioner | New)
+[13:45:59] QualityControl: Inspecting #141 (Microwave | Tested)
+[13:45:59] QualityControl: Inspecting #141 (Microwave | Tested)
+[13:45:59] QualityControl: PASSED inspection
+[13:45:59] QualityControl: PASSED inspection
+[13:45:59] Generated #143 (Toaster | New)
+[13:46:00] QualityControl: Inspecting #142 (Air Conditioner | Tested)
+[13:46:00] QualityControl: Inspecting #142 (Air Conditioner | Tested)
+[13:46:00] QualityControl: FAILED inspection sending back to Assembly
+[13:46:00] QualityControl: FAILED inspection sending back to Assembly
+[13:46:00] PipeManager: received from pipe #142 (Air Conditioner | Rework) → requeued
+[13:46:00] PipeManager: sent via pipe #142 (Air Conditioner | Rework)
+[13:46:00] Generated #144 (Dryer | New)
+[13:46:00] QualityControl: Inspecting #143 (Toaster | Tested)
+[13:46:00] QualityControl: Inspecting #143 (Toaster | Tested)
+[13:46:00] QualityControl: PASSED inspection
+[13:46:00] QualityControl: PASSED inspection
+[13:46:01] Generated #145 (Microwave | New)
+[13:46:01] QualityControl: Inspecting #144 (Dryer | Tested)
+[13:46:01] QualityControl: Inspecting #144 (Dryer | Tested)
+[13:46:01] QualityControl: PASSED inspection
+[13:46:01] QualityControl: PASSED inspection
+[13:46:01] Generated #146 (Refrigerator | New)
+[13:46:01] QualityControl: Inspecting #145 (Microwave | Tested)
+[13:46:01] QualityControl: Inspecting #145 (Microwave | Tested)
+[13:46:01] QualityControl: FAILED inspection sending back to Assembly
+[13:46:01] QualityControl: FAILED inspection sending back to Assembly
+[13:46:01] PipeManager: received from pipe #145 (Microwave | Rework) → requeued
+[13:46:01] PipeManager: sent via pipe #145 (Microwave | Rework)
+[13:46:02] Generated #147 (Air Conditioner | New)
+[13:46:02] QualityControl: Inspecting #146 (Refrigerator | Tested)
+[13:46:02] QualityControl: Inspecting #146 (Refrigerator | Tested)
+[13:46:02] QualityControl: PASSED inspection
+[13:46:02] QualityControl: PASSED inspection
+[13:46:02] Generated #148 (Blender | New)
+[13:46:02] QualityControl: Inspecting #147 (Air Conditioner | Tested)
+[13:46:02] QualityControl: Inspecting #147 (Air Conditioner | Tested)
+[13:46:02] QualityControl: FAILED inspection sending back to Assembly
+[13:46:02] QualityControl: FAILED inspection sending back to Assembly
+[13:46:02] PipeManager: received from pipe #147 (Air Conditioner | Rework) → requeued
+[13:46:02] PipeManager: sent via pipe #147 (Air Conditioner | Rework)
+[13:46:03] Generated #149 (Vacuum Cleaner | New)
+[13:46:03] QualityControl: Inspecting #148 (Blender | Tested)
+[13:46:03] QualityControl: Inspecting #148 (Blender | Tested)
+[13:46:03] QualityControl: FAILED inspection sending back to Assembly
+[13:46:03] QualityControl: FAILED inspection sending back to Assembly
+[13:46:03] PipeManager: received from pipe #148 (Blender | Rework) → requeued
+[13:46:03] PipeManager: sent via pipe #148 (Blender | Rework)
+[13:46:03] Generated #150 (Blender | New)
+[13:46:03] QualityControl: Inspecting #149 (Vacuum Cleaner | Tested)
+[13:46:03] QualityControl: Inspecting #149 (Vacuum Cleaner | Tested)
+[13:46:03] QualityControl: PASSED inspection
+[13:46:03] QualityControl: PASSED inspection
+[13:46:04] Generated #151 (Blender | New)
+[13:46:04] QualityControl: Inspecting #150 (Blender | Tested)
+[13:46:04] QualityControl: Inspecting #150 (Blender | Tested)
+[13:46:04] QualityControl: PASSED inspection
+[13:46:04] QualityControl: PASSED inspection
+[13:46:04] Generated #152 (Oven | New)
+[13:46:04] QualityControl: Inspecting #151 (Blender | Tested)
+[13:46:04] QualityControl: Inspecting #151 (Blender | Tested)
+[13:46:04] QualityControl: PASSED inspection
+[13:46:04] QualityControl: PASSED inspection
+[13:46:05] Generated #153 (Dryer | New)
+[13:46:05] QualityControl: Inspecting #152 (Oven | Tested)
+[13:46:05] QualityControl: Inspecting #152 (Oven | Tested)
+[13:46:05] QualityControl: PASSED inspection
+[13:46:05] QualityControl: PASSED inspection
+[13:46:05] Generated #154 (Washing Machine | New)
+[13:46:05] QualityControl: Inspecting #153 (Dryer | Tested)
+[13:46:05] QualityControl: Inspecting #153 (Dryer | Tested)
+[13:46:05] QualityControl: PASSED inspection
+[13:46:05] QualityControl: PASSED inspection
+[13:46:06] Generated #155 (Microwave | New)
+[13:46:06] QualityControl: Inspecting #154 (Washing Machine | Tested)
+[13:46:06] QualityControl: Inspecting #154 (Washing Machine | Tested)
+[13:46:06] QualityControl: PASSED inspection
+[13:46:06] QualityControl: PASSED inspection
+[13:46:06] Generated #156 (Toaster | New)
+[13:46:06] QualityControl: Inspecting #155 (Microwave | Tested)
+[13:46:06] QualityControl: Inspecting #155 (Microwave | Tested)
+[13:46:06] QualityControl: PASSED inspection
+[13:46:06] QualityControl: PASSED inspection
+[13:46:07] Generated #157 (Vacuum Cleaner | New)
+[13:46:07] QualityControl: Inspecting #156 (Toaster | Tested)
+[13:46:07] QualityControl: Inspecting #156 (Toaster | Tested)
+[13:46:07] QualityControl: PASSED inspection
+[13:46:07] QualityControl: PASSED inspection
+[13:46:07] Generated #158 (Air Conditioner | New)
+[13:46:07] QualityControl: Inspecting #157 (Vacuum Cleaner | Tested)
+[13:46:07] QualityControl: Inspecting #157 (Vacuum Cleaner | Tested)
+[13:46:07] QualityControl: PASSED inspection
+[13:46:07] QualityControl: PASSED inspection
+[13:46:08] Generated #159 (Dishwasher | New)
+[13:46:08] QualityControl: Inspecting #158 (Air Conditioner | Tested)
+[13:46:08] QualityControl: Inspecting #158 (Air Conditioner | Tested)
+[13:46:08] QualityControl: PASSED inspection
+[13:46:08] QualityControl: PASSED inspection
+[13:46:08] Generated #160 (Blender | New)
+[13:46:08] QualityControl: Inspecting #159 (Dishwasher | Tested)
+[13:46:08] QualityControl: Inspecting #159 (Dishwasher | Tested)
+[13:46:08] QualityControl: PASSED inspection
+[13:46:08] QualityControl: PASSED inspection
+[13:46:09] Generated #161 (Dryer | New)
+[13:46:09] QualityControl: Inspecting #160 (Blender | Tested)
+[13:46:09] QualityControl: Inspecting #160 (Blender | Tested)
+[13:46:09] QualityControl: PASSED inspection
+[13:46:09] QualityControl: PASSED inspection
+[13:46:09] Generated #162 (Blender | New)
+[13:46:09] QualityControl: Inspecting #161 (Dryer | Tested)
+[13:46:09] QualityControl: Inspecting #161 (Dryer | Tested)
+[13:46:09] QualityControl: PASSED inspection
+[13:46:09] QualityControl: PASSED inspection
+[13:46:10] Generated #163 (Dishwasher | New)
+[13:46:10] QualityControl: Inspecting #162 (Blender | Tested)
+[13:46:10] QualityControl: Inspecting #162 (Blender | Tested)
+[13:46:10] QualityControl: PASSED inspection
+[13:46:10] QualityControl: PASSED inspection
+[13:46:10] Generated #164 (Microwave | New)
+[13:46:10] QualityControl: Inspecting #163 (Dishwasher | Tested)
+[13:46:10] QualityControl: Inspecting #163 (Dishwasher | Tested)
+[13:46:10] QualityControl: PASSED inspection
+[13:46:10] QualityControl: PASSED inspection
+[13:46:11] Generated #165 (Blender | New)
+[13:46:11] QualityControl: Inspecting #164 (Microwave | Tested)
+[13:46:11] QualityControl: Inspecting #164 (Microwave | Tested)
+[13:46:11] QualityControl: PASSED inspection
+[13:46:11] QualityControl: PASSED inspection
+[13:46:11] Generated #166 (Microwave | New)
+[13:46:11] QualityControl: Inspecting #165 (Blender | Tested)
+[13:46:11] QualityControl: Inspecting #165 (Blender | Tested)
+[13:46:11] QualityControl: PASSED inspection
+[13:46:11] QualityControl: PASSED inspection
+[13:46:12] Generated #167 (Oven | New)
+[13:46:12] QualityControl: Inspecting #166 (Microwave | Tested)
+[13:46:12] QualityControl: Inspecting #166 (Microwave | Tested)
+[13:46:12] QualityControl: PASSED inspection
+[13:46:12] QualityControl: PASSED inspection
+[13:46:12] Generated #168 (Toaster | New)
+[13:46:12] QualityControl: Inspecting #167 (Oven | Tested)
+[13:46:12] QualityControl: Inspecting #167 (Oven | Tested)
+[13:46:12] QualityControl: FAILED inspection sending back to Assembly
+[13:46:12] QualityControl: FAILED inspection sending back to Assembly
+[13:46:12] PipeManager: received from pipe #167 (Oven | Rework) → requeued
+[13:46:12] PipeManager: sent via pipe #167 (Oven | Rework)
+[13:46:13] Generated #169 (Blender | New)
+[13:46:13] QualityControl: Inspecting #168 (Toaster | Tested)
+[13:46:13] QualityControl: Inspecting #168 (Toaster | Tested)
+[13:46:13] QualityControl: PASSED inspection
+[13:46:13] QualityControl: PASSED inspection
+[13:46:13] Generated #170 (Dishwasher | New)
+[13:46:13] ProductionLine: pause()
+[13:46:13] ProductionLine: pause()
+[13:46:13] Assembler-1: pause()
+[13:46:13] Assembler-1: pause()
+[13:46:13] Assembler-2: pause()
+[13:46:13] Assembler-2: pause()
+[13:46:13] Tester: pause()
+[13:46:13] Tester: pause()
+[13:46:13] QualityControl: pause()
+[13:46:13] QualityControl: pause()
+[13:46:13] Packer: pause()
+[13:46:13] Packer: pause()
+[13:46:13] Shipping: pause()
+[13:46:13] Shipping: pause()
+[13:46:13] Controller: pause()
+[13:46:13] QualityControl: Inspecting #169 (Blender | Tested)
+[13:46:13] QualityControl: Inspecting #169 (Blender | Tested)
+[13:46:13] QualityControl: PASSED inspection
+[13:46:13] QualityControl: PASSED inspection
+[13:46:14] Generated #171 (Toaster | New)
+[13:46:14] ProductionLine: start()
+[13:46:14] ProductionLine: start()
+[13:46:14] Assembler-1: resume()
+[13:46:14] Assembler-1: resume()
+[13:46:14] Assembler-2: resume()
+[13:46:14] Assembler-2: resume()
+[13:46:14] Tester: resume()
+[13:46:14] Tester: resume()
+[13:46:14] QualityControl: resume()
+[13:46:14] QualityControl: resume()
+[13:46:14] Packer: resume()
+[13:46:14] Packer: resume()
+[13:46:14] Shipping: resume()
+[13:46:14] Shipping: resume()
+[13:46:14] Controller: resume()
+[13:46:14] Generated #172 (Washing Machine | New)
+[13:46:14] QualityControl: Inspecting #170 (Dishwasher | Tested)
+[13:46:14] QualityControl: Inspecting #170 (Dishwasher | Tested)
+[13:46:14] QualityControl: PASSED inspection
+[13:46:14] QualityControl: PASSED inspection
+[13:46:14] QualityControl: Inspecting #171 (Toaster | Tested)
+[13:46:14] QualityControl: Inspecting #171 (Toaster | Tested)
+[13:46:15] Generated #173 (Vacuum Cleaner | New)
+[13:46:15] QualityControl: FAILED inspection sending back to Assembly
+[13:46:15] QualityControl: FAILED inspection sending back to Assembly
+[13:46:15] PipeManager: received from pipe #171 (Toaster | Rework) → requeued
+[13:46:15] PipeManager: sent via pipe #171 (Toaster | Rework)
+[13:46:15] QualityControl: Inspecting #172 (Washing Machine | Tested)
+[13:46:15] QualityControl: Inspecting #172 (Washing Machine | Tested)
+[13:46:15] ProductionLine: pause()
+[13:46:15] ProductionLine: pause()
+[13:46:15] Assembler-1: pause()
+[13:46:15] Assembler-1: pause()
+[13:46:15] Assembler-2: pause()
+[13:46:15] Assembler-2: pause()
+[13:46:15] Tester: pause()
+[13:46:15] Tester: pause()
+[13:46:15] QualityControl: pause()
+[13:46:15] QualityControl: pause()
+[13:46:15] Packer: pause()
+[13:46:15] Packer: pause()
+[13:46:15] Shipping: pause()
+[13:46:15] Shipping: pause()
+[13:46:15] Controller: pause()
+[13:46:15] QualityControl: PASSED inspection
+[13:46:15] QualityControl: PASSED inspection
+[13:46:15] Generated #174 (Dryer | New)
+[13:46:15] ProductionLine: stop()
+[13:46:15] ProductionLine: stop()
+[13:46:15] Assembler-1: stop()
+[13:46:15] Assembler-1: stop()
+[13:46:15] Assembler-2: stop()
+[13:46:15] Assembler-2: stop()
+[13:46:15] Tester: stop()
+[13:46:15] Tester: stop()
+[13:46:15] QualityControl: stop()
+[13:46:15] QualityControl: stop()
+[13:46:15] Packer: stop()
+[13:46:15] Packer: stop()
+[13:46:15] Shipping: stop()
+[13:46:15] Shipping: stop()
+[13:46:15] Controller: stop()
+[13:46:15] Assembler-1 loop finished
+[13:46:15] Assembler-1 loop finished
+[13:46:15] Tester loop finished
+[13:46:15] Tester loop finished
+[13:46:15] QualityControl loop finished
+[13:46:15] QualityControl loop finished
+[13:46:15] Packer loop finished
+[13:46:15] Packer loop finished
+[13:46:15] Shipping loop finished
+[13:46:15] Shipping loop finished
+[13:46:16] Assembler-2 loop finished
+[13:46:16] Assembler-2 loop finished
+[13:46:17] State saved to file.
+[13:46:17] ProductionLine: stop()
+[13:52:32] ProductionLine: start()
+[13:52:32] ProductionLine: start()
+[13:52:32] Assembler-1: start()
+[13:52:32] Assembler-1: start()
+[13:52:32] Assembler-2: start()
+[13:52:32] Assembler-2: start()
+[13:52:32] Tester: start()
+[13:52:32] Tester: start()
+[13:52:32] QualityControl: start()
+[13:52:32] QualityControl: start()
+[13:52:32] Packer: start()
+[13:52:32] Packer: start()
+[13:52:32] Shipping: start()
+[13:52:32] Shipping: start()
+[13:52:32] Generated #175 (Toaster | New)
+[13:52:32] Controller: start()
+[13:52:32] Assembler-1 runLoop started
+[13:52:32] Assembler-1 runLoop started
+[13:52:32] Assembler-2 runLoop started
+[13:52:32] Assembler-2 runLoop started
+[13:52:32] Tester runLoop started
+[13:52:32] Tester runLoop started
+[13:52:32] QualityControl runLoop started
+[13:52:32] QualityControl runLoop started
+[13:52:32] QualityControl: Inspecting #173 (Vacuum Cleaner | Tested)
+[13:52:32] QualityControl: Inspecting #173 (Vacuum Cleaner | Tested)
+[13:52:32] Packer runLoop started
+[13:52:32] Packer runLoop started
+[13:52:32] Shipping runLoop started
+[13:52:32] Shipping runLoop started
+[13:52:33] QualityControl: FAILED inspection sending back to Assembly
+[13:52:33] QualityControl: FAILED inspection sending back to Assembly
+[13:52:33] PipeManager: received from pipe #173 (Vacuum Cleaner | Rework) → requeued
+[13:52:33] PipeManager: sent via pipe #173 (Vacuum Cleaner | Rework)
+[13:52:33] Generated #176 (Vacuum Cleaner | New)
+[13:52:33] QualityControl: Inspecting #175 (Toaster | Tested)
+[13:52:33] QualityControl: Inspecting #175 (Toaster | Tested)
+[13:52:33] QualityControl: PASSED inspection
+[13:52:33] QualityControl: PASSED inspection
+[13:52:33] Generated #177 (Refrigerator | New)
+[13:52:33] QualityControl: Inspecting #176 (Vacuum Cleaner | Tested)
+[13:52:33] QualityControl: Inspecting #176 (Vacuum Cleaner | Tested)
+[13:52:34] QualityControl: PASSED inspection
+[13:52:34] QualityControl: PASSED inspection
+[13:52:34] Generated #178 (Refrigerator | New)
+[13:52:34] QualityControl: Inspecting #177 (Refrigerator | Tested)
+[13:52:34] QualityControl: Inspecting #177 (Refrigerator | Tested)
+[13:52:34] QualityControl: PASSED inspection
+[13:52:34] QualityControl: PASSED inspection
+[13:52:34] Generated #179 (Air Conditioner | New)
+[13:52:34] QualityControl: Inspecting #178 (Refrigerator | Tested)
+[13:52:34] QualityControl: Inspecting #178 (Refrigerator | Tested)
+[13:52:35] QualityControl: PASSED inspection
+[13:52:35] QualityControl: PASSED inspection
+[13:52:35] Generated #180 (Blender | New)
+[13:52:35] QualityControl: Inspecting #179 (Air Conditioner | Tested)
+[13:52:35] QualityControl: Inspecting #179 (Air Conditioner | Tested)
+[13:52:35] QualityControl: FAILED inspection sending back to Assembly
+[13:52:35] QualityControl: FAILED inspection sending back to Assembly
+[13:52:35] PipeManager: received from pipe #179 (Air Conditioner | Rework) → requeued
+[13:52:35] PipeManager: sent via pipe #179 (Air Conditioner | Rework)
+[13:52:35] Generated #181 (Washing Machine | New)
+[13:52:35] QualityControl: Inspecting #180 (Blender | Tested)
+[13:52:35] QualityControl: Inspecting #180 (Blender | Tested)
+[13:52:36] QualityControl: PASSED inspection
+[13:52:36] QualityControl: PASSED inspection
+[13:52:36] Generated #182 (Blender | New)
+[13:52:36] QualityControl: Inspecting #181 (Washing Machine | Tested)
+[13:52:36] QualityControl: Inspecting #181 (Washing Machine | Tested)
+[13:52:36] QualityControl: PASSED inspection
+[13:52:36] QualityControl: PASSED inspection
+[13:52:36] Generated #183 (Dishwasher | New)
+[13:52:36] QualityControl: Inspecting #182 (Blender | Tested)
+[13:52:36] QualityControl: Inspecting #182 (Blender | Tested)
+[13:52:37] QualityControl: PASSED inspection
+[13:52:37] QualityControl: PASSED inspection
+[13:52:37] Generated #184 (Refrigerator | New)
+[13:52:37] QualityControl: Inspecting #183 (Dishwasher | Tested)
+[13:52:37] QualityControl: Inspecting #183 (Dishwasher | Tested)
+[13:52:37] QualityControl: FAILED inspection sending back to Assembly
+[13:52:37] QualityControl: FAILED inspection sending back to Assembly
+[13:52:37] PipeManager: received from pipe #183 (Dishwasher | Rework) → requeued
+[13:52:37] PipeManager: sent via pipe #183 (Dishwasher | Rework)
+[13:52:37] Generated #185 (Oven | New)
+[13:52:37] QualityControl: Inspecting #184 (Refrigerator | Tested)
+[13:52:37] QualityControl: Inspecting #184 (Refrigerator | Tested)
+[13:52:38] QualityControl: PASSED inspection
+[13:52:38] QualityControl: PASSED inspection
+[13:52:38] Generated #186 (Blender | New)
+[13:52:38] QualityControl: Inspecting #185 (Oven | Tested)
+[13:52:38] QualityControl: Inspecting #185 (Oven | Tested)
+[13:52:38] QualityControl: PASSED inspection
+[13:52:38] QualityControl: PASSED inspection
+[13:52:38] Generated #187 (Toaster | New)
+[13:52:38] QualityControl: Inspecting #186 (Blender | Tested)
+[13:52:38] QualityControl: Inspecting #186 (Blender | Tested)
+[13:52:39] QualityControl: PASSED inspection
+[13:52:39] QualityControl: PASSED inspection
+[13:52:39] Generated #188 (Toaster | New)
+[13:52:39] QualityControl: Inspecting #187 (Toaster | Tested)
+[13:52:39] QualityControl: Inspecting #187 (Toaster | Tested)
+[13:52:39] QualityControl: PASSED inspection
+[13:52:39] QualityControl: PASSED inspection
+[13:52:39] Generated #189 (Dishwasher | New)
+[13:52:39] QualityControl: Inspecting #188 (Toaster | Tested)
+[13:52:39] QualityControl: Inspecting #188 (Toaster | Tested)
+[13:52:40] QualityControl: FAILED inspection sending back to Assembly
+[13:52:40] QualityControl: FAILED inspection sending back to Assembly
+[13:52:40] PipeManager: received from pipe #188 (Toaster | Rework) → requeued
+[13:52:40] PipeManager: sent via pipe #188 (Toaster | Rework)
+[13:52:40] Generated #190 (Microwave | New)
+[13:52:40] QualityControl: Inspecting #189 (Dishwasher | Tested)
+[13:52:40] QualityControl: Inspecting #189 (Dishwasher | Tested)
+[13:52:40] QualityControl: PASSED inspection
+[13:52:40] QualityControl: PASSED inspection
+[13:52:40] Generated #191 (Toaster | New)
+[13:52:40] QualityControl: Inspecting #190 (Microwave | Tested)
+[13:52:40] QualityControl: Inspecting #190 (Microwave | Tested)
+[13:52:41] QualityControl: FAILED inspection sending back to Assembly
+[13:52:41] QualityControl: FAILED inspection sending back to Assembly
+[13:52:41] PipeManager: received from pipe #190 (Microwave | Rework) → requeued
+[13:52:41] PipeManager: sent via pipe #190 (Microwave | Rework)
+[13:52:41] Generated #192 (Air Conditioner | New)
+[13:52:41] QualityControl: Inspecting #191 (Toaster | Tested)
+[13:52:41] QualityControl: Inspecting #191 (Toaster | Tested)
+[13:52:41] QualityControl: FAILED inspection sending back to Assembly
+[13:52:41] QualityControl: FAILED inspection sending back to Assembly
+[13:52:41] PipeManager: received from pipe #191 (Toaster | Rework) → requeued
+[13:52:41] PipeManager: sent via pipe #191 (Toaster | Rework)
+[13:52:41] Generated #193 (Dishwasher | New)
+[13:52:41] QualityControl: Inspecting #192 (Air Conditioner | Tested)
+[13:52:41] QualityControl: Inspecting #192 (Air Conditioner | Tested)
+[13:52:42] QualityControl: FAILED inspection sending back to Assembly
+[13:52:42] QualityControl: FAILED inspection sending back to Assembly
+[13:52:42] PipeManager: received from pipe #192 (Air Conditioner | Rework) → requeued
+[13:52:42] PipeManager: sent via pipe #192 (Air Conditioner | Rework)
+[13:52:42] Generated #194 (Refrigerator | New)
+[13:52:42] QualityControl: Inspecting #193 (Dishwasher | Tested)
+[13:52:42] QualityControl: Inspecting #193 (Dishwasher | Tested)
+[13:52:42] QualityControl: FAILED inspection sending back to Assembly
+[13:52:42] QualityControl: FAILED inspection sending back to Assembly
+[13:52:42] PipeManager: received from pipe #193 (Dishwasher | Rework) → requeued
+[13:52:42] PipeManager: sent via pipe #193 (Dishwasher | Rework)
+[13:52:42] Generated #195 (Microwave | New)
+[13:52:42] QualityControl: Inspecting #194 (Refrigerator | Tested)
+[13:52:42] QualityControl: Inspecting #194 (Refrigerator | Tested)
+[13:52:43] QualityControl: PASSED inspection
+[13:52:43] QualityControl: PASSED inspection
+[13:52:43] Generated #196 (Washing Machine | New)
+[13:52:43] QualityControl: Inspecting #195 (Microwave | Tested)
+[13:52:43] QualityControl: Inspecting #195 (Microwave | Tested)
+[13:52:43] QualityControl: PASSED inspection
+[13:52:43] QualityControl: PASSED inspection
+[13:52:43] Generated #197 (Blender | New)
+[13:52:43] QualityControl: Inspecting #196 (Washing Machine | Tested)
+[13:52:43] QualityControl: Inspecting #196 (Washing Machine | Tested)
+[13:52:44] QualityControl: PASSED inspection
+[13:52:44] QualityControl: PASSED inspection
+[13:52:44] Generated #198 (Dryer | New)
+[13:52:44] QualityControl: Inspecting #197 (Blender | Tested)
+[13:52:44] QualityControl: Inspecting #197 (Blender | Tested)
+[13:52:44] QualityControl: PASSED inspection
+[13:52:44] QualityControl: PASSED inspection
+[13:52:44] Generated #199 (Toaster | New)
+[13:52:44] QualityControl: Inspecting #198 (Dryer | Tested)
+[13:52:44] QualityControl: Inspecting #198 (Dryer | Tested)
+[13:52:45] QualityControl: PASSED inspection
+[13:52:45] QualityControl: PASSED inspection
+[13:52:45] Generated #200 (Toaster | New)
+[13:52:45] QualityControl: Inspecting #199 (Toaster | Tested)
+[13:52:45] QualityControl: Inspecting #199 (Toaster | Tested)
+[13:52:45] QualityControl: FAILED inspection sending back to Assembly
+[13:52:45] QualityControl: FAILED inspection sending back to Assembly
+[13:52:45] PipeManager: received from pipe #199 (Toaster | Rework) → requeued
+[13:52:45] PipeManager: sent via pipe #199 (Toaster | Rework)
+[13:52:45] Generated #201 (Vacuum Cleaner | New)
+[13:52:45] QualityControl: Inspecting #200 (Toaster | Tested)
+[13:52:45] QualityControl: Inspecting #200 (Toaster | Tested)
+[13:52:46] QualityControl: PASSED inspection
+[13:52:46] QualityControl: PASSED inspection
+[13:52:46] Generated #202 (Blender | New)
+[13:52:46] QualityControl: Inspecting #201 (Vacuum Cleaner | Tested)
+[13:52:46] QualityControl: Inspecting #201 (Vacuum Cleaner | Tested)
+[13:52:46] QualityControl: PASSED inspection
+[13:52:46] QualityControl: PASSED inspection
+[13:52:46] Generated #203 (Vacuum Cleaner | New)
+[13:52:46] QualityControl: Inspecting #202 (Blender | Tested)
+[13:52:46] QualityControl: Inspecting #202 (Blender | Tested)
+[13:52:47] QualityControl: FAILED inspection sending back to Assembly
+[13:52:47] QualityControl: FAILED inspection sending back to Assembly
+[13:52:47] PipeManager: received from pipe #202 (Blender | Rework) → requeued
+[13:52:47] PipeManager: sent via pipe #202 (Blender | Rework)
+[13:52:47] Generated #204 (Air Conditioner | New)
+[13:52:47] QualityControl: Inspecting #203 (Vacuum Cleaner | Tested)
+[13:52:47] QualityControl: Inspecting #203 (Vacuum Cleaner | Tested)
+[13:52:47] QualityControl: FAILED inspection sending back to Assembly
+[13:52:47] QualityControl: FAILED inspection sending back to Assembly
+[13:52:47] PipeManager: received from pipe #203 (Vacuum Cleaner | Rework) → requeued
+[13:52:47] PipeManager: sent via pipe #203 (Vacuum Cleaner | Rework)
+[13:52:47] Generated #205 (Vacuum Cleaner | New)
+[13:52:47] QualityControl: Inspecting #204 (Air Conditioner | Tested)
+[13:52:47] QualityControl: Inspecting #204 (Air Conditioner | Tested)
+[13:52:48] Controller: start() ignored (already running)
+[13:52:48] QualityControl: PASSED inspection
+[13:52:48] QualityControl: PASSED inspection
+[13:52:48] Generated #206 (Dryer | New)
+[13:52:48] QualityControl: Inspecting #205 (Vacuum Cleaner | Tested)
+[13:52:48] QualityControl: Inspecting #205 (Vacuum Cleaner | Tested)
+[13:52:48] QualityControl: PASSED inspection
+[13:52:48] QualityControl: PASSED inspection
+[13:52:48] Generated #207 (Microwave | New)
+[13:52:48] QualityControl: Inspecting #206 (Dryer | Tested)
+[13:52:48] QualityControl: Inspecting #206 (Dryer | Tested)
+[13:52:49] QualityControl: FAILED inspection sending back to Assembly
+[13:52:49] QualityControl: FAILED inspection sending back to Assembly
+[13:52:49] PipeManager: sent via pipe #206 (Dryer | Rework)
+[13:52:49] PipeManager: received from pipe #206 (Dryer | Rework) → requeued
+[13:52:49] Generated #208 (Oven | New)
+[13:52:49] QualityControl: Inspecting #207 (Microwave | Tested)
+[13:52:49] QualityControl: Inspecting #207 (Microwave | Tested)
+[13:52:49] ProductionLine: pause()
+[13:52:49] ProductionLine: pause()
+[13:52:49] Assembler-1: pause()
+[13:52:49] Assembler-1: pause()
+[13:52:49] Assembler-2: pause()
+[13:52:49] Assembler-2: pause()
+[13:52:49] Tester: pause()
+[13:52:49] Tester: pause()
+[13:52:49] QualityControl: pause()
+[13:52:49] QualityControl: pause()
+[13:52:49] Packer: pause()
+[13:52:49] Packer: pause()
+[13:52:49] Shipping: pause()
+[13:52:49] Shipping: pause()
+[13:52:49] Controller: pause()
+[13:52:49] QualityControl: PASSED inspection
+[13:52:49] QualityControl: PASSED inspection
+[13:52:49] Generated #209 (Air Conditioner | New)
+[13:52:50] Generated #210 (Air Conditioner | New)
+[13:53:03] State saved to file.
+[13:53:03] ProductionLine: stop()
+[13:53:03] Assembler-1: stop()
+[13:53:03] Assembler-2: stop()
+[13:53:03] Tester: stop()
+[13:53:03] QualityControl: stop()
+[13:53:03] Packer: stop()
+[13:53:03] Shipping: stop()
+[13:53:11] ProductionLine: start()
+[13:53:11] ProductionLine: start()
+[13:53:11] Assembler-1: start()
+[13:53:11] Assembler-1: start()
+[13:53:11] Assembler-2: start()
+[13:53:11] Assembler-2: start()
+[13:53:11] Tester: start()
+[13:53:11] Tester: start()
+[13:53:11] QualityControl: start()
+[13:53:11] QualityControl: start()
+[13:53:11] Packer: start()
+[13:53:11] Packer: start()
+[13:53:11] Shipping: start()
+[13:53:11] Shipping: start()
+[13:53:11] Generated #1 (Refrigerator | New)
+[13:53:11] Controller: start()
+[13:53:11] Assembler-1 runLoop started
+[13:53:11] Assembler-1 runLoop started
+[13:53:11] Assembler-2 runLoop started
+[13:53:11] Assembler-2 runLoop started
+[13:53:11] Tester runLoop started
+[13:53:11] Tester runLoop started
+[13:53:11] QualityControl runLoop started
+[13:53:11] QualityControl runLoop started
+[13:53:11] Packer runLoop started
+[13:53:11] Packer runLoop started
+[13:53:11] Shipping runLoop started
+[13:53:11] Shipping runLoop started
+[13:53:11] Generated #2 (Blender | New)
+[13:53:11] QualityControl: Inspecting #1 (Refrigerator | Tested)
+[13:53:11] QualityControl: Inspecting #1 (Refrigerator | Tested)
+[13:53:11] QualityControl: PASSED inspection
+[13:53:11] QualityControl: PASSED inspection
+[13:53:12] Generated #3 (Washing Machine | New)
+[13:53:12] QualityControl: Inspecting #2 (Blender | Tested)
+[13:53:12] QualityControl: Inspecting #2 (Blender | Tested)
+[13:53:12] QualityControl: PASSED inspection
+[13:53:12] QualityControl: PASSED inspection
+[13:53:12] Generated #4 (Blender | New)
+[13:53:12] QualityControl: Inspecting #3 (Washing Machine | Tested)
+[13:53:12] QualityControl: Inspecting #3 (Washing Machine | Tested)
+[13:53:12] QualityControl: PASSED inspection
+[13:53:12] QualityControl: PASSED inspection
+[13:53:13] Generated #5 (Blender | New)
+[13:53:13] QualityControl: Inspecting #4 (Blender | Tested)
+[13:53:13] QualityControl: Inspecting #4 (Blender | Tested)
+[13:53:13] QualityControl: PASSED inspection
+[13:53:13] QualityControl: PASSED inspection
+[13:53:13] Generated #6 (Toaster | New)
+[13:53:13] QualityControl: Inspecting #5 (Blender | Tested)
+[13:53:13] QualityControl: Inspecting #5 (Blender | Tested)
+[13:53:13] QualityControl: PASSED inspection
+[13:53:13] QualityControl: PASSED inspection
+[13:53:14] Generated #7 (Blender | New)
+[13:53:14] QualityControl: Inspecting #6 (Toaster | Tested)
+[13:53:14] QualityControl: Inspecting #6 (Toaster | Tested)
+[13:53:14] QualityControl: PASSED inspection
+[13:53:14] QualityControl: PASSED inspection
+[13:53:14] Generated #8 (Refrigerator | New)
+[13:53:14] QualityControl: Inspecting #7 (Blender | Tested)
+[13:53:14] QualityControl: Inspecting #7 (Blender | Tested)
+[13:53:14] QualityControl: PASSED inspection
+[13:53:14] QualityControl: PASSED inspection
+[13:53:15] Generated #9 (Air Conditioner | New)
+[13:53:15] QualityControl: Inspecting #8 (Refrigerator | Tested)
+[13:53:15] QualityControl: Inspecting #8 (Refrigerator | Tested)
+[13:53:15] QualityControl: FAILED inspection sending back to Assembly
+[13:53:15] QualityControl: FAILED inspection sending back to Assembly
+[13:53:15] PipeManager: received from pipe #8 (Refrigerator | Rework) → requeued
+[13:53:15] PipeManager: sent via pipe #8 (Refrigerator | Rework)
+[13:53:15] Generated #10 (Blender | New)
+[13:53:15] QualityControl: Inspecting #9 (Air Conditioner | Tested)
+[13:53:15] QualityControl: Inspecting #9 (Air Conditioner | Tested)
+[13:53:15] QualityControl: FAILED inspection sending back to Assembly
+[13:53:15] QualityControl: FAILED inspection sending back to Assembly
+[13:53:15] PipeManager: received from pipe #9 (Air Conditioner | Rework) → requeued
+[13:53:15] PipeManager: sent via pipe #9 (Air Conditioner | Rework)
+[13:53:16] Generated #11 (Dryer | New)
+[13:53:16] QualityControl: Inspecting #10 (Blender | Tested)
+[13:53:16] QualityControl: Inspecting #10 (Blender | Tested)
+[13:53:16] QualityControl: PASSED inspection
+[13:53:16] QualityControl: PASSED inspection
+[13:53:16] Generated #12 (Blender | New)
+[13:53:16] QualityControl: Inspecting #11 (Dryer | Tested)
+[13:53:16] QualityControl: Inspecting #11 (Dryer | Tested)
+[13:53:16] QualityControl: PASSED inspection
+[13:53:16] QualityControl: PASSED inspection
+[13:53:17] Generated #13 (Dryer | New)
+[13:53:17] QualityControl: Inspecting #12 (Blender | Tested)
+[13:53:17] QualityControl: Inspecting #12 (Blender | Tested)
+[13:53:17] QualityControl: PASSED inspection
+[13:53:17] QualityControl: PASSED inspection
+[13:53:17] Generated #14 (Refrigerator | New)
+[13:53:17] QualityControl: Inspecting #13 (Dryer | Tested)
+[13:53:17] QualityControl: Inspecting #13 (Dryer | Tested)
+[13:53:17] QualityControl: FAILED inspection sending back to Assembly
+[13:53:17] QualityControl: FAILED inspection sending back to Assembly
+[13:53:17] PipeManager: received from pipe #13 (Dryer | Rework) → requeued
+[13:53:17] PipeManager: sent via pipe #13 (Dryer | Rework)
+[13:53:18] Generated #15 (Dishwasher | New)
+[13:53:18] QualityControl: Inspecting #14 (Refrigerator | Tested)
+[13:53:18] QualityControl: Inspecting #14 (Refrigerator | Tested)
+[13:53:18] QualityControl: PASSED inspection
+[13:53:18] QualityControl: PASSED inspection
+[13:53:18] Generated #16 (Refrigerator | New)
+[13:53:18] QualityControl: Inspecting #15 (Dishwasher | Tested)
+[13:53:18] QualityControl: Inspecting #15 (Dishwasher | Tested)
+[13:53:18] QualityControl: FAILED inspection sending back to Assembly
+[13:53:18] QualityControl: FAILED inspection sending back to Assembly
+[13:53:18] PipeManager: received from pipe #15 (Dishwasher | Rework) → requeued
+[13:53:18] PipeManager: sent via pipe #15 (Dishwasher | Rework)
+[13:53:19] Generated #17 (Blender | New)
+[13:53:19] QualityControl: Inspecting #16 (Refrigerator | Tested)
+[13:53:19] QualityControl: Inspecting #16 (Refrigerator | Tested)
+[13:53:19] QualityControl: FAILED inspection sending back to Assembly
+[13:53:19] QualityControl: FAILED inspection sending back to Assembly
+[13:53:19] PipeManager: received from pipe #16 (Refrigerator | Rework) → requeued
+[13:53:19] PipeManager: sent via pipe #16 (Refrigerator | Rework)
+[13:53:19] Generated #18 (Air Conditioner | New)
+[13:53:19] QualityControl: Inspecting #17 (Blender | Tested)
+[13:53:19] QualityControl: Inspecting #17 (Blender | Tested)
+[13:53:19] QualityControl: PASSED inspection
+[13:53:19] QualityControl: PASSED inspection
+[13:53:20] Generated #19 (Vacuum Cleaner | New)
+[13:53:20] QualityControl: Inspecting #18 (Air Conditioner | Tested)
+[13:53:20] QualityControl: Inspecting #18 (Air Conditioner | Tested)
+[13:53:20] QualityControl: FAILED inspection sending back to Assembly
+[13:53:20] QualityControl: FAILED inspection sending back to Assembly
+[13:53:20] PipeManager: received from pipe #18 (Air Conditioner | Rework) → requeued
+[13:53:20] PipeManager: sent via pipe #18 (Air Conditioner | Rework)
+[13:53:20] Generated #20 (Washing Machine | New)
+[13:53:20] QualityControl: Inspecting #19 (Vacuum Cleaner | Tested)
+[13:53:20] QualityControl: Inspecting #19 (Vacuum Cleaner | Tested)
+[13:53:20] QualityControl: PASSED inspection
+[13:53:20] QualityControl: PASSED inspection
+[13:53:21] Generated #21 (Microwave | New)
+[13:53:21] QualityControl: Inspecting #20 (Washing Machine | Tested)
+[13:53:21] QualityControl: Inspecting #20 (Washing Machine | Tested)
+[13:53:21] QualityControl: PASSED inspection
+[13:53:21] QualityControl: PASSED inspection
+[13:53:21] Generated #22 (Dishwasher | New)
+[13:53:21] QualityControl: Inspecting #21 (Microwave | Tested)
+[13:53:21] QualityControl: Inspecting #21 (Microwave | Tested)
+[13:53:21] QualityControl: PASSED inspection
+[13:53:21] QualityControl: PASSED inspection
+[13:53:22] Generated #23 (Refrigerator | New)
+[13:53:22] QualityControl: Inspecting #22 (Dishwasher | Tested)
+[13:53:22] QualityControl: Inspecting #22 (Dishwasher | Tested)
+[13:53:22] QualityControl: PASSED inspection
+[13:53:22] QualityControl: PASSED inspection
+[13:53:22] Generated #24 (Vacuum Cleaner | New)
+[13:53:22] QualityControl: Inspecting #23 (Refrigerator | Tested)
+[13:53:22] QualityControl: Inspecting #23 (Refrigerator | Tested)
+[13:53:22] QualityControl: PASSED inspection
+[13:53:22] QualityControl: PASSED inspection
+[13:53:23] Generated #25 (Refrigerator | New)
+[13:53:23] QualityControl: Inspecting #24 (Vacuum Cleaner | Tested)
+[13:53:23] QualityControl: Inspecting #24 (Vacuum Cleaner | Tested)
+[13:53:23] QualityControl: PASSED inspection
+[13:53:23] QualityControl: PASSED inspection
+[13:53:23] Generated #26 (Refrigerator | New)
+[13:53:23] QualityControl: Inspecting #25 (Refrigerator | Tested)
+[13:53:23] QualityControl: Inspecting #25 (Refrigerator | Tested)
+[13:53:23] QualityControl: PASSED inspection
+[13:53:23] QualityControl: PASSED inspection
+[13:53:24] Generated #27 (Oven | New)
+[13:53:24] QualityControl: Inspecting #26 (Refrigerator | Tested)
+[13:53:24] QualityControl: Inspecting #26 (Refrigerator | Tested)
+[13:53:24] QualityControl: PASSED inspection
+[13:53:24] QualityControl: PASSED inspection
+[13:53:24] Generated #28 (Air Conditioner | New)
+[13:53:24] QualityControl: Inspecting #27 (Oven | Tested)
+[13:53:24] QualityControl: Inspecting #27 (Oven | Tested)
+[13:53:24] QualityControl: PASSED inspection
+[13:53:24] QualityControl: PASSED inspection
+[13:53:25] Generated #29 (Dryer | New)
+[13:53:25] QualityControl: Inspecting #28 (Air Conditioner | Tested)
+[13:53:25] QualityControl: Inspecting #28 (Air Conditioner | Tested)
+[13:53:25] QualityControl: FAILED inspection sending back to Assembly
+[13:53:25] QualityControl: FAILED inspection sending back to Assembly
+[13:53:25] PipeManager: received from pipe #28 (Air Conditioner | Rework) → requeued
+[13:53:25] PipeManager: sent via pipe #28 (Air Conditioner | Rework)
+[13:53:25] Generated #30 (Toaster | New)
+[13:53:25] QualityControl: Inspecting #29 (Dryer | Tested)
+[13:53:25] QualityControl: Inspecting #29 (Dryer | Tested)
+[13:53:25] QualityControl: PASSED inspection
+[13:53:25] QualityControl: PASSED inspection
+[13:53:26] Generated #31 (Air Conditioner | New)
+[13:53:26] QualityControl: Inspecting #30 (Toaster | Tested)
+[13:53:26] QualityControl: Inspecting #30 (Toaster | Tested)
+[13:53:26] QualityControl: FAILED inspection sending back to Assembly
+[13:53:26] QualityControl: FAILED inspection sending back to Assembly
+[13:53:26] PipeManager: received from pipe #30 (Toaster | Rework) → requeued
+[13:53:26] PipeManager: sent via pipe #30 (Toaster | Rework)
+[13:53:26] Generated #32 (Oven | New)
+[13:53:26] QualityControl: Inspecting #31 (Air Conditioner | Tested)
+[13:53:26] QualityControl: Inspecting #31 (Air Conditioner | Tested)
+[13:53:26] QualityControl: PASSED inspection
+[13:53:26] QualityControl: PASSED inspection
+[13:53:27] Generated #33 (Blender | New)
+[13:53:27] QualityControl: Inspecting #32 (Oven | Tested)
+[13:53:27] QualityControl: Inspecting #32 (Oven | Tested)
+[13:53:27] QualityControl: PASSED inspection
+[13:53:27] QualityControl: PASSED inspection
+[13:53:27] Generated #34 (Blender | New)
+[13:53:27] QualityControl: Inspecting #33 (Blender | Tested)
+[13:53:27] QualityControl: Inspecting #33 (Blender | Tested)
+[13:53:27] QualityControl: PASSED inspection
+[13:53:27] QualityControl: PASSED inspection
+[13:53:28] Generated #35 (Dishwasher | New)
+[13:53:28] QualityControl: Inspecting #34 (Blender | Tested)
+[13:53:28] QualityControl: Inspecting #34 (Blender | Tested)
+[13:53:28] QualityControl: PASSED inspection
+[13:53:28] QualityControl: PASSED inspection
+[13:53:28] Generated #36 (Air Conditioner | New)
+[13:53:28] QualityControl: Inspecting #35 (Dishwasher | Tested)
+[13:53:28] QualityControl: Inspecting #35 (Dishwasher | Tested)
+[13:53:28] QualityControl: PASSED inspection
+[13:53:28] QualityControl: PASSED inspection
+[13:53:29] Generated #37 (Washing Machine | New)
+[13:53:29] QualityControl: Inspecting #36 (Air Conditioner | Tested)
+[13:53:29] QualityControl: Inspecting #36 (Air Conditioner | Tested)
+[13:53:29] QualityControl: PASSED inspection
+[13:53:29] QualityControl: PASSED inspection
+[13:53:29] Generated #38 (Dryer | New)
+[13:53:29] QualityControl: Inspecting #37 (Washing Machine | Tested)
+[13:53:29] QualityControl: Inspecting #37 (Washing Machine | Tested)
+[13:53:29] QualityControl: FAILED inspection sending back to Assembly
+[13:53:29] QualityControl: FAILED inspection sending back to Assembly
+[13:53:29] PipeManager: received from pipe #37 (Washing Machine | Rework) → requeued
+[13:53:29] PipeManager: sent via pipe #37 (Washing Machine | Rework)
+[13:53:30] Generated #39 (Microwave | New)
+[13:53:30] QualityControl: Inspecting #38 (Dryer | Tested)
+[13:53:30] QualityControl: Inspecting #38 (Dryer | Tested)
+[13:53:30] QualityControl: PASSED inspection
+[13:53:30] QualityControl: PASSED inspection
+[13:53:30] Generated #40 (Vacuum Cleaner | New)
+[13:53:30] QualityControl: Inspecting #39 (Microwave | Tested)
+[13:53:30] QualityControl: Inspecting #39 (Microwave | Tested)
+[13:53:30] QualityControl: PASSED inspection
+[13:53:30] QualityControl: PASSED inspection
+[13:53:31] Generated #41 (Blender | New)
+[13:53:31] QualityControl: Inspecting #40 (Vacuum Cleaner | Tested)
+[13:53:31] QualityControl: Inspecting #40 (Vacuum Cleaner | Tested)
+[13:53:31] QualityControl: PASSED inspection
+[13:53:31] QualityControl: PASSED inspection
+[13:53:31] Generated #42 (Microwave | New)
+[13:53:31] QualityControl: Inspecting #41 (Blender | Tested)
+[13:53:31] QualityControl: Inspecting #41 (Blender | Tested)
+[13:53:31] QualityControl: PASSED inspection
+[13:53:31] QualityControl: PASSED inspection
+[13:53:32] Generated #43 (Air Conditioner | New)
+[13:53:32] QualityControl: Inspecting #42 (Microwave | Tested)
+[13:53:32] QualityControl: Inspecting #42 (Microwave | Tested)
+[13:53:32] QualityControl: PASSED inspection
+[13:53:32] QualityControl: PASSED inspection
+[13:53:32] Generated #44 (Air Conditioner | New)
+[13:53:32] QualityControl: Inspecting #43 (Air Conditioner | Tested)
+[13:53:32] QualityControl: Inspecting #43 (Air Conditioner | Tested)
+[13:53:32] QualityControl: PASSED inspection
+[13:53:32] QualityControl: PASSED inspection
+[13:53:33] Generated #45 (Toaster | New)
+[13:53:33] QualityControl: Inspecting #44 (Air Conditioner | Tested)
+[13:53:33] QualityControl: Inspecting #44 (Air Conditioner | Tested)
+[13:53:33] QualityControl: PASSED inspection
+[13:53:33] QualityControl: PASSED inspection
+[13:53:33] Generated #46 (Toaster | New)
+[13:53:33] QualityControl: Inspecting #45 (Toaster | Tested)
+[13:53:33] QualityControl: Inspecting #45 (Toaster | Tested)
+[13:53:33] QualityControl: FAILED inspection sending back to Assembly
+[13:53:33] QualityControl: FAILED inspection sending back to Assembly
+[13:53:33] PipeManager: received from pipe #45 (Toaster | Rework) → requeued
+[13:53:33] PipeManager: sent via pipe #45 (Toaster | Rework)
+[13:53:34] Generated #47 (Air Conditioner | New)
+[13:53:34] QualityControl: Inspecting #46 (Toaster | Tested)
+[13:53:34] QualityControl: Inspecting #46 (Toaster | Tested)
+[13:53:34] QualityControl: PASSED inspection
+[13:53:34] QualityControl: PASSED inspection
+[13:53:34] Generated #48 (Dishwasher | New)
+[13:53:34] QualityControl: Inspecting #47 (Air Conditioner | Tested)
+[13:53:34] QualityControl: Inspecting #47 (Air Conditioner | Tested)
+[13:53:34] QualityControl: PASSED inspection
+[13:53:34] QualityControl: PASSED inspection
+[13:53:35] Generated #49 (Blender | New)
+[13:53:35] QualityControl: Inspecting #48 (Dishwasher | Tested)
+[13:53:35] QualityControl: Inspecting #48 (Dishwasher | Tested)
+[13:53:35] QualityControl: PASSED inspection
+[13:53:35] QualityControl: PASSED inspection
+[13:53:35] Generated #50 (Dishwasher | New)
+[13:53:35] QualityControl: Inspecting #49 (Blender | Tested)
+[13:53:35] QualityControl: Inspecting #49 (Blender | Tested)
+[13:53:36] QualityControl: PASSED inspection
+[13:53:36] QualityControl: PASSED inspection
+[13:53:36] Generated #51 (Oven | New)
+[13:53:36] QualityControl: Inspecting #50 (Dishwasher | Tested)
+[13:53:36] QualityControl: Inspecting #50 (Dishwasher | Tested)
+[13:53:36] QualityControl: PASSED inspection
+[13:53:36] QualityControl: PASSED inspection
+[13:53:36] Generated #52 (Dishwasher | New)
+[13:53:36] QualityControl: Inspecting #51 (Oven | Tested)
+[13:53:36] QualityControl: Inspecting #51 (Oven | Tested)
+[13:53:37] QualityControl: PASSED inspection
+[13:53:37] QualityControl: PASSED inspection
+[13:53:37] Generated #53 (Blender | New)
+[13:53:37] QualityControl: Inspecting #52 (Dishwasher | Tested)
+[13:53:37] QualityControl: Inspecting #52 (Dishwasher | Tested)
+[13:53:37] QualityControl: PASSED inspection
+[13:53:37] QualityControl: PASSED inspection
+[13:53:37] Generated #54 (Blender | New)
+[13:53:37] QualityControl: Inspecting #53 (Blender | Tested)
+[13:53:37] QualityControl: Inspecting #53 (Blender | Tested)
+[13:53:38] QualityControl: FAILED inspection sending back to Assembly
+[13:53:38] QualityControl: FAILED inspection sending back to Assembly
+[13:53:38] PipeManager: received from pipe #53 (Blender | Rework) → requeued
+[13:53:38] PipeManager: sent via pipe #53 (Blender | Rework)
+[13:53:38] Generated #55 (Washing Machine | New)
+[13:53:38] QualityControl: Inspecting #54 (Blender | Tested)
+[13:53:38] QualityControl: Inspecting #54 (Blender | Tested)
+[13:53:38] QualityControl: PASSED inspection
+[13:53:38] QualityControl: PASSED inspection
+[13:53:38] Generated #56 (Air Conditioner | New)
+[13:53:38] QualityControl: Inspecting #55 (Washing Machine | Tested)
+[13:53:38] QualityControl: Inspecting #55 (Washing Machine | Tested)
+[13:53:39] QualityControl: PASSED inspection
+[13:53:39] QualityControl: PASSED inspection
+[13:53:39] Generated #57 (Oven | New)
+[13:53:39] QualityControl: Inspecting #56 (Air Conditioner | Tested)
+[13:53:39] QualityControl: Inspecting #56 (Air Conditioner | Tested)
+[13:53:39] QualityControl: FAILED inspection sending back to Assembly
+[13:53:39] QualityControl: FAILED inspection sending back to Assembly
+[13:53:39] PipeManager: received from pipe #56 (Air Conditioner | Rework) → requeued
+[13:53:39] PipeManager: sent via pipe #56 (Air Conditioner | Rework)
+[13:53:39] Generated #58 (Dryer | New)
+[13:53:39] QualityControl: Inspecting #57 (Oven | Tested)
+[13:53:39] QualityControl: Inspecting #57 (Oven | Tested)
+[13:53:39] ProductionLine: pause()
+[13:53:39] ProductionLine: pause()
+[13:53:39] Assembler-1: pause()
+[13:53:39] Assembler-1: pause()
+[13:53:39] Assembler-2: pause()
+[13:53:39] Assembler-2: pause()
+[13:53:39] Tester: pause()
+[13:53:39] Tester: pause()
+[13:53:39] QualityControl: pause()
+[13:53:39] QualityControl: pause()
+[13:53:39] Packer: pause()
+[13:53:39] Packer: pause()
+[13:53:39] Shipping: pause()
+[13:53:39] Shipping: pause()
+[13:53:39] Controller: pause()
+[13:53:40] QualityControl: PASSED inspection
+[13:53:40] QualityControl: PASSED inspection
+[13:53:40] Generated #59 (Oven | New)
+[13:53:40] Generated #60 (Microwave | New)
+[14:08:04] ProductionLine: start()
+[14:08:04] ProductionLine: start()
+[14:08:04] Assembler-1: start()
+[14:08:04] Assembler-1: start()
+[14:08:04] Assembler-2: start()
+[14:08:04] Assembler-2: start()
+[14:08:04] Tester: start()
+[14:08:04] Tester: start()
+[14:08:04] QualityControl: start()
+[14:08:04] QualityControl: start()
+[14:08:04] Packer: start()
+[14:08:04] Packer: start()
+[14:08:04] Shipping: start()
+[14:08:04] Shipping: start()
+[14:08:04] Generated #1 (Toaster | New)
+[14:08:04] Controller: start()
+[14:08:04] Assembler-1 runLoop started
+[14:08:04] Assembler-1 runLoop started
+[14:08:04] Assembler-2 runLoop started
+[14:08:04] Assembler-2 runLoop started
+[14:08:04] Tester runLoop started
+[14:08:04] Tester runLoop started
+[14:08:04] QualityControl runLoop started
+[14:08:04] QualityControl runLoop started
+[14:08:04] Packer runLoop started
+[14:08:04] Packer runLoop started
+[14:08:04] Shipping runLoop started
+[14:08:04] Shipping runLoop started
+[14:08:05] Generated #2 (Oven | New)
+[14:08:05] QualityControl: Inspecting #1 (Toaster | Tested)
+[14:08:05] QualityControl: Inspecting #1 (Toaster | Tested)
+[14:08:05] QualityControl: PASSED inspection
+[14:08:05] QualityControl: PASSED inspection
+[14:08:05] Generated #3 (Microwave | New)
+[14:08:05] QualityControl: Inspecting #2 (Oven | Tested)
+[14:08:05] QualityControl: Inspecting #2 (Oven | Tested)
+[14:08:05] QualityControl: PASSED inspection
+[14:08:05] QualityControl: PASSED inspection
+[14:08:06] Generated #4 (Toaster | New)
+[14:08:06] QualityControl: Inspecting #3 (Microwave | Tested)
+[14:08:06] QualityControl: Inspecting #3 (Microwave | Tested)
+[14:08:06] QualityControl: FAILED inspection sending back to Assembly
+[14:08:06] QualityControl: FAILED inspection sending back to Assembly
+[14:08:06] PipeManager: sent via pipe #3 (Microwave | Rework)
+[14:08:06] PipeManager: received from pipe #3 (Microwave | Rework) → requeued
+[14:08:06] Generated #5 (Blender | New)
+[14:08:06] QualityControl: Inspecting #4 (Toaster | Tested)
+[14:08:06] QualityControl: Inspecting #4 (Toaster | Tested)
+[14:08:06] QualityControl: PASSED inspection
+[14:08:06] QualityControl: PASSED inspection
+[14:08:07] Generated #6 (Vacuum Cleaner | New)
+[14:08:07] QualityControl: Inspecting #5 (Blender | Tested)
+[14:08:07] QualityControl: Inspecting #5 (Blender | Tested)
+[14:08:07] QualityControl: PASSED inspection
+[14:08:07] QualityControl: PASSED inspection
+[14:08:07] Generated #7 (Washing Machine | New)
+[14:08:07] QualityControl: Inspecting #6 (Vacuum Cleaner | Tested)
+[14:08:07] QualityControl: Inspecting #6 (Vacuum Cleaner | Tested)
+[14:08:07] QualityControl: PASSED inspection
+[14:08:07] QualityControl: PASSED inspection
+[14:08:08] Generated #8 (Washing Machine | New)
+[14:08:08] QualityControl: Inspecting #7 (Washing Machine | Tested)
+[14:08:08] QualityControl: Inspecting #7 (Washing Machine | Tested)
+[14:08:08] QualityControl: FAILED inspection sending back to Assembly
+[14:08:08] QualityControl: FAILED inspection sending back to Assembly
+[14:08:08] PipeManager: received from pipe #7 (Washing Machine | Rework) → requeued
+[14:08:08] PipeManager: sent via pipe #7 (Washing Machine | Rework)
+[14:08:08] Generated #9 (Refrigerator | New)
+[14:08:08] QualityControl: Inspecting #8 (Washing Machine | Tested)
+[14:08:08] QualityControl: Inspecting #8 (Washing Machine | Tested)
+[14:08:08] QualityControl: PASSED inspection
+[14:08:08] QualityControl: PASSED inspection
+[14:08:09] Generated #10 (Washing Machine | New)
+[14:08:09] QualityControl: Inspecting #9 (Refrigerator | Tested)
+[14:08:09] QualityControl: Inspecting #9 (Refrigerator | Tested)
+[14:08:09] QualityControl: PASSED inspection
+[14:08:09] QualityControl: PASSED inspection
+[14:08:09] Generated #11 (Toaster | New)
+[14:08:09] QualityControl: Inspecting #10 (Washing Machine | Tested)
+[14:08:09] QualityControl: Inspecting #10 (Washing Machine | Tested)
+[14:08:09] QualityControl: PASSED inspection
+[14:08:09] QualityControl: PASSED inspection
+[14:08:10] Generated #12 (Blender | New)
+[14:08:10] QualityControl: Inspecting #11 (Toaster | Tested)
+[14:08:10] QualityControl: Inspecting #11 (Toaster | Tested)
+[14:08:10] QualityControl: FAILED inspection sending back to Assembly
+[14:08:10] QualityControl: FAILED inspection sending back to Assembly
+[14:08:10] PipeManager: received from pipe #11 (Toaster | Rework) → requeued
+[14:08:10] PipeManager: sent via pipe #11 (Toaster | Rework)
+[14:08:10] Generated #13 (Air Conditioner | New)
+[14:08:10] QualityControl: Inspecting #12 (Blender | Tested)
+[14:08:10] QualityControl: Inspecting #12 (Blender | Tested)
+[14:08:10] QualityControl: PASSED inspection
+[14:08:10] QualityControl: PASSED inspection
+[14:08:11] Generated #14 (Air Conditioner | New)
+[14:08:11] QualityControl: Inspecting #13 (Air Conditioner | Tested)
+[14:08:11] QualityControl: Inspecting #13 (Air Conditioner | Tested)
+[14:08:11] QualityControl: FAILED inspection sending back to Assembly
+[14:08:11] QualityControl: FAILED inspection sending back to Assembly
+[14:08:11] PipeManager: received from pipe #13 (Air Conditioner | Rework) → requeued
+[14:08:11] PipeManager: sent via pipe #13 (Air Conditioner | Rework)
+[14:08:11] Generated #15 (Dryer | New)
+[14:08:11] QualityControl: Inspecting #14 (Air Conditioner | Tested)
+[14:08:11] QualityControl: Inspecting #14 (Air Conditioner | Tested)
+[14:08:11] QualityControl: PASSED inspection
+[14:08:11] QualityControl: PASSED inspection
+[14:08:12] Generated #16 (Vacuum Cleaner | New)
+[14:08:12] QualityControl: Inspecting #15 (Dryer | Tested)
+[14:08:12] QualityControl: Inspecting #15 (Dryer | Tested)
+[14:08:12] QualityControl: PASSED inspection
+[14:08:12] QualityControl: PASSED inspection
+[14:08:12] Generated #17 (Oven | New)
+[14:08:12] QualityControl: Inspecting #16 (Vacuum Cleaner | Tested)
+[14:08:12] QualityControl: Inspecting #16 (Vacuum Cleaner | Tested)
+[14:08:12] QualityControl: FAILED inspection sending back to Assembly
+[14:08:12] QualityControl: FAILED inspection sending back to Assembly
+[14:08:12] PipeManager: received from pipe #16 (Vacuum Cleaner | Rework) → requeued
+[14:08:12] PipeManager: sent via pipe #16 (Vacuum Cleaner | Rework)
+[14:08:13] Generated #18 (Blender | New)
+[14:08:13] QualityControl: Inspecting #17 (Oven | Tested)
+[14:08:13] QualityControl: Inspecting #17 (Oven | Tested)
+[14:08:13] QualityControl: PASSED inspection
+[14:08:13] QualityControl: PASSED inspection
+[14:08:13] Generated #19 (Washing Machine | New)
+[14:08:13] QualityControl: Inspecting #18 (Blender | Tested)
+[14:08:13] QualityControl: Inspecting #18 (Blender | Tested)
+[14:08:13] QualityControl: PASSED inspection
+[14:08:13] QualityControl: PASSED inspection
+[14:08:14] Generated #20 (Dryer | New)
+[14:08:14] QualityControl: Inspecting #19 (Washing Machine | Tested)
+[14:08:14] QualityControl: Inspecting #19 (Washing Machine | Tested)
+[14:08:14] QualityControl: PASSED inspection
+[14:08:14] QualityControl: PASSED inspection
+[14:08:14] Generated #21 (Toaster | New)
+[14:08:14] QualityControl: Inspecting #20 (Dryer | Tested)
+[14:08:14] QualityControl: Inspecting #20 (Dryer | Tested)
+[14:08:14] QualityControl: FAILED inspection sending back to Assembly
+[14:08:14] QualityControl: FAILED inspection sending back to Assembly
+[14:08:14] PipeManager: received from pipe #20 (Dryer | Rework) → requeued
+[14:08:14] PipeManager: sent via pipe #20 (Dryer | Rework)
+[14:08:15] Generated #22 (Dryer | New)
+[14:08:15] QualityControl: Inspecting #21 (Toaster | Tested)
+[14:08:15] QualityControl: Inspecting #21 (Toaster | Tested)
+[14:08:15] QualityControl: FAILED inspection sending back to Assembly
+[14:08:15] QualityControl: FAILED inspection sending back to Assembly
+[14:08:15] PipeManager: received from pipe #21 (Toaster | Rework) → requeued
+[14:08:15] PipeManager: sent via pipe #21 (Toaster | Rework)
+[14:08:15] Generated #23 (Toaster | New)
+[14:08:15] QualityControl: Inspecting #22 (Dryer | Tested)
+[14:08:15] QualityControl: Inspecting #22 (Dryer | Tested)
+[14:08:15] QualityControl: PASSED inspection
+[14:08:15] QualityControl: PASSED inspection
+[14:08:16] Generated #24 (Blender | New)
+[14:08:16] QualityControl: Inspecting #23 (Toaster | Tested)
+[14:08:16] QualityControl: Inspecting #23 (Toaster | Tested)
+[14:08:16] QualityControl: PASSED inspection
+[14:08:16] QualityControl: PASSED inspection
+[14:08:16] Generated #25 (Vacuum Cleaner | New)
+[14:08:16] QualityControl: Inspecting #24 (Blender | Tested)
+[14:08:16] QualityControl: Inspecting #24 (Blender | Tested)
+[14:08:16] QualityControl: PASSED inspection
+[14:08:16] QualityControl: PASSED inspection
+[14:08:17] Generated #26 (Air Conditioner | New)
+[14:08:17] QualityControl: Inspecting #25 (Vacuum Cleaner | Tested)
+[14:08:17] QualityControl: Inspecting #25 (Vacuum Cleaner | Tested)
+[14:08:17] QualityControl: FAILED inspection sending back to Assembly
+[14:08:17] QualityControl: FAILED inspection sending back to Assembly
+[14:08:17] PipeManager: received from pipe #25 (Vacuum Cleaner | Rework) → requeued
+[14:08:17] PipeManager: sent via pipe #25 (Vacuum Cleaner | Rework)
+[14:08:17] Generated #27 (Dishwasher | New)
+[14:08:17] QualityControl: Inspecting #26 (Air Conditioner | Tested)
+[14:08:17] QualityControl: Inspecting #26 (Air Conditioner | Tested)
+[14:08:17] QualityControl: PASSED inspection
+[14:08:17] QualityControl: PASSED inspection
+[14:08:18] Generated #28 (Dishwasher | New)
+[14:08:18] QualityControl: Inspecting #27 (Dishwasher | Tested)
+[14:08:18] QualityControl: Inspecting #27 (Dishwasher | Tested)
+[14:08:18] QualityControl: PASSED inspection
+[14:08:18] QualityControl: PASSED inspection
+[14:08:18] Generated #29 (Toaster | New)
+[14:08:18] QualityControl: Inspecting #28 (Dishwasher | Tested)
+[14:08:18] QualityControl: Inspecting #28 (Dishwasher | Tested)
+[14:08:18] QualityControl: PASSED inspection
+[14:08:18] QualityControl: PASSED inspection
+[14:08:19] Generated #30 (Dryer | New)
+[14:08:19] QualityControl: Inspecting #29 (Toaster | Tested)
+[14:08:19] QualityControl: Inspecting #29 (Toaster | Tested)
+[14:08:19] QualityControl: FAILED inspection sending back to Assembly
+[14:08:19] QualityControl: FAILED inspection sending back to Assembly
+[14:08:19] PipeManager: received from pipe #29 (Toaster | Rework) → requeued
+[14:08:19] PipeManager: sent via pipe #29 (Toaster | Rework)
+[14:08:19] Generated #31 (Blender | New)
+[14:08:19] QualityControl: Inspecting #30 (Dryer | Tested)
+[14:08:19] QualityControl: Inspecting #30 (Dryer | Tested)
+[14:08:19] ProductionLine: pause()
+[14:08:19] ProductionLine: pause()
+[14:08:19] Assembler-1: pause()
+[14:08:19] Assembler-1: pause()
+[14:08:19] Assembler-2: pause()
+[14:08:19] Assembler-2: pause()
+[14:08:19] Tester: pause()
+[14:08:19] Tester: pause()
+[14:08:19] QualityControl: pause()
+[14:08:19] QualityControl: pause()
+[14:08:19] Packer: pause()
+[14:08:19] Packer: pause()
+[14:08:19] Shipping: pause()
+[14:08:19] Shipping: pause()
+[14:08:19] Controller: pause()
+[14:08:19] QualityControl: PASSED inspection
+[14:08:19] QualityControl: PASSED inspection
+[14:08:20] Generated #32 (Washing Machine | New)
+[14:08:20] ProductionLine: stop()
+[14:08:20] ProductionLine: stop()
+[14:08:20] Assembler-1: stop()
+[14:08:20] Assembler-1: stop()
+[14:08:20] Assembler-2: stop()
+[14:08:20] Assembler-2: stop()
+[14:08:20] Tester: stop()
+[14:08:20] Tester: stop()
+[14:08:20] QualityControl: stop()
+[14:08:20] QualityControl: stop()
+[14:08:20] Packer: stop()
+[14:08:20] Packer: stop()
+[14:08:20] Shipping: stop()
+[14:08:20] Shipping: stop()
+[14:08:20] Controller: stop()
+[14:08:20] Assembler-1 loop finished
+[14:08:20] Assembler-1 loop finished
+[14:08:20] Tester loop finished
+[14:08:20] Tester loop finished
+[14:08:20] QualityControl loop finished
+[14:08:20] QualityControl loop finished
+[14:08:20] Packer loop finished
+[14:08:20] Packer loop finished
+[14:08:20] Shipping loop finished
+[14:08:20] Shipping loop finished
+[14:08:20] Assembler-2 loop finished
+[14:08:20] Assembler-2 loop finished
+[14:08:21] State saved to file.
+[14:08:21] ProductionLine: stop()
