@@ -74,11 +74,7 @@
           </spacer>
          </item>
          <item>
-          <widget class="QComboBox" name="cmbSpeed">
-           <property name="toolTip">
-            <string>Production speed</string>
-           </property>
-          </widget>
+          <widget class="QComboBox" name="comboBox"/>
          </item>
         </layout>
        </widget>
@@ -88,7 +84,7 @@
           <x>0</x>
           <y>30</y>
           <width>630</width>
-          <height>450</height>
+          <height>553</height>
          </rect>
         </property>
         <layout class="QGridLayout" name="stationsLayout">

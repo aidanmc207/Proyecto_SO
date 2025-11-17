@@ -9,7 +9,7 @@ Shipping::Shipping(const QString& name)
 void Shipping::process(Product& p)
 {
     // Simular el proceso de envío
-    QThread::msleep(300); // Tiempo de envío
+    QThread::msleep(Config::shipDelay); // Tiempo de envío
 
     p.shipped = true;
 

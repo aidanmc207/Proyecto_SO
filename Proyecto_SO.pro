@@ -4,7 +4,10 @@ TEMPLATE = app
 TARGET = proyecto_so_2025
 
 SOURCES += \
+    LogWindow.cpp \
     QualityControl.cpp \
+    StatsWindow.cpp \
+    firstView.cpp \
     main.cpp \
     MainWindow.cpp \
     ProductionController.cpp \
@@ -23,10 +26,13 @@ SOURCES += \
     product.cpp
 
 HEADERS += \
+    Config.h \
+    LogWindow.h \
     MainWindow.h \
     ProductionController.h \
     ProductionLine.h \
     QualityControl.h \
+    StatsWindow.h \
     WorkStation.h \
     Assembler.h \
     Tester.h \
@@ -39,7 +45,11 @@ HEADERS += \
     Persistence.h \
     ThreadManager.h \
     PipeManager.h \
+    firstView.h \
     product.h
 
 FORMS += \
+    LogWindow.ui \
+    StatsWindow.ui \
+    firstView.ui \
     mainwindow.ui

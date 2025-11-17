@@ -1,6 +1,7 @@
 #pragma once
 #include "WorkStation.h"
 #include <QThread>
+#include "Config.h"
 
 class Packer : public WorkStation
 {

@@ -23,6 +23,7 @@ public slots:
     void appendLog(const QString& line);
     void updateStats(const QString& name, long processed, int queue,long rework);
     void updateGlobalRework();
+    void changeSpeedMode(int index);
 
 private:
     class Impl; Impl* d;

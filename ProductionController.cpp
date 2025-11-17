@@ -90,10 +90,28 @@ ProductionController::ProductionController(QObject* parent)
 
     connect(this, &ProductionController::logLine,
             maintenance, &ThreadManager::pushLog);
+    //Conecto al log win
+    connect(maintenance, &ThreadManager::log,
+            logWin, &LogWindow::appendLog,
+            Qt::QueuedConnection);
+
 
     // Iniciar los hilos de mantenimiento
     maintenance->startAll();
 
+}
+void ProductionController::setLogWindow(LogWindow* win)
+{
+    logWin = win;
+
+    if (!m_line || !logWin)
+        return;
+
+    // Conectar TODAS las estaciones al LogWindow
+    for (auto* ws : m_line->stations()) {
+        connect(ws, &WorkStation::log,
+                logWin, &LogWindow::appendLog);
+    }
 }
 
 void ProductionController::start()

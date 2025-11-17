@@ -12,6 +12,7 @@
 #include "ThreadManager.h"
 #include "QualityControl.h"
 #include "PipeManager.h"
+#include "LogWindow.h"
 
 
 class ProductionController : public QObject
@@ -30,6 +31,7 @@ public slots:
     void startStation(const QString& stationName);
     void pauseStation(const QString& stationName);
     void stopStation(const QString& stationName);
+     void setLogWindow(LogWindow* win);
 
 signals:
     void logLine(const QString& line);
@@ -43,7 +45,8 @@ private:
     void generateProduct();
     Buffer<Product>* m_entry1 = nullptr;
     Buffer<Product>* m_entry2 = nullptr;
-    bool m_toggle = false;   // alternador Round-Robin
+    bool m_toggle = false;   // alternador
+    LogWindow* logWin = nullptr;
 
     ProductionLine* m_line = nullptr;
     bool m_running = false;
