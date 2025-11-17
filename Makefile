@@ -52,7 +52,9 @@ OBJECTS_DIR   = ./
 
 ####### Files
 
-SOURCES       = QualityControl.cpp \
+SOURCES       = LogWindow.cpp \
+		QualityControl.cpp \
+		firstView.cpp \
 		main.cpp \
 		MainWindow.cpp \
 		ProductionController.cpp \
@@ -62,13 +64,12 @@ SOURCES       = QualityControl.cpp \
 		Tester.cpp \
 		Packer.cpp \
 		Shipping.cpp \
-		Logger.cpp \
 		StatsMonitor.cpp \
-		CleanUpService.cpp \
 		Persistence.cpp \
 		ThreadManager.cpp \
 		PipeManager.cpp \
-		product.cpp moc_MainWindow.cpp \
+		product.cpp moc_LogWindow.cpp \
+		moc_MainWindow.cpp \
 		moc_ProductionController.cpp \
 		moc_ProductionLine.cpp \
 		moc_QualityControl.cpp \
@@ -77,13 +78,14 @@ SOURCES       = QualityControl.cpp \
 		moc_Tester.cpp \
 		moc_Packer.cpp \
 		moc_Shipping.cpp \
-		moc_Logger.cpp \
 		moc_StatsMonitor.cpp \
-		moc_CleanUpService.cpp \
 		moc_Persistence.cpp \
 		moc_ThreadManager.cpp \
-		moc_PipeManager.cpp
-OBJECTS       = QualityControl.o \
+		moc_PipeManager.cpp \
+		moc_firstView.cpp
+OBJECTS       = LogWindow.o \
+		QualityControl.o \
+		firstView.o \
 		main.o \
 		MainWindow.o \
 		ProductionController.o \
@@ -93,13 +95,12 @@ OBJECTS       = QualityControl.o \
 		Tester.o \
 		Packer.o \
 		Shipping.o \
-		Logger.o \
 		StatsMonitor.o \
-		CleanUpService.o \
 		Persistence.o \
 		ThreadManager.o \
 		PipeManager.o \
 		product.o \
+		moc_LogWindow.o \
 		moc_MainWindow.o \
 		moc_ProductionController.o \
 		moc_ProductionLine.o \
@@ -109,12 +110,11 @@ OBJECTS       = QualityControl.o \
 		moc_Tester.o \
 		moc_Packer.o \
 		moc_Shipping.o \
-		moc_Logger.o \
 		moc_StatsMonitor.o \
-		moc_CleanUpService.o \
 		moc_Persistence.o \
 		moc_ThreadManager.o \
-		moc_PipeManager.o
+		moc_PipeManager.o \
+		moc_firstView.o
 DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/linux.conf \
@@ -192,7 +192,9 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exceptions.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf \
-		Proyecto_SO.pro MainWindow.h \
+		Proyecto_SO.pro Config.h \
+		LogWindow.h \
+		MainWindow.h \
 		ProductionController.h \
 		ProductionLine.h \
 		QualityControl.h \
@@ -202,13 +204,14 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		Packer.h \
 		Shipping.h \
 		Buffer.h \
-		Logger.h \
 		StatsMonitor.h \
-		CleanUpService.h \
 		Persistence.h \
 		ThreadManager.h \
 		PipeManager.h \
-		product.h QualityControl.cpp \
+		firstView.h \
+		product.h LogWindow.cpp \
+		QualityControl.cpp \
+		firstView.cpp \
 		main.cpp \
 		MainWindow.cpp \
 		ProductionController.cpp \
@@ -218,9 +221,7 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		Tester.cpp \
 		Packer.cpp \
 		Shipping.cpp \
-		Logger.cpp \
 		StatsMonitor.cpp \
-		CleanUpService.cpp \
 		Persistence.cpp \
 		ThreadManager.cpp \
 		PipeManager.cpp \
@@ -233,7 +234,7 @@ TARGET        = proyecto_so_2025
 first: all
 ####### Build rules
 
-proyecto_so_2025: ui_mainwindow.h $(OBJECTS)  
+proyecto_so_2025: ui_LogWindow.h ui_firstView.h ui_mainwindow.h $(OBJECTS)  
 	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
 
 Makefile: Proyecto_SO.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
@@ -408,9 +409,9 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents MainWindow.h ProductionController.h ProductionLine.h QualityControl.h WorkStation.h Assembler.h Tester.h Packer.h Shipping.h Buffer.h Logger.h StatsMonitor.h CleanUpService.h Persistence.h ThreadManager.h PipeManager.h product.h $(DISTDIR)/
-	$(COPY_FILE) --parents QualityControl.cpp main.cpp MainWindow.cpp ProductionController.cpp ProductionLine.cpp WorkStation.cpp Assembler.cpp Tester.cpp Packer.cpp Shipping.cpp Logger.cpp StatsMonitor.cpp CleanUpService.cpp Persistence.cpp ThreadManager.cpp PipeManager.cpp product.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents mainwindow.ui $(DISTDIR)/
+	$(COPY_FILE) --parents Config.h LogWindow.h MainWindow.h ProductionController.h ProductionLine.h QualityControl.h WorkStation.h Assembler.h Tester.h Packer.h Shipping.h Buffer.h StatsMonitor.h Persistence.h ThreadManager.h PipeManager.h firstView.h product.h $(DISTDIR)/
+	$(COPY_FILE) --parents LogWindow.cpp QualityControl.cpp firstView.cpp main.cpp MainWindow.cpp ProductionController.cpp ProductionLine.cpp WorkStation.cpp Assembler.cpp Tester.cpp Packer.cpp Shipping.cpp StatsMonitor.cpp Persistence.cpp ThreadManager.cpp PipeManager.cpp product.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents LogWindow.ui firstView.ui mainwindow.ui $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -442,9 +443,14 @@ compiler_moc_predefs_clean:
 moc_predefs.h: /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 	g++ -pipe -O2 -std=gnu++1z -Wall -Wextra -dM -E -o moc_predefs.h /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 
-compiler_moc_header_make_all: moc_MainWindow.cpp moc_ProductionController.cpp moc_ProductionLine.cpp moc_QualityControl.cpp moc_WorkStation.cpp moc_Assembler.cpp moc_Tester.cpp moc_Packer.cpp moc_Shipping.cpp moc_Logger.cpp moc_StatsMonitor.cpp moc_CleanUpService.cpp moc_Persistence.cpp moc_ThreadManager.cpp moc_PipeManager.cpp
+compiler_moc_header_make_all: moc_LogWindow.cpp moc_MainWindow.cpp moc_ProductionController.cpp moc_ProductionLine.cpp moc_QualityControl.cpp moc_WorkStation.cpp moc_Assembler.cpp moc_Tester.cpp moc_Packer.cpp moc_Shipping.cpp moc_StatsMonitor.cpp moc_Persistence.cpp moc_ThreadManager.cpp moc_PipeManager.cpp moc_firstView.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_MainWindow.cpp moc_ProductionController.cpp moc_ProductionLine.cpp moc_QualityControl.cpp moc_WorkStation.cpp moc_Assembler.cpp moc_Tester.cpp moc_Packer.cpp moc_Shipping.cpp moc_Logger.cpp moc_StatsMonitor.cpp moc_CleanUpService.cpp moc_Persistence.cpp moc_ThreadManager.cpp moc_PipeManager.cpp
+	-$(DEL_FILE) moc_LogWindow.cpp moc_MainWindow.cpp moc_ProductionController.cpp moc_ProductionLine.cpp moc_QualityControl.cpp moc_WorkStation.cpp moc_Assembler.cpp moc_Tester.cpp moc_Packer.cpp moc_Shipping.cpp moc_StatsMonitor.cpp moc_Persistence.cpp moc_ThreadManager.cpp moc_PipeManager.cpp moc_firstView.cpp
+moc_LogWindow.cpp: LogWindow.h \
+		moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include LogWindow.h -o moc_LogWindow.cpp
+
 moc_MainWindow.cpp: MainWindow.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
@@ -456,6 +462,7 @@ moc_ProductionController.cpp: ProductionController.h \
 		WorkStation.h \
 		product.h \
 		Assembler.h \
+		Config.h \
 		Tester.h \
 		Packer.h \
 		Shipping.h \
@@ -464,6 +471,7 @@ moc_ProductionController.cpp: ProductionController.h \
 		QualityControl.h \
 		PipeManager.h \
 		StatsMonitor.h \
+		LogWindow.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ProductionController.h -o moc_ProductionController.cpp
@@ -480,6 +488,7 @@ moc_QualityControl.cpp: QualityControl.h \
 		WorkStation.h \
 		Buffer.h \
 		product.h \
+		Config.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include QualityControl.h -o moc_QualityControl.cpp
@@ -495,6 +504,7 @@ moc_Assembler.cpp: Assembler.h \
 		WorkStation.h \
 		Buffer.h \
 		product.h \
+		Config.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include Assembler.h -o moc_Assembler.cpp
@@ -503,6 +513,7 @@ moc_Tester.cpp: Tester.h \
 		WorkStation.h \
 		Buffer.h \
 		product.h \
+		Config.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include Tester.h -o moc_Tester.cpp
@@ -511,6 +522,7 @@ moc_Packer.cpp: Packer.h \
 		WorkStation.h \
 		Buffer.h \
 		product.h \
+		Config.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include Packer.h -o moc_Packer.cpp
@@ -519,24 +531,15 @@ moc_Shipping.cpp: Shipping.h \
 		WorkStation.h \
 		Buffer.h \
 		product.h \
+		Config.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include Shipping.h -o moc_Shipping.cpp
-
-moc_Logger.cpp: Logger.h \
-		moc_predefs.h \
-		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include Logger.h -o moc_Logger.cpp
 
 moc_StatsMonitor.cpp: StatsMonitor.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include StatsMonitor.h -o moc_StatsMonitor.cpp
-
-moc_CleanUpService.cpp: CleanUpService.h \
-		moc_predefs.h \
-		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include CleanUpService.h -o moc_CleanUpService.cpp
 
 moc_Persistence.cpp: Persistence.h \
 		product.h \
@@ -563,13 +566,26 @@ moc_PipeManager.cpp: PipeManager.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include PipeManager.h -o moc_PipeManager.cpp
 
+moc_firstView.cpp: firstView.h \
+		moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/aimurr/Documents/GitHub/Proyecto_SO/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/aimurr/Documents/GitHub/Proyecto_SO -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include firstView.h -o moc_firstView.cpp
+
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
-compiler_uic_make_all: ui_mainwindow.h
+compiler_uic_make_all: ui_LogWindow.h ui_firstView.h ui_mainwindow.h
 compiler_uic_clean:
-	-$(DEL_FILE) ui_mainwindow.h
+	-$(DEL_FILE) ui_LogWindow.h ui_firstView.h ui_mainwindow.h
+ui_LogWindow.h: LogWindow.ui \
+		/usr/lib/qt5/bin/uic
+	/usr/lib/qt5/bin/uic LogWindow.ui -o ui_LogWindow.h
+
+ui_firstView.h: firstView.ui \
+		/usr/lib/qt5/bin/uic
+	/usr/lib/qt5/bin/uic firstView.ui -o ui_firstView.h
+
 ui_mainwindow.h: mainwindow.ui \
 		/usr/lib/qt5/bin/uic
 	/usr/lib/qt5/bin/uic mainwindow.ui -o ui_mainwindow.h
@@ -584,14 +600,25 @@ compiler_clean: compiler_moc_predefs_clean compiler_moc_header_clean compiler_ui
 
 ####### Compile
 
+LogWindow.o: LogWindow.cpp LogWindow.h \
+		ui_LogWindow.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o LogWindow.o LogWindow.cpp
+
 QualityControl.o: QualityControl.cpp QualityControl.h \
 		WorkStation.h \
 		Buffer.h \
 		product.h \
+		Config.h \
 		PipeManager.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o QualityControl.o QualityControl.cpp
 
-main.o: main.cpp MainWindow.h
+firstView.o: firstView.cpp firstView.h \
+		ui_firstView.h \
+		MainWindow.h \
+		LogWindow.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o firstView.o firstView.cpp
+
+main.o: main.cpp firstView.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o main.cpp
 
 MainWindow.o: MainWindow.cpp MainWindow.h \
@@ -601,6 +628,7 @@ MainWindow.o: MainWindow.cpp MainWindow.h \
 		WorkStation.h \
 		product.h \
 		Assembler.h \
+		Config.h \
 		Tester.h \
 		Packer.h \
 		Shipping.h \
@@ -609,6 +637,7 @@ MainWindow.o: MainWindow.cpp MainWindow.h \
 		QualityControl.h \
 		PipeManager.h \
 		StatsMonitor.h \
+		LogWindow.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o MainWindow.o MainWindow.cpp
 
@@ -618,6 +647,7 @@ ProductionController.o: ProductionController.cpp ProductionController.h \
 		WorkStation.h \
 		product.h \
 		Assembler.h \
+		Config.h \
 		Tester.h \
 		Packer.h \
 		Shipping.h \
@@ -625,7 +655,8 @@ ProductionController.o: ProductionController.cpp ProductionController.h \
 		ThreadManager.h \
 		QualityControl.h \
 		PipeManager.h \
-		StatsMonitor.h
+		StatsMonitor.h \
+		LogWindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ProductionController.o ProductionController.cpp
 
 ProductionLine.o: ProductionLine.cpp ProductionLine.h \
@@ -642,35 +673,33 @@ WorkStation.o: WorkStation.cpp WorkStation.h \
 Assembler.o: Assembler.cpp Assembler.h \
 		WorkStation.h \
 		Buffer.h \
-		product.h
+		product.h \
+		Config.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Assembler.o Assembler.cpp
 
 Tester.o: Tester.cpp Tester.h \
 		WorkStation.h \
 		Buffer.h \
-		product.h
+		product.h \
+		Config.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Tester.o Tester.cpp
 
 Packer.o: Packer.cpp Packer.h \
 		WorkStation.h \
 		Buffer.h \
-		product.h
+		product.h \
+		Config.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Packer.o Packer.cpp
 
 Shipping.o: Shipping.cpp Shipping.h \
 		WorkStation.h \
 		Buffer.h \
-		product.h
+		product.h \
+		Config.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Shipping.o Shipping.cpp
-
-Logger.o: Logger.cpp Logger.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Logger.o Logger.cpp
 
 StatsMonitor.o: StatsMonitor.cpp StatsMonitor.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o StatsMonitor.o StatsMonitor.cpp
-
-CleanUpService.o: CleanUpService.cpp CleanUpService.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o CleanUpService.o CleanUpService.cpp
 
 Persistence.o: Persistence.cpp Persistence.h \
 		product.h \
@@ -694,6 +723,9 @@ PipeManager.o: PipeManager.cpp PipeManager.h \
 
 product.o: product.cpp product.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o product.o product.cpp
+
+moc_LogWindow.o: moc_LogWindow.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_LogWindow.o moc_LogWindow.cpp
 
 moc_MainWindow.o: moc_MainWindow.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_MainWindow.o moc_MainWindow.cpp
@@ -722,14 +754,8 @@ moc_Packer.o: moc_Packer.cpp
 moc_Shipping.o: moc_Shipping.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_Shipping.o moc_Shipping.cpp
 
-moc_Logger.o: moc_Logger.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_Logger.o moc_Logger.cpp
-
 moc_StatsMonitor.o: moc_StatsMonitor.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_StatsMonitor.o moc_StatsMonitor.cpp
-
-moc_CleanUpService.o: moc_CleanUpService.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_CleanUpService.o moc_CleanUpService.cpp
 
 moc_Persistence.o: moc_Persistence.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_Persistence.o moc_Persistence.cpp
@@ -739,6 +765,9 @@ moc_ThreadManager.o: moc_ThreadManager.cpp
 
 moc_PipeManager.o: moc_PipeManager.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_PipeManager.o moc_PipeManager.cpp
+
+moc_firstView.o: moc_firstView.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_firstView.o moc_firstView.cpp
 
 ####### Install
 

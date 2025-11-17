@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[21];
-    char stringdata0[221];
+    QByteArrayData data[23];
+    char stringdata0[243];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -52,7 +52,9 @@ QT_MOC_LITERAL(16, 166, 9), // "processed"
 QT_MOC_LITERAL(17, 176, 5), // "queue"
 QT_MOC_LITERAL(18, 182, 6), // "rework"
 QT_MOC_LITERAL(19, 189, 18), // "updateGlobalRework"
-QT_MOC_LITERAL(20, 208, 12) // "updateCharts"
+QT_MOC_LITERAL(20, 208, 12), // "updateCharts"
+QT_MOC_LITERAL(21, 221, 15), // "changeSpeedMode"
+QT_MOC_LITERAL(22, 237, 5) // "index"
 
     },
     "MainWindow\0startProduction\0\0pauseProduction\0"
@@ -60,7 +62,8 @@ QT_MOC_LITERAL(20, 208, 12) // "updateCharts"
     "pauseStation\0stopStation\0updateStation\0"
     "state\0progress\0appendLog\0line\0updateStats\0"
     "name\0processed\0queue\0rework\0"
-    "updateGlobalRework\0updateCharts"
+    "updateGlobalRework\0updateCharts\0"
+    "changeSpeedMode\0index"
 };
 #undef QT_MOC_LITERAL
 
@@ -70,7 +73,7 @@ static const uint qt_meta_data_MainWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      11,   14, // methods
+      12,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -78,19 +81,20 @@ static const uint qt_meta_data_MainWindow[] = {
        6,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   69,    2, 0x06 /* Public */,
-       3,    0,   70,    2, 0x06 /* Public */,
-       4,    0,   71,    2, 0x06 /* Public */,
-       5,    1,   72,    2, 0x06 /* Public */,
-       7,    1,   75,    2, 0x06 /* Public */,
-       8,    1,   78,    2, 0x06 /* Public */,
+       1,    0,   74,    2, 0x06 /* Public */,
+       3,    0,   75,    2, 0x06 /* Public */,
+       4,    0,   76,    2, 0x06 /* Public */,
+       5,    1,   77,    2, 0x06 /* Public */,
+       7,    1,   80,    2, 0x06 /* Public */,
+       8,    1,   83,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       9,    3,   81,    2, 0x0a /* Public */,
-      12,    1,   88,    2, 0x0a /* Public */,
-      14,    4,   91,    2, 0x0a /* Public */,
-      19,    0,  100,    2, 0x0a /* Public */,
-      20,    0,  101,    2, 0x0a /* Public */,
+       9,    3,   86,    2, 0x0a /* Public */,
+      12,    1,   93,    2, 0x0a /* Public */,
+      14,    4,   96,    2, 0x0a /* Public */,
+      19,    0,  105,    2, 0x0a /* Public */,
+      20,    0,  106,    2, 0x0a /* Public */,
+      21,    1,  107,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -106,6 +110,7 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void, QMetaType::QString, QMetaType::Long, QMetaType::Int, QMetaType::Long,   15,   16,   17,   18,
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::Int,   22,
 
        0        // eod
 };
@@ -127,6 +132,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 8: _t->updateStats((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< long(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< long(*)>(_a[4]))); break;
         case 9: _t->updateGlobalRework(); break;
         case 10: _t->updateCharts(); break;
+        case 11: _t->changeSpeedMode((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -205,13 +211,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 11)
+        if (_id < 12)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 12;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 11)
+        if (_id < 12)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 11;
+        _id -= 12;
     }
     return _id;
 }

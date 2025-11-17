@@ -6,7 +6,6 @@ TARGET = proyecto_so_2025
 SOURCES += \
     LogWindow.cpp \
     QualityControl.cpp \
-    StatsWindow.cpp \
     firstView.cpp \
     main.cpp \
     MainWindow.cpp \
@@ -17,9 +16,7 @@ SOURCES += \
     Tester.cpp \
     Packer.cpp \
     Shipping.cpp \
-    Logger.cpp \
     StatsMonitor.cpp \
-    CleanUpService.cpp \
     Persistence.cpp \
     ThreadManager.cpp \
     PipeManager.cpp \
@@ -32,16 +29,13 @@ HEADERS += \
     ProductionController.h \
     ProductionLine.h \
     QualityControl.h \
-    StatsWindow.h \
     WorkStation.h \
     Assembler.h \
     Tester.h \
     Packer.h \
     Shipping.h \
     Buffer.h \
-    Logger.h \
     StatsMonitor.h \
-    CleanUpService.h \
     Persistence.h \
     ThreadManager.h \
     PipeManager.h \
@@ -50,6 +44,5 @@ HEADERS += \
 
 FORMS += \
     LogWindow.ui \
-    StatsWindow.ui \
     firstView.ui \
     mainwindow.ui

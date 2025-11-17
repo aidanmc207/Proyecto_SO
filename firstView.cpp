@@ -3,7 +3,6 @@
 
 #include "MainWindow.h"
 #include "LogWindow.h"
-#include "StatsWindow.h"
 
 FirstView::FirstView(QWidget *parent)
     : QWidget(parent)
