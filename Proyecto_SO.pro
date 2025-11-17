@@ -6,7 +6,6 @@ TARGET = proyecto_so_2025
 SOURCES += \
     LogWindow.cpp \
     QualityControl.cpp \
-    StatsWindow.cpp \
     firstView.cpp \
     main.cpp \
     MainWindow.cpp \
@@ -32,7 +31,6 @@ HEADERS += \
     ProductionController.h \
     ProductionLine.h \
     QualityControl.h \
-    StatsWindow.h \
     WorkStation.h \
     Assembler.h \
     Tester.h \
@@ -50,6 +48,5 @@ HEADERS += \
 
 FORMS += \
     LogWindow.ui \
-    StatsWindow.ui \
     firstView.ui \
     mainwindow.ui
