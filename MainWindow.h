@@ -32,6 +32,8 @@ public slots:
 private:
     void setupCharts(); // Inicializar los gráficos
     void exportChartData(); // Exportar datos a CSV
+    void setupModernStyles(); // Aplicar estilos modernos
+    void reorganizeLayout(); // Reorganizar en dos columnas
 
     class Impl; Impl* d;
 
