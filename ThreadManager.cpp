@@ -101,20 +101,11 @@ void ThreadManager::doClean()
         emit log(QString("GeneralCleanThreads: Buffer de entrada limpiado (tenía %1 productos)").arg(size));
     }
 
-    // Resetear los contadores de todas las estaciones
-    int estacionesReseteadas = 0;
-    for (auto* st : m_line->stations()) {
-        if (st) {
-            long procesados = st->processedCount();
-            st->resetCount();
-            estacionesReseteadas++;
-            emit log(QString("GeneralCleanThreads: Estación '%1' reseteada (había procesado %2)")
-                    .arg(st->name()).arg(procesados));
-        }
-    }
+    // NOTA: NO reseteamos los contadores para que sigan acumulando
+    // Si se necesita resetear, debe hacerse manualmente con el botón Stop
 
-    emit log(QString("GeneralCleanThreads: Limpieza completa. %1 buffers limpiados, %2 estaciones reseteadas.")
-            .arg(buffersLimpiados).arg(estacionesReseteadas));
+    emit log(QString("GeneralCleanThreads: Limpieza completa. %1 buffers limpiados.")
+            .arg(buffersLimpiados));
     emit log("--- GeneralCleanThreads: Limpieza finalizada ---");
 }
 

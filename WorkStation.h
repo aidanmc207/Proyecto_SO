@@ -73,6 +73,7 @@ private:
     QThread m_thread;
     bool m_running = false;
     bool m_paused  = false;
+    bool m_stopped = false;  // Indica si se hizo stop completo
 
     QMutex m_pauseMutex;
     QWaitCondition m_pauseCond;

@@ -141,7 +141,14 @@ void ProductionController::stop()
     m_line->stop();
     maintenance->stopAll();
 
-    emit logLine("Controller: stop()");
+    // Resetear contadores de todas las estaciones cuando se detiene
+    for (auto* st : m_line->stations()) {
+        if (st) {
+            st->resetCount();
+        }
+    }
+
+    emit logLine("Controller: stop() - Contadores reseteados");
 }
 
 void ProductionController::generateProduct()
