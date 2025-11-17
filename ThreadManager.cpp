@@ -1,4 +1,5 @@
 #include "ThreadManager.h"
+#include "StatsMonitor.h"
 #include <QFile>
 #include <QDateTime>
 
@@ -149,4 +150,16 @@ void ThreadManager::doStats()
     emit log(QString("GeneralStats: TOTALES → Procesados: %1, En Cola: %2, Retrabajo: %3")
             .arg(totalProcesados).arg(totalEnCola).arg(totalRetrabajo));
     emit log("--- GeneralStats: Estadísticas recopiladas ---");
+
+    // Enviar datos al StatsMonitor para graficar
+    if (m_statsMonitor) {
+        m_statsMonitor->recordStats(totalProcesados, totalEnCola, totalRetrabajo);
+
+        // Registrar datos individuales de cada estación
+        for (auto* st : m_line->stations()) {
+            if (st) {
+                m_statsMonitor->recordStationData(st->name(), st->processedCount());
+            }
+        }
+    }
 }

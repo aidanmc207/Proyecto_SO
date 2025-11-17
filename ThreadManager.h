@@ -3,6 +3,8 @@
 #include <QTimer>
 #include "ProductionLine.h"
 
+class StatsMonitor;
+
 // ThreadManager: Maneja los 3 hilos de mantenimiento que necesita el sistema
 //
 // 1. GeneralCleanThreads (cada 15 segundos):
@@ -20,6 +22,7 @@ class ThreadManager : public QObject
 public:
     explicit ThreadManager(ProductionLine* line, QObject* parent = nullptr);
 
+    void setStatsMonitor(StatsMonitor* monitor) { m_statsMonitor = monitor; }
     void startAll();
     void stopAll();
 
@@ -36,6 +39,7 @@ private slots:
 
 private:
     ProductionLine* m_line = nullptr;
+    StatsMonitor* m_statsMonitor = nullptr;
 
     QTimer m_cleanTimer;
     QTimer m_statsTimer;

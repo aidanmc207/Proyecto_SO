@@ -12,6 +12,7 @@
 #include "ThreadManager.h"
 #include "QualityControl.h"
 #include "PipeManager.h"
+#include "StatsMonitor.h"
 
 
 class ProductionController : public QObject
@@ -20,6 +21,9 @@ class ProductionController : public QObject
 public:
     explicit ProductionController(QObject* parent = nullptr);
     void saveState();
+
+    // Obtener el StatsMonitor para acceder a los datos
+    StatsMonitor* statsMonitor() const { return m_statsMonitor; }
 
 public slots:
     void start();
@@ -35,6 +39,7 @@ signals:
     void logLine(const QString& line);
     void stationUpdated(const QString& name, const QString& state, int queueSize);
     void statsUpdated(const QString& station, long processed, int queueSize, long rework);
+    void chartDataUpdated(); // Señal para actualizar gráficos
 
 private slots:
     void onStationConsumed(const QString& stationName);
@@ -52,6 +57,7 @@ private:
     long nextProductId = 1;
     Persistence* persistence = nullptr;
     ThreadManager*   maintenance     = nullptr;
-    Buffer<Product>* m_bufAsmToTest = nullptr;    
+    Buffer<Product>* m_bufAsmToTest = nullptr;
     PipeManager*     m_pipeManager   = nullptr;
+    StatsMonitor*    m_statsMonitor  = nullptr;
 };

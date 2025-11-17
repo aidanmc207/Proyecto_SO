@@ -3,6 +3,7 @@
 ProductionController::ProductionController(QObject* parent)
     : QObject(parent)
     , persistence(new Persistence(this))
+    , m_statsMonitor(new StatsMonitor(this))
 {
     // Crear la línea de producción
     m_line = new ProductionLine(this);
@@ -82,6 +83,7 @@ ProductionController::ProductionController(QObject* parent)
 
     // Crear los hilos de mantenimiento (GeneralClean, GeneralLogs, GeneralStats)
     maintenance = new ThreadManager(m_line, this);
+    maintenance->setStatsMonitor(m_statsMonitor);
 
     // Hacer que todos los logs pasen por el ThreadManager
     // para que los guarde en el archivo runtime.log

@@ -1,6 +1,10 @@
 #pragma once
 #include <QMainWindow>
+#include <QPainter>
+#include <QWidget>
+
 class ProductionController;
+class StatsMonitor;
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
@@ -23,9 +27,17 @@ public slots:
     void appendLog(const QString& line);
     void updateStats(const QString& name, long processed, int queue,long rework);
     void updateGlobalRework();
+    void updateCharts(); // Actualizar gráficos en tiempo real
 
 private:
+    void setupCharts(); // Inicializar los gráficos
+    void exportChartData(); // Exportar datos a CSV
+
     class Impl; Impl* d;
+
+    // Widget personalizado para el gráfico
+    class ChartWidget;
+    ChartWidget* m_chartWidget = nullptr;
 };
 
 
