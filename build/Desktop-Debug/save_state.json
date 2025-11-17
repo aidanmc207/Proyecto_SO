@@ -55,51 +55,106 @@
                 "id": 644,
                 "state": 4,
                 "type": "Washing Machine"
+            },
+            {
+                "id": 661,
+                "state": 4,
+                "type": "Blender"
+            },
+            {
+                "id": 663,
+                "state": 4,
+                "type": "Blender"
+            },
+            {
+                "id": 665,
+                "state": 4,
+                "type": "Washing Machine"
+            },
+            {
+                "id": 672,
+                "state": 4,
+                "type": "Microwave"
+            },
+            {
+                "id": 674,
+                "state": 4,
+                "type": "Refrigerator"
+            },
+            {
+                "id": 676,
+                "state": 4,
+                "type": "Dishwasher"
+            },
+            {
+                "id": 681,
+                "state": 4,
+                "type": "Microwave"
+            },
+            {
+                "id": 683,
+                "state": 4,
+                "type": "Dishwasher"
+            },
+            {
+                "id": 689,
+                "state": 4,
+                "type": "Oven"
+            },
+            {
+                "id": 706,
+                "state": 4,
+                "type": "Washing Machine"
+            },
+            {
+                "id": 721,
+                "state": 4,
+                "type": "Washing Machine"
             }
         ]
     },
-    "next_id": 653,
+    "next_id": 732,
     "stations": {
         "Assembler-1": {
             "paused": false,
-            "running": false,
+            "running": true,
             "stats": {
-                "processed": 0
+                "processed": 27
             }
         },
         "Assembler-2": {
             "paused": false,
-            "running": false,
+            "running": true,
             "stats": {
-                "processed": 1
+                "processed": 28
             }
         },
         "Packer": {
             "paused": false,
-            "running": false,
+            "running": true,
             "stats": {
-                "processed": 0
+                "processed": 52
             }
         },
         "QualityControl": {
             "paused": false,
-            "running": false,
+            "running": true,
             "stats": {
-                "processed": 1
+                "processed": 52
             }
         },
         "Shipping": {
             "paused": false,
-            "running": false,
+            "running": true,
             "stats": {
-                "processed": 0
+                "processed": 51
             }
         },
         "Tester": {
             "paused": false,
-            "running": false,
+            "running": true,
             "stats": {
-                "processed": 0
+                "processed": 53
             }
         }
     }
