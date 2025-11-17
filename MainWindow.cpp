@@ -58,9 +58,13 @@ void MainWindow::updateStation(const QString& station,
                                const QString& state,
                                int queueSize)
 {
-    if (station.startsWith("Assembler")) {
-        d->ui.lblAsmState->setText(state);
+    if (station == "Assembler-1") {
+        d->ui.lblAsm1State ->setText(state);
         d->ui.barAsm1->setValue(queueSize);
+    }
+    else if (station == "Assembler-2") {
+        d->ui.lblAsm2State->setText(state);
+        d->ui.barAsm2->setValue(queueSize);
     }
     else if (station == "Tester") {
         d->ui.lblTesState->setText(state);

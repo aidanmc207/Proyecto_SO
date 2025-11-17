@@ -47,7 +47,7 @@ void WorkStation::start()
         return;
     }
 
-    // Reanudar tras pausa
+    //Reanudar tras pausa
     m_running = true;
     m_paused  = false;
     m_pauseCond.wakeAll();
@@ -102,8 +102,11 @@ void WorkStation::runLoop()
         incrementCount();
 
         // Enviar a siguiente estación si la hay
-        if (m_output)
+        int barSize=0;
+        if (m_output){
+            int barSize = m_output->size();
             m_output->push(p);
+        }
 
         // Notificar que consumió uno (para producción "just in time")
         emit consumed(m_name);

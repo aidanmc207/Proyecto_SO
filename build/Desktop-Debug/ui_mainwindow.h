@@ -62,7 +62,8 @@ public:
     QProgressBar *barQC;
     QGroupBox *grpAssembler;
     QVBoxLayout *vboxLayout2;
-    QLabel *lblAsmState;
+    QLabel *lblAsm1State;
+    QLabel *lblAsm2State;
     QLabel *lblAsm1Processed;
     QLabel *lblAsm2Processed;
     QProgressBar *barAsm1;
@@ -123,7 +124,7 @@ public:
 
         layoutWidget1 = new QWidget(scrollAreaWidgetContents_2);
         layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
-        layoutWidget1->setGeometry(QRect(0, 30, 634, 177));
+        layoutWidget1->setGeometry(QRect(0, 30, 634, 201));
         stationsLayout = new QGridLayout(layoutWidget1);
         stationsLayout->setObjectName(QString::fromUtf8("stationsLayout"));
         stationsLayout->setContentsMargins(0, 0, 0, 0);
@@ -206,10 +207,15 @@ public:
         grpAssembler->setObjectName(QString::fromUtf8("grpAssembler"));
         vboxLayout2 = new QVBoxLayout(grpAssembler);
         vboxLayout2->setObjectName(QString::fromUtf8("vboxLayout2"));
-        lblAsmState = new QLabel(grpAssembler);
-        lblAsmState->setObjectName(QString::fromUtf8("lblAsmState"));
+        lblAsm1State = new QLabel(grpAssembler);
+        lblAsm1State->setObjectName(QString::fromUtf8("lblAsm1State"));
 
-        vboxLayout2->addWidget(lblAsmState);
+        vboxLayout2->addWidget(lblAsm1State);
+
+        lblAsm2State = new QLabel(grpAssembler);
+        lblAsm2State->setObjectName(QString::fromUtf8("lblAsm2State"));
+
+        vboxLayout2->addWidget(lblAsm2State);
 
         lblAsm1Processed = new QLabel(grpAssembler);
         lblAsm1Processed->setObjectName(QString::fromUtf8("lblAsm1Processed"));
@@ -300,7 +306,8 @@ public:
         lblQCProcessed->setText(QString());
         lblQCRework->setText(QString());
         grpAssembler->setTitle(QCoreApplication::translate("MainWindow", "Assembler", nullptr));
-        lblAsmState->setText(QString());
+        lblAsm1State->setText(QString());
+        lblAsm2State->setText(QString());
         lblAsm1Processed->setText(QString());
         lblAsm2Processed->setText(QString());
         groupBox->setTitle(QCoreApplication::translate("MainWindow", "Shipping", nullptr));

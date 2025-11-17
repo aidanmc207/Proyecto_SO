@@ -6,7 +6,6 @@ Shipping::Shipping(const QString& name)
 {
 }
 
-
 void Shipping::process(Product& p)
 {
     QThread::msleep(200);

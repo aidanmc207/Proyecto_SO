@@ -88,7 +88,7 @@
           <x>0</x>
           <y>30</y>
           <width>634</width>
-          <height>177</height>
+          <height>201</height>
          </rect>
         </property>
         <layout class="QGridLayout" name="stationsLayout">
@@ -199,7 +199,14 @@
            </property>
            <layout class="QVBoxLayout">
             <item>
-             <widget class="QLabel" name="lblAsmState">
+             <widget class="QLabel" name="lblAsm1State">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lblAsm2State">
               <property name="text">
                <string/>
               </property>
