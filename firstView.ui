@@ -13,55 +13,67 @@
   <property name="windowTitle">
    <string>First View - Menú Principal</string>
   </property>
-
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QLabel" name="labelTitle">
+     <property name="styleSheet">
+      <string notr="true">font-size: 20px; font-weight: bold;</string>
+     </property>
      <property name="text">
-      <string>Menú principal del sistema</string>
+      <string>Electrodomesticos D.A.A</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
      </property>
-     <property name="styleSheet">
-      <string notr="true">font-size: 20px; font-weight: bold;</string>
-     </property>
     </widget>
    </item>
-
    <item>
     <widget class="QPushButton" name="btnProduction">
      <property name="text">
       <string>Cadena de Producción</string>
      </property>
-     <property name="minimumHeight">
-      <number>40</number>
-     </property>
     </widget>
    </item>
-
+   <item>
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
    <item>
     <widget class="QPushButton" name="btnLogs">
      <property name="text">
       <string>Ver Registro del Sistema (Logs)</string>
      </property>
-     <property name="minimumHeight">
-      <number>40</number>
-     </property>
     </widget>
    </item>
-
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
    <item>
     <widget class="QPushButton" name="btnStats">
      <property name="text">
       <string>Estadísticas y Gráficos</string>
      </property>
-     <property name="minimumHeight">
-      <number>40</number>
-     </property>
     </widget>
    </item>
-
    <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
@@ -75,10 +87,8 @@
      </property>
     </spacer>
    </item>
-
   </layout>
  </widget>
  <resources/>
  <connections/>
 </ui>
-
