@@ -1,51 +1,73 @@
 #pragma once
 
 #include <QObject>
-#include <QString>
 #include <QThread>
 #include <QMutex>
 #include <QWaitCondition>
-#include <atomic>
-
 #include "Buffer.h"
-#include "Product.h"
+#include "product.h"
 
 class WorkStation : public QObject
 {
     Q_OBJECT
 public:
-    explicit WorkStation(const QString& name, QObject* parent = nullptr);
+    explicit WorkStation(const QString& name);
     virtual ~WorkStation();
 
     void setInputBuffer(Buffer<Product>* buf);
     void setOutputBuffer(Buffer<Product>* buf);
+    Buffer<Product>* inputBuffer()  const { return m_input; }
+    Buffer<Product>* outputBuffer() const { return m_output; }
+
 
     QString name() const { return m_name; }
 
+    long processedCount() const { return m_processed; }
+    void incrementCount() { m_processed++; }
+
+    bool isRunning() const { return m_running; }
+    bool isPaused()  const { return m_paused;  }
+
+    //Hilos mantenimiento
+    void resetCount() { m_processed = 0; }
+    int inputBufferSize() const { return m_input ? m_input->size() : 0; }
+    Product takeLastProcessed() const { return lastProcessed; }
+    bool hasProcessed() const { return hasLastProcessed; }
+
+    void injectProduct(const Product& p) {
+        if (m_input) m_input->push(p);
+    }
+
 public slots:
-    void start();   // inicia el hilo y el loop
-    void pause();   // pausa el procesamiento
-    void stop();    // detiene el hilo
+    void start();
+    void pause();
+    void stop();
 
 signals:
-    // name, estado ("Running", "Paused", "Stopped"), tamaño de cola de entrada
+signals:
+    void statsUpdated(const QString& name, long processed, int queueSize);
     void stationUpdated(const QString& name, const QString& state, int queueSize);
     void log(const QString& line);
+    // Esta señal se usa para generar el siguiente producto justo a tiempo
+    void consumed(const QString& stationName);
 
 protected:
-    virtual void process(Product& p) = 0;   // implementado por Assembler/Tester/Packer
+    virtual void process(Product& p) = 0;
+    Product lastProcessed;
+    bool hasLastProcessed = false;
 
 private slots:
-    void runLoop(); // loop interno que se conecta a QThread::started()
+    void runLoop();
 
 private:
+    long m_processed = 0;
     QString m_name;
-    Buffer<Product>* m_input { nullptr };
-    Buffer<Product>* m_output { nullptr };
+    Buffer<Product>* m_input  = nullptr;
+    Buffer<Product>* m_output = nullptr;
 
     QThread m_thread;
-    std::atomic<bool> m_running { false };
-    std::atomic<bool> m_paused  { false };
+    bool m_running = false;
+    bool m_paused  = false;
 
     QMutex m_pauseMutex;
     QWaitCondition m_pauseCond;

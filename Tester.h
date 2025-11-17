@@ -2,10 +2,11 @@
 #include "WorkStation.h"
 #include <QThread>
 
-class Tester : public WorkStation {
+class Tester : public WorkStation
+{
     Q_OBJECT
 public:
-    explicit Tester(const QString& name, QObject* parent=nullptr);
+    explicit Tester(const QString& name);
 
 protected:
     void process(Product& p) override;

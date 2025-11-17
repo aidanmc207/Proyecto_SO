@@ -1,8 +1,10 @@
 #pragma once
 #include <QObject>
+#include <QJsonObject>
+#include <QJsonArray>
 #include <QString>
-#include <QVector>
-#include "Product.h"
+#include "product.h"
+#include "ProductionLine.h"
 
 class Persistence : public QObject
 {
@@ -10,13 +12,24 @@ class Persistence : public QObject
 public:
     explicit Persistence(QObject* parent = nullptr);
 
-    // Guarda todos los productos procesados en JSON
-    bool saveProcessHistory(const QVector<Product>& history,
-                            const QString& filePath);
+    bool saveState(const ProductionLine* line,
+                   long nextProductId,
+                   const QString& path = "save_state.json");
 
-    // Carga el JSON y devuelve todos los productos almacenados
-    QVector<Product> loadProcessHistory(const QString& filePath);
+    bool loadState(ProductionLine* line,
+                   long& nextProductId,
+                   const QString& path = "save_state.json");
 
-signals:
-    void log(const QString& msg);
+    void appendLog(const QString& line,
+                   const QString& path = "log_history.json");
+
+private:
+    QJsonObject productToJson(const Product& p) const;
+    Product jsonToProduct(const QJsonObject& obj) const;
+
+    QJsonArray bufferToJson(const Buffer<Product>* buf) const;
+    void jsonToBuffer(const QJsonArray& arr, Buffer<Product>* buf) const;
+
+    QJsonObject stationStatsToJson(const WorkStation* st) const;
+    void jsonToStationStats(const QJsonObject& obj, WorkStation* st) const;
 };

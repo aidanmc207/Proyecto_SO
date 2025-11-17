@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_PipeManager_t {
     QByteArrayData data[4];
-    char stringdata0[21];
+    char stringdata0[22];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -35,10 +35,10 @@ static const qt_meta_stringdata_PipeManager_t qt_meta_stringdata_PipeManager = {
 QT_MOC_LITERAL(0, 0, 11), // "PipeManager"
 QT_MOC_LITERAL(1, 12, 3), // "log"
 QT_MOC_LITERAL(2, 16, 0), // ""
-QT_MOC_LITERAL(3, 17, 3) // "msg"
+QT_MOC_LITERAL(3, 17, 4) // "line"
 
     },
-    "PipeManager\0log\0\0msg"
+    "PipeManager\0log\0\0line"
 };
 #undef QT_MOC_LITERAL
 

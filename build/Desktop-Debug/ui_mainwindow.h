@@ -15,15 +15,14 @@
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPlainTextEdit>
 #include <QtWidgets/QProgressBar>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QScrollArea>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
-#include <QtWidgets/QTableWidget>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -34,50 +33,71 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QVBoxLayout *rootLayout;
+    QScrollArea *scrollArea;
+    QWidget *scrollAreaWidgetContents_2;
+    QWidget *widget;
     QHBoxLayout *toolbarLayout;
     QPushButton *btnStart;
     QPushButton *btnPause;
     QPushButton *btnStop;
     QSpacerItem *hspacer;
     QComboBox *cmbSpeed;
+    QWidget *widget1;
     QGridLayout *stationsLayout;
     QGroupBox *grpAssembler;
     QVBoxLayout *vboxLayout;
     QLabel *lblAsmState;
+    QLabel *lblAsmProcessed;
     QProgressBar *barAsm;
     QGroupBox *grpTester;
     QVBoxLayout *vboxLayout1;
     QLabel *lblTesState;
+    QLabel *lblTesProcessed;
     QProgressBar *barTes;
+    QGroupBox *groupBoxQC;
+    QLabel *lblQCProcessed;
+    QLabel *lblQCState;
+    QProgressBar *barQC;
     QGroupBox *grpPacker;
     QVBoxLayout *vboxLayout2;
     QLabel *lblPacState;
+    QLabel *lblPacProcessed;
     QProgressBar *barPac;
     QPlainTextEdit *txtLogs;
-    QTableWidget *tblThreads;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->resize(648, 750);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         rootLayout = new QVBoxLayout(centralwidget);
         rootLayout->setObjectName(QString::fromUtf8("rootLayout"));
-        toolbarLayout = new QHBoxLayout();
+        scrollArea = new QScrollArea(centralwidget);
+        scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
+        scrollArea->setWidgetResizable(true);
+        scrollAreaWidgetContents_2 = new QWidget();
+        scrollAreaWidgetContents_2->setObjectName(QString::fromUtf8("scrollAreaWidgetContents_2"));
+        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 628, 707));
+        widget = new QWidget(scrollAreaWidgetContents_2);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setGeometry(QRect(0, 0, 630, 28));
+        toolbarLayout = new QHBoxLayout(widget);
         toolbarLayout->setObjectName(QString::fromUtf8("toolbarLayout"));
-        btnStart = new QPushButton(centralwidget);
+        toolbarLayout->setContentsMargins(0, 0, 0, 0);
+        btnStart = new QPushButton(widget);
         btnStart->setObjectName(QString::fromUtf8("btnStart"));
 
         toolbarLayout->addWidget(btnStart);
 
-        btnPause = new QPushButton(centralwidget);
+        btnPause = new QPushButton(widget);
         btnPause->setObjectName(QString::fromUtf8("btnPause"));
 
         toolbarLayout->addWidget(btnPause);
 
-        btnStop = new QPushButton(centralwidget);
+        btnStop = new QPushButton(widget);
         btnStop->setObjectName(QString::fromUtf8("btnStop"));
 
         toolbarLayout->addWidget(btnStop);
@@ -86,17 +106,18 @@ public:
 
         toolbarLayout->addItem(hspacer);
 
-        cmbSpeed = new QComboBox(centralwidget);
+        cmbSpeed = new QComboBox(widget);
         cmbSpeed->setObjectName(QString::fromUtf8("cmbSpeed"));
 
         toolbarLayout->addWidget(cmbSpeed);
 
-
-        rootLayout->addLayout(toolbarLayout);
-
-        stationsLayout = new QGridLayout();
+        widget1 = new QWidget(scrollAreaWidgetContents_2);
+        widget1->setObjectName(QString::fromUtf8("widget1"));
+        widget1->setGeometry(QRect(0, 30, 630, 142));
+        stationsLayout = new QGridLayout(widget1);
         stationsLayout->setObjectName(QString::fromUtf8("stationsLayout"));
-        grpAssembler = new QGroupBox(centralwidget);
+        stationsLayout->setContentsMargins(0, 0, 0, 0);
+        grpAssembler = new QGroupBox(widget1);
         grpAssembler->setObjectName(QString::fromUtf8("grpAssembler"));
         vboxLayout = new QVBoxLayout(grpAssembler);
         vboxLayout->setObjectName(QString::fromUtf8("vboxLayout"));
@@ -105,15 +126,21 @@ public:
 
         vboxLayout->addWidget(lblAsmState);
 
+        lblAsmProcessed = new QLabel(grpAssembler);
+        lblAsmProcessed->setObjectName(QString::fromUtf8("lblAsmProcessed"));
+
+        vboxLayout->addWidget(lblAsmProcessed);
+
         barAsm = new QProgressBar(grpAssembler);
         barAsm->setObjectName(QString::fromUtf8("barAsm"));
+        barAsm->setValue(0);
 
         vboxLayout->addWidget(barAsm);
 
 
         stationsLayout->addWidget(grpAssembler, 0, 0, 1, 1);
 
-        grpTester = new QGroupBox(centralwidget);
+        grpTester = new QGroupBox(widget1);
         grpTester->setObjectName(QString::fromUtf8("grpTester"));
         vboxLayout1 = new QVBoxLayout(grpTester);
         vboxLayout1->setObjectName(QString::fromUtf8("vboxLayout1"));
@@ -122,50 +149,66 @@ public:
 
         vboxLayout1->addWidget(lblTesState);
 
+        lblTesProcessed = new QLabel(grpTester);
+        lblTesProcessed->setObjectName(QString::fromUtf8("lblTesProcessed"));
+
+        vboxLayout1->addWidget(lblTesProcessed);
+
         barTes = new QProgressBar(grpTester);
         barTes->setObjectName(QString::fromUtf8("barTes"));
+        barTes->setValue(0);
 
         vboxLayout1->addWidget(barTes);
 
 
         stationsLayout->addWidget(grpTester, 0, 1, 1, 1);
 
-        grpPacker = new QGroupBox(centralwidget);
+        groupBoxQC = new QGroupBox(widget1);
+        groupBoxQC->setObjectName(QString::fromUtf8("groupBoxQC"));
+        lblQCProcessed = new QLabel(groupBoxQC);
+        lblQCProcessed->setObjectName(QString::fromUtf8("lblQCProcessed"));
+        lblQCProcessed->setGeometry(QRect(20, 70, 66, 18));
+        lblQCState = new QLabel(groupBoxQC);
+        lblQCState->setObjectName(QString::fromUtf8("lblQCState"));
+        lblQCState->setGeometry(QRect(10, 30, 66, 18));
+        barQC = new QProgressBar(groupBoxQC);
+        barQC->setObjectName(QString::fromUtf8("barQC"));
+        barQC->setGeometry(QRect(10, 100, 118, 23));
+        barQC->setValue(0);
+
+        stationsLayout->addWidget(groupBoxQC, 0, 2, 1, 1);
+
+        grpPacker = new QGroupBox(widget1);
         grpPacker->setObjectName(QString::fromUtf8("grpPacker"));
         vboxLayout2 = new QVBoxLayout(grpPacker);
         vboxLayout2->setObjectName(QString::fromUtf8("vboxLayout2"));
         lblPacState = new QLabel(grpPacker);
         lblPacState->setObjectName(QString::fromUtf8("lblPacState"));
+        lblPacState->setEnabled(true);
 
         vboxLayout2->addWidget(lblPacState);
 
+        lblPacProcessed = new QLabel(grpPacker);
+        lblPacProcessed->setObjectName(QString::fromUtf8("lblPacProcessed"));
+
+        vboxLayout2->addWidget(lblPacProcessed);
+
         barPac = new QProgressBar(grpPacker);
         barPac->setObjectName(QString::fromUtf8("barPac"));
+        barPac->setValue(0);
 
         vboxLayout2->addWidget(barPac);
 
 
-        stationsLayout->addWidget(grpPacker, 0, 2, 1, 1);
+        stationsLayout->addWidget(grpPacker, 0, 3, 1, 1);
 
-
-        rootLayout->addLayout(stationsLayout);
-
-        txtLogs = new QPlainTextEdit(centralwidget);
+        txtLogs = new QPlainTextEdit(scrollAreaWidgetContents_2);
         txtLogs->setObjectName(QString::fromUtf8("txtLogs"));
+        txtLogs->setGeometry(QRect(0, 330, 630, 260));
         txtLogs->setReadOnly(true);
+        scrollArea->setWidget(scrollAreaWidgetContents_2);
 
-        rootLayout->addWidget(txtLogs);
-
-        tblThreads = new QTableWidget(centralwidget);
-        if (tblThreads->columnCount() < 2)
-            tblThreads->setColumnCount(2);
-        QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
-        tblThreads->setHorizontalHeaderItem(0, __qtablewidgetitem);
-        QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
-        tblThreads->setHorizontalHeaderItem(1, __qtablewidgetitem1);
-        tblThreads->setObjectName(QString::fromUtf8("tblThreads"));
-
-        rootLayout->addWidget(tblThreads);
+        rootLayout->addWidget(scrollArea);
 
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
@@ -188,14 +231,16 @@ public:
 #endif // QT_CONFIG(tooltip)
         grpAssembler->setTitle(QCoreApplication::translate("MainWindow", "Assembler", nullptr));
         lblAsmState->setText(QCoreApplication::translate("MainWindow", "Idle", nullptr));
+        lblAsmProcessed->setText(QString());
         grpTester->setTitle(QCoreApplication::translate("MainWindow", "Tester", nullptr));
         lblTesState->setText(QCoreApplication::translate("MainWindow", "Idle", nullptr));
+        lblTesProcessed->setText(QString());
+        groupBoxQC->setTitle(QCoreApplication::translate("MainWindow", "Quality Control", nullptr));
+        lblQCProcessed->setText(QString());
+        lblQCState->setText(QCoreApplication::translate("MainWindow", "Q", nullptr));
         grpPacker->setTitle(QCoreApplication::translate("MainWindow", "Packer", nullptr));
         lblPacState->setText(QCoreApplication::translate("MainWindow", "Idle", nullptr));
-        QTableWidgetItem *___qtablewidgetitem = tblThreads->horizontalHeaderItem(0);
-        ___qtablewidgetitem->setText(QCoreApplication::translate("MainWindow", "Thread", nullptr));
-        QTableWidgetItem *___qtablewidgetitem1 = tblThreads->horizontalHeaderItem(1);
-        ___qtablewidgetitem1->setText(QCoreApplication::translate("MainWindow", "State", nullptr));
+        lblPacProcessed->setText(QString());
     } // retranslateUi
 
 };

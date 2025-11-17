@@ -1,19 +1,33 @@
 #pragma once
 
 #include <QObject>
-#include <QString>
-#include "Product.h"
-#include "WorkStation.h"
+#include <QRandomGenerator>
+#include <thread>
+#include <atomic>
+#include <unistd.h>
+
+#include "Buffer.h"
+#include "product.h"
 
 class PipeManager : public QObject
 {
     Q_OBJECT
 public:
-    explicit PipeManager(QObject* parent = nullptr);
+    explicit PipeManager(Buffer<Product>* targetBuffer,
+                         QObject* parent = nullptr);
+    ~PipeManager();
 
-    // Mueve producto entre estaciones
-    void transfer(WorkStation* from, WorkStation* to, const Product& p);
+    // Llamado desde QualityControl cuando un producto falla
+    void sendToPipe(const Product& p);
 
 signals:
-    void log(const QString& msg);
+    void log(const QString& line);
+
+private:
+    int m_fd[2]{-1, -1};             // 0 = read, 1 = write
+    std::thread m_reader;
+    std::atomic<bool> m_running{false};
+    Buffer<Product>* m_targetBuffer = nullptr; // normalmente entryBuffer
+
+    void readerLoop();   // corre en std::thread
 };

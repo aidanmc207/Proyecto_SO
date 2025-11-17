@@ -1,16 +1,24 @@
 #pragma once
 #include <QObject>
+#include <QRandomGenerator>
+#include "ProductionLine.h"
+#include "Assembler.h"
+#include "Tester.h"
+#include "Packer.h"
+#include "Buffer.h"
+#include "product.h"
+#include "Persistence.h"
+#include "ThreadManager.h"
+#include "QualityControl.h"
+#include "PipeManager.h"
 
-class ProductionLine; class Logger; class StatsMonitor; class CleanUpService;
 
-class ProductionController : public QObject {
+class ProductionController : public QObject
+{
     Q_OBJECT
 public:
-    explicit ProductionController(QObject* parent=nullptr);
-    bool infiniteMode = false;
-    int targetAmount = 0;
-    int producedCount = 0;
-    QTimer* generatorTimer = nullptr;
+    explicit ProductionController(QObject* parent = nullptr);
+    void saveState();
 
 public slots:
     void start();
@@ -18,11 +26,23 @@ public slots:
     void stop();
 
 signals:
-    void stationUpdated(const QString&, const QString&, int);
-    void logLine(const QString&);
-    void threadList(const QStringList&);
+    void logLine(const QString& line);
+    void stationUpdated(const QString& name, const QString& state, int queueSize);
+    void statsUpdated(const QString& station, long processed, int queueSize);
+
+private slots:
+    void onStationConsumed(const QString& stationName);
 
 private:
-    ProductionLine* m_line; Logger* m_logger; StatsMonitor* m_stats; CleanUpService* m_cleaner;
-    void init();
+    void generateProduct();
+
+    ProductionLine* m_line = nullptr;
+    bool m_running = false;
+    bool m_paused  = false;
+
+    long nextProductId = 1;
+    Persistence* persistence = nullptr;
+    ThreadManager*   maintenance     = nullptr;
+    Buffer<Product>* m_bufAsmToTest = nullptr;    
+    PipeManager*     m_pipeManager   = nullptr;
 };

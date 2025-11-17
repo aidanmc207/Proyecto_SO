@@ -1,5 +1,5 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'Persistence.h'
+** Meta object code from reading C++ file 'QualityControl.h'
 **
 ** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.13)
 **
@@ -7,11 +7,11 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../Persistence.h"
+#include "../../QualityControl.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'Persistence.h' doesn't include <QObject>."
+#error "The header file 'QualityControl.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
 #error "This file was generated using the moc from 5.15.13. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -21,25 +21,25 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_Persistence_t {
+struct qt_meta_stringdata_QualityControl_t {
     QByteArrayData data[1];
-    char stringdata0[12];
+    char stringdata0[15];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_Persistence_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_QualityControl_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_Persistence_t qt_meta_stringdata_Persistence = {
+static const qt_meta_stringdata_QualityControl_t qt_meta_stringdata_QualityControl = {
     {
-QT_MOC_LITERAL(0, 0, 11) // "Persistence"
+QT_MOC_LITERAL(0, 0, 14) // "QualityControl"
 
     },
-    "Persistence"
+    "QualityControl"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_Persistence[] = {
+static const uint qt_meta_data_QualityControl[] = {
 
  // content:
        8,       // revision
@@ -55,7 +55,7 @@ static const uint qt_meta_data_Persistence[] = {
        0        // eod
 };
 
-void Persistence::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void QualityControl::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
     (void)_id;
@@ -63,32 +63,32 @@ void Persistence::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     (void)_a;
 }
 
-QT_INIT_METAOBJECT const QMetaObject Persistence::staticMetaObject = { {
-    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_Persistence.data,
-    qt_meta_data_Persistence,
+QT_INIT_METAOBJECT const QMetaObject QualityControl::staticMetaObject = { {
+    QMetaObject::SuperData::link<WorkStation::staticMetaObject>(),
+    qt_meta_stringdata_QualityControl.data,
+    qt_meta_data_QualityControl,
     qt_static_metacall,
     nullptr,
     nullptr
 } };
 
 
-const QMetaObject *Persistence::metaObject() const
+const QMetaObject *QualityControl::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *Persistence::qt_metacast(const char *_clname)
+void *QualityControl::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_Persistence.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_QualityControl.stringdata0))
         return static_cast<void*>(this);
-    return QObject::qt_metacast(_clname);
+    return WorkStation::qt_metacast(_clname);
 }
 
-int Persistence::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int QualityControl::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QObject::qt_metacall(_c, _id, _a);
+    _id = WorkStation::qt_metacall(_c, _id, _a);
     return _id;
 }
 QT_WARNING_POP

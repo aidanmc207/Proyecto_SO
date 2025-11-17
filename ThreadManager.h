@@ -1,22 +1,31 @@
 #pragma once
 #include <QObject>
-#include <QThread>
-#include <QList>
-#include <QMutex>
+#include <QTimer>
+#include "ProductionLine.h"
 
 class ThreadManager : public QObject
 {
     Q_OBJECT
 public:
-    explicit ThreadManager(QObject* parent = nullptr);
+    explicit ThreadManager(ProductionLine* line, QObject* parent = nullptr);
 
-    void registerThread(QThread* t);
+    void startAll();
     void stopAll();
 
+public slots:
+    void pushLog(const QString& text);
+
 signals:
-    void log(const QString& line);
+    void log(const QString& text);
+    void statsUpdated(const QString& station, long processed, int bufferSize);
+
+private slots:
+    void doClean();   // "GeneralCleanThreads"
+    void doStats();   // "GeneralStats"
 
 private:
-    QList<QThread*> m_threads;
-    QMutex m_mutex;
+    ProductionLine* m_line = nullptr;
+
+    QTimer m_cleanTimer;
+    QTimer m_statsTimer;
 };

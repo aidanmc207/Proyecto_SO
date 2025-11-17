@@ -1,0 +1,2952 @@
+[23:41:01] ProductionLine: start()
+[23:41:01] ProductionLine: start()
+[23:41:01] Assembler-1: start()
+[23:41:01] Assembler-1: start()
+[23:41:01] Assembler-2: start()
+[23:41:01] Assembler-2: start()
+[23:41:01] Tester: start()
+[23:41:01] Tester: start()
+[23:41:01] QualityControl: start()
+[23:41:01] QualityControl: start()
+[23:41:01] Packer: start()
+[23:41:01] Packer: start()
+[23:41:01] Generated #201 (Air Conditioner)
+[23:41:01] Controller: start()
+[23:41:01] Assembler-1 runLoop started
+[23:41:01] Assembler-1 runLoop started
+[23:41:01] Assembler-2 runLoop started
+[23:41:01] Assembler-2 runLoop started
+[23:41:01] Tester runLoop started
+[23:41:01] Tester runLoop started
+[23:41:01] QualityControl runLoop started
+[23:41:01] QualityControl runLoop started
+[23:41:01] Packer runLoop started
+[23:41:01] Packer runLoop started
+[23:41:01] Generated #202 (Vacuum Cleaner)
+[23:41:01] Generated #203 (Vacuum Cleaner)
+[23:41:01] QualityControl: Inspecting #197 (Washing Machine)
+[23:41:01] QualityControl: Inspecting #197 (Washing Machine)
+[23:41:01] Generated #204 (Microwave)
+[23:41:01] Generated #205 (Oven)
+[23:41:01] Generated #206 (Toaster)
+[23:41:01] Generated #207 (Oven)
+[23:41:01] Generated #208 (Refrigerator)
+[23:41:01] Generated #209 (Refrigerator)
+[23:41:01] QualityControl: PASSED inspection of #197 (Washing Machine)
+[23:41:01] QualityControl: PASSED inspection of #197 (Washing Machine)
+[23:41:01] QualityControl: Inspecting #198 (Microwave)
+[23:41:01] QualityControl: Inspecting #198 (Microwave)
+[23:41:01] Generated #210 (Air Conditioner)
+[23:41:01] Generated #211 (Dryer)
+[23:41:01] Generated #212 (Vacuum Cleaner)
+[23:41:01] Generated #213 (Microwave)
+[23:41:01] Generated #214 (Vacuum Cleaner)
+[23:41:01] Generated #215 (Microwave)
+[23:41:02] QualityControl: PASSED inspection of #198 (Microwave)
+[23:41:02] QualityControl: PASSED inspection of #198 (Microwave)
+[23:41:02] QualityControl: Inspecting #199 (Vacuum Cleaner)
+[23:41:02] QualityControl: Inspecting #199 (Vacuum Cleaner)
+[23:41:02] Generated #216 (Microwave)
+[23:41:02] Generated #217 (Blender)
+[23:41:02] Generated #218 (Washing Machine)
+[23:41:02] Generated #219 (Dishwasher)
+[23:41:02] Generated #220 (Washing Machine)
+[23:41:02] Generated #221 (Vacuum Cleaner)
+[23:41:02] QualityControl: PASSED inspection of #199 (Vacuum Cleaner)
+[23:41:02] QualityControl: PASSED inspection of #199 (Vacuum Cleaner)
+[23:41:02] QualityControl: Inspecting #200 (Toaster)
+[23:41:02] QualityControl: Inspecting #200 (Toaster)
+[23:41:02] Generated #222 (Dryer)
+[23:41:02] Generated #223 (Refrigerator)
+[23:41:02] Generated #224 (Vacuum Cleaner)
+[23:41:02] Generated #225 (Blender)
+[23:41:02] Generated #226 (Dishwasher)
+[23:41:02] Generated #227 (Refrigerator)
+[23:41:02] QualityControl: FAILED inspection of #200 (Toaster) → sending back to Tester
+[23:41:02] QualityControl: FAILED inspection of #200 (Toaster) → sending back to Tester
+[23:41:02] QualityControl: Inspecting #201 (Air Conditioner)
+[23:41:02] QualityControl: Inspecting #201 (Air Conditioner)
+[23:41:02] Generated #228 (Microwave)
+[23:41:02] Generated #229 (Air Conditioner)
+[23:41:02] Generated #230 (Blender)
+[23:41:02] Generated #231 (Refrigerator)
+[23:41:02] Generated #232 (Air Conditioner)
+[23:41:02] Generated #233 (Oven)
+[23:41:02] QualityControl: FAILED inspection of #201 (Air Conditioner) → sending back to Tester
+[23:41:02] QualityControl: FAILED inspection of #201 (Air Conditioner) → sending back to Tester
+[23:41:02] QualityControl: Inspecting #202 (Vacuum Cleaner)
+[23:41:02] QualityControl: Inspecting #202 (Vacuum Cleaner)
+[23:41:02] Generated #234 (Air Conditioner)
+[23:41:02] Generated #235 (Oven)
+[23:41:03] Generated #236 (Oven)
+[23:41:03] Generated #237 (Vacuum Cleaner)
+[23:41:03] ProductionLine: pause()
+[23:41:03] ProductionLine: pause()
+[23:41:03] Assembler-1: pause()
+[23:41:03] Assembler-1: pause()
+[23:41:03] Assembler-2: pause()
+[23:41:03] Assembler-2: pause()
+[23:41:03] Tester: pause()
+[23:41:03] Tester: pause()
+[23:41:03] QualityControl: pause()
+[23:41:03] QualityControl: pause()
+[23:41:03] Packer: pause()
+[23:41:03] Packer: pause()
+[23:41:03] Controller: pause()
+[23:41:03] Generated #238 (Toaster)
+[23:41:03] Generated #239 (Washing Machine)
+[23:41:03] QualityControl: PASSED inspection of #202 (Vacuum Cleaner)
+[23:41:03] QualityControl: PASSED inspection of #202 (Vacuum Cleaner)
+[23:41:17] ProductionLine: start()
+[23:41:17] ProductionLine: start()
+[23:41:17] Assembler-1: resume()
+[23:41:17] Assembler-1: resume()
+[23:41:17] Assembler-2: resume()
+[23:41:17] Assembler-2: resume()
+[23:41:17] Tester: resume()
+[23:41:17] Tester: resume()
+[23:41:17] QualityControl: resume()
+[23:41:17] QualityControl: resume()
+[23:41:17] Packer: resume()
+[23:41:17] Packer: resume()
+[23:41:17] Controller: resume()
+[23:41:17] QualityControl: Inspecting #220 (Washing Machine)
+[23:41:17] QualityControl: Inspecting #220 (Washing Machine)
+[23:41:18] QualityControl: PASSED inspection of #220 (Washing Machine)
+[23:41:18] QualityControl: PASSED inspection of #220 (Washing Machine)
+[23:41:18] QualityControl: Inspecting #221 (Vacuum Cleaner)
+[23:41:18] QualityControl: Inspecting #221 (Vacuum Cleaner)
+[23:41:18] QualityControl: PASSED inspection of #221 (Vacuum Cleaner)
+[23:41:18] QualityControl: PASSED inspection of #221 (Vacuum Cleaner)
+[23:41:18] QualityControl: Inspecting #222 (Dryer)
+[23:41:18] QualityControl: Inspecting #222 (Dryer)
+[23:41:18] QualityControl: PASSED inspection of #222 (Dryer)
+[23:41:18] QualityControl: PASSED inspection of #222 (Dryer)
+[23:41:18] QualityControl: Inspecting #223 (Refrigerator)
+[23:41:18] QualityControl: Inspecting #223 (Refrigerator)
+[23:41:19] QualityControl: PASSED inspection of #223 (Refrigerator)
+[23:41:19] QualityControl: PASSED inspection of #223 (Refrigerator)
+[23:41:19] QualityControl: Inspecting #224 (Vacuum Cleaner)
+[23:41:19] QualityControl: Inspecting #224 (Vacuum Cleaner)
+[23:41:19] QualityControl: PASSED inspection of #224 (Vacuum Cleaner)
+[23:41:19] QualityControl: PASSED inspection of #224 (Vacuum Cleaner)
+[23:41:19] QualityControl: Inspecting #225 (Blender)
+[23:41:19] QualityControl: Inspecting #225 (Blender)
+[23:41:19] QualityControl: PASSED inspection of #225 (Blender)
+[23:41:19] QualityControl: PASSED inspection of #225 (Blender)
+[23:41:19] QualityControl: Inspecting #226 (Dishwasher)
+[23:41:19] QualityControl: Inspecting #226 (Dishwasher)
+[23:41:19] QualityControl: PASSED inspection of #226 (Dishwasher)
+[23:41:19] QualityControl: PASSED inspection of #226 (Dishwasher)
+[23:41:19] QualityControl: Inspecting #227 (Refrigerator)
+[23:41:19] QualityControl: Inspecting #227 (Refrigerator)
+[23:41:20] QualityControl: FAILED inspection of #227 (Refrigerator) → sending back to Tester
+[23:41:20] QualityControl: FAILED inspection of #227 (Refrigerator) → sending back to Tester
+[23:41:20] QualityControl: Inspecting #228 (Microwave)
+[23:41:20] QualityControl: Inspecting #228 (Microwave)
+[23:41:20] QualityControl: PASSED inspection of #228 (Microwave)
+[23:41:20] QualityControl: PASSED inspection of #228 (Microwave)
+[23:41:20] QualityControl: Inspecting #229 (Air Conditioner)
+[23:41:20] QualityControl: Inspecting #229 (Air Conditioner)
+[23:41:20] QualityControl: PASSED inspection of #229 (Air Conditioner)
+[23:41:20] QualityControl: PASSED inspection of #229 (Air Conditioner)
+[23:41:20] QualityControl: Inspecting #230 (Blender)
+[23:41:20] QualityControl: Inspecting #230 (Blender)
+[23:41:20] ProductionLine: pause()
+[23:41:20] ProductionLine: pause()
+[23:41:20] Assembler-1: pause()
+[23:41:20] Assembler-1: pause()
+[23:41:20] Assembler-2: pause()
+[23:41:20] Assembler-2: pause()
+[23:41:20] Tester: pause()
+[23:41:20] Tester: pause()
+[23:41:20] QualityControl: pause()
+[23:41:20] QualityControl: pause()
+[23:41:20] Packer: pause()
+[23:41:20] Packer: pause()
+[23:41:20] Controller: pause()
+[23:41:21] QualityControl: PASSED inspection of #230 (Blender)
+[23:41:21] QualityControl: PASSED inspection of #230 (Blender)
+[23:41:22] State saved to file.
+[23:41:22] ProductionLine: stop()
+[23:41:22] Assembler-1: stop()
+[23:41:22] Assembler-2: stop()
+[23:41:22] Tester: stop()
+[23:41:22] QualityControl: stop()
+[23:41:22] Packer: stop()
+[23:54:56] ProductionLine: start()
+[23:54:56] ProductionLine: start()
+[23:54:56] Assembler-1: start()
+[23:54:56] Assembler-1: start()
+[23:54:56] Assembler-2: start()
+[23:54:56] Assembler-2: start()
+[23:54:56] Tester: start()
+[23:54:56] Tester: start()
+[23:54:56] QualityControl: start()
+[23:54:56] QualityControl: start()
+[23:54:56] Packer: start()
+[23:54:56] Packer: start()
+[23:54:56] Generated #240 (Toaster)
+[23:54:56] Controller: start()
+[23:54:56] Assembler-1 runLoop started
+[23:54:56] Assembler-1 runLoop started
+[23:54:56] Assembler-2 runLoop started
+[23:54:56] Assembler-2 runLoop started
+[23:54:56] Tester runLoop started
+[23:54:56] Tester runLoop started
+[23:54:56] QualityControl runLoop started
+[23:54:56] QualityControl runLoop started
+[23:54:56] QualityControl: Inspecting #231 (Refrigerator)
+[23:54:56] QualityControl: Inspecting #231 (Refrigerator)
+[23:54:56] Packer runLoop started
+[23:54:56] Packer runLoop started
+[23:54:56] Generated #241 (Toaster)
+[23:54:57] Generated #242 (Blender)
+[23:54:57] QualityControl: FAILED inspection
+[23:54:57] QualityControl: FAILED inspection
+[23:54:57] QualityControl: Inspecting #232 (Air Conditioner)
+[23:54:57] QualityControl: Inspecting #232 (Air Conditioner)
+[23:54:57] Generated #243 (Oven)
+[23:54:57] Generated #244 (Refrigerator)
+[23:54:57] Generated #245 (Oven)
+[23:54:57] QualityControl: PASSED inspection
+[23:54:57] QualityControl: PASSED inspection
+[23:54:57] QualityControl: Inspecting #233 (Oven)
+[23:54:57] QualityControl: Inspecting #233 (Oven)
+[23:54:57] Generated #246 (Vacuum Cleaner)
+[23:54:57] Generated #247 (Toaster)
+[23:54:57] Generated #248 (Air Conditioner)
+[23:54:57] QualityControl: PASSED inspection
+[23:54:57] QualityControl: PASSED inspection
+[23:54:57] QualityControl: Inspecting #234 (Air Conditioner)
+[23:54:57] QualityControl: Inspecting #234 (Air Conditioner)
+[23:54:57] Generated #249 (Toaster)
+[23:54:57] Generated #250 (Air Conditioner)
+[23:54:57] Generated #251 (Dryer)
+[23:54:58] QualityControl: PASSED inspection
+[23:54:58] QualityControl: PASSED inspection
+[23:54:58] QualityControl: Inspecting #240 (Toaster)
+[23:54:58] QualityControl: Inspecting #240 (Toaster)
+[23:54:58] Generated #252 (Vacuum Cleaner)
+[23:54:58] Generated #253 (Blender)
+[23:54:58] Generated #254 (Dishwasher)
+[23:54:58] QualityControl: PASSED inspection
+[23:54:58] QualityControl: PASSED inspection
+[23:54:58] QualityControl: Inspecting #241 (Toaster)
+[23:54:58] QualityControl: Inspecting #241 (Toaster)
+[23:54:58] Generated #255 (Washing Machine)
+[23:54:58] Generated #256 (Washing Machine)
+[23:54:58] Generated #257 (Washing Machine)
+[23:54:58] QualityControl: PASSED inspection
+[23:54:58] QualityControl: PASSED inspection
+[23:54:58] QualityControl: Inspecting #242 (Blender)
+[23:54:58] QualityControl: Inspecting #242 (Blender)
+[23:54:58] ProductionLine: pause()
+[23:54:58] ProductionLine: pause()
+[23:54:58] Assembler-1: pause()
+[23:54:58] Assembler-1: pause()
+[23:54:58] Assembler-2: pause()
+[23:54:58] Assembler-2: pause()
+[23:54:58] Tester: pause()
+[23:54:58] Tester: pause()
+[23:54:58] QualityControl: pause()
+[23:54:58] QualityControl: pause()
+[23:54:58] Packer: pause()
+[23:54:58] Packer: pause()
+[23:54:58] Controller: pause()
+[23:54:58] Generated #258 (Blender)
+[23:54:58] Generated #259 (Dishwasher)
+[23:54:58] QualityControl: PASSED inspection
+[23:54:58] QualityControl: PASSED inspection
+[23:55:05] ProductionLine: start()
+[23:55:05] ProductionLine: start()
+[23:55:05] Assembler-1: resume()
+[23:55:05] Assembler-1: resume()
+[23:55:05] Assembler-2: resume()
+[23:55:05] Assembler-2: resume()
+[23:55:05] Tester: resume()
+[23:55:05] Tester: resume()
+[23:55:05] QualityControl: resume()
+[23:55:05] QualityControl: resume()
+[23:55:05] Packer: resume()
+[23:55:05] Packer: resume()
+[23:55:05] Controller: resume()
+[23:55:05] QualityControl: Inspecting #243 (Oven)
+[23:55:05] QualityControl: Inspecting #243 (Oven)
+[23:55:05] Generated #260 (Washing Machine)
+[23:55:05] Generated #261 (Toaster)
+[23:55:06] Generated #262 (Dishwasher)
+[23:55:06] QualityControl: PASSED inspection
+[23:55:06] QualityControl: PASSED inspection
+[23:55:06] QualityControl: Inspecting #244 (Refrigerator)
+[23:55:06] QualityControl: Inspecting #244 (Refrigerator)
+[23:55:06] Generated #263 (Toaster)
+[23:55:06] Generated #264 (Dryer)
+[23:55:06] QualityControl: PASSED inspection
+[23:55:06] QualityControl: PASSED inspection
+[23:55:06] QualityControl: Inspecting #245 (Oven)
+[23:55:06] QualityControl: Inspecting #245 (Oven)
+[23:55:06] Generated #265 (Blender)
+[23:55:06] Generated #266 (Refrigerator)
+[23:55:06] Generated #267 (Dishwasher)
+[23:55:06] QualityControl: PASSED inspection
+[23:55:06] QualityControl: PASSED inspection
+[23:55:06] QualityControl: Inspecting #246 (Vacuum Cleaner)
+[23:55:06] QualityControl: Inspecting #246 (Vacuum Cleaner)
+[23:55:06] Generated #268 (Washing Machine)
+[23:55:06] Generated #269 (Toaster)
+[23:55:06] Generated #270 (Blender)
+[23:55:06] QualityControl: FAILED inspection
+[23:55:06] QualityControl: FAILED inspection
+[23:55:06] QualityControl: Inspecting #247 (Toaster)
+[23:55:06] QualityControl: Inspecting #247 (Toaster)
+[23:55:06] Generated #271 (Dryer)
+[23:55:07] Generated #272 (Washing Machine)
+[23:55:07] Generated #273 (Dishwasher)
+[23:55:07] QualityControl: PASSED inspection
+[23:55:07] QualityControl: PASSED inspection
+[23:55:07] QualityControl: Inspecting #248 (Air Conditioner)
+[23:55:07] QualityControl: Inspecting #248 (Air Conditioner)
+[23:55:07] Generated #274 (Air Conditioner)
+[23:55:07] Generated #275 (Washing Machine)
+[23:55:07] Generated #276 (Blender)
+[23:55:07] QualityControl: PASSED inspection
+[23:55:07] QualityControl: PASSED inspection
+[23:55:07] QualityControl: Inspecting #249 (Toaster)
+[23:55:07] QualityControl: Inspecting #249 (Toaster)
+[23:55:07] Generated #277 (Air Conditioner)
+[23:55:07] Generated #278 (Blender)
+[23:55:07] Generated #279 (Washing Machine)
+[23:55:07] QualityControl: PASSED inspection
+[23:55:07] QualityControl: PASSED inspection
+[23:55:07] QualityControl: Inspecting #250 (Air Conditioner)
+[23:55:07] QualityControl: Inspecting #250 (Air Conditioner)
+[23:55:07] Generated #280 (Toaster)
+[23:55:07] Generated #281 (Oven)
+[23:55:08] Generated #282 (Oven)
+[23:55:08] QualityControl: PASSED inspection
+[23:55:08] QualityControl: PASSED inspection
+[23:55:08] QualityControl: Inspecting #251 (Dryer)
+[23:55:08] QualityControl: Inspecting #251 (Dryer)
+[23:55:08] Generated #283 (Dishwasher)
+[23:55:08] Generated #284 (Air Conditioner)
+[23:55:08] Generated #285 (Blender)
+[23:55:08] QualityControl: PASSED inspection
+[23:55:08] QualityControl: PASSED inspection
+[23:55:08] QualityControl: Inspecting #252 (Vacuum Cleaner)
+[23:55:08] QualityControl: Inspecting #252 (Vacuum Cleaner)
+[23:55:08] Generated #286 (Washing Machine)
+[23:55:08] Generated #287 (Dryer)
+[23:55:08] Generated #288 (Dishwasher)
+[23:55:08] QualityControl: PASSED inspection
+[23:55:08] QualityControl: PASSED inspection
+[23:55:08] QualityControl: Inspecting #253 (Blender)
+[23:55:08] QualityControl: Inspecting #253 (Blender)
+[23:55:08] Generated #289 (Microwave)
+[23:55:08] Generated #290 (Vacuum Cleaner)
+[23:55:08] Generated #291 (Refrigerator)
+[23:55:09] QualityControl: PASSED inspection
+[23:55:09] QualityControl: PASSED inspection
+[23:55:09] QualityControl: Inspecting #254 (Dishwasher)
+[23:55:09] QualityControl: Inspecting #254 (Dishwasher)
+[23:55:09] Generated #292 (Washing Machine)
+[23:55:09] Generated #293 (Washing Machine)
+[23:55:09] Generated #294 (Vacuum Cleaner)
+[23:55:09] QualityControl: FAILED inspection
+[23:55:09] QualityControl: FAILED inspection
+[23:55:09] QualityControl: Inspecting #255 (Washing Machine)
+[23:55:09] QualityControl: Inspecting #255 (Washing Machine)
+[23:55:09] Generated #295 (Washing Machine)
+[23:55:09] Generated #296 (Air Conditioner)
+[23:55:09] Generated #297 (Oven)
+[23:55:09] QualityControl: PASSED inspection
+[23:55:09] QualityControl: PASSED inspection
+[23:55:09] QualityControl: Inspecting #296 (Air Conditioner)
+[23:55:09] QualityControl: Inspecting #296 (Air Conditioner)
+[23:55:09] Generated #298 (Refrigerator)
+[23:55:09] Generated #299 (Toaster)
+[23:55:09] Generated #300 (Refrigerator)
+[23:55:09] QualityControl: PASSED inspection
+[23:55:09] QualityControl: PASSED inspection
+[23:55:09] QualityControl: Inspecting #297 (Oven)
+[23:55:09] QualityControl: Inspecting #297 (Oven)
+[23:55:10] Generated #301 (Vacuum Cleaner)
+[23:55:10] Generated #302 (Oven)
+[23:55:10] Generated #303 (Dishwasher)
+[23:55:10] QualityControl: PASSED inspection
+[23:55:10] QualityControl: PASSED inspection
+[23:55:10] QualityControl: Inspecting #298 (Refrigerator)
+[23:55:10] QualityControl: Inspecting #298 (Refrigerator)
+[23:55:10] Generated #304 (Toaster)
+[23:55:10] Generated #305 (Vacuum Cleaner)
+[23:55:10] Generated #306 (Oven)
+[23:55:10] QualityControl: PASSED inspection
+[23:55:10] QualityControl: PASSED inspection
+[23:55:10] QualityControl: Inspecting #299 (Toaster)
+[23:55:10] QualityControl: Inspecting #299 (Toaster)
+[23:55:10] Generated #307 (Microwave)
+[23:55:10] Generated #308 (Blender)
+[23:55:10] Generated #309 (Toaster)
+[23:55:10] QualityControl: PASSED inspection
+[23:55:10] QualityControl: PASSED inspection
+[23:55:10] QualityControl: Inspecting #300 (Refrigerator)
+[23:55:10] QualityControl: Inspecting #300 (Refrigerator)
+[23:55:10] Generated #310 (Air Conditioner)
+[23:55:11] Generated #311 (Vacuum Cleaner)
+[23:55:11] Generated #312 (Vacuum Cleaner)
+[23:55:11] QualityControl: PASSED inspection
+[23:55:11] QualityControl: PASSED inspection
+[23:55:11] QualityControl: Inspecting #301 (Vacuum Cleaner)
+[23:55:11] QualityControl: Inspecting #301 (Vacuum Cleaner)
+[23:55:11] Generated #313 (Washing Machine)
+[23:55:11] Generated #314 (Washing Machine)
+[23:55:11] Generated #315 (Refrigerator)
+[23:55:11] QualityControl: PASSED inspection
+[23:55:11] QualityControl: PASSED inspection
+[23:55:11] QualityControl: Inspecting #302 (Oven)
+[23:55:11] QualityControl: Inspecting #302 (Oven)
+[23:55:11] Generated #316 (Microwave)
+[23:55:11] Generated #317 (Dryer)
+[23:55:11] Generated #318 (Vacuum Cleaner)
+[23:55:11] QualityControl: PASSED inspection
+[23:55:11] QualityControl: PASSED inspection
+[23:55:11] QualityControl: Inspecting #303 (Dishwasher)
+[23:55:11] QualityControl: Inspecting #303 (Dishwasher)
+[23:55:11] Generated #319 (Toaster)
+[23:55:11] Generated #320 (Microwave)
+[23:55:12] Generated #321 (Washing Machine)
+[23:55:12] QualityControl: PASSED inspection
+[23:55:12] QualityControl: PASSED inspection
+[23:55:12] QualityControl: Inspecting #304 (Toaster)
+[23:55:12] QualityControl: Inspecting #304 (Toaster)
+[23:55:12] Generated #322 (Dishwasher)
+[23:55:12] Generated #323 (Blender)
+[23:55:12] Generated #324 (Air Conditioner)
+[23:55:12] QualityControl: PASSED inspection
+[23:55:12] QualityControl: PASSED inspection
+[23:55:12] QualityControl: Inspecting #305 (Vacuum Cleaner)
+[23:55:12] QualityControl: Inspecting #305 (Vacuum Cleaner)
+[23:55:12] Generated #325 (Oven)
+[23:55:12] Generated #326 (Dryer)
+[23:55:12] Generated #327 (Toaster)
+[23:55:12] QualityControl: FAILED inspection
+[23:55:12] QualityControl: FAILED inspection
+[23:55:12] QualityControl: Inspecting #306 (Oven)
+[23:55:12] QualityControl: Inspecting #306 (Oven)
+[23:55:12] Generated #328 (Blender)
+[23:55:12] Generated #329 (Air Conditioner)
+[23:55:12] Generated #330 (Oven)
+[23:55:12] QualityControl: PASSED inspection
+[23:55:12] QualityControl: PASSED inspection
+[23:55:12] QualityControl: Inspecting #307 (Microwave)
+[23:55:12] QualityControl: Inspecting #307 (Microwave)
+[23:55:13] Generated #331 (Dishwasher)
+[23:55:13] Generated #332 (Refrigerator)
+[23:55:13] Generated #333 (Blender)
+[23:55:13] QualityControl: FAILED inspection
+[23:55:13] QualityControl: FAILED inspection
+[23:55:13] QualityControl: Inspecting #308 (Blender)
+[23:55:13] QualityControl: Inspecting #308 (Blender)
+[23:55:13] Generated #334 (Vacuum Cleaner)
+[23:55:13] Generated #335 (Oven)
+[23:55:13] Generated #336 (Refrigerator)
+[23:55:13] QualityControl: PASSED inspection
+[23:55:13] QualityControl: PASSED inspection
+[23:55:13] QualityControl: Inspecting #309 (Toaster)
+[23:55:13] QualityControl: Inspecting #309 (Toaster)
+[23:55:13] Generated #337 (Dishwasher)
+[23:55:13] Generated #338 (Refrigerator)
+[23:55:13] Generated #339 (Vacuum Cleaner)
+[23:55:13] QualityControl: PASSED inspection
+[23:55:13] QualityControl: PASSED inspection
+[23:55:13] QualityControl: Inspecting #310 (Air Conditioner)
+[23:55:13] QualityControl: Inspecting #310 (Air Conditioner)
+[23:55:13] Generated #340 (Toaster)
+[23:55:14] Generated #341 (Microwave)
+[23:55:14] Generated #342 (Microwave)
+[23:55:14] QualityControl: PASSED inspection
+[23:55:14] QualityControl: PASSED inspection
+[23:55:14] QualityControl: Inspecting #311 (Vacuum Cleaner)
+[23:55:14] QualityControl: Inspecting #311 (Vacuum Cleaner)
+[23:55:14] Generated #343 (Air Conditioner)
+[23:55:14] Generated #344 (Microwave)
+[23:55:14] Generated #345 (Air Conditioner)
+[23:55:14] QualityControl: FAILED inspection
+[23:55:14] QualityControl: FAILED inspection
+[23:55:14] QualityControl: Inspecting #312 (Vacuum Cleaner)
+[23:55:14] QualityControl: Inspecting #312 (Vacuum Cleaner)
+[23:55:14] Generated #346 (Toaster)
+[23:55:14] Generated #347 (Air Conditioner)
+[23:55:14] Generated #348 (Microwave)
+[23:55:14] QualityControl: PASSED inspection
+[23:55:14] QualityControl: PASSED inspection
+[23:55:14] QualityControl: Inspecting #313 (Washing Machine)
+[23:55:14] QualityControl: Inspecting #313 (Washing Machine)
+[23:55:14] Generated #349 (Air Conditioner)
+[23:55:14] Generated #350 (Toaster)
+[23:55:15] Generated #351 (Air Conditioner)
+[23:55:15] QualityControl: PASSED inspection
+[23:55:15] QualityControl: PASSED inspection
+[23:55:15] QualityControl: Inspecting #314 (Washing Machine)
+[23:55:15] QualityControl: Inspecting #314 (Washing Machine)
+[23:55:15] Generated #352 (Toaster)
+[23:55:15] Generated #353 (Blender)
+[23:55:15] Generated #354 (Oven)
+[23:55:15] QualityControl: FAILED inspection
+[23:55:15] QualityControl: FAILED inspection
+[23:55:15] QualityControl: Inspecting #315 (Refrigerator)
+[23:55:15] QualityControl: Inspecting #315 (Refrigerator)
+[23:55:15] Generated #355 (Dryer)
+[23:55:15] Generated #356 (Refrigerator)
+[23:55:15] Generated #357 (Refrigerator)
+[23:55:15] QualityControl: PASSED inspection
+[23:55:15] QualityControl: PASSED inspection
+[23:55:15] QualityControl: Inspecting #316 (Microwave)
+[23:55:15] QualityControl: Inspecting #316 (Microwave)
+[23:55:15] Generated #358 (Washing Machine)
+[23:55:15] Generated #359 (Oven)
+[23:55:16] Generated #360 (Washing Machine)
+[23:55:16] QualityControl: PASSED inspection
+[23:55:16] QualityControl: PASSED inspection
+[23:55:16] QualityControl: Inspecting #317 (Dryer)
+[23:55:16] QualityControl: Inspecting #317 (Dryer)
+[23:55:16] Generated #361 (Oven)
+[23:55:16] Generated #362 (Washing Machine)
+[23:55:16] Generated #363 (Washing Machine)
+[23:55:16] QualityControl: PASSED inspection
+[23:55:16] QualityControl: PASSED inspection
+[23:55:16] QualityControl: Inspecting #318 (Vacuum Cleaner)
+[23:55:16] QualityControl: Inspecting #318 (Vacuum Cleaner)
+[23:55:16] Generated #364 (Air Conditioner)
+[23:55:16] Generated #365 (Vacuum Cleaner)
+[23:55:16] Generated #366 (Toaster)
+[23:55:16] QualityControl: PASSED inspection
+[23:55:16] QualityControl: PASSED inspection
+[23:55:16] QualityControl: Inspecting #319 (Toaster)
+[23:55:16] QualityControl: Inspecting #319 (Toaster)
+[23:55:16] Generated #367 (Air Conditioner)
+[23:55:16] Generated #368 (Dryer)
+[23:55:16] Generated #369 (Dishwasher)
+[23:55:16] QualityControl: PASSED inspection
+[23:55:16] QualityControl: PASSED inspection
+[23:55:16] QualityControl: Inspecting #320 (Microwave)
+[23:55:16] QualityControl: Inspecting #320 (Microwave)
+[23:55:17] Generated #370 (Blender)
+[23:55:17] Generated #371 (Vacuum Cleaner)
+[23:55:17] Generated #372 (Dishwasher)
+[23:55:17] QualityControl: PASSED inspection
+[23:55:17] QualityControl: PASSED inspection
+[23:55:17] QualityControl: Inspecting #321 (Washing Machine)
+[23:55:17] QualityControl: Inspecting #321 (Washing Machine)
+[23:55:17] Generated #373 (Oven)
+[23:55:17] Generated #374 (Blender)
+[23:55:17] Generated #375 (Blender)
+[23:55:17] QualityControl: PASSED inspection
+[23:55:17] QualityControl: PASSED inspection
+[23:55:17] QualityControl: Inspecting #322 (Dishwasher)
+[23:55:17] QualityControl: Inspecting #322 (Dishwasher)
+[23:55:17] Generated #376 (Oven)
+[23:55:17] Generated #377 (Washing Machine)
+[23:55:17] QualityControl: PASSED inspection
+[23:55:17] QualityControl: PASSED inspection
+[23:55:17] QualityControl: Inspecting #323 (Blender)
+[23:55:17] QualityControl: Inspecting #323 (Blender)
+[23:55:17] Generated #378 (Air Conditioner)
+[23:55:17] Generated #379 (Blender)
+[23:55:18] Generated #380 (Oven)
+[23:55:18] QualityControl: FAILED inspection
+[23:55:18] QualityControl: FAILED inspection
+[23:55:18] QualityControl: Inspecting #324 (Air Conditioner)
+[23:55:18] QualityControl: Inspecting #324 (Air Conditioner)
+[23:55:18] Generated #381 (Dishwasher)
+[23:55:18] Generated #382 (Blender)
+[23:55:18] Generated #383 (Dishwasher)
+[23:55:18] QualityControl: PASSED inspection
+[23:55:18] QualityControl: PASSED inspection
+[23:55:18] QualityControl: Inspecting #325 (Oven)
+[23:55:18] QualityControl: Inspecting #325 (Oven)
+[23:55:18] Generated #384 (Oven)
+[23:55:18] Generated #385 (Vacuum Cleaner)
+[23:55:18] Generated #386 (Dishwasher)
+[23:55:18] QualityControl: PASSED inspection
+[23:55:18] QualityControl: PASSED inspection
+[23:55:18] QualityControl: Inspecting #326 (Dryer)
+[23:55:18] QualityControl: Inspecting #326 (Dryer)
+[23:55:18] Generated #387 (Oven)
+[23:55:18] Generated #388 (Refrigerator)
+[23:55:18] Generated #389 (Dishwasher)
+[23:55:19] QualityControl: PASSED inspection
+[23:55:19] QualityControl: PASSED inspection
+[23:55:19] QualityControl: Inspecting #327 (Toaster)
+[23:55:19] QualityControl: Inspecting #327 (Toaster)
+[23:55:19] Generated #390 (Vacuum Cleaner)
+[23:55:19] Generated #391 (Microwave)
+[23:55:19] Generated #392 (Air Conditioner)
+[23:55:19] QualityControl: PASSED inspection
+[23:55:19] QualityControl: PASSED inspection
+[23:55:19] QualityControl: Inspecting #328 (Blender)
+[23:55:19] QualityControl: Inspecting #328 (Blender)
+[23:55:19] Generated #393 (Toaster)
+[23:55:19] Generated #394 (Dishwasher)
+[23:55:19] Generated #395 (Vacuum Cleaner)
+[23:55:19] QualityControl: PASSED inspection
+[23:55:19] QualityControl: PASSED inspection
+[23:55:19] QualityControl: Inspecting #329 (Air Conditioner)
+[23:55:19] QualityControl: Inspecting #329 (Air Conditioner)
+[23:55:19] Generated #396 (Oven)
+[23:55:19] Generated #397 (Microwave)
+[23:55:19] Generated #398 (Microwave)
+[23:55:19] QualityControl: FAILED inspection
+[23:55:19] QualityControl: FAILED inspection
+[23:55:19] QualityControl: Inspecting #330 (Oven)
+[23:55:19] QualityControl: Inspecting #330 (Oven)
+[23:55:20] Generated #399 (Refrigerator)
+[23:55:20] Generated #400 (Dryer)
+[23:55:20] Generated #401 (Dishwasher)
+[23:55:20] QualityControl: PASSED inspection
+[23:55:20] QualityControl: PASSED inspection
+[23:55:20] QualityControl: Inspecting #331 (Dishwasher)
+[23:55:20] QualityControl: Inspecting #331 (Dishwasher)
+[23:55:20] Generated #402 (Dryer)
+[23:55:20] Generated #403 (Vacuum Cleaner)
+[23:55:20] Generated #404 (Blender)
+[23:55:20] QualityControl: FAILED inspection
+[23:55:20] QualityControl: FAILED inspection
+[23:55:20] QualityControl: Inspecting #332 (Refrigerator)
+[23:55:20] QualityControl: Inspecting #332 (Refrigerator)
+[23:55:20] Generated #405 (Toaster)
+[23:55:20] Generated #406 (Oven)
+[23:55:20] Generated #407 (Vacuum Cleaner)
+[23:55:20] QualityControl: PASSED inspection
+[23:55:20] QualityControl: PASSED inspection
+[23:55:20] QualityControl: Inspecting #333 (Blender)
+[23:55:20] QualityControl: Inspecting #333 (Blender)
+[23:55:20] Generated #408 (Toaster)
+[23:55:21] Generated #409 (Vacuum Cleaner)
+[23:55:21] Generated #410 (Microwave)
+[23:55:21] QualityControl: PASSED inspection
+[23:55:21] QualityControl: PASSED inspection
+[23:55:21] QualityControl: Inspecting #334 (Vacuum Cleaner)
+[23:55:21] QualityControl: Inspecting #334 (Vacuum Cleaner)
+[23:55:21] Generated #411 (Oven)
+[23:55:21] Generated #412 (Toaster)
+[23:55:21] Generated #413 (Vacuum Cleaner)
+[23:55:21] QualityControl: PASSED inspection
+[23:55:21] QualityControl: PASSED inspection
+[23:55:21] QualityControl: Inspecting #335 (Oven)
+[23:55:21] QualityControl: Inspecting #335 (Oven)
+[23:55:21] Generated #414 (Refrigerator)
+[23:55:21] Generated #415 (Vacuum Cleaner)
+[23:55:21] Generated #416 (Microwave)
+[23:55:21] QualityControl: PASSED inspection
+[23:55:21] QualityControl: PASSED inspection
+[23:55:21] QualityControl: Inspecting #336 (Refrigerator)
+[23:55:21] QualityControl: Inspecting #336 (Refrigerator)
+[23:55:21] Generated #417 (Washing Machine)
+[23:55:21] Generated #418 (Microwave)
+[23:55:22] Generated #419 (Blender)
+[23:55:22] QualityControl: PASSED inspection
+[23:55:22] QualityControl: PASSED inspection
+[23:55:22] QualityControl: Inspecting #337 (Dishwasher)
+[23:55:22] QualityControl: Inspecting #337 (Dishwasher)
+[23:55:22] Generated #420 (Vacuum Cleaner)
+[23:55:22] Generated #421 (Dryer)
+[23:55:22] Generated #422 (Blender)
+[23:55:22] QualityControl: FAILED inspection
+[23:55:22] QualityControl: FAILED inspection
+[23:55:22] QualityControl: Inspecting #338 (Refrigerator)
+[23:55:22] QualityControl: Inspecting #338 (Refrigerator)
+[23:55:22] Generated #423 (Washing Machine)
+[23:55:22] Generated #424 (Blender)
+[23:55:22] Generated #425 (Washing Machine)
+[23:55:22] QualityControl: PASSED inspection
+[23:55:22] QualityControl: PASSED inspection
+[23:55:22] QualityControl: Inspecting #339 (Vacuum Cleaner)
+[23:55:22] QualityControl: Inspecting #339 (Vacuum Cleaner)
+[23:55:22] Generated #426 (Dishwasher)
+[23:55:22] Generated #427 (Refrigerator)
+[23:55:22] Generated #428 (Dryer)
+[23:55:23] QualityControl: PASSED inspection
+[23:55:23] QualityControl: PASSED inspection
+[23:55:23] QualityControl: Inspecting #340 (Toaster)
+[23:55:23] QualityControl: Inspecting #340 (Toaster)
+[23:55:23] Generated #429 (Blender)
+[23:55:23] Generated #430 (Oven)
+[23:55:23] Generated #431 (Microwave)
+[23:55:23] QualityControl: PASSED inspection
+[23:55:23] QualityControl: PASSED inspection
+[23:55:23] QualityControl: Inspecting #341 (Microwave)
+[23:55:23] QualityControl: Inspecting #341 (Microwave)
+[23:55:23] Generated #432 (Toaster)
+[23:55:23] Generated #433 (Dryer)
+[23:55:23] Generated #434 (Air Conditioner)
+[23:55:23] QualityControl: PASSED inspection
+[23:55:23] QualityControl: PASSED inspection
+[23:55:23] QualityControl: Inspecting #342 (Microwave)
+[23:55:23] QualityControl: Inspecting #342 (Microwave)
+[23:55:23] Generated #435 (Toaster)
+[23:55:23] Generated #436 (Washing Machine)
+[23:55:23] Generated #437 (Refrigerator)
+[23:55:23] QualityControl: FAILED inspection
+[23:55:23] QualityControl: FAILED inspection
+[23:55:23] QualityControl: Inspecting #343 (Air Conditioner)
+[23:55:23] QualityControl: Inspecting #343 (Air Conditioner)
+[23:55:24] Generated #438 (Blender)
+[23:55:24] Generated #439 (Refrigerator)
+[23:55:24] Generated #440 (Blender)
+[23:55:24] QualityControl: PASSED inspection
+[23:55:24] QualityControl: PASSED inspection
+[23:55:24] QualityControl: Inspecting #344 (Microwave)
+[23:55:24] QualityControl: Inspecting #344 (Microwave)
+[23:55:24] Generated #441 (Washing Machine)
+[23:55:24] Generated #442 (Refrigerator)
+[23:55:24] Generated #443 (Blender)
+[23:55:24] QualityControl: PASSED inspection
+[23:55:24] QualityControl: PASSED inspection
+[23:55:24] QualityControl: Inspecting #345 (Air Conditioner)
+[23:55:24] QualityControl: Inspecting #345 (Air Conditioner)
+[23:55:24] Generated #444 (Dishwasher)
+[23:55:24] Generated #445 (Dryer)
+[23:55:24] Generated #446 (Washing Machine)
+[23:55:24] QualityControl: PASSED inspection
+[23:55:24] QualityControl: PASSED inspection
+[23:55:24] QualityControl: Inspecting #410 (Microwave)
+[23:55:24] QualityControl: Inspecting #410 (Microwave)
+[23:55:24] Generated #447 (Blender)
+[23:55:25] Generated #448 (Vacuum Cleaner)
+[23:55:25] Generated #449 (Dryer)
+[23:55:25] QualityControl: PASSED inspection
+[23:55:25] QualityControl: PASSED inspection
+[23:55:25] QualityControl: Inspecting #411 (Oven)
+[23:55:25] QualityControl: Inspecting #411 (Oven)
+[23:55:25] Generated #450 (Blender)
+[23:55:25] Generated #451 (Dishwasher)
+[23:55:25] QualityControl: PASSED inspection
+[23:55:25] QualityControl: PASSED inspection
+[23:55:25] QualityControl: Inspecting #412 (Toaster)
+[23:55:25] QualityControl: Inspecting #412 (Toaster)
+[23:55:25] Generated #452 (Dishwasher)
+[23:55:25] Generated #453 (Washing Machine)
+[23:55:25] Generated #454 (Dishwasher)
+[23:55:25] QualityControl: PASSED inspection
+[23:55:25] QualityControl: PASSED inspection
+[23:55:25] QualityControl: Inspecting #413 (Vacuum Cleaner)
+[23:55:25] QualityControl: Inspecting #413 (Vacuum Cleaner)
+[23:55:25] Generated #455 (Washing Machine)
+[23:55:25] ProductionLine: pause()
+[23:55:25] ProductionLine: pause()
+[23:55:25] Assembler-1: pause()
+[23:55:25] Assembler-1: pause()
+[23:55:25] Assembler-2: pause()
+[23:55:25] Assembler-2: pause()
+[23:55:25] Tester: pause()
+[23:55:25] Tester: pause()
+[23:55:25] QualityControl: pause()
+[23:55:25] QualityControl: pause()
+[23:55:25] Packer: pause()
+[23:55:25] Packer: pause()
+[23:55:25] Controller: pause()
+[23:55:25] Generated #456 (Refrigerator)
+[23:55:25] Generated #457 (Refrigerator)
+[23:55:26] QualityControl: FAILED inspection
+[23:55:26] QualityControl: FAILED inspection
+[23:55:27] ProductionLine: stop()
+[23:55:27] ProductionLine: stop()
+[23:55:27] Assembler-1: stop()
+[23:55:27] Assembler-1: stop()
+[23:55:27] Assembler-2: stop()
+[23:55:27] Assembler-2: stop()
+[23:55:27] Tester: stop()
+[23:55:27] Tester: stop()
+[23:55:27] QualityControl: stop()
+[23:55:27] QualityControl: stop()
+[23:55:27] Packer: stop()
+[23:55:27] Packer: stop()
+[23:55:27] Controller: stop()
+[23:55:27] Assembler-1 loop finished
+[23:55:27] Assembler-1 loop finished
+[23:55:27] Assembler-2 loop finished
+[23:55:27] Assembler-2 loop finished
+[23:55:27] Tester loop finished
+[23:55:27] Tester loop finished
+[23:55:27] QualityControl loop finished
+[23:55:27] QualityControl loop finished
+[23:55:27] Packer loop finished
+[23:55:27] Packer loop finished
+[23:55:28] State saved to file.
+[23:55:28] ProductionLine: stop()
+[23:55:54] ProductionLine: start()
+[23:55:54] ProductionLine: start()
+[23:55:54] Assembler-1: start()
+[23:55:54] Assembler-1: start()
+[23:55:54] Assembler-2: start()
+[23:55:54] Assembler-2: start()
+[23:55:54] Tester: start()
+[23:55:54] Tester: start()
+[23:55:54] QualityControl: start()
+[23:55:54] QualityControl: start()
+[23:55:54] Packer: start()
+[23:55:54] Packer: start()
+[23:55:54] Generated #458 (Oven)
+[23:55:54] Controller: start()
+[23:55:54] Assembler-1 runLoop started
+[23:55:54] Assembler-1 runLoop started
+[23:55:54] Assembler-2 runLoop started
+[23:55:54] Assembler-2 runLoop started
+[23:55:54] Tester runLoop started
+[23:55:54] Tester runLoop started
+[23:55:54] QualityControl runLoop started
+[23:55:54] QualityControl runLoop started
+[23:55:54] QualityControl: Inspecting #414 (Refrigerator)
+[23:55:54] QualityControl: Inspecting #414 (Refrigerator)
+[23:55:54] Packer runLoop started
+[23:55:54] Packer runLoop started
+[23:55:54] Generated #459 (Refrigerator)
+[23:55:54] Generated #460 (Vacuum Cleaner)
+[23:55:54] Generated #461 (Oven)
+[23:55:54] Generated #462 (Microwave)
+[23:55:55] QualityControl: PASSED inspection
+[23:55:55] QualityControl: PASSED inspection
+[23:55:55] QualityControl: Inspecting #415 (Vacuum Cleaner)
+[23:55:55] QualityControl: Inspecting #415 (Vacuum Cleaner)
+[23:55:55] Generated #463 (Refrigerator)
+[23:55:55] Generated #464 (Blender)
+[23:55:55] Generated #465 (Microwave)
+[23:55:55] Generated #466 (Dryer)
+[23:55:55] Generated #467 (Toaster)
+[23:55:55] Generated #468 (Air Conditioner)
+[23:55:55] QualityControl: PASSED inspection
+[23:55:55] QualityControl: PASSED inspection
+[23:55:55] QualityControl: Inspecting #416 (Microwave)
+[23:55:55] QualityControl: Inspecting #416 (Microwave)
+[23:55:55] Generated #469 (Washing Machine)
+[23:55:55] Generated #470 (Dishwasher)
+[23:55:55] Generated #471 (Washing Machine)
+[23:55:55] Generated #472 (Vacuum Cleaner)
+[23:55:55] Generated #473 (Toaster)
+[23:55:55] Generated #474 (Blender)
+[23:55:55] QualityControl: FAILED inspection
+[23:55:55] QualityControl: FAILED inspection
+[23:55:55] QualityControl: Inspecting #417 (Washing Machine)
+[23:55:55] QualityControl: Inspecting #417 (Washing Machine)
+[23:55:55] Generated #475 (Blender)
+[23:55:55] Generated #476 (Air Conditioner)
+[23:55:55] Generated #477 (Dryer)
+[23:55:55] Generated #478 (Oven)
+[23:55:55] Generated #479 (Dryer)
+[23:55:55] Generated #480 (Oven)
+[23:55:55] QualityControl: PASSED inspection
+[23:55:55] QualityControl: PASSED inspection
+[23:55:55] QualityControl: Inspecting #418 (Microwave)
+[23:55:55] QualityControl: Inspecting #418 (Microwave)
+[23:55:55] Generated #481 (Washing Machine)
+[23:55:55] Generated #482 (Toaster)
+[23:55:56] Generated #483 (Dishwasher)
+[23:55:56] Generated #484 (Dryer)
+[23:55:56] Generated #485 (Washing Machine)
+[23:55:56] Generated #486 (Oven)
+[23:55:56] QualityControl: PASSED inspection
+[23:55:56] QualityControl: PASSED inspection
+[23:55:56] QualityControl: Inspecting #419 (Blender)
+[23:55:56] QualityControl: Inspecting #419 (Blender)
+[23:55:56] Generated #487 (Microwave)
+[23:55:56] Generated #488 (Dishwasher)
+[23:55:56] Generated #489 (Dishwasher)
+[23:55:56] Generated #490 (Dishwasher)
+[23:55:56] Generated #491 (Oven)
+[23:55:56] Generated #492 (Vacuum Cleaner)
+[23:55:56] QualityControl: PASSED inspection
+[23:55:56] QualityControl: PASSED inspection
+[23:55:56] QualityControl: Inspecting #420 (Vacuum Cleaner)
+[23:55:56] QualityControl: Inspecting #420 (Vacuum Cleaner)
+[23:55:56] Generated #493 (Blender)
+[23:55:56] Generated #494 (Refrigerator)
+[23:55:56] Generated #495 (Dryer)
+[23:55:56] Generated #496 (Toaster)
+[23:55:56] Generated #497 (Microwave)
+[23:55:56] Generated #498 (Dishwasher)
+[23:55:56] QualityControl: PASSED inspection
+[23:55:56] QualityControl: PASSED inspection
+[23:55:56] QualityControl: Inspecting #421 (Dryer)
+[23:55:56] QualityControl: Inspecting #421 (Dryer)
+[23:55:56] Generated #499 (Oven)
+[23:55:56] Generated #500 (Microwave)
+[23:55:57] Generated #501 (Washing Machine)
+[23:55:57] Generated #502 (Toaster)
+[23:55:57] Generated #503 (Oven)
+[23:55:57] Generated #504 (Vacuum Cleaner)
+[23:55:57] QualityControl: FAILED inspection
+[23:55:57] QualityControl: FAILED inspection
+[23:55:57] QualityControl: Inspecting #422 (Blender)
+[23:55:57] QualityControl: Inspecting #422 (Blender)
+[23:55:57] Generated #505 (Vacuum Cleaner)
+[23:55:57] Generated #506 (Refrigerator)
+[23:55:57] Generated #507 (Toaster)
+[23:55:57] Generated #508 (Refrigerator)
+[23:55:57] Generated #509 (Microwave)
+[23:55:57] Generated #510 (Refrigerator)
+[23:55:57] QualityControl: PASSED inspection
+[23:55:57] QualityControl: PASSED inspection
+[23:55:57] QualityControl: Inspecting #423 (Washing Machine)
+[23:55:57] QualityControl: Inspecting #423 (Washing Machine)
+[23:55:57] Generated #511 (Oven)
+[23:55:57] Generated #512 (Blender)
+[23:55:57] Generated #513 (Oven)
+[23:55:57] Generated #514 (Washing Machine)
+[23:55:57] Generated #515 (Toaster)
+[23:55:57] Generated #516 (Toaster)
+[23:55:57] QualityControl: PASSED inspection
+[23:55:57] QualityControl: PASSED inspection
+[23:55:57] QualityControl: Inspecting #424 (Blender)
+[23:55:57] QualityControl: Inspecting #424 (Blender)
+[23:55:57] ProductionLine: pause()
+[23:55:57] ProductionLine: pause()
+[23:55:57] Assembler-1: pause()
+[23:55:57] Assembler-1: pause()
+[23:55:57] Assembler-2: pause()
+[23:55:57] Assembler-2: pause()
+[23:55:57] Tester: pause()
+[23:55:57] Tester: pause()
+[23:55:57] QualityControl: pause()
+[23:55:57] QualityControl: pause()
+[23:55:57] Packer: pause()
+[23:55:57] Packer: pause()
+[23:55:57] Controller: pause()
+[23:55:57] Generated #517 (Vacuum Cleaner)
+[23:55:57] Generated #518 (Toaster)
+[23:55:58] QualityControl: FAILED inspection
+[23:55:58] QualityControl: FAILED inspection
+[23:56:23] ProductionLine: stop()
+[23:56:23] ProductionLine: stop()
+[23:56:23] Assembler-1: stop()
+[23:56:23] Assembler-1: stop()
+[23:56:23] Assembler-2: stop()
+[23:56:23] Assembler-2: stop()
+[23:56:23] Tester: stop()
+[23:56:23] Tester: stop()
+[23:56:23] QualityControl: stop()
+[23:56:23] QualityControl: stop()
+[23:56:23] Packer: stop()
+[23:56:23] Packer: stop()
+[23:56:23] Controller: stop()
+[23:56:23] Assembler-1 loop finished
+[23:56:23] Assembler-1 loop finished
+[23:56:23] Assembler-2 loop finished
+[23:56:23] Assembler-2 loop finished
+[23:56:23] Tester loop finished
+[23:56:23] Tester loop finished
+[23:56:23] QualityControl loop finished
+[23:56:23] QualityControl loop finished
+[23:56:23] Packer loop finished
+[23:56:23] Packer loop finished
+[23:56:24] State saved to file.
+[23:56:24] ProductionLine: stop()
+[23:56:35] ProductionLine: start()
+[23:56:35] ProductionLine: start()
+[23:56:35] Assembler-1: start()
+[23:56:35] Assembler-1: start()
+[23:56:35] Assembler-2: start()
+[23:56:35] Assembler-2: start()
+[23:56:35] Tester: start()
+[23:56:35] Tester: start()
+[23:56:35] QualityControl: start()
+[23:56:35] QualityControl: start()
+[23:56:35] Packer: start()
+[23:56:35] Packer: start()
+[23:56:35] Generated #1 (Toaster)
+[23:56:35] Controller: start()
+[23:56:35] Assembler-1 runLoop started
+[23:56:35] Assembler-1 runLoop started
+[23:56:35] Assembler-2 runLoop started
+[23:56:35] Assembler-2 runLoop started
+[23:56:35] Tester runLoop started
+[23:56:35] Tester runLoop started
+[23:56:35] QualityControl runLoop started
+[23:56:35] QualityControl runLoop started
+[23:56:35] Packer runLoop started
+[23:56:35] Packer runLoop started
+[23:56:35] Generated #2 (Dryer)
+[23:56:35] QualityControl: Inspecting #1 (Toaster)
+[23:56:35] QualityControl: Inspecting #1 (Toaster)
+[23:56:35] Generated #3 (Microwave)
+[23:56:35] Generated #4 (Dishwasher)
+[23:56:35] Generated #5 (Vacuum Cleaner)
+[23:56:35] QualityControl: FAILED inspection
+[23:56:35] QualityControl: FAILED inspection
+[23:56:35] QualityControl: Inspecting #2 (Dryer)
+[23:56:35] QualityControl: Inspecting #2 (Dryer)
+[23:56:35] Generated #6 (Toaster)
+[23:56:35] Generated #7 (Dishwasher)
+[23:56:35] Generated #8 (Refrigerator)
+[23:56:35] QualityControl: PASSED inspection
+[23:56:35] QualityControl: PASSED inspection
+[23:56:35] QualityControl: Inspecting #3 (Microwave)
+[23:56:35] QualityControl: Inspecting #3 (Microwave)
+[23:56:35] Generated #9 (Air Conditioner)
+[23:56:36] Generated #10 (Oven)
+[23:56:36] Generated #11 (Air Conditioner)
+[23:56:36] QualityControl: PASSED inspection
+[23:56:36] QualityControl: PASSED inspection
+[23:56:36] QualityControl: Inspecting #4 (Dishwasher)
+[23:56:36] QualityControl: Inspecting #4 (Dishwasher)
+[23:56:36] Generated #12 (Oven)
+[23:56:36] Generated #13 (Dryer)
+[23:56:36] Generated #14 (Dishwasher)
+[23:56:36] QualityControl: PASSED inspection
+[23:56:36] QualityControl: PASSED inspection
+[23:56:36] QualityControl: Inspecting #5 (Vacuum Cleaner)
+[23:56:36] QualityControl: Inspecting #5 (Vacuum Cleaner)
+[23:56:36] Generated #15 (Air Conditioner)
+[23:56:36] Generated #16 (Toaster)
+[23:56:36] Generated #17 (Dishwasher)
+[23:56:36] QualityControl: FAILED inspection
+[23:56:36] QualityControl: FAILED inspection
+[23:56:36] QualityControl: Inspecting #6 (Toaster)
+[23:56:36] QualityControl: Inspecting #6 (Toaster)
+[23:56:36] Generated #18 (Oven)
+[23:56:36] Generated #19 (Dryer)
+[23:56:37] Generated #20 (Dishwasher)
+[23:56:37] QualityControl: PASSED inspection
+[23:56:37] QualityControl: PASSED inspection
+[23:56:37] QualityControl: Inspecting #7 (Dishwasher)
+[23:56:37] QualityControl: Inspecting #7 (Dishwasher)
+[23:56:37] Generated #21 (Toaster)
+[23:56:37] Generated #22 (Washing Machine)
+[23:56:37] Generated #23 (Vacuum Cleaner)
+[23:56:37] QualityControl: FAILED inspection
+[23:56:37] QualityControl: FAILED inspection
+[23:56:37] QualityControl: Inspecting #8 (Refrigerator)
+[23:56:37] QualityControl: Inspecting #8 (Refrigerator)
+[23:56:37] Generated #24 (Microwave)
+[23:56:37] Generated #25 (Dryer)
+[23:56:37] Generated #26 (Oven)
+[23:56:37] QualityControl: PASSED inspection
+[23:56:37] QualityControl: PASSED inspection
+[23:56:37] QualityControl: Inspecting #9 (Air Conditioner)
+[23:56:37] QualityControl: Inspecting #9 (Air Conditioner)
+[23:56:37] Generated #27 (Oven)
+[23:56:37] Generated #28 (Microwave)
+[23:56:37] ProductionLine: stop()
+[23:56:37] ProductionLine: stop()
+[23:56:37] Assembler-1: stop()
+[23:56:37] Assembler-1: stop()
+[23:56:37] Assembler-2: stop()
+[23:56:37] Assembler-2: stop()
+[23:56:37] Tester: stop()
+[23:56:37] Tester: stop()
+[23:56:37] QualityControl: stop()
+[23:56:37] QualityControl: stop()
+[23:56:37] Packer: stop()
+[23:56:37] Packer: stop()
+[23:56:37] Controller: stop()
+[23:56:37] Tester loop finished
+[23:56:37] Tester loop finished
+[23:56:38] Assembler-2 loop finished
+[23:56:38] Assembler-2 loop finished
+[23:56:38] QualityControl: PASSED inspection
+[23:56:38] QualityControl: PASSED inspection
+[23:56:38] QualityControl loop finished
+[23:56:38] QualityControl loop finished
+[23:56:38] Packer loop finished
+[23:56:38] Packer loop finished
+[23:56:54] State saved to file.
+[23:56:54] ProductionLine: stop()
+[00:40:24] ProductionLine: start()
+[00:40:24] ProductionLine: start()
+[00:40:24] Assembler-1: start()
+[00:40:24] Assembler-1: start()
+[00:40:24] Assembler-2: start()
+[00:40:24] Assembler-2: start()
+[00:40:24] Tester: start()
+[00:40:24] Tester: start()
+[00:40:24] QualityControl: start()
+[00:40:24] QualityControl: start()
+[00:40:24] Packer: start()
+[00:40:24] Packer: start()
+[00:40:24] Generated #29 (Refrigerator)
+[00:40:24] Controller: start()
+[00:40:24] Assembler-1 runLoop started
+[00:40:24] Assembler-1 runLoop started
+[00:40:24] Assembler-2 runLoop started
+[00:40:24] Assembler-2 runLoop started
+[00:40:24] Tester runLoop started
+[00:40:24] Tester runLoop started
+[00:40:24] QualityControl runLoop started
+[00:40:24] QualityControl runLoop started
+[00:40:24] QualityControl: Inspecting #10 (Oven)
+[00:40:24] QualityControl: Inspecting #10 (Oven)
+[00:40:24] Packer runLoop started
+[00:40:24] Packer runLoop started
+[00:40:24] Generated #30 (Dryer)
+[00:40:24] Generated #31 (Oven)
+[00:40:24] QualityControl: PASSED inspection
+[00:40:24] QualityControl: PASSED inspection
+[00:40:25] QualityControl: Inspecting #11 (Air Conditioner)
+[00:40:25] QualityControl: Inspecting #11 (Air Conditioner)
+[00:40:25] Generated #32 (Washing Machine)
+[00:40:25] Generated #33 (Washing Machine)
+[00:40:25] Generated #34 (Toaster)
+[00:40:25] QualityControl: PASSED inspection
+[00:40:25] QualityControl: PASSED inspection
+[00:40:25] QualityControl: Inspecting #12 (Oven)
+[00:40:25] QualityControl: Inspecting #12 (Oven)
+[00:40:25] Generated #35 (Toaster)
+[00:40:25] Generated #36 (Air Conditioner)
+[00:40:25] Generated #37 (Air Conditioner)
+[00:40:25] QualityControl: FAILED inspection
+[00:40:25] QualityControl: FAILED inspection
+[00:40:25] QualityControl: Inspecting #13 (Dryer)
+[00:40:25] QualityControl: Inspecting #13 (Dryer)
+[00:40:25] Generated #38 (Air Conditioner)
+[00:40:25] Generated #39 (Washing Machine)
+[00:40:25] Generated #40 (Oven)
+[00:40:25] QualityControl: FAILED inspection
+[00:40:25] QualityControl: FAILED inspection
+[00:40:25] QualityControl: Inspecting #14 (Dishwasher)
+[00:40:25] QualityControl: Inspecting #14 (Dishwasher)
+[00:40:25] Generated #41 (Oven)
+[00:40:26] Generated #42 (Microwave)
+[00:40:26] Generated #43 (Oven)
+[00:40:26] QualityControl: FAILED inspection
+[00:40:26] QualityControl: FAILED inspection
+[00:40:26] QualityControl: Inspecting #15 (Air Conditioner)
+[00:40:26] QualityControl: Inspecting #15 (Air Conditioner)
+[00:40:26] Generated #44 (Air Conditioner)
+[00:40:26] Generated #45 (Microwave)
+[00:40:26] Generated #46 (Oven)
+[00:40:26] QualityControl: PASSED inspection
+[00:40:26] QualityControl: PASSED inspection
+[00:40:26] QualityControl: Inspecting #16 (Toaster)
+[00:40:26] QualityControl: Inspecting #16 (Toaster)
+[00:40:26] Generated #47 (Refrigerator)
+[00:40:26] Generated #48 (Oven)
+[00:40:26] Generated #49 (Dishwasher)
+[00:40:26] QualityControl: FAILED inspection
+[00:40:26] QualityControl: FAILED inspection
+[00:40:26] QualityControl: Inspecting #17 (Dishwasher)
+[00:40:26] QualityControl: Inspecting #17 (Dishwasher)
+[00:40:26] Generated #50 (Vacuum Cleaner)
+[00:40:26] Generated #51 (Refrigerator)
+[00:40:27] Generated #52 (Oven)
+[00:40:27] QualityControl: PASSED inspection
+[00:40:27] QualityControl: PASSED inspection
+[00:40:27] QualityControl: Inspecting #18 (Oven)
+[00:40:27] QualityControl: Inspecting #18 (Oven)
+[00:40:27] Generated #53 (Microwave)
+[00:40:27] Generated #54 (Refrigerator)
+[00:40:27] Generated #55 (Dishwasher)
+[00:40:27] QualityControl: FAILED inspection
+[00:40:27] QualityControl: FAILED inspection
+[00:40:27] QualityControl: Inspecting #19 (Dryer)
+[00:40:27] QualityControl: Inspecting #19 (Dryer)
+[00:40:27] Generated #56 (Air Conditioner)
+[00:40:27] Generated #57 (Oven)
+[00:40:27] Generated #58 (Blender)
+[00:40:27] QualityControl: FAILED inspection
+[00:40:27] QualityControl: FAILED inspection
+[00:40:27] QualityControl: Inspecting #20 (Dishwasher)
+[00:40:27] QualityControl: Inspecting #20 (Dishwasher)
+[00:40:27] Generated #59 (Dishwasher)
+[00:40:27] Generated #60 (Oven)
+[00:40:27] Generated #61 (Microwave)
+[00:40:28] QualityControl: PASSED inspection
+[00:40:28] QualityControl: PASSED inspection
+[00:40:28] QualityControl: Inspecting #21 (Toaster)
+[00:40:28] QualityControl: Inspecting #21 (Toaster)
+[00:40:28] Generated #62 (Air Conditioner)
+[00:40:28] Generated #63 (Air Conditioner)
+[00:40:28] Generated #64 (Blender)
+[00:40:28] QualityControl: PASSED inspection
+[00:40:28] QualityControl: PASSED inspection
+[00:40:28] QualityControl: Inspecting #22 (Washing Machine)
+[00:40:28] QualityControl: Inspecting #22 (Washing Machine)
+[00:40:28] Generated #65 (Microwave)
+[00:40:28] Generated #66 (Blender)
+[00:40:28] Generated #67 (Blender)
+[00:40:28] QualityControl: PASSED inspection
+[00:40:28] QualityControl: PASSED inspection
+[00:40:28] QualityControl: Inspecting #23 (Vacuum Cleaner)
+[00:40:28] QualityControl: Inspecting #23 (Vacuum Cleaner)
+[00:40:28] Generated #68 (Dryer)
+[00:40:28] Generated #69 (Microwave)
+[00:40:28] Generated #70 (Microwave)
+[00:40:28] Controller: start() ignored (already running)
+[00:40:28] QualityControl: PASSED inspection
+[00:40:28] QualityControl: PASSED inspection
+[00:40:28] QualityControl: Inspecting #24 (Microwave)
+[00:40:28] QualityControl: Inspecting #24 (Microwave)
+[00:40:28] Generated #71 (Air Conditioner)
+[00:40:29] Generated #72 (Blender)
+[00:40:29] Generated #73 (Air Conditioner)
+[00:40:29] QualityControl: FAILED inspection
+[00:40:29] QualityControl: FAILED inspection
+[00:40:29] QualityControl: Inspecting #25 (Dryer)
+[00:40:29] QualityControl: Inspecting #25 (Dryer)
+[00:40:29] Generated #74 (Toaster)
+[00:40:29] Generated #75 (Dryer)
+[00:40:29] Generated #76 (Microwave)
+[00:40:29] ProductionLine: pause()
+[00:40:29] ProductionLine: pause()
+[00:40:29] Assembler-1: pause()
+[00:40:29] Assembler-1: pause()
+[00:40:29] Assembler-2: pause()
+[00:40:29] Assembler-2: pause()
+[00:40:29] Tester: pause()
+[00:40:29] Tester: pause()
+[00:40:29] QualityControl: pause()
+[00:40:29] QualityControl: pause()
+[00:40:29] Packer: pause()
+[00:40:29] Packer: pause()
+[00:40:29] Controller: pause()
+[00:40:29] QualityControl: PASSED inspection
+[00:40:29] QualityControl: PASSED inspection
+[00:40:29] Generated #77 (Oven)
+[00:40:29] Generated #78 (Air Conditioner)
+[00:40:30] ProductionLine: stop()
+[00:40:30] ProductionLine: stop()
+[00:40:30] Assembler-1: stop()
+[00:40:30] Assembler-1: stop()
+[00:40:30] Assembler-2: stop()
+[00:40:30] Assembler-2: stop()
+[00:40:30] Tester: stop()
+[00:40:30] Tester: stop()
+[00:40:30] QualityControl: stop()
+[00:40:30] QualityControl: stop()
+[00:40:30] Packer: stop()
+[00:40:30] Packer: stop()
+[00:40:30] Controller: stop()
+[00:40:30] Assembler-1 loop finished
+[00:40:30] Assembler-1 loop finished
+[00:40:30] Assembler-2 loop finished
+[00:40:30] Assembler-2 loop finished
+[00:40:30] Tester loop finished
+[00:40:30] Tester loop finished
+[00:40:30] QualityControl loop finished
+[00:40:30] QualityControl loop finished
+[00:40:30] Packer loop finished
+[00:40:30] Packer loop finished
+[00:40:31] State saved to file.
+[00:40:31] ProductionLine: stop()
+[00:45:05] ProductionLine: start()
+[00:45:05] ProductionLine: start()
+[00:45:05] Assembler-1: start()
+[00:45:05] Assembler-1: start()
+[00:45:05] Assembler-2: start()
+[00:45:05] Assembler-2: start()
+[00:45:05] Tester: start()
+[00:45:05] Tester: start()
+[00:45:05] QualityControl: start()
+[00:45:05] QualityControl: start()
+[00:45:05] Packer: start()
+[00:45:05] Packer: start()
+[00:45:05] Generated #79 (Blender)
+[00:45:05] Controller: start()
+[00:45:05] Assembler-1 runLoop started
+[00:45:05] Assembler-1 runLoop started
+[00:45:05] Assembler-2 runLoop started
+[00:45:05] Assembler-2 runLoop started
+[00:45:05] Tester runLoop started
+[00:45:05] Tester runLoop started
+[00:45:05] QualityControl runLoop started
+[00:45:05] QualityControl runLoop started
+[00:45:05] QualityControl: Inspecting #26 (Oven)
+[00:45:05] QualityControl: Inspecting #26 (Oven)
+[00:45:05] Packer runLoop started
+[00:45:05] Packer runLoop started
+[00:45:06] Generated #80 (Toaster)
+[00:45:06] Generated #81 (Vacuum Cleaner)
+[00:45:06] Generated #82 (Microwave)
+[00:45:06] Generated #83 (Toaster)
+[00:45:06] QualityControl: FAILED inspection
+[00:45:06] QualityControl: FAILED inspection
+[00:45:06] QualityControl: Inspecting #27 (Oven)
+[00:45:06] QualityControl: Inspecting #27 (Oven)
+[00:45:06] Generated #84 (Microwave)
+[00:45:06] Generated #85 (Microwave)
+[00:45:06] Generated #86 (Air Conditioner)
+[00:45:06] Generated #87 (Blender)
+[00:45:06] Generated #88 (Dishwasher)
+[00:45:06] Generated #89 (Dryer)
+[00:45:06] QualityControl: PASSED inspection
+[00:45:06] QualityControl: PASSED inspection
+[00:45:06] QualityControl: Inspecting #29 (Refrigerator)
+[00:45:06] QualityControl: Inspecting #29 (Refrigerator)
+[00:45:06] Generated #90 (Blender)
+[00:45:06] Generated #91 (Oven)
+[00:45:06] Generated #92 (Toaster)
+[00:45:06] Generated #93 (Toaster)
+[00:45:06] Generated #94 (Oven)
+[00:45:06] Generated #95 (Refrigerator)
+[00:45:06] QualityControl: PASSED inspection
+[00:45:06] QualityControl: PASSED inspection
+[00:45:06] QualityControl: Inspecting #30 (Dryer)
+[00:45:06] QualityControl: Inspecting #30 (Dryer)
+[00:45:06] Generated #96 (Washing Machine)
+[00:45:06] Generated #97 (Washing Machine)
+[00:45:06] Generated #98 (Microwave)
+[00:45:06] Generated #99 (Air Conditioner)
+[00:45:07] Generated #100 (Blender)
+[00:45:07] Generated #101 (Dishwasher)
+[00:45:07] QualityControl: PASSED inspection
+[00:45:07] QualityControl: PASSED inspection
+[00:45:07] QualityControl: Inspecting #31 (Oven)
+[00:45:07] QualityControl: Inspecting #31 (Oven)
+[00:45:07] Generated #102 (Toaster)
+[00:45:07] Generated #103 (Dryer)
+[00:45:07] Generated #104 (Air Conditioner)
+[00:45:07] Generated #105 (Dishwasher)
+[00:45:07] Generated #106 (Dishwasher)
+[00:45:07] Generated #107 (Air Conditioner)
+[00:45:07] QualityControl: PASSED inspection
+[00:45:07] QualityControl: PASSED inspection
+[00:45:07] QualityControl: Inspecting #32 (Washing Machine)
+[00:45:07] QualityControl: Inspecting #32 (Washing Machine)
+[00:45:07] Generated #108 (Dishwasher)
+[00:45:07] Generated #109 (Air Conditioner)
+[00:45:07] Generated #110 (Microwave)
+[00:45:07] Generated #111 (Air Conditioner)
+[00:45:07] Generated #112 (Blender)
+[00:45:07] Generated #113 (Microwave)
+[00:45:07] QualityControl: PASSED inspection
+[00:45:07] QualityControl: PASSED inspection
+[00:45:07] QualityControl: Inspecting #33 (Washing Machine)
+[00:45:07] QualityControl: Inspecting #33 (Washing Machine)
+[00:45:07] Generated #114 (Dryer)
+[00:45:07] Generated #115 (Air Conditioner)
+[00:45:07] Generated #116 (Toaster)
+[00:45:07] Generated #117 (Dishwasher)
+[00:45:07] Generated #118 (Microwave)
+[00:45:08] Generated #119 (Oven)
+[00:45:08] QualityControl: PASSED inspection
+[00:45:08] QualityControl: PASSED inspection
+[00:45:08] QualityControl: Inspecting #34 (Toaster)
+[00:45:08] QualityControl: Inspecting #34 (Toaster)
+[00:45:08] Generated #120 (Refrigerator)
+[00:45:08] Generated #121 (Vacuum Cleaner)
+[00:45:08] Generated #122 (Blender)
+[00:45:08] Generated #123 (Toaster)
+[00:45:08] Generated #124 (Vacuum Cleaner)
+[00:45:08] Generated #125 (Air Conditioner)
+[00:45:08] QualityControl: PASSED inspection
+[00:45:08] QualityControl: PASSED inspection
+[00:45:08] QualityControl: Inspecting #35 (Toaster)
+[00:45:08] QualityControl: Inspecting #35 (Toaster)
+[00:45:08] Generated #126 (Dryer)
+[00:45:08] Generated #127 (Dryer)
+[00:45:08] Generated #128 (Microwave)
+[00:45:08] Generated #129 (Dryer)
+[00:45:08] Generated #130 (Blender)
+[00:45:08] Generated #131 (Vacuum Cleaner)
+[00:45:08] QualityControl: PASSED inspection
+[00:45:08] QualityControl: PASSED inspection
+[00:45:08] QualityControl: Inspecting #36 (Air Conditioner)
+[00:45:08] QualityControl: Inspecting #36 (Air Conditioner)
+[00:45:08] Generated #132 (Dryer)
+[00:45:08] Generated #133 (Dishwasher)
+[00:45:08] Generated #134 (Dishwasher)
+[00:45:08] Generated #135 (Refrigerator)
+[00:45:08] Generated #136 (Toaster)
+[00:45:08] Generated #137 (Vacuum Cleaner)
+[00:45:08] QualityControl: FAILED inspection
+[00:45:08] QualityControl: FAILED inspection
+[00:45:08] QualityControl: Inspecting #37 (Air Conditioner)
+[00:45:08] QualityControl: Inspecting #37 (Air Conditioner)
+[00:45:09] Generated #138 (Dryer)
+[00:45:09] Generated #139 (Dishwasher)
+[00:45:09] Generated #140 (Microwave)
+[00:45:09] Generated #141 (Microwave)
+[00:45:09] Generated #142 (Microwave)
+[00:45:09] Generated #143 (Vacuum Cleaner)
+[00:45:09] QualityControl: FAILED inspection
+[00:45:09] QualityControl: FAILED inspection
+[00:45:09] QualityControl: Inspecting #38 (Air Conditioner)
+[00:45:09] QualityControl: Inspecting #38 (Air Conditioner)
+[00:45:09] Generated #144 (Microwave)
+[00:45:09] Generated #145 (Oven)
+[00:45:09] Generated #146 (Oven)
+[00:45:09] Generated #147 (Toaster)
+[00:45:09] Generated #148 (Microwave)
+[00:45:09] Generated #149 (Air Conditioner)
+[00:45:09] QualityControl: PASSED inspection
+[00:45:09] QualityControl: PASSED inspection
+[00:45:09] QualityControl: Inspecting #39 (Washing Machine)
+[00:45:09] QualityControl: Inspecting #39 (Washing Machine)
+[00:45:09] Generated #150 (Vacuum Cleaner)
+[00:45:09] Generated #151 (Microwave)
+[00:45:09] Generated #152 (Air Conditioner)
+[00:45:09] Generated #153 (Microwave)
+[00:45:09] Generated #154 (Blender)
+[00:45:09] Generated #155 (Toaster)
+[00:45:09] QualityControl: PASSED inspection
+[00:45:09] QualityControl: PASSED inspection
+[00:45:09] QualityControl: Inspecting #40 (Oven)
+[00:45:09] QualityControl: Inspecting #40 (Oven)
+[00:45:09] Generated #156 (Dishwasher)
+[00:45:09] Generated #157 (Microwave)
+[00:45:10] Generated #158 (Air Conditioner)
+[00:45:10] Generated #159 (Oven)
+[00:45:10] Generated #160 (Toaster)
+[00:45:10] Generated #161 (Oven)
+[00:45:10] QualityControl: PASSED inspection
+[00:45:10] QualityControl: PASSED inspection
+[00:45:10] QualityControl: Inspecting #41 (Oven)
+[00:45:10] QualityControl: Inspecting #41 (Oven)
+[00:45:10] Generated #162 (Air Conditioner)
+[00:45:10] Generated #163 (Oven)
+[00:45:10] Generated #164 (Toaster)
+[00:45:10] Generated #165 (Oven)
+[00:45:10] Generated #166 (Vacuum Cleaner)
+[00:45:10] QualityControl: FAILED inspection
+[00:45:10] QualityControl: FAILED inspection
+[00:45:10] Generated #167 (Microwave)
+[00:45:10] QualityControl: Inspecting #42 (Microwave)
+[00:45:10] QualityControl: Inspecting #42 (Microwave)
+[00:45:10] Generated #168 (Blender)
+[00:45:10] Generated #169 (Dishwasher)
+[00:45:10] Generated #170 (Microwave)
+[00:45:10] Generated #171 (Air Conditioner)
+[00:45:10] Generated #172 (Oven)
+[00:45:10] QualityControl: PASSED inspection
+[00:45:10] QualityControl: PASSED inspection
+[00:45:10] QualityControl: Inspecting #43 (Oven)
+[00:45:10] QualityControl: Inspecting #43 (Oven)
+[00:45:10] Generated #173 (Washing Machine)
+[00:45:10] Generated #174 (Dishwasher)
+[00:45:10] Generated #175 (Toaster)
+[00:45:10] Generated #176 (Vacuum Cleaner)
+[00:45:10] Generated #177 (Oven)
+[00:45:11] Generated #178 (Toaster)
+[00:45:11] QualityControl: PASSED inspection
+[00:45:11] QualityControl: PASSED inspection
+[00:45:11] QualityControl: Inspecting #44 (Air Conditioner)
+[00:45:11] QualityControl: Inspecting #44 (Air Conditioner)
+[00:45:11] Generated #179 (Toaster)
+[00:45:11] Generated #180 (Oven)
+[00:45:11] Generated #181 (Refrigerator)
+[00:45:11] Generated #182 (Dryer)
+[00:45:11] Generated #183 (Blender)
+[00:45:11] Generated #184 (Air Conditioner)
+[00:45:11] QualityControl: PASSED inspection
+[00:45:11] QualityControl: PASSED inspection
+[00:45:11] QualityControl: Inspecting #45 (Microwave)
+[00:45:11] QualityControl: Inspecting #45 (Microwave)
+[00:45:11] Generated #185 (Microwave)
+[00:45:11] Generated #186 (Air Conditioner)
+[00:45:11] Generated #187 (Blender)
+[00:45:11] Generated #188 (Air Conditioner)
+[00:45:11] Generated #189 (Dryer)
+[00:45:11] Generated #190 (Vacuum Cleaner)
+[00:45:11] QualityControl: PASSED inspection
+[00:45:11] QualityControl: PASSED inspection
+[00:45:11] QualityControl: Inspecting #46 (Oven)
+[00:45:11] QualityControl: Inspecting #46 (Oven)
+[00:45:11] Generated #191 (Dryer)
+[00:45:11] Generated #192 (Toaster)
+[00:45:11] Generated #193 (Blender)
+[00:45:11] Generated #194 (Air Conditioner)
+[00:45:11] Generated #195 (Microwave)
+[00:45:11] Generated #196 (Refrigerator)
+[00:45:11] QualityControl: PASSED inspection
+[00:45:11] QualityControl: PASSED inspection
+[00:45:11] QualityControl: Inspecting #47 (Refrigerator)
+[00:45:11] QualityControl: Inspecting #47 (Refrigerator)
+[00:45:11] Generated #197 (Vacuum Cleaner)
+[00:45:12] Generated #198 (Air Conditioner)
+[00:45:12] Generated #199 (Dryer)
+[00:45:12] Generated #200 (Dryer)
+[00:45:12] Generated #201 (Vacuum Cleaner)
+[00:45:12] Generated #202 (Toaster)
+[00:45:12] QualityControl: PASSED inspection
+[00:45:12] QualityControl: PASSED inspection
+[00:45:12] QualityControl: Inspecting #48 (Oven)
+[00:45:12] QualityControl: Inspecting #48 (Oven)
+[00:45:12] Generated #203 (Refrigerator)
+[00:45:12] Generated #204 (Air Conditioner)
+[00:45:12] Generated #205 (Air Conditioner)
+[00:45:12] Generated #206 (Vacuum Cleaner)
+[00:45:12] Generated #207 (Washing Machine)
+[00:45:12] Generated #208 (Air Conditioner)
+[00:45:12] QualityControl: PASSED inspection
+[00:45:12] QualityControl: PASSED inspection
+[00:45:12] QualityControl: Inspecting #49 (Dishwasher)
+[00:45:12] QualityControl: Inspecting #49 (Dishwasher)
+[00:45:12] Generated #209 (Air Conditioner)
+[00:45:12] Generated #210 (Microwave)
+[00:45:12] Generated #211 (Dishwasher)
+[00:45:12] Generated #212 (Dishwasher)
+[00:45:12] Generated #213 (Dryer)
+[00:45:12] Generated #214 (Dryer)
+[00:45:12] QualityControl: PASSED inspection
+[00:45:12] QualityControl: PASSED inspection
+[00:45:12] QualityControl: Inspecting #50 (Vacuum Cleaner)
+[00:45:12] QualityControl: Inspecting #50 (Vacuum Cleaner)
+[00:45:12] Generated #215 (Microwave)
+[00:45:12] Generated #216 (Vacuum Cleaner)
+[00:45:13] Generated #217 (Washing Machine)
+[00:45:13] Generated #218 (Toaster)
+[00:45:13] Generated #219 (Blender)
+[00:45:13] Generated #220 (Oven)
+[00:45:13] QualityControl: PASSED inspection
+[00:45:13] QualityControl: PASSED inspection
+[00:45:13] QualityControl: Inspecting #51 (Refrigerator)
+[00:45:13] QualityControl: Inspecting #51 (Refrigerator)
+[00:45:13] Generated #221 (Dishwasher)
+[00:45:13] Generated #222 (Toaster)
+[00:45:13] Generated #223 (Toaster)
+[00:45:13] Generated #224 (Air Conditioner)
+[00:45:13] Generated #225 (Blender)
+[00:45:13] Generated #226 (Microwave)
+[00:45:13] QualityControl: FAILED inspection
+[00:45:13] QualityControl: FAILED inspection
+[00:45:13] QualityControl: Inspecting #52 (Oven)
+[00:45:13] QualityControl: Inspecting #52 (Oven)
+[00:45:13] Generated #227 (Dishwasher)
+[00:45:13] Generated #228 (Air Conditioner)
+[00:45:13] Generated #229 (Washing Machine)
+[00:45:13] Generated #230 (Microwave)
+[00:45:13] Generated #231 (Microwave)
+[00:45:13] Generated #232 (Oven)
+[00:45:13] QualityControl: PASSED inspection
+[00:45:13] QualityControl: PASSED inspection
+[00:45:13] QualityControl: Inspecting #53 (Microwave)
+[00:45:13] QualityControl: Inspecting #53 (Microwave)
+[00:45:13] Generated #233 (Refrigerator)
+[00:45:13] Generated #234 (Oven)
+[00:45:13] Generated #235 (Vacuum Cleaner)
+[00:45:13] Generated #236 (Dryer)
+[00:45:14] Generated #237 (Dryer)
+[00:45:14] Generated #238 (Microwave)
+[00:45:14] QualityControl: PASSED inspection
+[00:45:14] QualityControl: PASSED inspection
+[00:45:14] QualityControl: Inspecting #54 (Refrigerator)
+[00:45:14] QualityControl: Inspecting #54 (Refrigerator)
+[00:45:14] Generated #239 (Blender)
+[00:45:14] Generated #240 (Dryer)
+[00:45:14] Generated #241 (Oven)
+[00:45:14] Generated #242 (Dryer)
+[00:45:14] Generated #243 (Refrigerator)
+[00:45:14] Generated #244 (Microwave)
+[00:45:14] QualityControl: PASSED inspection
+[00:45:14] QualityControl: PASSED inspection
+[00:45:14] QualityControl: Inspecting #55 (Dishwasher)
+[00:45:14] QualityControl: Inspecting #55 (Dishwasher)
+[00:45:14] Generated #245 (Dryer)
+[00:45:14] Generated #246 (Air Conditioner)
+[00:45:14] Generated #247 (Air Conditioner)
+[00:45:14] Generated #248 (Refrigerator)
+[00:45:14] Generated #249 (Dishwasher)
+[00:45:14] Generated #250 (Dryer)
+[00:45:14] QualityControl: PASSED inspection
+[00:45:14] QualityControl: PASSED inspection
+[00:45:14] QualityControl: Inspecting #56 (Air Conditioner)
+[00:45:14] QualityControl: Inspecting #56 (Air Conditioner)
+[00:45:14] Generated #251 (Refrigerator)
+[00:45:14] Generated #252 (Microwave)
+[00:45:14] Generated #253 (Blender)
+[00:45:14] QualityControl: PASSED inspection
+[00:45:14] QualityControl: PASSED inspection
+[00:45:14] QualityControl: Inspecting #57 (Oven)
+[00:45:14] QualityControl: Inspecting #57 (Oven)
+[00:45:14] Generated #254 (Microwave)
+[00:45:15] QualityControl: PASSED inspection
+[00:45:15] QualityControl: PASSED inspection
+[00:45:15] QualityControl: Inspecting #58 (Blender)
+[00:45:15] QualityControl: Inspecting #58 (Blender)
+[00:45:15] Generated #255 (Refrigerator)
+[00:45:15] QualityControl: PASSED inspection
+[00:45:15] QualityControl: PASSED inspection
+[00:45:15] QualityControl: Inspecting #59 (Dishwasher)
+[00:45:15] QualityControl: Inspecting #59 (Dishwasher)
+[00:45:15] Generated #256 (Vacuum Cleaner)
+[00:45:15] QualityControl: PASSED inspection
+[00:45:15] QualityControl: PASSED inspection
+[00:45:15] QualityControl: Inspecting #60 (Oven)
+[00:45:15] QualityControl: Inspecting #60 (Oven)
+[00:45:15] Generated #257 (Blender)
+[00:45:16] QualityControl: PASSED inspection
+[00:45:16] QualityControl: PASSED inspection
+[00:45:16] QualityControl: Inspecting #61 (Microwave)
+[00:45:16] QualityControl: Inspecting #61 (Microwave)
+[00:45:16] Generated #258 (Refrigerator)
+[00:45:16] QualityControl: PASSED inspection
+[00:45:16] QualityControl: PASSED inspection
+[00:45:16] QualityControl: Inspecting #62 (Air Conditioner)
+[00:45:16] QualityControl: Inspecting #62 (Air Conditioner)
+[00:45:16] Generated #259 (Dishwasher)
+[00:45:16] Generated #260 (Washing Machine)
+[00:45:16] Generated #261 (Oven)
+[00:45:16] Generated #262 (Dryer)
+[00:45:16] QualityControl: PASSED inspection
+[00:45:16] QualityControl: PASSED inspection
+[00:45:16] QualityControl: Inspecting #129 (Dryer)
+[00:45:16] QualityControl: Inspecting #129 (Dryer)
+[00:45:16] Generated #263 (Oven)
+[00:45:16] Generated #264 (Dryer)
+[00:45:16] Generated #265 (Dishwasher)
+[00:45:17] Generated #266 (Microwave)
+[00:45:17] QualityControl: FAILED inspection
+[00:45:17] QualityControl: FAILED inspection
+[00:45:17] QualityControl: Inspecting #130 (Blender)
+[00:45:17] QualityControl: Inspecting #130 (Blender)
+[00:45:17] Generated #267 (Blender)
+[00:45:17] Generated #268 (Dryer)
+[00:45:17] Generated #269 (Refrigerator)
+[00:45:17] Generated #270 (Oven)
+[00:45:17] QualityControl: FAILED inspection
+[00:45:17] QualityControl: FAILED inspection
+[00:45:17] QualityControl: Inspecting #131 (Vacuum Cleaner)
+[00:45:17] QualityControl: Inspecting #131 (Vacuum Cleaner)
+[00:45:17] Generated #271 (Refrigerator)
+[00:45:17] Generated #272 (Dishwasher)
+[00:45:17] Generated #273 (Dryer)
+[00:45:17] Generated #274 (Blender)
+[00:45:17] QualityControl: PASSED inspection
+[00:45:17] QualityControl: PASSED inspection
+[00:45:17] QualityControl: Inspecting #132 (Dryer)
+[00:45:17] QualityControl: Inspecting #132 (Dryer)
+[00:45:17] Generated #275 (Oven)
+[00:45:17] Generated #276 (Washing Machine)
+[00:45:17] Generated #277 (Vacuum Cleaner)
+[00:45:17] Generated #278 (Washing Machine)
+[00:45:17] QualityControl: PASSED inspection
+[00:45:17] QualityControl: PASSED inspection
+[00:45:18] QualityControl: Inspecting #133 (Dishwasher)
+[00:45:18] QualityControl: Inspecting #133 (Dishwasher)
+[00:45:18] ProductionLine: stop()
+[00:45:18] ProductionLine: stop()
+[00:45:18] Assembler-1: stop()
+[00:45:18] Assembler-1: stop()
+[00:45:18] Assembler-2: stop()
+[00:45:18] Assembler-2: stop()
+[00:45:18] Tester: stop()
+[00:45:18] Tester: stop()
+[00:45:18] QualityControl: stop()
+[00:45:18] QualityControl: stop()
+[00:45:18] Packer: stop()
+[00:45:18] Packer: stop()
+[00:45:18] Controller: stop()
+[00:45:18] Tester loop finished
+[00:45:18] Tester loop finished
+[00:45:18] Packer loop finished
+[00:45:18] Packer loop finished
+[00:45:18] QualityControl: PASSED inspection
+[00:45:18] QualityControl: PASSED inspection
+[00:45:18] QualityControl loop finished
+[00:45:18] QualityControl loop finished
+[00:45:21] ProductionLine: start()
+[00:45:21] ProductionLine: start()
+[00:45:21] Assembler-1: resume()
+[00:45:21] Assembler-1: resume()
+[00:45:21] Assembler-2: resume()
+[00:45:21] Assembler-2: resume()
+[00:45:21] Tester: resume()
+[00:45:21] Tester: resume()
+[00:45:21] QualityControl: resume()
+[00:45:21] QualityControl: resume()
+[00:45:21] Packer: resume()
+[00:45:21] Packer: resume()
+[00:45:21] Generated #279 (Toaster)
+[00:45:21] Controller: start()
+[00:45:23] Controller: start() ignored (already running)
+[00:45:24] Controller: start() ignored (already running)
+[00:45:25] ProductionLine: pause()
+[00:45:25] ProductionLine: pause()
+[00:45:25] Assembler-1: pause()
+[00:45:25] Assembler-1: pause()
+[00:45:25] Assembler-2: pause()
+[00:45:25] Assembler-2: pause()
+[00:45:25] Tester: pause()
+[00:45:25] Tester: pause()
+[00:45:25] QualityControl: pause()
+[00:45:25] QualityControl: pause()
+[00:45:25] Packer: pause()
+[00:45:25] Packer: pause()
+[00:45:25] Controller: pause()
+[00:45:27] State saved to file.
+[00:45:27] ProductionLine: stop()
+[00:45:27] Assembler-1: stop()
+[00:45:27] Assembler-2: stop()
+[00:45:27] Tester: stop()
+[00:45:27] QualityControl: stop()
+[00:45:27] Packer: stop()
+[00:45:39] ProductionLine: start()
+[00:45:39] ProductionLine: start()
+[00:45:39] Assembler-1: start()
+[00:45:39] Assembler-1: start()
+[00:45:39] Assembler-2: start()
+[00:45:39] Assembler-2: start()
+[00:45:39] Tester: start()
+[00:45:39] Tester: start()
+[00:45:39] QualityControl: start()
+[00:45:39] QualityControl: start()
+[00:45:39] Packer: start()
+[00:45:39] Packer: start()
+[00:45:39] Generated #280 (Toaster)
+[00:45:39] Controller: start()
+[00:45:39] Assembler-1 runLoop started
+[00:45:39] Assembler-1 runLoop started
+[00:45:39] Assembler-2 runLoop started
+[00:45:39] Assembler-2 runLoop started
+[00:45:39] Tester runLoop started
+[00:45:39] Tester runLoop started
+[00:45:39] QualityControl runLoop started
+[00:45:39] QualityControl runLoop started
+[00:45:39] QualityControl: Inspecting #134 (Dishwasher)
+[00:45:39] QualityControl: Inspecting #134 (Dishwasher)
+[00:45:39] Packer runLoop started
+[00:45:39] Packer runLoop started
+[00:45:40] Generated #281 (Toaster)
+[00:45:40] Generated #282 (Blender)
+[00:45:40] Generated #283 (Dryer)
+[00:45:40] Generated #284 (Dryer)
+[00:45:40] QualityControl: FAILED inspection
+[00:45:40] QualityControl: FAILED inspection
+[00:45:40] QualityControl: Inspecting #135 (Refrigerator)
+[00:45:40] QualityControl: Inspecting #135 (Refrigerator)
+[00:45:40] Generated #285 (Microwave)
+[00:45:40] Generated #286 (Washing Machine)
+[00:45:40] Generated #287 (Refrigerator)
+[00:45:40] Generated #288 (Dryer)
+[00:45:40] Generated #289 (Vacuum Cleaner)
+[00:45:40] Generated #290 (Refrigerator)
+[00:45:40] QualityControl: PASSED inspection
+[00:45:40] QualityControl: PASSED inspection
+[00:45:40] QualityControl: Inspecting #136 (Toaster)
+[00:45:40] QualityControl: Inspecting #136 (Toaster)
+[00:45:40] Generated #291 (Toaster)
+[00:45:40] Generated #292 (Microwave)
+[00:45:40] Generated #293 (Refrigerator)
+[00:45:40] Generated #294 (Toaster)
+[00:45:40] Generated #295 (Oven)
+[00:45:40] Generated #296 (Washing Machine)
+[00:45:40] QualityControl: PASSED inspection
+[00:45:40] QualityControl: PASSED inspection
+[00:45:40] QualityControl: Inspecting #137 (Vacuum Cleaner)
+[00:45:40] QualityControl: Inspecting #137 (Vacuum Cleaner)
+[00:45:40] Generated #297 (Blender)
+[00:45:40] Generated #298 (Microwave)
+[00:45:40] Generated #299 (Toaster)
+[00:45:40] Generated #300 (Blender)
+[00:45:41] Generated #301 (Air Conditioner)
+[00:45:41] Generated #302 (Dryer)
+[00:45:41] QualityControl: PASSED inspection
+[00:45:41] QualityControl: PASSED inspection
+[00:45:41] QualityControl: Inspecting #138 (Dryer)
+[00:45:41] QualityControl: Inspecting #138 (Dryer)
+[00:45:41] Generated #303 (Vacuum Cleaner)
+[00:45:41] Generated #304 (Blender)
+[00:45:41] Generated #305 (Microwave)
+[00:45:41] Generated #306 (Toaster)
+[00:45:41] Generated #307 (Microwave)
+[00:45:41] Generated #308 (Refrigerator)
+[00:45:41] QualityControl: FAILED inspection
+[00:45:41] QualityControl: FAILED inspection
+[00:45:41] QualityControl: Inspecting #139 (Dishwasher)
+[00:45:41] QualityControl: Inspecting #139 (Dishwasher)
+[00:45:41] Generated #309 (Refrigerator)
+[00:45:41] Generated #310 (Vacuum Cleaner)
+[00:45:41] ProductionLine: pause()
+[00:45:41] ProductionLine: pause()
+[00:45:41] Assembler-1: pause()
+[00:45:41] Assembler-1: pause()
+[00:45:41] Assembler-2: pause()
+[00:45:41] Assembler-2: pause()
+[00:45:41] Tester: pause()
+[00:45:41] Tester: pause()
+[00:45:41] QualityControl: pause()
+[00:45:41] QualityControl: pause()
+[00:45:41] Packer: pause()
+[00:45:41] Packer: pause()
+[00:45:41] Controller: pause()
+[00:45:41] Generated #311 (Washing Machine)
+[00:45:41] Generated #312 (Air Conditioner)
+[00:45:41] QualityControl: PASSED inspection
+[00:45:41] QualityControl: PASSED inspection
+[00:45:42] ProductionLine: start()
+[00:45:42] ProductionLine: start()
+[00:45:42] Assembler-1: resume()
+[00:45:42] Assembler-1: resume()
+[00:45:42] Assembler-2: resume()
+[00:45:42] Assembler-2: resume()
+[00:45:42] Tester: resume()
+[00:45:42] Tester: resume()
+[00:45:42] QualityControl: resume()
+[00:45:42] QualityControl: resume()
+[00:45:42] Packer: resume()
+[00:45:42] Packer: resume()
+[00:45:42] Controller: resume()
+[00:45:42] QualityControl: Inspecting #140 (Microwave)
+[00:45:42] QualityControl: Inspecting #140 (Microwave)
+[00:45:42] Generated #313 (Vacuum Cleaner)
+[00:45:42] Generated #314 (Refrigerator)
+[00:45:42] Generated #315 (Air Conditioner)
+[00:45:42] Generated #316 (Dryer)
+[00:45:42] QualityControl: PASSED inspection
+[00:45:42] QualityControl: PASSED inspection
+[00:45:42] QualityControl: Inspecting #141 (Microwave)
+[00:45:42] QualityControl: Inspecting #141 (Microwave)
+[00:45:42] Generated #317 (Air Conditioner)
+[00:45:42] Generated #318 (Toaster)
+[00:45:42] Generated #319 (Oven)
+[00:45:42] Generated #320 (Vacuum Cleaner)
+[00:45:42] Generated #321 (Microwave)
+[00:45:42] Generated #322 (Vacuum Cleaner)
+[00:45:42] QualityControl: PASSED inspection
+[00:45:42] QualityControl: PASSED inspection
+[00:45:42] QualityControl: Inspecting #142 (Microwave)
+[00:45:42] QualityControl: Inspecting #142 (Microwave)
+[00:45:42] Generated #323 (Blender)
+[00:45:42] Generated #324 (Washing Machine)
+[00:45:42] Generated #325 (Blender)
+[00:45:42] Generated #326 (Refrigerator)
+[00:45:42] Generated #327 (Vacuum Cleaner)
+[00:45:43] Generated #328 (Toaster)
+[00:45:43] QualityControl: PASSED inspection
+[00:45:43] QualityControl: PASSED inspection
+[00:45:43] QualityControl: Inspecting #143 (Vacuum Cleaner)
+[00:45:43] QualityControl: Inspecting #143 (Vacuum Cleaner)
+[00:45:43] Generated #329 (Air Conditioner)
+[00:45:43] Generated #330 (Vacuum Cleaner)
+[00:45:43] Generated #331 (Refrigerator)
+[00:45:43] Generated #332 (Dishwasher)
+[00:45:43] Generated #333 (Vacuum Cleaner)
+[00:45:43] Generated #334 (Vacuum Cleaner)
+[00:45:43] QualityControl: PASSED inspection
+[00:45:43] QualityControl: PASSED inspection
+[00:45:43] QualityControl: Inspecting #144 (Microwave)
+[00:45:43] QualityControl: Inspecting #144 (Microwave)
+[00:45:43] Generated #335 (Microwave)
+[00:45:43] Generated #336 (Washing Machine)
+[00:45:43] Generated #337 (Microwave)
+[00:45:43] Generated #338 (Dryer)
+[00:45:43] Generated #339 (Refrigerator)
+[00:45:43] Generated #340 (Toaster)
+[00:45:43] ProductionLine: pause()
+[00:45:43] ProductionLine: pause()
+[00:45:43] Assembler-1: pause()
+[00:45:43] Assembler-1: pause()
+[00:45:43] Assembler-2: pause()
+[00:45:43] Assembler-2: pause()
+[00:45:43] Tester: pause()
+[00:45:43] Tester: pause()
+[00:45:43] QualityControl: pause()
+[00:45:43] QualityControl: pause()
+[00:45:43] Packer: pause()
+[00:45:43] Packer: pause()
+[00:45:43] Controller: pause()
+[00:45:43] QualityControl: PASSED inspection
+[00:45:43] QualityControl: PASSED inspection
+[00:45:43] Generated #341 (Toaster)
+[00:45:43] Generated #342 (Oven)
+[00:45:44] ProductionLine: start()
+[00:45:44] ProductionLine: start()
+[00:45:44] Assembler-1: resume()
+[00:45:44] Assembler-1: resume()
+[00:45:44] Assembler-2: resume()
+[00:45:44] Assembler-2: resume()
+[00:45:44] Tester: resume()
+[00:45:44] Tester: resume()
+[00:45:44] QualityControl: resume()
+[00:45:44] QualityControl: resume()
+[00:45:44] Packer: resume()
+[00:45:44] Packer: resume()
+[00:45:44] Controller: resume()
+[00:45:44] QualityControl: Inspecting #145 (Oven)
+[00:45:44] QualityControl: Inspecting #145 (Oven)
+[00:45:44] Generated #343 (Blender)
+[00:45:44] Generated #344 (Toaster)
+[00:45:44] Generated #345 (Dryer)
+[00:45:44] Generated #346 (Refrigerator)
+[00:45:44] QualityControl: FAILED inspection
+[00:45:44] QualityControl: FAILED inspection
+[00:45:44] QualityControl: Inspecting #146 (Oven)
+[00:45:44] QualityControl: Inspecting #146 (Oven)
+[00:45:44] Generated #347 (Washing Machine)
+[00:45:44] Generated #348 (Air Conditioner)
+[00:45:44] Generated #349 (Vacuum Cleaner)
+[00:45:44] Generated #350 (Oven)
+[00:45:44] Generated #351 (Toaster)
+[00:45:44] Generated #352 (Vacuum Cleaner)
+[00:45:44] QualityControl: PASSED inspection
+[00:45:44] QualityControl: PASSED inspection
+[00:45:44] QualityControl: Inspecting #147 (Toaster)
+[00:45:44] QualityControl: Inspecting #147 (Toaster)
+[00:45:44] Generated #353 (Refrigerator)
+[00:45:44] Generated #354 (Dishwasher)
+[00:45:44] Generated #355 (Dryer)
+[00:45:44] Generated #356 (Vacuum Cleaner)
+[00:45:44] Generated #357 (Washing Machine)
+[00:45:44] Generated #358 (Microwave)
+[00:45:45] QualityControl: PASSED inspection
+[00:45:45] QualityControl: PASSED inspection
+[00:45:45] QualityControl: Inspecting #148 (Microwave)
+[00:45:45] QualityControl: Inspecting #148 (Microwave)
+[00:45:45] Generated #359 (Dryer)
+[00:45:45] Generated #360 (Dryer)
+[00:45:45] Generated #361 (Toaster)
+[00:45:45] Generated #362 (Refrigerator)
+[00:45:45] Generated #363 (Air Conditioner)
+[00:45:45] Generated #364 (Oven)
+[00:45:45] QualityControl: PASSED inspection
+[00:45:45] QualityControl: PASSED inspection
+[00:45:45] QualityControl: Inspecting #280 (Toaster)
+[00:45:45] QualityControl: Inspecting #280 (Toaster)
+[00:45:45] Generated #365 (Toaster)
+[00:45:45] Generated #366 (Refrigerator)
+[00:45:45] Generated #367 (Blender)
+[00:45:45] Generated #368 (Toaster)
+[00:45:45] Generated #369 (Dryer)
+[00:45:45] Generated #370 (Washing Machine)
+[00:45:45] QualityControl: PASSED inspection
+[00:45:45] QualityControl: PASSED inspection
+[00:45:45] QualityControl: Inspecting #279 (Toaster)
+[00:45:45] QualityControl: Inspecting #279 (Toaster)
+[00:45:45] Generated #371 (Microwave)
+[00:45:45] Generated #372 (Blender)
+[00:45:45] Generated #373 (Air Conditioner)
+[00:45:45] Generated #374 (Air Conditioner)
+[00:45:45] Generated #375 (Microwave)
+[00:45:45] Generated #376 (Vacuum Cleaner)
+[00:45:45] QualityControl: PASSED inspection
+[00:45:45] QualityControl: PASSED inspection
+[00:45:45] QualityControl: Inspecting #281 (Toaster)
+[00:45:45] QualityControl: Inspecting #281 (Toaster)
+[00:45:46] Generated #377 (Refrigerator)
+[00:45:46] Generated #378 (Air Conditioner)
+[00:45:46] Generated #379 (Toaster)
+[00:45:46] Generated #380 (Dryer)
+[00:45:46] Generated #381 (Blender)
+[00:45:46] Generated #382 (Vacuum Cleaner)
+[00:45:46] QualityControl: PASSED inspection
+[00:45:46] QualityControl: PASSED inspection
+[00:45:46] QualityControl: Inspecting #282 (Blender)
+[00:45:46] QualityControl: Inspecting #282 (Blender)
+[00:45:46] Generated #383 (Microwave)
+[00:45:46] Generated #384 (Washing Machine)
+[00:45:46] Generated #385 (Vacuum Cleaner)
+[00:45:46] Generated #386 (Vacuum Cleaner)
+[00:45:46] Generated #387 (Blender)
+[00:45:46] Generated #388 (Air Conditioner)
+[00:45:46] ProductionLine: pause()
+[00:45:46] ProductionLine: pause()
+[00:45:46] Assembler-1: pause()
+[00:45:46] Assembler-1: pause()
+[00:45:46] Assembler-2: pause()
+[00:45:46] Assembler-2: pause()
+[00:45:46] Tester: pause()
+[00:45:46] Tester: pause()
+[00:45:46] QualityControl: pause()
+[00:45:46] QualityControl: pause()
+[00:45:46] Packer: pause()
+[00:45:46] Packer: pause()
+[00:45:46] Controller: pause()
+[00:45:46] QualityControl: PASSED inspection
+[00:45:46] QualityControl: PASSED inspection
+[00:45:46] Generated #389 (Refrigerator)
+[00:45:46] Generated #390 (Vacuum Cleaner)
+[00:45:47] ProductionLine: stop()
+[00:45:47] ProductionLine: stop()
+[00:45:47] Assembler-1: stop()
+[00:45:47] Assembler-1: stop()
+[00:45:47] Assembler-2: stop()
+[00:45:47] Assembler-2: stop()
+[00:45:47] Tester: stop()
+[00:45:47] Tester: stop()
+[00:45:47] QualityControl: stop()
+[00:45:47] QualityControl: stop()
+[00:45:47] Packer: stop()
+[00:45:47] Packer: stop()
+[00:45:47] Controller: stop()
+[00:45:47] Assembler-1 loop finished
+[00:45:47] Assembler-1 loop finished
+[00:45:47] Assembler-2 loop finished
+[00:45:47] Assembler-2 loop finished
+[00:45:47] QualityControl loop finished
+[00:45:47] QualityControl loop finished
+[00:45:47] Packer loop finished
+[00:45:47] Packer loop finished
+[00:45:53] ProductionLine: start()
+[00:45:53] ProductionLine: start()
+[00:45:53] Assembler-1: resume()
+[00:45:53] Assembler-1: resume()
+[00:45:53] Assembler-2: resume()
+[00:45:53] Assembler-2: resume()
+[00:45:53] Tester: resume()
+[00:45:53] Tester: resume()
+[00:45:53] QualityControl: resume()
+[00:45:53] QualityControl: resume()
+[00:45:53] Packer: resume()
+[00:45:53] Packer: resume()
+[00:45:53] Generated #391 (Oven)
+[00:45:53] Controller: start()
+[00:45:55] Controller: start() ignored (already running)
+[00:45:56] State saved to file.
+[00:45:56] ProductionLine: stop()
+[00:45:56] Assembler-1: stop()
+[00:45:56] Assembler-2: stop()
+[00:45:56] Tester: stop()
+[00:45:56] QualityControl: stop()
+[00:45:56] Packer: stop()
+[09:40:02] ProductionLine: start()
+[09:40:02] ProductionLine: start()
+[09:40:02] Assembler-1: start()
+[09:40:02] Assembler-1: start()
+[09:40:02] Assembler-2: start()
+[09:40:02] Assembler-2: start()
+[09:40:02] Tester: start()
+[09:40:02] Tester: start()
+[09:40:02] QualityControl: start()
+[09:40:02] QualityControl: start()
+[09:40:02] Packer: start()
+[09:40:02] Packer: start()
+[09:40:02] Generated #392 (Vacuum Cleaner)
+[09:40:02] Controller: start()
+[09:40:02] Assembler-1 runLoop started
+[09:40:02] Assembler-1 runLoop started
+[09:40:02] Tester runLoop started
+[09:40:02] Tester runLoop started
+[09:40:02] QualityControl runLoop started
+[09:40:02] QualityControl runLoop started
+[09:40:02] QualityControl: Inspecting #283 (Dryer)
+[09:40:02] QualityControl: Inspecting #283 (Dryer)
+[09:40:02] Packer runLoop started
+[09:40:02] Packer runLoop started
+[09:40:02] Assembler-2 runLoop started
+[09:40:02] Assembler-2 runLoop started
+[09:40:02] Generated #393 (Microwave)
+[09:40:02] Generated #394 (Air Conditioner)
+[09:40:02] Generated #395 (Blender)
+[09:40:02] Generated #396 (Refrigerator)
+[09:40:02] Generated #397 (Washing Machine)
+[09:40:02] QualityControl: PASSED inspection
+[09:40:02] QualityControl: PASSED inspection
+[09:40:02] QualityControl: Inspecting #284 (Dryer)
+[09:40:02] QualityControl: Inspecting #284 (Dryer)
+[09:40:02] Generated #398 (Washing Machine)
+[09:40:02] Generated #399 (Air Conditioner)
+[09:40:02] Generated #400 (Refrigerator)
+[09:40:02] Generated #401 (Microwave)
+[09:40:02] Generated #402 (Microwave)
+[09:40:02] QualityControl: PASSED inspection
+[09:40:02] QualityControl: PASSED inspection
+[09:40:02] QualityControl: Inspecting #285 (Microwave)
+[09:40:02] QualityControl: Inspecting #285 (Microwave)
+[09:40:02] Generated #403 (Dryer)
+[09:40:02] Generated #404 (Blender)
+[09:40:03] Generated #405 (Blender)
+[09:40:03] Generated #406 (Dryer)
+[09:40:03] Generated #407 (Dishwasher)
+[09:40:03] Generated #408 (Toaster)
+[09:40:03] QualityControl: PASSED inspection
+[09:40:03] QualityControl: PASSED inspection
+[09:40:03] QualityControl: Inspecting #286 (Washing Machine)
+[09:40:03] QualityControl: Inspecting #286 (Washing Machine)
+[09:40:03] Generated #409 (Microwave)
+[09:40:03] Generated #410 (Refrigerator)
+[09:40:03] Generated #411 (Oven)
+[09:40:03] Generated #412 (Dryer)
+[09:40:03] Generated #413 (Blender)
+[09:40:03] Generated #414 (Air Conditioner)
+[09:40:03] QualityControl: PASSED inspection
+[09:40:03] QualityControl: PASSED inspection
+[09:40:03] QualityControl: Inspecting #287 (Refrigerator)
+[09:40:03] QualityControl: Inspecting #287 (Refrigerator)
+[09:40:03] Generated #415 (Vacuum Cleaner)
+[09:40:03] Generated #416 (Air Conditioner)
+[09:40:03] Generated #417 (Blender)
+[09:40:03] Generated #418 (Vacuum Cleaner)
+[09:40:03] Generated #419 (Toaster)
+[09:40:03] Generated #420 (Vacuum Cleaner)
+[09:40:03] QualityControl: PASSED inspection
+[09:40:03] QualityControl: PASSED inspection
+[09:40:03] QualityControl: Inspecting #288 (Dryer)
+[09:40:03] QualityControl: Inspecting #288 (Dryer)
+[09:40:03] Generated #421 (Oven)
+[09:40:03] Generated #422 (Toaster)
+[09:40:04] Generated #423 (Blender)
+[09:40:04] Generated #424 (Air Conditioner)
+[09:40:04] Generated #425 (Washing Machine)
+[09:40:04] Generated #426 (Blender)
+[09:40:04] QualityControl: PASSED inspection
+[09:40:04] QualityControl: PASSED inspection
+[09:40:04] QualityControl: Inspecting #289 (Vacuum Cleaner)
+[09:40:04] QualityControl: Inspecting #289 (Vacuum Cleaner)
+[09:40:04] Generated #427 (Blender)
+[09:40:04] Generated #428 (Blender)
+[09:40:04] Generated #429 (Toaster)
+[09:40:04] Generated #430 (Blender)
+[09:40:04] Generated #431 (Dishwasher)
+[09:40:04] Generated #432 (Oven)
+[09:40:04] QualityControl: PASSED inspection
+[09:40:04] QualityControl: PASSED inspection
+[09:40:04] QualityControl: Inspecting #290 (Refrigerator)
+[09:40:04] QualityControl: Inspecting #290 (Refrigerator)
+[09:40:04] Generated #433 (Air Conditioner)
+[09:40:04] Generated #434 (Microwave)
+[09:40:04] Generated #435 (Microwave)
+[09:40:04] Generated #436 (Vacuum Cleaner)
+[09:40:04] Generated #437 (Toaster)
+[09:40:04] Generated #438 (Dishwasher)
+[09:40:04] QualityControl: PASSED inspection
+[09:40:04] QualityControl: PASSED inspection
+[09:40:04] QualityControl: Inspecting #291 (Toaster)
+[09:40:04] QualityControl: Inspecting #291 (Toaster)
+[09:40:04] Generated #439 (Blender)
+[09:40:04] Generated #440 (Dishwasher)
+[09:40:04] Generated #441 (Toaster)
+[09:40:04] Generated #442 (Vacuum Cleaner)
+[09:40:05] Generated #443 (Blender)
+[09:40:05] Generated #444 (Air Conditioner)
+[09:40:05] QualityControl: PASSED inspection
+[09:40:05] QualityControl: PASSED inspection
+[09:40:05] QualityControl: Inspecting #292 (Microwave)
+[09:40:05] QualityControl: Inspecting #292 (Microwave)
+[09:40:05] Generated #445 (Oven)
+[09:40:05] Generated #446 (Dryer)
+[09:40:05] Generated #447 (Air Conditioner)
+[09:40:05] Generated #448 (Blender)
+[09:40:05] Generated #449 (Air Conditioner)
+[09:40:05] Generated #450 (Air Conditioner)
+[09:40:05] QualityControl: PASSED inspection
+[09:40:05] QualityControl: PASSED inspection
+[09:40:05] QualityControl: Inspecting #293 (Refrigerator)
+[09:40:05] QualityControl: Inspecting #293 (Refrigerator)
+[09:40:05] Generated #451 (Dryer)
+[09:40:05] Generated #452 (Dryer)
+[09:40:05] Generated #453 (Refrigerator)
+[09:40:05] Generated #454 (Oven)
+[09:40:05] Generated #455 (Washing Machine)
+[09:40:05] Generated #456 (Dryer)
+[09:40:05] QualityControl: PASSED inspection
+[09:40:05] QualityControl: PASSED inspection
+[09:40:05] QualityControl: Inspecting #294 (Toaster)
+[09:40:05] QualityControl: Inspecting #294 (Toaster)
+[09:40:05] Generated #457 (Oven)
+[09:40:05] Generated #458 (Air Conditioner)
+[09:40:05] Generated #459 (Dryer)
+[09:40:05] Generated #460 (Air Conditioner)
+[09:40:05] Generated #461 (Refrigerator)
+[09:40:05] Generated #462 (Dryer)
+[09:40:05] QualityControl: PASSED inspection
+[09:40:05] QualityControl: PASSED inspection
+[09:40:05] QualityControl: Inspecting #295 (Oven)
+[09:40:05] QualityControl: Inspecting #295 (Oven)
+[09:40:06] Generated #463 (Dishwasher)
+[09:40:06] Generated #464 (Toaster)
+[09:40:06] Generated #465 (Air Conditioner)
+[09:40:06] Generated #466 (Microwave)
+[09:40:06] Generated #467 (Microwave)
+[09:40:06] Generated #468 (Dryer)
+[09:40:06] QualityControl: PASSED inspection
+[09:40:06] QualityControl: PASSED inspection
+[09:40:06] QualityControl: Inspecting #296 (Washing Machine)
+[09:40:06] QualityControl: Inspecting #296 (Washing Machine)
+[09:40:06] Generated #469 (Dryer)
+[09:40:06] Generated #470 (Oven)
+[09:40:06] Generated #471 (Blender)
+[09:40:06] Generated #472 (Dishwasher)
+[09:40:06] Generated #473 (Dishwasher)
+[09:40:06] Generated #474 (Washing Machine)
+[09:40:06] QualityControl: PASSED inspection
+[09:40:06] QualityControl: PASSED inspection
+[09:40:06] QualityControl: Inspecting #297 (Blender)
+[09:40:06] QualityControl: Inspecting #297 (Blender)
+[09:40:06] Generated #475 (Dryer)
+[09:40:06] Generated #476 (Refrigerator)
+[09:40:06] Generated #477 (Air Conditioner)
+[09:40:06] Generated #478 (Refrigerator)
+[09:40:06] Generated #479 (Blender)
+[09:40:06] Generated #480 (Refrigerator)
+[09:40:06] QualityControl: PASSED inspection
+[09:40:06] QualityControl: PASSED inspection
+[09:40:06] QualityControl: Inspecting #298 (Microwave)
+[09:40:06] QualityControl: Inspecting #298 (Microwave)
+[09:40:06] Generated #481 (Microwave)
+[09:40:06] Generated #482 (Blender)
+[09:40:07] Generated #483 (Blender)
+[09:40:07] Generated #484 (Toaster)
+[09:40:07] Generated #485 (Air Conditioner)
+[09:40:07] Generated #486 (Dryer)
+[09:40:07] QualityControl: FAILED inspection
+[09:40:07] QualityControl: FAILED inspection
+[09:40:07] QualityControl: Inspecting #299 (Toaster)
+[09:40:07] QualityControl: Inspecting #299 (Toaster)
+[09:40:07] Generated #487 (Dishwasher)
+[09:40:07] Generated #488 (Blender)
+[09:40:07] Generated #489 (Blender)
+[09:40:07] Generated #490 (Dishwasher)
+[09:40:07] Generated #491 (Vacuum Cleaner)
+[09:40:07] Generated #492 (Washing Machine)
+[09:40:07] QualityControl: PASSED inspection
+[09:40:07] QualityControl: PASSED inspection
+[09:40:07] QualityControl: Inspecting #300 (Blender)
+[09:40:07] QualityControl: Inspecting #300 (Blender)
+[09:40:07] Generated #493 (Vacuum Cleaner)
+[09:40:07] Generated #494 (Dishwasher)
+[09:40:07] Generated #495 (Dryer)
+[09:40:07] ProductionLine: pause()
+[09:40:07] ProductionLine: pause()
+[09:40:07] Assembler-1: pause()
+[09:40:07] Assembler-1: pause()
+[09:40:07] Assembler-2: pause()
+[09:40:07] Assembler-2: pause()
+[09:40:07] Tester: pause()
+[09:40:07] Tester: pause()
+[09:40:07] QualityControl: pause()
+[09:40:07] QualityControl: pause()
+[09:40:07] Packer: pause()
+[09:40:07] Packer: pause()
+[09:40:07] Controller: pause()
+[09:40:07] Generated #496 (Blender)
+[09:40:07] Generated #497 (Oven)
+[09:40:07] QualityControl: FAILED inspection
+[09:40:07] QualityControl: FAILED inspection
+[09:40:08] ProductionLine: stop()
+[09:40:08] ProductionLine: stop()
+[09:40:08] Assembler-1: stop()
+[09:40:08] Assembler-1: stop()
+[09:40:08] Assembler-2: stop()
+[09:40:08] Assembler-2: stop()
+[09:40:08] Tester: stop()
+[09:40:08] Tester: stop()
+[09:40:08] QualityControl: stop()
+[09:40:08] QualityControl: stop()
+[09:40:08] Packer: stop()
+[09:40:08] Packer: stop()
+[09:40:08] Controller: stop()
+[09:40:08] Assembler-1 loop finished
+[09:40:08] Assembler-1 loop finished
+[09:40:08] Assembler-2 loop finished
+[09:40:08] Assembler-2 loop finished
+[09:40:08] QualityControl loop finished
+[09:40:08] QualityControl loop finished
+[09:40:08] Packer loop finished
+[09:40:08] Packer loop finished
+[09:41:17] State saved to file.
+[09:41:17] ProductionLine: stop()
+[09:41:20] ProductionLine: start()
+[09:41:20] ProductionLine: start()
+[09:41:20] Assembler-1: start()
+[09:41:20] Assembler-1: start()
+[09:41:20] Assembler-2: start()
+[09:41:20] Assembler-2: start()
+[09:41:20] Tester: start()
+[09:41:20] Tester: start()
+[09:41:20] QualityControl: start()
+[09:41:20] QualityControl: start()
+[09:41:20] Packer: start()
+[09:41:20] Packer: start()
+[09:41:20] Generated #498 (Toaster)
+[09:41:20] Controller: start()
+[09:41:20] Assembler-1 runLoop started
+[09:41:20] Assembler-1 runLoop started
+[09:41:20] Assembler-2 runLoop started
+[09:41:20] Assembler-2 runLoop started
+[09:41:20] QualityControl runLoop started
+[09:41:20] QualityControl runLoop started
+[09:41:20] QualityControl: Inspecting #301 (Air Conditioner)
+[09:41:20] QualityControl: Inspecting #301 (Air Conditioner)
+[09:41:20] Packer runLoop started
+[09:41:20] Packer runLoop started
+[09:41:20] Tester runLoop started
+[09:41:20] Tester runLoop started
+[09:41:20] QualityControl: PASSED inspection
+[09:41:20] QualityControl: PASSED inspection
+[09:41:20] QualityControl: Inspecting #302 (Dryer)
+[09:41:20] QualityControl: Inspecting #302 (Dryer)
+[09:41:20] Generated #499 (Blender)
+[09:41:20] Generated #500 (Dryer)
+[09:41:20] QualityControl: PASSED inspection
+[09:41:20] QualityControl: PASSED inspection
+[09:41:20] QualityControl: Inspecting #303 (Vacuum Cleaner)
+[09:41:20] QualityControl: Inspecting #303 (Vacuum Cleaner)
+[09:41:21] QualityControl: PASSED inspection
+[09:41:21] QualityControl: PASSED inspection
+[09:41:21] QualityControl: Inspecting #304 (Blender)
+[09:41:21] QualityControl: Inspecting #304 (Blender)
+[09:41:21] Generated #501 (Vacuum Cleaner)
+[09:41:21] Generated #502 (Oven)
+[09:41:21] QualityControl: PASSED inspection
+[09:41:21] QualityControl: PASSED inspection
+[09:41:21] QualityControl: Inspecting #305 (Microwave)
+[09:41:21] QualityControl: Inspecting #305 (Microwave)
+[09:41:21] Generated #503 (Dishwasher)
+[09:41:21] Generated #504 (Dryer)
+[09:41:21] QualityControl: PASSED inspection
+[09:41:21] QualityControl: PASSED inspection
+[09:41:21] QualityControl: Inspecting #306 (Toaster)
+[09:41:21] QualityControl: Inspecting #306 (Toaster)
+[09:41:22] QualityControl: PASSED inspection
+[09:41:22] QualityControl: PASSED inspection
+[09:41:22] QualityControl: Inspecting #307 (Microwave)
+[09:41:22] QualityControl: Inspecting #307 (Microwave)
+[09:41:22] Generated #505 (Refrigerator)
+[09:41:22] Generated #506 (Washing Machine)
+[09:41:22] QualityControl: PASSED inspection
+[09:41:22] QualityControl: PASSED inspection
+[09:41:22] QualityControl: Inspecting #308 (Refrigerator)
+[09:41:22] QualityControl: Inspecting #308 (Refrigerator)
+[09:41:22] QualityControl: PASSED inspection
+[09:41:22] QualityControl: PASSED inspection
+[09:41:22] QualityControl: Inspecting #309 (Refrigerator)
+[09:41:22] QualityControl: Inspecting #309 (Refrigerator)
+[09:41:22] Generated #507 (Washing Machine)
+[09:41:22] Generated #508 (Air Conditioner)
+[09:41:23] QualityControl: FAILED inspection
+[09:41:23] QualityControl: FAILED inspection
+[09:41:23] QualityControl: Inspecting #310 (Vacuum Cleaner)
+[09:41:23] QualityControl: Inspecting #310 (Vacuum Cleaner)
+[09:41:23] Generated #509 (Toaster)
+[09:41:23] Generated #510 (Oven)
+[09:41:23] QualityControl: PASSED inspection
+[09:41:23] QualityControl: PASSED inspection
+[09:41:23] QualityControl: Inspecting #311 (Washing Machine)
+[09:41:23] QualityControl: Inspecting #311 (Washing Machine)
+[09:41:23] QualityControl: PASSED inspection
+[09:41:23] QualityControl: PASSED inspection
+[09:41:23] QualityControl: Inspecting #312 (Air Conditioner)
+[09:41:23] QualityControl: Inspecting #312 (Air Conditioner)
+[09:41:23] Generated #511 (Blender)
+[09:41:23] Generated #512 (Dryer)
+[09:41:23] QualityControl: PASSED inspection
+[09:41:23] QualityControl: PASSED inspection
+[09:41:23] QualityControl: Inspecting #313 (Vacuum Cleaner)
+[09:41:23] QualityControl: Inspecting #313 (Vacuum Cleaner)
+[09:41:24] QualityControl: PASSED inspection
+[09:41:24] QualityControl: PASSED inspection
+[09:41:24] QualityControl: Inspecting #314 (Refrigerator)
+[09:41:24] QualityControl: Inspecting #314 (Refrigerator)
+[09:41:24] Generated #513 (Toaster)
+[09:41:24] Generated #514 (Dishwasher)
+[09:41:24] QualityControl: FAILED inspection
+[09:41:24] QualityControl: FAILED inspection
+[09:41:24] QualityControl: Inspecting #316 (Dryer)
+[09:41:24] QualityControl: Inspecting #316 (Dryer)
+[09:41:24] Generated #515 (Refrigerator)
+[09:41:24] Generated #516 (Air Conditioner)
+[09:41:24] QualityControl: PASSED inspection
+[09:41:24] QualityControl: PASSED inspection
+[09:41:24] QualityControl: Inspecting #315 (Air Conditioner)
+[09:41:24] QualityControl: Inspecting #315 (Air Conditioner)
+[09:41:25] QualityControl: FAILED inspection
+[09:41:25] QualityControl: FAILED inspection
+[09:41:25] QualityControl: Inspecting #317 (Air Conditioner)
+[09:41:25] QualityControl: Inspecting #317 (Air Conditioner)
+[09:41:25] Generated #517 (Dryer)
+[09:41:25] Generated #518 (Vacuum Cleaner)
+[09:41:25] QualityControl: PASSED inspection
+[09:41:25] QualityControl: PASSED inspection
+[09:41:25] QualityControl: Inspecting #318 (Toaster)
+[09:41:25] QualityControl: Inspecting #318 (Toaster)
+[09:41:25] QualityControl: PASSED inspection
+[09:41:25] QualityControl: PASSED inspection
+[09:41:25] QualityControl: Inspecting #319 (Oven)
+[09:41:25] QualityControl: Inspecting #319 (Oven)
+[09:41:25] Generated #519 (Washing Machine)
+[09:41:25] Generated #520 (Dryer)
+[09:41:26] QualityControl: PASSED inspection
+[09:41:26] QualityControl: PASSED inspection
+[09:41:26] QualityControl: Inspecting #320 (Vacuum Cleaner)
+[09:41:26] QualityControl: Inspecting #320 (Vacuum Cleaner)
+[09:41:26] Generated #521 (Oven)
+[09:41:26] Generated #522 (Dryer)
+[09:41:26] QualityControl: PASSED inspection
+[09:41:26] QualityControl: PASSED inspection
+[09:41:26] QualityControl: Inspecting #321 (Microwave)
+[09:41:26] QualityControl: Inspecting #321 (Microwave)
+[09:41:26] QualityControl: PASSED inspection
+[09:41:26] QualityControl: PASSED inspection
+[09:41:26] QualityControl: Inspecting #322 (Vacuum Cleaner)
+[09:41:26] QualityControl: Inspecting #322 (Vacuum Cleaner)
+[09:41:26] Generated #523 (Blender)
+[09:41:26] Generated #524 (Blender)
+[09:41:26] QualityControl: PASSED inspection
+[09:41:26] QualityControl: PASSED inspection
+[09:41:26] QualityControl: Inspecting #323 (Blender)
+[09:41:26] QualityControl: Inspecting #323 (Blender)
+[09:41:27] QualityControl: PASSED inspection
+[09:41:27] QualityControl: PASSED inspection
+[09:41:27] QualityControl: Inspecting #324 (Washing Machine)
+[09:41:27] QualityControl: Inspecting #324 (Washing Machine)
+[09:41:27] Generated #525 (Toaster)
+[09:41:27] Generated #526 (Dryer)
+[09:41:27] QualityControl: PASSED inspection
+[09:41:27] QualityControl: PASSED inspection
+[09:41:27] QualityControl: Inspecting #325 (Blender)
+[09:41:27] QualityControl: Inspecting #325 (Blender)
+[09:41:27] Generated #527 (Dishwasher)
+[09:41:27] Generated #528 (Refrigerator)
+[09:41:27] QualityControl: PASSED inspection
+[09:41:27] QualityControl: PASSED inspection
+[09:41:27] QualityControl: Inspecting #326 (Refrigerator)
+[09:41:27] QualityControl: Inspecting #326 (Refrigerator)
+[09:41:28] QualityControl: FAILED inspection
+[09:41:28] QualityControl: FAILED inspection
+[09:41:28] QualityControl: Inspecting #327 (Vacuum Cleaner)
+[09:41:28] QualityControl: Inspecting #327 (Vacuum Cleaner)
+[09:41:28] Generated #529 (Dryer)
+[09:41:28] Generated #530 (Oven)
+[09:41:28] QualityControl: PASSED inspection
+[09:41:28] QualityControl: PASSED inspection
+[09:41:28] QualityControl: Inspecting #328 (Toaster)
+[09:41:28] QualityControl: Inspecting #328 (Toaster)
+[09:41:28] QualityControl: PASSED inspection
+[09:41:28] QualityControl: PASSED inspection
+[09:41:28] QualityControl: Inspecting #329 (Air Conditioner)
+[09:41:28] QualityControl: Inspecting #329 (Air Conditioner)
+[09:41:28] Generated #531 (Dryer)
+[09:41:28] Generated #532 (Dishwasher)
+[09:41:29] QualityControl: PASSED inspection
+[09:41:29] QualityControl: PASSED inspection
+[09:41:29] QualityControl: Inspecting #330 (Vacuum Cleaner)
+[09:41:29] QualityControl: Inspecting #330 (Vacuum Cleaner)
+[09:41:29] Generated #533 (Oven)
+[09:41:29] Generated #534 (Blender)
+[09:41:29] QualityControl: PASSED inspection
+[09:41:29] QualityControl: PASSED inspection
+[09:41:29] QualityControl: Inspecting #331 (Refrigerator)
+[09:41:29] QualityControl: Inspecting #331 (Refrigerator)
+[09:41:29] QualityControl: PASSED inspection
+[09:41:29] QualityControl: PASSED inspection
+[09:41:29] QualityControl: Inspecting #332 (Dishwasher)
+[09:41:29] QualityControl: Inspecting #332 (Dishwasher)
+[09:41:29] Generated #535 (Washing Machine)
+[09:41:29] Generated #536 (Dishwasher)
+[09:41:29] QualityControl: PASSED inspection
+[09:41:29] QualityControl: PASSED inspection
+[09:41:29] QualityControl: Inspecting #333 (Vacuum Cleaner)
+[09:41:29] QualityControl: Inspecting #333 (Vacuum Cleaner)
+[09:41:30] ProductionLine: pause()
+[09:41:30] ProductionLine: pause()
+[09:41:30] Assembler-1: pause()
+[09:41:30] Assembler-1: pause()
+[09:41:30] Assembler-2: pause()
+[09:41:30] Assembler-2: pause()
+[09:41:30] Tester: pause()
+[09:41:30] Tester: pause()
+[09:41:30] QualityControl: pause()
+[09:41:30] QualityControl: pause()
+[09:41:30] Packer: pause()
+[09:41:30] Packer: pause()
+[09:41:30] Controller: pause()
+[09:41:30] QualityControl: FAILED inspection
+[09:41:30] QualityControl: FAILED inspection
+[09:41:30] Generated #537 (Washing Machine)
+[09:41:30] Generated #538 (Blender)
+[09:41:48] ProductionLine: stop()
+[09:41:48] ProductionLine: stop()
+[09:41:48] Assembler-1: stop()
+[09:41:48] Assembler-1: stop()
+[09:41:48] Assembler-2: stop()
+[09:41:48] Assembler-2: stop()
+[09:41:48] Tester: stop()
+[09:41:48] Tester: stop()
+[09:41:48] QualityControl: stop()
+[09:41:48] QualityControl: stop()
+[09:41:48] Packer: stop()
+[09:41:48] Packer: stop()
+[09:41:48] Controller: stop()
+[09:41:48] Assembler-1 loop finished
+[09:41:48] Assembler-1 loop finished
+[09:41:48] Assembler-2 loop finished
+[09:41:48] Assembler-2 loop finished
+[09:41:48] Tester loop finished
+[09:41:48] Tester loop finished
+[09:41:48] QualityControl loop finished
+[09:41:48] QualityControl loop finished
+[09:41:48] Packer loop finished
+[09:41:48] Packer loop finished
+[09:41:51] State saved to file.
+[09:41:51] ProductionLine: stop()
+[09:44:23] ProductionLine: start()
+[09:44:23] ProductionLine: start()
+[09:44:23] Assembler-1: start()
+[09:44:23] Assembler-1: start()
+[09:44:23] Assembler-2: start()
+[09:44:23] Assembler-2: start()
+[09:44:23] Tester: start()
+[09:44:23] Tester: start()
+[09:44:23] QualityControl: start()
+[09:44:23] QualityControl: start()
+[09:44:23] Packer: start()
+[09:44:23] Packer: start()
+[09:44:23] Generated #539 (Dishwasher)
+[09:44:23] Controller: start()
+[09:44:23] Assembler-1 runLoop started
+[09:44:23] Assembler-1 runLoop started
+[09:44:23] Assembler-2 runLoop started
+[09:44:23] Assembler-2 runLoop started
+[09:44:23] Tester runLoop started
+[09:44:23] Tester runLoop started
+[09:44:23] QualityControl runLoop started
+[09:44:23] QualityControl runLoop started
+[09:44:23] QualityControl: Inspecting #527 (Dishwasher)
+[09:44:23] QualityControl: Inspecting #527 (Dishwasher)
+[09:44:23] Packer runLoop started
+[09:44:23] Packer runLoop started
+[09:44:23] QualityControl: PASSED inspection
+[09:44:23] QualityControl: PASSED inspection
+[09:44:23] Generated #540 (Air Conditioner)
+[09:44:23] QualityControl: Inspecting #539 (Dishwasher)
+[09:44:23] QualityControl: Inspecting #539 (Dishwasher)
+[09:44:24] QualityControl: PASSED inspection
+[09:44:24] QualityControl: PASSED inspection
+[09:44:24] Generated #541 (Air Conditioner)
+[09:44:24] QualityControl: Inspecting #540 (Air Conditioner)
+[09:44:24] QualityControl: Inspecting #540 (Air Conditioner)
+[09:44:24] QualityControl: PASSED inspection
+[09:44:24] QualityControl: PASSED inspection
+[09:44:24] Generated #542 (Oven)
+[09:44:24] QualityControl: Inspecting #541 (Air Conditioner)
+[09:44:24] QualityControl: Inspecting #541 (Air Conditioner)
+[09:44:25] QualityControl: PASSED inspection
+[09:44:25] QualityControl: PASSED inspection
+[09:44:25] Generated #543 (Toaster)
+[09:44:25] QualityControl: Inspecting #542 (Oven)
+[09:44:25] QualityControl: Inspecting #542 (Oven)
+[09:44:25] QualityControl: PASSED inspection
+[09:44:25] QualityControl: PASSED inspection
+[09:44:25] Generated #544 (Toaster)
+[09:44:25] QualityControl: Inspecting #543 (Toaster)
+[09:44:25] QualityControl: Inspecting #543 (Toaster)
+[09:44:26] QualityControl: PASSED inspection
+[09:44:26] QualityControl: PASSED inspection
+[09:44:26] Generated #545 (Dryer)
+[09:44:26] QualityControl: Inspecting #544 (Toaster)
+[09:44:26] QualityControl: Inspecting #544 (Toaster)
+[09:44:26] ProductionLine: pause()
+[09:44:26] ProductionLine: pause()
+[09:44:26] Assembler-1: pause()
+[09:44:26] Assembler-1: pause()
+[09:44:26] Assembler-2: pause()
+[09:44:26] Assembler-2: pause()
+[09:44:26] Tester: pause()
+[09:44:26] Tester: pause()
+[09:44:26] QualityControl: pause()
+[09:44:26] QualityControl: pause()
+[09:44:26] Packer: pause()
+[09:44:26] Packer: pause()
+[09:44:26] Controller: pause()
+[09:44:26] QualityControl: PASSED inspection
+[09:44:26] QualityControl: PASSED inspection
+[09:44:26] Generated #546 (Blender)
+[09:44:27] Generated #547 (Air Conditioner)
+[09:44:29] ProductionLine: start()
+[09:44:29] ProductionLine: start()
+[09:44:29] Assembler-1: resume()
+[09:44:29] Assembler-1: resume()
+[09:44:29] Assembler-2: resume()
+[09:44:29] Assembler-2: resume()
+[09:44:29] Tester: resume()
+[09:44:29] Tester: resume()
+[09:44:29] QualityControl: resume()
+[09:44:29] QualityControl: resume()
+[09:44:29] Packer: resume()
+[09:44:29] Packer: resume()
+[09:44:29] Controller: resume()
+[09:44:29] QualityControl: Inspecting #545 (Dryer)
+[09:44:29] QualityControl: Inspecting #545 (Dryer)
+[09:44:29] QualityControl: PASSED inspection
+[09:44:29] QualityControl: PASSED inspection
+[09:44:29] QualityControl: Inspecting #546 (Blender)
+[09:44:29] QualityControl: Inspecting #546 (Blender)
+[09:44:30] Generated #548 (Dryer)
+[09:44:30] QualityControl: PASSED inspection
+[09:44:30] QualityControl: PASSED inspection
+[09:44:30] QualityControl: Inspecting #547 (Air Conditioner)
+[09:44:30] QualityControl: Inspecting #547 (Air Conditioner)
+[09:44:30] QualityControl: PASSED inspection
+[09:44:30] QualityControl: PASSED inspection
+[09:44:30] Generated #549 (Microwave)
+[09:44:30] QualityControl: Inspecting #548 (Dryer)
+[09:44:30] QualityControl: Inspecting #548 (Dryer)
+[09:44:31] QualityControl: PASSED inspection
+[09:44:31] QualityControl: PASSED inspection
+[09:44:31] Generated #550 (Oven)
+[09:44:31] QualityControl: Inspecting #549 (Microwave)
+[09:44:31] QualityControl: Inspecting #549 (Microwave)
+[09:44:31] QualityControl: PASSED inspection
+[09:44:31] QualityControl: PASSED inspection
+[09:44:31] Generated #551 (Air Conditioner)
+[09:44:31] QualityControl: Inspecting #550 (Oven)
+[09:44:31] QualityControl: Inspecting #550 (Oven)
+[09:44:32] QualityControl: FAILED inspection
+[09:44:32] QualityControl: FAILED inspection
+[09:44:32] Generated #552 (Washing Machine)
+[09:44:32] QualityControl: Inspecting #551 (Air Conditioner)
+[09:44:32] QualityControl: Inspecting #551 (Air Conditioner)
+[09:44:32] QualityControl: FAILED inspection
+[09:44:32] QualityControl: FAILED inspection
+[09:44:32] Generated #553 (Washing Machine)
+[09:44:32] QualityControl: Inspecting #552 (Washing Machine)
+[09:44:32] QualityControl: Inspecting #552 (Washing Machine)
+[09:44:33] QualityControl: PASSED inspection
+[09:44:33] QualityControl: PASSED inspection
+[09:44:33] Generated #554 (Refrigerator)
+[09:44:33] QualityControl: Inspecting #553 (Washing Machine)
+[09:44:33] QualityControl: Inspecting #553 (Washing Machine)
+[09:44:33] QualityControl: PASSED inspection
+[09:44:33] QualityControl: PASSED inspection
+[09:44:33] Generated #555 (Oven)
+[09:44:33] QualityControl: Inspecting #554 (Refrigerator)
+[09:44:33] QualityControl: Inspecting #554 (Refrigerator)
+[09:44:34] QualityControl: PASSED inspection
+[09:44:34] QualityControl: PASSED inspection
+[09:44:34] Generated #556 (Dishwasher)
+[09:44:34] QualityControl: Inspecting #555 (Oven)
+[09:44:34] QualityControl: Inspecting #555 (Oven)
+[09:44:34] QualityControl: PASSED inspection
+[09:44:34] QualityControl: PASSED inspection
+[09:44:34] Generated #557 (Vacuum Cleaner)
+[09:44:34] QualityControl: Inspecting #556 (Dishwasher)
+[09:44:34] QualityControl: Inspecting #556 (Dishwasher)
+[09:44:35] QualityControl: PASSED inspection
+[09:44:35] QualityControl: PASSED inspection
+[09:44:35] Generated #558 (Vacuum Cleaner)
+[09:44:35] QualityControl: Inspecting #557 (Vacuum Cleaner)
+[09:44:35] QualityControl: Inspecting #557 (Vacuum Cleaner)
+[09:44:35] QualityControl: PASSED inspection
+[09:44:35] QualityControl: PASSED inspection
+[09:44:35] Generated #559 (Blender)
+[09:44:35] QualityControl: Inspecting #558 (Vacuum Cleaner)
+[09:44:35] QualityControl: Inspecting #558 (Vacuum Cleaner)
+[09:44:36] QualityControl: PASSED inspection
+[09:44:36] QualityControl: PASSED inspection
+[09:44:36] Generated #560 (Dishwasher)
+[09:44:36] QualityControl: Inspecting #559 (Blender)
+[09:44:36] QualityControl: Inspecting #559 (Blender)
+[09:44:36] QualityControl: PASSED inspection
+[09:44:36] QualityControl: PASSED inspection
+[09:44:36] Generated #561 (Air Conditioner)
+[09:44:36] QualityControl: Inspecting #560 (Dishwasher)
+[09:44:36] QualityControl: Inspecting #560 (Dishwasher)
+[09:44:37] QualityControl: PASSED inspection
+[09:44:37] QualityControl: PASSED inspection
+[09:44:37] Generated #562 (Vacuum Cleaner)
+[09:44:37] QualityControl: Inspecting #561 (Air Conditioner)
+[09:44:37] QualityControl: Inspecting #561 (Air Conditioner)
+[09:44:37] QualityControl: FAILED inspection
+[09:44:37] QualityControl: FAILED inspection
+[09:44:37] Generated #563 (Dryer)
+[09:44:37] QualityControl: Inspecting #562 (Vacuum Cleaner)
+[09:44:37] QualityControl: Inspecting #562 (Vacuum Cleaner)
+[09:44:38] QualityControl: PASSED inspection
+[09:44:38] QualityControl: PASSED inspection
+[09:44:38] Generated #564 (Vacuum Cleaner)
+[09:44:38] QualityControl: Inspecting #563 (Dryer)
+[09:44:38] QualityControl: Inspecting #563 (Dryer)
+[09:44:38] QualityControl: PASSED inspection
+[09:44:38] QualityControl: PASSED inspection
+[09:44:38] Generated #565 (Oven)
+[09:44:38] QualityControl: Inspecting #564 (Vacuum Cleaner)
+[09:44:38] QualityControl: Inspecting #564 (Vacuum Cleaner)
+[09:44:39] QualityControl: PASSED inspection
+[09:44:39] QualityControl: PASSED inspection
+[09:44:39] Generated #566 (Toaster)
+[09:44:39] QualityControl: Inspecting #565 (Oven)
+[09:44:39] QualityControl: Inspecting #565 (Oven)
+[09:44:39] QualityControl: PASSED inspection
+[09:44:39] QualityControl: PASSED inspection
+[09:44:39] Generated #567 (Dryer)
+[09:44:39] QualityControl: Inspecting #566 (Toaster)
+[09:44:39] QualityControl: Inspecting #566 (Toaster)
+[09:44:40] QualityControl: PASSED inspection
+[09:44:40] QualityControl: PASSED inspection
+[09:44:40] Generated #568 (Dryer)
+[09:44:40] QualityControl: Inspecting #567 (Dryer)
+[09:44:40] QualityControl: Inspecting #567 (Dryer)
+[09:44:40] QualityControl: PASSED inspection
+[09:44:40] QualityControl: PASSED inspection
+[09:44:40] Generated #569 (Washing Machine)
+[09:44:40] QualityControl: Inspecting #568 (Dryer)
+[09:44:40] QualityControl: Inspecting #568 (Dryer)
+[09:44:41] QualityControl: PASSED inspection
+[09:44:41] QualityControl: PASSED inspection
+[09:44:41] Generated #570 (Washing Machine)
+[09:44:41] QualityControl: Inspecting #569 (Washing Machine)
+[09:44:41] QualityControl: Inspecting #569 (Washing Machine)
+[09:44:41] QualityControl: PASSED inspection
+[09:44:41] QualityControl: PASSED inspection
+[09:44:41] Generated #571 (Dishwasher)
+[09:44:41] QualityControl: Inspecting #570 (Washing Machine)
+[09:44:41] QualityControl: Inspecting #570 (Washing Machine)
+[09:44:42] QualityControl: PASSED inspection
+[09:44:42] QualityControl: PASSED inspection
+[09:44:42] Generated #572 (Oven)
+[09:44:42] QualityControl: Inspecting #571 (Dishwasher)
+[09:44:42] QualityControl: Inspecting #571 (Dishwasher)
+[09:44:42] QualityControl: PASSED inspection
+[09:44:42] QualityControl: PASSED inspection
+[09:44:42] Generated #573 (Vacuum Cleaner)
+[09:44:42] QualityControl: Inspecting #572 (Oven)
+[09:44:42] QualityControl: Inspecting #572 (Oven)
+[09:44:43] QualityControl: FAILED inspection
+[09:44:43] QualityControl: FAILED inspection
+[09:44:43] Generated #574 (Air Conditioner)
+[09:44:43] QualityControl: Inspecting #573 (Vacuum Cleaner)
+[09:44:43] QualityControl: Inspecting #573 (Vacuum Cleaner)
+[09:44:43] QualityControl: PASSED inspection
+[09:44:43] QualityControl: PASSED inspection
+[09:44:43] Generated #575 (Washing Machine)
+[09:44:43] QualityControl: Inspecting #574 (Air Conditioner)
+[09:44:43] QualityControl: Inspecting #574 (Air Conditioner)
+[09:44:44] QualityControl: PASSED inspection
+[09:44:44] QualityControl: PASSED inspection
+[09:44:44] Generated #576 (Air Conditioner)
+[09:44:44] QualityControl: Inspecting #575 (Washing Machine)
+[09:44:44] QualityControl: Inspecting #575 (Washing Machine)
+[09:44:44] QualityControl: PASSED inspection
+[09:44:44] QualityControl: PASSED inspection
+[09:44:44] Generated #577 (Toaster)
+[09:44:44] QualityControl: Inspecting #576 (Air Conditioner)
+[09:44:44] QualityControl: Inspecting #576 (Air Conditioner)
+[09:44:45] QualityControl: PASSED inspection
+[09:44:45] QualityControl: PASSED inspection
+[09:44:45] Generated #578 (Toaster)
+[09:44:45] QualityControl: Inspecting #577 (Toaster)
+[09:44:45] QualityControl: Inspecting #577 (Toaster)
+[09:44:45] QualityControl: PASSED inspection
+[09:44:45] QualityControl: PASSED inspection
+[09:44:45] Generated #579 (Air Conditioner)
+[09:44:45] QualityControl: Inspecting #578 (Toaster)
+[09:44:45] QualityControl: Inspecting #578 (Toaster)
+[09:44:46] QualityControl: PASSED inspection
+[09:44:46] QualityControl: PASSED inspection
+[09:44:46] Generated #580 (Oven)
+[09:44:46] QualityControl: Inspecting #579 (Air Conditioner)
+[09:44:46] QualityControl: Inspecting #579 (Air Conditioner)
+[09:44:46] QualityControl: PASSED inspection
+[09:44:46] QualityControl: PASSED inspection
+[09:44:46] Generated #581 (Air Conditioner)
+[09:44:46] QualityControl: Inspecting #580 (Oven)
+[09:44:46] QualityControl: Inspecting #580 (Oven)
+[09:44:47] QualityControl: PASSED inspection
+[09:44:47] QualityControl: PASSED inspection
+[09:44:47] Generated #582 (Refrigerator)
+[09:44:47] QualityControl: Inspecting #581 (Air Conditioner)
+[09:44:47] QualityControl: Inspecting #581 (Air Conditioner)
+[09:44:47] QualityControl: FAILED inspection
+[09:44:47] QualityControl: FAILED inspection
+[09:44:47] Generated #583 (Oven)
+[09:44:47] QualityControl: Inspecting #582 (Refrigerator)
+[09:44:47] QualityControl: Inspecting #582 (Refrigerator)
+[09:44:48] QualityControl: FAILED inspection
+[09:44:48] QualityControl: FAILED inspection
+[09:44:48] Generated #584 (Vacuum Cleaner)
+[09:44:48] QualityControl: Inspecting #583 (Oven)
+[09:44:48] QualityControl: Inspecting #583 (Oven)
+[09:44:48] QualityControl: PASSED inspection
+[09:44:48] QualityControl: PASSED inspection
+[09:44:48] Generated #585 (Microwave)
+[09:44:48] QualityControl: Inspecting #584 (Vacuum Cleaner)
+[09:44:48] QualityControl: Inspecting #584 (Vacuum Cleaner)
+[09:44:49] QualityControl: PASSED inspection
+[09:44:49] QualityControl: PASSED inspection
+[09:44:49] Generated #586 (Microwave)
+[09:44:49] QualityControl: Inspecting #585 (Microwave)
+[09:44:49] QualityControl: Inspecting #585 (Microwave)
+[09:44:49] QualityControl: PASSED inspection
+[09:44:49] QualityControl: PASSED inspection
+[09:44:49] Generated #587 (Vacuum Cleaner)
+[09:44:49] QualityControl: Inspecting #586 (Microwave)
+[09:44:49] QualityControl: Inspecting #586 (Microwave)
+[09:44:50] QualityControl: PASSED inspection
+[09:44:50] QualityControl: PASSED inspection
+[09:44:50] Generated #588 (Dryer)
+[09:44:50] QualityControl: Inspecting #587 (Vacuum Cleaner)
+[09:44:50] QualityControl: Inspecting #587 (Vacuum Cleaner)
+[09:44:50] QualityControl: PASSED inspection
+[09:44:50] QualityControl: PASSED inspection
+[09:44:50] Generated #589 (Vacuum Cleaner)
+[09:44:50] QualityControl: Inspecting #588 (Dryer)
+[09:44:50] QualityControl: Inspecting #588 (Dryer)
+[09:44:51] QualityControl: PASSED inspection
+[09:44:51] QualityControl: PASSED inspection
+[09:44:51] Generated #590 (Microwave)
+[09:44:51] QualityControl: Inspecting #589 (Vacuum Cleaner)
+[09:44:51] QualityControl: Inspecting #589 (Vacuum Cleaner)
+[09:44:51] QualityControl: PASSED inspection
+[09:44:51] QualityControl: PASSED inspection
+[09:44:51] Generated #591 (Refrigerator)
+[09:44:51] QualityControl: Inspecting #590 (Microwave)
+[09:44:51] QualityControl: Inspecting #590 (Microwave)
+[09:44:52] QualityControl: PASSED inspection
+[09:44:52] QualityControl: PASSED inspection
+[09:44:52] Generated #592 (Air Conditioner)
+[09:44:52] QualityControl: Inspecting #591 (Refrigerator)
+[09:44:52] QualityControl: Inspecting #591 (Refrigerator)
+[09:44:52] QualityControl: PASSED inspection
+[09:44:52] QualityControl: PASSED inspection
+[09:44:52] Generated #593 (Air Conditioner)
+[09:44:52] QualityControl: Inspecting #592 (Air Conditioner)
+[09:44:52] QualityControl: Inspecting #592 (Air Conditioner)
+[09:44:53] QualityControl: PASSED inspection
+[09:44:53] QualityControl: PASSED inspection
+[09:44:53] Generated #594 (Microwave)
+[09:44:53] QualityControl: Inspecting #593 (Air Conditioner)
+[09:44:53] QualityControl: Inspecting #593 (Air Conditioner)
+[09:44:53] QualityControl: FAILED inspection
+[09:44:53] QualityControl: FAILED inspection
+[09:44:53] Generated #595 (Refrigerator)
+[09:44:53] QualityControl: Inspecting #594 (Microwave)
+[09:44:53] QualityControl: Inspecting #594 (Microwave)
+[09:44:54] QualityControl: PASSED inspection
+[09:44:54] QualityControl: PASSED inspection
+[09:44:54] Generated #596 (Microwave)
+[09:44:54] QualityControl: Inspecting #595 (Refrigerator)
+[09:44:54] QualityControl: Inspecting #595 (Refrigerator)
+[09:44:54] QualityControl: PASSED inspection
+[09:44:54] QualityControl: PASSED inspection
+[09:44:54] Generated #597 (Air Conditioner)
+[09:44:54] QualityControl: Inspecting #596 (Microwave)
+[09:44:54] QualityControl: Inspecting #596 (Microwave)
+[09:44:55] QualityControl: PASSED inspection
+[09:44:55] QualityControl: PASSED inspection
+[09:44:55] Generated #598 (Dishwasher)
+[09:44:55] QualityControl: Inspecting #597 (Air Conditioner)
+[09:44:55] QualityControl: Inspecting #597 (Air Conditioner)
+[09:44:55] QualityControl: PASSED inspection
+[09:44:55] QualityControl: PASSED inspection
+[09:44:55] Generated #599 (Toaster)
+[09:44:55] QualityControl: Inspecting #598 (Dishwasher)
+[09:44:55] QualityControl: Inspecting #598 (Dishwasher)
+[09:44:56] QualityControl: FAILED inspection
+[09:44:56] QualityControl: FAILED inspection
+[09:44:56] Generated #600 (Toaster)
+[09:44:56] QualityControl: Inspecting #599 (Toaster)
+[09:44:56] QualityControl: Inspecting #599 (Toaster)
+[09:44:56] QualityControl: PASSED inspection
+[09:44:56] QualityControl: PASSED inspection
+[09:44:56] Generated #601 (Microwave)
+[09:44:56] QualityControl: Inspecting #600 (Toaster)
+[09:44:56] QualityControl: Inspecting #600 (Toaster)
+[09:44:57] QualityControl: PASSED inspection
+[09:44:57] QualityControl: PASSED inspection
+[09:44:57] Generated #602 (Refrigerator)
+[09:44:57] QualityControl: Inspecting #601 (Microwave)
+[09:44:57] QualityControl: Inspecting #601 (Microwave)
+[09:44:57] QualityControl: PASSED inspection
+[09:44:57] QualityControl: PASSED inspection
+[09:44:57] Generated #603 (Air Conditioner)
+[09:44:57] QualityControl: Inspecting #602 (Refrigerator)
+[09:44:57] QualityControl: Inspecting #602 (Refrigerator)
+[09:44:58] QualityControl: PASSED inspection
+[09:44:58] QualityControl: PASSED inspection
+[09:44:58] ProductionLine: stop()
+[09:44:58] ProductionLine: stop()
+[09:44:58] Assembler-1: stop()
+[09:44:58] Assembler-1: stop()
+[09:44:58] Assembler-2: stop()
+[09:44:58] Assembler-2: stop()
+[09:44:58] Tester: stop()
+[09:44:58] Tester: stop()
+[09:44:58] QualityControl: stop()
+[09:44:58] QualityControl: stop()
+[09:44:58] Packer: stop()
+[09:44:58] Packer: stop()
+[09:44:58] Controller: stop()
+[09:44:58] Tester loop finished
+[09:44:58] Tester loop finished
+[09:44:58] Assembler-2 loop finished
+[09:44:58] Assembler-2 loop finished
+[09:44:59] ProductionLine: start()
+[09:44:59] ProductionLine: start()
+[09:44:59] Assembler-1: resume()
+[09:44:59] Assembler-1: resume()
+[09:44:59] Assembler-2: resume()
+[09:44:59] Assembler-2: resume()
+[09:44:59] Tester: resume()
+[09:44:59] Tester: resume()
+[09:44:59] QualityControl: resume()
+[09:44:59] QualityControl: resume()
+[09:44:59] Packer: resume()
+[09:44:59] Packer: resume()
+[09:44:59] Generated #604 (Washing Machine)
+[09:44:59] Controller: start()
+[09:45:00] Generated #605 (Microwave)
+[09:45:00] Generated #606 (Microwave)
+[09:45:01] Generated #607 (Oven)
+[09:45:01] Generated #608 (Toaster)
+[09:45:02] ProductionLine: stop()
+[09:45:02] ProductionLine: stop()
+[09:45:02] Assembler-1: stop()
+[09:45:02] Assembler-1: stop()
+[09:45:02] Assembler-2: stop()
+[09:45:02] Assembler-2: stop()
+[09:45:02] Tester: stop()
+[09:45:02] Tester: stop()
+[09:45:02] QualityControl: stop()
+[09:45:02] QualityControl: stop()
+[09:45:02] Packer: stop()
+[09:45:02] Packer: stop()
+[09:45:02] Controller: stop()
+[09:45:02] Assembler-1 loop finished
+[09:45:02] Assembler-1 loop finished
+[10:42:49] ProductionLine: start()
+[10:42:49] ProductionLine: start()
+[10:42:49] Assembler-1: start()
+[10:42:49] Assembler-1: start()
+[10:42:49] Assembler-2: start()
+[10:42:49] Assembler-2: start()
+[10:42:49] Tester: start()
+[10:42:49] Tester: start()
+[10:42:49] QualityControl: start()
+[10:42:49] QualityControl: start()
+[10:42:49] Packer: start()
+[10:42:49] Packer: start()
+[10:42:49] Generated #1 (Dryer | New)
+[10:42:49] Controller: start()
+[10:42:49] Assembler-1 runLoop started
+[10:42:49] Assembler-1 runLoop started
+[10:42:49] Assembler-2 runLoop started
+[10:42:49] Assembler-2 runLoop started
+[10:42:49] Tester runLoop started
+[10:42:49] Tester runLoop started
+[10:42:49] QualityControl runLoop started
+[10:42:49] QualityControl runLoop started
+[10:42:49] Packer runLoop started
+[10:42:49] Packer runLoop started
+[10:42:50] Generated #2 (Vacuum Cleaner | New)
+[10:42:50] QualityControl: Inspecting #1 (Dryer | Tested)
+[10:42:50] QualityControl: Inspecting #1 (Dryer | Tested)
+[10:42:50] QualityControl: PASSED inspection
+[10:42:50] QualityControl: PASSED inspection
+[10:42:50] Generated #3 (Dishwasher | New)
+[10:42:50] QualityControl: Inspecting #2 (Vacuum Cleaner | Tested)
+[10:42:50] QualityControl: Inspecting #2 (Vacuum Cleaner | Tested)
+[10:42:51] QualityControl: PASSED inspection
+[10:42:51] QualityControl: PASSED inspection
+[10:42:51] Generated #4 (Toaster | New)
+[10:42:51] QualityControl: Inspecting #3 (Dishwasher | Tested)
+[10:42:51] QualityControl: Inspecting #3 (Dishwasher | Tested)
+[10:42:51] QualityControl: PASSED inspection
+[10:42:51] QualityControl: PASSED inspection
+[10:42:51] Generated #5 (Vacuum Cleaner | New)
+[10:42:51] QualityControl: Inspecting #4 (Toaster | Tested)
+[10:42:51] QualityControl: Inspecting #4 (Toaster | Tested)
+[10:42:52] QualityControl: FAILED inspection sending back to Assembly
+[10:42:52] QualityControl: FAILED inspection sending back to Assembly
+[10:42:52] PipeManager: received from pipe #4 (Toaster | Rework) → requeued
+[10:42:52] Assembler-2: reworking #4 (Toaster | Rework)
+[10:42:52] Assembler-2: reworking #4 (Toaster | Rework)
+[10:42:52] PipeManager: sent via pipe #4 (Toaster | Rework)
+[10:42:52] Generated #6 (Refrigerator | New)
+[10:42:52] QualityControl: Inspecting #5 (Vacuum Cleaner | Tested)
+[10:42:52] QualityControl: Inspecting #5 (Vacuum Cleaner | Tested)
+[10:42:52] ProductionLine: pause()
+[10:42:52] ProductionLine: pause()
+[10:42:52] Assembler-1: pause()
+[10:42:52] Assembler-1: pause()
+[10:42:52] Assembler-2: pause()
+[10:42:52] Assembler-2: pause()
+[10:42:52] Tester: pause()
+[10:42:52] Tester: pause()
+[10:42:52] QualityControl: pause()
+[10:42:52] QualityControl: pause()
+[10:42:52] Packer: pause()
+[10:42:52] Packer: pause()
+[10:42:52] Controller: pause()
+[10:42:52] Generated #7 (Blender | New)
+[10:42:52] QualityControl: PASSED inspection
+[10:42:52] QualityControl: PASSED inspection
+[10:42:52] Generated #8 (Oven | New)

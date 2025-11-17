@@ -1,80 +1,152 @@
 #include "Persistence.h"
 #include <QFile>
-#include <QJsonArray>
-#include <QJsonObject>
 #include <QJsonDocument>
+#include <QDateTime>
 
 Persistence::Persistence(QObject* parent)
     : QObject(parent)
-{
+{}
+
+//
+// ---------------- PRODUCT <-> JSON ----------------
+//
+
+QJsonObject Persistence::productToJson(const Product& p) const {
+    QJsonObject o;
+    o["id"] = (double)p.id;
+    o["type"] = p.type;
+    o["state"] = (int)p.state;
+    return o;
 }
 
-bool Persistence::saveProcessHistory(const QVector<Product>& history,
-                                     const QString& filePath)
-{
+Product Persistence::jsonToProduct(const QJsonObject& obj) const {
+    Product p;
+    p.id = obj["id"].toInt();
+    p.type = obj["type"].toString();
+    p.state = (ProductState)obj["state"].toInt();
+    return p;
+}
+
+//
+// ---------------- BUFFER <-> JSON ----------------
+//
+
+QJsonArray Persistence::bufferToJson(const Buffer<Product>* buf) const {
     QJsonArray arr;
+    QVector<Product> temp = buf->toVector();
+    for (auto& p : temp)
+        arr.append(productToJson(p));
+    return arr;
+}
 
-    for (const Product& p : history)
-    {
-        QJsonObject obj;
-        obj["id"] = QString::number(p.id);
-        obj["type"] = p.type;
-        obj["state"] = static_cast<int>(p.state);   // enum → int
+void Persistence::jsonToBuffer(const QJsonArray& arr, Buffer<Product>* buf) const {
+    for (auto v : arr)
+        buf->push(jsonToProduct(v.toObject()));
+}
 
-        arr.append(obj);
-    }
+
+//Stats
+QJsonObject Persistence::stationStatsToJson(const WorkStation* st) const {
+    QJsonObject obj;
+    obj["processed"] = (double) st->processedCount();
+    return obj;
+}
+
+void Persistence::jsonToStationStats(const QJsonObject& obj, WorkStation* st) const {
+    long val = obj["processed"].toInt();
+    for (int i = 0; i < val; i++)
+        st->incrementCount();
+}
+//SAVE
+//guardo el estado actual
+
+bool Persistence::saveState(const ProductionLine* line,
+                            long nextProductId,
+                            const QString& path)
+{
+    QFile f(path);
+    if (!f.open(QIODevice::WriteOnly)) return false;
 
     QJsonObject root;
-    root["products"] = arr;
 
-    QJsonDocument doc(root);
+    // Next ID
+    root["next_id"] = (double)nextProductId;
 
-    QFile file(filePath);
-    if (!file.open(QIODevice::WriteOnly))
+    // Buffers
+    QJsonObject buffers;
+    buffers["entry"] = bufferToJson(line->entryBuffer());
+
+    int i = 0;
+    for (auto* buf : line->internalBuffers())
+        buffers[QString("buf_%1").arg(i++)] = bufferToJson(buf);
+
+    root["buffers"] = buffers;
+
+    // Stations + stats
+    QJsonObject stations;
+    for (auto* st : line->stations())
     {
-        emit log(QStringLiteral("Persistence: Cannot write file %1").arg(filePath));
-        return false;
+        QJsonObject obj;
+        obj["running"] = st->isRunning();
+        obj["paused"]  = st->isPaused();
+        obj["stats"]   = stationStatsToJson(st);
+        stations[st->name()] = obj;
     }
 
-    file.write(doc.toJson(QJsonDocument::Indented));
-    file.close();
+    root["stations"] = stations;
 
-    emit log(QStringLiteral("Persistence: saved %1 products").arg(history.size()));
+    QJsonDocument doc(root);
+    f.write(doc.toJson());
     return true;
 }
 
-QVector<Product> Persistence::loadProcessHistory(const QString& filePath)
+//STATEs
+
+bool Persistence::loadState(ProductionLine* line,
+                            long& nextProductId,
+                            const QString& path)
 {
-    QVector<Product> result;
+    QFile f(path);
+    if (!f.open(QIODevice::ReadOnly)) return false;
 
-    QFile file(filePath);
-    if (!file.open(QIODevice::ReadOnly))
-    {
-        emit log(QStringLiteral("Persistence: Cannot read file %1").arg(filePath));
-        return result;
-    }
-
-    QByteArray data = file.readAll();
-    file.close();
-
-    QJsonDocument doc = QJsonDocument::fromJson(data);
-    if (!doc.isObject()) return result;
+    QJsonDocument doc = QJsonDocument::fromJson(f.readAll());
+    if (!doc.isObject()) return false;
 
     QJsonObject root = doc.object();
-    QJsonArray arr = root["products"].toArray();
 
-    for (const QJsonValue& v : arr)
+    // Next ID
+    nextProductId = root["next_id"].toInt();
+
+    // Buffers
+    QJsonObject buffers = root["buffers"].toObject();
+    jsonToBuffer(buffers["entry"].toArray(), line->entryBuffer());
+
+    int i = 0;
+    for (auto* buf : line->internalBuffers())
+        jsonToBuffer(buffers[QString("buf_%1").arg(i++)].toArray(), buf);
+
+    // Stations + stats
+    QJsonObject stations = root["stations"].toObject();
+    for (auto* st : line->stations())
     {
-        QJsonObject obj = v.toObject();
-        Product p;
-
-        p.id = obj["id"].toString().toLongLong();
-        p.type = obj["type"].toString();
-        p.state = static_cast<ProductState>(obj["state"].toInt());
-
-        result.append(p);
+        QJsonObject obj = stations[st->name()].toObject();
+        jsonToStationStats(obj["stats"].toObject(), st);
     }
 
-    emit log(QStringLiteral("Persistence: loaded %1 products").arg(result.size()));
-    return result;
+    return true;
+}
+
+//LOG
+
+void Persistence::appendLog(const QString& line,
+                            const QString& path)
+{
+    QFile f(path);
+    f.open(QIODevice::Append);
+
+    QString out = QString("[%1] %2\n")
+                      .arg(QDateTime::currentDateTime().toString("hh:mm:ss"))
+                      .arg(line);
+
+    f.write(out.toUtf8());
 }

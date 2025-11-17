@@ -2,10 +2,11 @@
 #include "WorkStation.h"
 #include <QThread>
 
-class Assembler : public WorkStation {
+class Assembler : public WorkStation
+{
     Q_OBJECT
 public:
-    explicit Assembler(const QString& name, QObject* parent=nullptr);
+    explicit Assembler(const QString& name);
 
 protected:
     void process(Product& p) override;

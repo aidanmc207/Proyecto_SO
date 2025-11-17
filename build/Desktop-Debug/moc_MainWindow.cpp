@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[13];
-    char stringdata0[137];
+    QByteArrayData data[15];
+    char stringdata0[144];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -43,14 +43,16 @@ QT_MOC_LITERAL(7, 81, 5), // "state"
 QT_MOC_LITERAL(8, 87, 8), // "progress"
 QT_MOC_LITERAL(9, 96, 9), // "appendLog"
 QT_MOC_LITERAL(10, 106, 4), // "line"
-QT_MOC_LITERAL(11, 111, 17), // "refreshThreadList"
-QT_MOC_LITERAL(12, 129, 7) // "threads"
+QT_MOC_LITERAL(11, 111, 11), // "updateStats"
+QT_MOC_LITERAL(12, 123, 4), // "name"
+QT_MOC_LITERAL(13, 128, 9), // "processed"
+QT_MOC_LITERAL(14, 138, 5) // "queue"
 
     },
     "MainWindow\0startProduction\0\0pauseProduction\0"
     "stopProduction\0updateStation\0station\0"
-    "state\0progress\0appendLog\0line\0"
-    "refreshThreadList\0threads"
+    "state\0progress\0appendLog\0line\0updateStats\0"
+    "name\0processed\0queue"
 };
 #undef QT_MOC_LITERAL
 
@@ -75,7 +77,7 @@ static const uint qt_meta_data_MainWindow[] = {
  // slots: name, argc, parameters, tag, flags
        5,    3,   47,    2, 0x0a /* Public */,
        9,    1,   54,    2, 0x0a /* Public */,
-      11,    1,   57,    2, 0x0a /* Public */,
+      11,    3,   57,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -85,7 +87,7 @@ static const uint qt_meta_data_MainWindow[] = {
  // slots: parameters
     QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::Int,    6,    7,    8,
     QMetaType::Void, QMetaType::QString,   10,
-    QMetaType::Void, QMetaType::QStringList,   12,
+    QMetaType::Void, QMetaType::QString, QMetaType::Long, QMetaType::Int,   12,   13,   14,
 
        0        // eod
 };
@@ -101,7 +103,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 2: _t->stopProduction(); break;
         case 3: _t->updateStation((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
         case 4: _t->appendLog((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 5: _t->refreshThreadList((*reinterpret_cast< const QStringList(*)>(_a[1]))); break;
+        case 5: _t->updateStats((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< long(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {

@@ -1,13 +1,14 @@
 #include "Tester.h"
 #include <QThread>
 
-Tester::Tester(const QString& name, QObject* parent)
-    : WorkStation(name, parent)
+Tester::Tester(const QString& name)
+    : WorkStation(name)
 {
 }
 
+
 void Tester::process(Product& p)
 {
-    QThread::msleep(150);
+    QThread::msleep(75);
     p.advance();
 }
