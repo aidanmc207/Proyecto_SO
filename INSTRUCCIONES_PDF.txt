@@ -1,0 +1,64 @@
+================================================================================
+INSTRUCCIONES PARA GENERAR EL PDF DE LA PRESENTACIÓN
+================================================================================
+
+Tienes 3 opciones para convertir PRESENTACION_PROYECTO.md a PDF:
+
+---
+OPCIÓN 1: Usando el navegador (MÁS FÁCIL)
+---
+
+1. Instala una extensión de Markdown en tu navegador:
+   - Chrome: "Markdown Viewer" o "Markdown Preview Plus"
+   - Firefox: "Markdown Viewer Webext"
+
+2. Abre el archivo en el navegador:
+   firefox PRESENTACION_PROYECTO.md
+   # o
+   google-chrome PRESENTACION_PROYECTO.md
+
+3. Una vez renderizado, usa Ctrl+P (Imprimir)
+4. Selecciona "Guardar como PDF"
+5. Ajusta márgenes y configuración
+6. Guarda como "PRESENTACION_PROYECTO.pdf"
+
+---
+OPCIÓN 2: Usando pandoc (RECOMENDADO)
+---
+
+1. Instala pandoc y LaTeX:
+   sudo apt-get update
+   sudo apt-get install pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
+
+2. Convierte a PDF:
+   pandoc PRESENTACION_PROYECTO.md -o PRESENTACION_PROYECTO.pdf \
+          --pdf-engine=pdflatex \
+          -V geometry:margin=1in \
+          -V fontsize=11pt \
+          --toc \
+          --highlight-style=tango
+
+3. El PDF estará listo: PRESENTACION_PROYECTO.pdf
+
+---
+OPCIÓN 3: Usando un servicio online
+---
+
+1. Visita: https://www.markdowntopdf.com/
+   o: https://md2pdf.netlify.app/
+
+2. Sube el archivo PRESENTACION_PROYECTO.md
+
+3. Descarga el PDF generado
+
+================================================================================
+RECOMENDACIÓN:
+================================================================================
+
+Para una presentación profesional ante tu profesor, usa la OPCIÓN 2 (pandoc)
+ya que genera PDFs con mejor formato, tabla de contenidos automática y
+resaltado de sintaxis para los bloques de código.
+
+Si no quieres instalar nada, la OPCIÓN 1 es rápida y funciona bien.
+
+================================================================================

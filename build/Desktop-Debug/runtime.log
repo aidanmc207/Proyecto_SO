@@ -29606,3 +29606,978 @@
 [2025-11-17 16:38:51] [ACTION] Controller: stop() - Contadores y gráfico reseteados
 [2025-11-17 16:38:51] [INFO] QualityControl: PASSED inspection
 [2025-11-17 16:38:51] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:44] [ACTION] ProductionLine: start()
+[2025-11-17 16:49:44] [ACTION] ProductionLine: start()
+[2025-11-17 16:49:44] [ACTION] Assembler-1: start()
+[2025-11-17 16:49:44] [ACTION] Assembler-1: start()
+[2025-11-17 16:49:44] [ACTION] Assembler-2: start()
+[2025-11-17 16:49:44] [ACTION] Assembler-2: start()
+[2025-11-17 16:49:44] [ACTION] Tester: start()
+[2025-11-17 16:49:44] [ACTION] Tester: start()
+[2025-11-17 16:49:44] [ACTION] QualityControl: start()
+[2025-11-17 16:49:44] [ACTION] QualityControl: start()
+[2025-11-17 16:49:44] [ACTION] Packer: start()
+[2025-11-17 16:49:44] [ACTION] Packer: start()
+[2025-11-17 16:49:44] [ACTION] Shipping: start()
+[2025-11-17 16:49:44] [ACTION] Shipping: start()
+[2025-11-17 16:49:44] [PRODUCTION] Generated #1949 (Dryer | New)
+[2025-11-17 16:49:44] [ACTION] Controller: start()
+[2025-11-17 16:49:44] [ACTION] Assembler-1 runLoop started
+[2025-11-17 16:49:44] [ACTION] Assembler-1 runLoop started
+[2025-11-17 16:49:44] [ACTION] Assembler-2 runLoop started
+[2025-11-17 16:49:44] [ACTION] Assembler-2 runLoop started
+[2025-11-17 16:49:44] [ACTION] Tester runLoop started
+[2025-11-17 16:49:44] [ACTION] Tester runLoop started
+[2025-11-17 16:49:44] [ACTION] QualityControl runLoop started
+[2025-11-17 16:49:44] [ACTION] QualityControl runLoop started
+[2025-11-17 16:49:44] [ACTION] Packer runLoop started
+[2025-11-17 16:49:44] [ACTION] Packer runLoop started
+[2025-11-17 16:49:44] [ACTION] Shipping runLoop started
+[2025-11-17 16:49:44] [ACTION] Shipping runLoop started
+[2025-11-17 16:49:44] [PRODUCTION] Generated #1950 (Washing Machine | New)
+[2025-11-17 16:49:44] [PRODUCTION] Generated #1951 (Dishwasher | New)
+[2025-11-17 16:49:44] [INFO] QualityControl: Inspecting #1949 (Dryer | Tested)
+[2025-11-17 16:49:44] [INFO] QualityControl: Inspecting #1949 (Dryer | Tested)
+[2025-11-17 16:49:44] [PRODUCTION] Generated #1952 (Washing Machine | New)
+[2025-11-17 16:49:44] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:44] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:44] [INFO] QualityControl: Inspecting #1950 (Washing Machine | Tested)
+[2025-11-17 16:49:44] [INFO] QualityControl: Inspecting #1950 (Washing Machine | Tested)
+[2025-11-17 16:49:44] [PRODUCTION] Generated #1953 (Air Conditioner | New)
+[2025-11-17 16:49:45] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:45] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:45] [INFO] PipeManager: sent via pipe #1950 (Washing Machine | Rework)
+[2025-11-17 16:49:45] [INFO] PipeManager: received from pipe #1950 (Washing Machine | Rework) → requeued
+[2025-11-17 16:49:45] [PRODUCTION] Generated #1954 (Washing Machine | New)
+[2025-11-17 16:49:45] [INFO] QualityControl: Inspecting #1951 (Dishwasher | Tested)
+[2025-11-17 16:49:45] [INFO] QualityControl: Inspecting #1951 (Dishwasher | Tested)
+[2025-11-17 16:49:45] [INFO] Shipping shipped #1949 (Dryer | Packed)
+[2025-11-17 16:49:45] [INFO] Shipping shipped #1949 (Dryer | Packed)
+[2025-11-17 16:49:45] [PRODUCTION] Generated #1955 (Microwave | New)
+[2025-11-17 16:49:45] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:45] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:45] [INFO] QualityControl: Inspecting #1952 (Washing Machine | Tested)
+[2025-11-17 16:49:45] [INFO] QualityControl: Inspecting #1952 (Washing Machine | Tested)
+[2025-11-17 16:49:45] [INFO] Shipping shipped #1950 (Washing Machine | Assembled)
+[2025-11-17 16:49:45] [INFO] Shipping shipped #1950 (Washing Machine | Assembled)
+[2025-11-17 16:49:45] [PRODUCTION] Generated #1956 (Dishwasher | New)
+[2025-11-17 16:49:45] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:45] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:45] [INFO] PipeManager: sent via pipe #1952 (Washing Machine | Rework)
+[2025-11-17 16:49:45] [INFO] QualityControl: Inspecting #1953 (Air Conditioner | Tested)
+[2025-11-17 16:49:45] [INFO] QualityControl: Inspecting #1953 (Air Conditioner | Tested)
+[2025-11-17 16:49:45] [INFO] PipeManager: received from pipe #1952 (Washing Machine | Rework) → requeued
+[2025-11-17 16:49:45] [INFO] Shipping shipped #1951 (Dishwasher | Packed)
+[2025-11-17 16:49:45] [INFO] Shipping shipped #1951 (Dishwasher | Packed)
+[2025-11-17 16:49:45] [PRODUCTION] Generated #1957 (Vacuum Cleaner | New)
+[2025-11-17 16:49:45] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:45] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:45] [INFO] QualityControl: Inspecting #1954 (Washing Machine | Tested)
+[2025-11-17 16:49:45] [INFO] QualityControl: Inspecting #1954 (Washing Machine | Tested)
+[2025-11-17 16:49:45] [PRODUCTION] Generated #1958 (Vacuum Cleaner | New)
+[2025-11-17 16:49:45] [INFO] Shipping shipped #1952 (Washing Machine | Assembled)
+[2025-11-17 16:49:45] [INFO] Shipping shipped #1952 (Washing Machine | Assembled)
+[2025-11-17 16:49:45] [PRODUCTION] Generated #1959 (Dryer | New)
+[2025-11-17 16:49:45] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:45] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:45] [INFO] QualityControl: Inspecting #1955 (Microwave | Tested)
+[2025-11-17 16:49:45] [INFO] QualityControl: Inspecting #1955 (Microwave | Tested)
+[2025-11-17 16:49:45] [INFO] Shipping shipped #1953 (Air Conditioner | Packed)
+[2025-11-17 16:49:45] [INFO] Shipping shipped #1953 (Air Conditioner | Packed)
+[2025-11-17 16:49:45] [PRODUCTION] Generated #1960 (Microwave | New)
+[2025-11-17 16:49:46] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:46] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:46] [INFO] PipeManager: received from pipe #1955 (Microwave | Rework) → requeued
+[2025-11-17 16:49:46] [INFO] PipeManager: sent via pipe #1955 (Microwave | Rework)
+[2025-11-17 16:49:46] [INFO] QualityControl: Inspecting #1956 (Dishwasher | Tested)
+[2025-11-17 16:49:46] [INFO] QualityControl: Inspecting #1956 (Dishwasher | Tested)
+[2025-11-17 16:49:46] [INFO] Shipping shipped #1954 (Washing Machine | Packed)
+[2025-11-17 16:49:46] [INFO] Shipping shipped #1954 (Washing Machine | Packed)
+[2025-11-17 16:49:46] [PRODUCTION] Generated #1961 (Refrigerator | New)
+[2025-11-17 16:49:46] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:46] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:46] [INFO] QualityControl: Inspecting #1957 (Vacuum Cleaner | Tested)
+[2025-11-17 16:49:46] [INFO] QualityControl: Inspecting #1957 (Vacuum Cleaner | Tested)
+[2025-11-17 16:49:46] [PRODUCTION] Generated #1962 (Air Conditioner | New)
+[2025-11-17 16:49:46] [INFO] Shipping shipped #1955 (Microwave | Assembled)
+[2025-11-17 16:49:46] [INFO] Shipping shipped #1955 (Microwave | Assembled)
+[2025-11-17 16:49:46] [PRODUCTION] Generated #1963 (Refrigerator | New)
+[2025-11-17 16:49:46] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:46] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:46] [INFO] PipeManager: sent via pipe #1957 (Vacuum Cleaner | Rework)
+[2025-11-17 16:49:46] [INFO] QualityControl: Inspecting #1958 (Vacuum Cleaner | Tested)
+[2025-11-17 16:49:46] [INFO] QualityControl: Inspecting #1958 (Vacuum Cleaner | Tested)
+[2025-11-17 16:49:46] [INFO] PipeManager: received from pipe #1957 (Vacuum Cleaner | Rework) → requeued
+[2025-11-17 16:49:46] [INFO] Shipping shipped #1956 (Dishwasher | Packed)
+[2025-11-17 16:49:46] [INFO] Shipping shipped #1956 (Dishwasher | Packed)
+[2025-11-17 16:49:46] [PRODUCTION] Generated #1964 (Refrigerator | New)
+[2025-11-17 16:49:46] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:46] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:46] [INFO] PipeManager: sent via pipe #1958 (Vacuum Cleaner | Rework)
+[2025-11-17 16:49:46] [INFO] PipeManager: received from pipe #1958 (Vacuum Cleaner | Rework) → requeued
+[2025-11-17 16:49:46] [INFO] QualityControl: Inspecting #1959 (Dryer | Tested)
+[2025-11-17 16:49:46] [INFO] QualityControl: Inspecting #1959 (Dryer | Tested)
+[2025-11-17 16:49:46] [INFO] Shipping shipped #1957 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:49:46] [INFO] Shipping shipped #1957 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:49:46] [PRODUCTION] Generated #1965 (Dryer | New)
+[2025-11-17 16:49:46] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:46] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:46] [INFO] PipeManager: sent via pipe #1959 (Dryer | Rework)
+[2025-11-17 16:49:46] [INFO] QualityControl: Inspecting #1960 (Microwave | Tested)
+[2025-11-17 16:49:46] [INFO] QualityControl: Inspecting #1960 (Microwave | Tested)
+[2025-11-17 16:49:46] [INFO] PipeManager: received from pipe #1959 (Dryer | Rework) → requeued
+[2025-11-17 16:49:46] [PRODUCTION] Generated #1966 (Microwave | New)
+[2025-11-17 16:49:46] [INFO] Shipping shipped #1958 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:49:46] [INFO] Shipping shipped #1958 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:49:47] [PRODUCTION] Generated #1967 (Washing Machine | New)
+[2025-11-17 16:49:47] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:47] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:47] [INFO] PipeManager: sent via pipe #1960 (Microwave | Rework)
+[2025-11-17 16:49:47] [INFO] QualityControl: Inspecting #1961 (Refrigerator | Tested)
+[2025-11-17 16:49:47] [INFO] QualityControl: Inspecting #1961 (Refrigerator | Tested)
+[2025-11-17 16:49:47] [INFO] PipeManager: received from pipe #1960 (Microwave | Rework) → requeued
+[2025-11-17 16:49:47] [INFO] Shipping shipped #1959 (Dryer | Assembled)
+[2025-11-17 16:49:47] [INFO] Shipping shipped #1959 (Dryer | Assembled)
+[2025-11-17 16:49:47] [PRODUCTION] Generated #1968 (Washing Machine | New)
+[2025-11-17 16:49:47] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:47] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:47] [INFO] QualityControl: Inspecting #1962 (Air Conditioner | Tested)
+[2025-11-17 16:49:47] [INFO] QualityControl: Inspecting #1962 (Air Conditioner | Tested)
+[2025-11-17 16:49:47] [INFO] Shipping shipped #1960 (Microwave | Assembled)
+[2025-11-17 16:49:47] [INFO] Shipping shipped #1960 (Microwave | Assembled)
+[2025-11-17 16:49:47] [PRODUCTION] Generated #1969 (Dishwasher | New)
+[2025-11-17 16:49:47] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:47] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:47] [INFO] PipeManager: received from pipe #1962 (Air Conditioner | Rework) → requeued
+[2025-11-17 16:49:47] [INFO] PipeManager: sent via pipe #1962 (Air Conditioner | Rework)
+[2025-11-17 16:49:47] [INFO] QualityControl: Inspecting #1963 (Refrigerator | Tested)
+[2025-11-17 16:49:47] [INFO] QualityControl: Inspecting #1963 (Refrigerator | Tested)
+[2025-11-17 16:49:47] [PRODUCTION] Generated #1970 (Air Conditioner | New)
+[2025-11-17 16:49:47] [INFO] Shipping shipped #1961 (Refrigerator | Packed)
+[2025-11-17 16:49:47] [INFO] Shipping shipped #1961 (Refrigerator | Packed)
+[2025-11-17 16:49:47] [PRODUCTION] Generated #1971 (Blender | New)
+[2025-11-17 16:49:47] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:47] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:47] [INFO] PipeManager: sent via pipe #1963 (Refrigerator | Rework)
+[2025-11-17 16:49:47] [INFO] PipeManager: received from pipe #1963 (Refrigerator | Rework) → requeued
+[2025-11-17 16:49:47] [INFO] QualityControl: Inspecting #1964 (Refrigerator | Tested)
+[2025-11-17 16:49:47] [INFO] QualityControl: Inspecting #1964 (Refrigerator | Tested)
+[2025-11-17 16:49:47] [INFO] Shipping shipped #1962 (Air Conditioner | Assembled)
+[2025-11-17 16:49:47] [INFO] Shipping shipped #1962 (Air Conditioner | Assembled)
+[2025-11-17 16:49:47] [PRODUCTION] Generated #1972 (Refrigerator | New)
+[2025-11-17 16:49:47] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:47] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:47] [INFO] PipeManager: sent via pipe #1964 (Refrigerator | Rework)
+[2025-11-17 16:49:47] [INFO] PipeManager: received from pipe #1964 (Refrigerator | Rework) → requeued
+[2025-11-17 16:49:47] [INFO] QualityControl: Inspecting #1965 (Dryer | Tested)
+[2025-11-17 16:49:47] [INFO] QualityControl: Inspecting #1965 (Dryer | Tested)
+[2025-11-17 16:49:47] [INFO] Shipping shipped #1963 (Refrigerator | Assembled)
+[2025-11-17 16:49:47] [INFO] Shipping shipped #1963 (Refrigerator | Assembled)
+[2025-11-17 16:49:47] [PRODUCTION] Generated #1973 (Dryer | New)
+[2025-11-17 16:49:48] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:48] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:48] [INFO] PipeManager: sent via pipe #1965 (Dryer | Rework)
+[2025-11-17 16:49:48] [INFO] PipeManager: received from pipe #1965 (Dryer | Rework) → requeued
+[2025-11-17 16:49:48] [INFO] QualityControl: Inspecting #1966 (Microwave | Tested)
+[2025-11-17 16:49:48] [INFO] QualityControl: Inspecting #1966 (Microwave | Tested)
+[2025-11-17 16:49:48] [PRODUCTION] Generated #1974 (Air Conditioner | New)
+[2025-11-17 16:49:48] [INFO] Shipping shipped #1964 (Refrigerator | Assembled)
+[2025-11-17 16:49:48] [INFO] Shipping shipped #1964 (Refrigerator | Assembled)
+[2025-11-17 16:49:48] [PRODUCTION] Generated #1975 (Vacuum Cleaner | New)
+[2025-11-17 16:49:48] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:48] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:48] [INFO] PipeManager: sent via pipe #1966 (Microwave | Rework)
+[2025-11-17 16:49:48] [INFO] QualityControl: Inspecting #1967 (Washing Machine | Tested)
+[2025-11-17 16:49:48] [INFO] QualityControl: Inspecting #1967 (Washing Machine | Tested)
+[2025-11-17 16:49:48] [INFO] PipeManager: received from pipe #1966 (Microwave | Rework) → requeued
+[2025-11-17 16:49:48] [INFO] Shipping shipped #1965 (Dryer | Assembled)
+[2025-11-17 16:49:48] [INFO] Shipping shipped #1965 (Dryer | Assembled)
+[2025-11-17 16:49:48] [PRODUCTION] Generated #1976 (Toaster | New)
+[2025-11-17 16:49:48] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:48] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:48] [INFO] QualityControl: Inspecting #1968 (Washing Machine | Tested)
+[2025-11-17 16:49:48] [INFO] QualityControl: Inspecting #1968 (Washing Machine | Tested)
+[2025-11-17 16:49:48] [INFO] Shipping shipped #1966 (Microwave | Assembled)
+[2025-11-17 16:49:48] [INFO] Shipping shipped #1966 (Microwave | Assembled)
+[2025-11-17 16:49:48] [PRODUCTION] Generated #1977 (Blender | New)
+[2025-11-17 16:49:48] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:48] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:48] [INFO] QualityControl: Inspecting #1969 (Dishwasher | Tested)
+[2025-11-17 16:49:48] [INFO] QualityControl: Inspecting #1969 (Dishwasher | Tested)
+[2025-11-17 16:49:48] [PRODUCTION] Generated #1978 (Dryer | New)
+[2025-11-17 16:49:48] [INFO] Shipping shipped #1967 (Washing Machine | Packed)
+[2025-11-17 16:49:48] [INFO] Shipping shipped #1967 (Washing Machine | Packed)
+[2025-11-17 16:49:48] [PRODUCTION] Generated #1979 (Refrigerator | New)
+[2025-11-17 16:49:48] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:48] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:48] [INFO] QualityControl: Inspecting #1970 (Air Conditioner | Tested)
+[2025-11-17 16:49:48] [INFO] QualityControl: Inspecting #1970 (Air Conditioner | Tested)
+[2025-11-17 16:49:48] [INFO] Shipping shipped #1968 (Washing Machine | Packed)
+[2025-11-17 16:49:48] [INFO] Shipping shipped #1968 (Washing Machine | Packed)
+[2025-11-17 16:49:49] [PRODUCTION] Generated #1980 (Oven | New)
+[2025-11-17 16:49:49] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:49] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:49] [INFO] QualityControl: Inspecting #1971 (Blender | Tested)
+[2025-11-17 16:49:49] [INFO] QualityControl: Inspecting #1971 (Blender | Tested)
+[2025-11-17 16:49:49] [INFO] Shipping shipped #1969 (Dishwasher | Packed)
+[2025-11-17 16:49:49] [INFO] Shipping shipped #1969 (Dishwasher | Packed)
+[2025-11-17 16:49:49] [PRODUCTION] Generated #1981 (Dishwasher | New)
+[2025-11-17 16:49:49] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:49] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:49] [INFO] QualityControl: Inspecting #1972 (Refrigerator | Tested)
+[2025-11-17 16:49:49] [INFO] QualityControl: Inspecting #1972 (Refrigerator | Tested)
+[2025-11-17 16:49:49] [PRODUCTION] Generated #1982 (Blender | New)
+[2025-11-17 16:49:49] [INFO] Shipping shipped #1970 (Air Conditioner | Packed)
+[2025-11-17 16:49:49] [INFO] Shipping shipped #1970 (Air Conditioner | Packed)
+[2025-11-17 16:49:49] [PRODUCTION] Generated #1983 (Toaster | New)
+[2025-11-17 16:49:49] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:49] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:49] [INFO] PipeManager: received from pipe #1972 (Refrigerator | Rework) → requeued
+[2025-11-17 16:49:49] [INFO] PipeManager: sent via pipe #1972 (Refrigerator | Rework)
+[2025-11-17 16:49:49] [INFO] QualityControl: Inspecting #1973 (Dryer | Tested)
+[2025-11-17 16:49:49] [INFO] QualityControl: Inspecting #1973 (Dryer | Tested)
+[2025-11-17 16:49:49] [INFO] Shipping shipped #1971 (Blender | Packed)
+[2025-11-17 16:49:49] [INFO] Shipping shipped #1971 (Blender | Packed)
+[2025-11-17 16:49:49] [PRODUCTION] Generated #1984 (Oven | New)
+[2025-11-17 16:49:49] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:49] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:49] [INFO] PipeManager: sent via pipe #1973 (Dryer | Rework)
+[2025-11-17 16:49:49] [INFO] QualityControl: Inspecting #1974 (Air Conditioner | Tested)
+[2025-11-17 16:49:49] [INFO] QualityControl: Inspecting #1974 (Air Conditioner | Tested)
+[2025-11-17 16:49:49] [INFO] PipeManager: received from pipe #1973 (Dryer | Rework) → requeued
+[2025-11-17 16:49:49] [PRODUCTION] Generated #1985 (Oven | New)
+[2025-11-17 16:49:50] [INFO] Shipping shipped #1972 (Refrigerator | Assembled)
+[2025-11-17 16:49:50] [INFO] Shipping shipped #1972 (Refrigerator | Assembled)
+[2025-11-17 16:49:50] [PRODUCTION] Generated #1986 (Blender | New)
+[2025-11-17 16:49:50] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:50] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:50] [INFO] PipeManager: sent via pipe #1974 (Air Conditioner | Rework)
+[2025-11-17 16:49:50] [INFO] PipeManager: received from pipe #1974 (Air Conditioner | Rework) → requeued
+[2025-11-17 16:49:50] [INFO] QualityControl: Inspecting #1975 (Vacuum Cleaner | Tested)
+[2025-11-17 16:49:50] [INFO] QualityControl: Inspecting #1975 (Vacuum Cleaner | Tested)
+[2025-11-17 16:49:50] [INFO] Shipping shipped #1973 (Dryer | Assembled)
+[2025-11-17 16:49:50] [INFO] Shipping shipped #1973 (Dryer | Assembled)
+[2025-11-17 16:49:50] [PRODUCTION] Generated #1987 (Toaster | New)
+[2025-11-17 16:49:51] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:51] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:51] [INFO] QualityControl: Inspecting #1976 (Toaster | Tested)
+[2025-11-17 16:49:51] [INFO] QualityControl: Inspecting #1976 (Toaster | Tested)
+[2025-11-17 16:49:51] [INFO] Shipping shipped #1974 (Air Conditioner | Assembled)
+[2025-11-17 16:49:51] [INFO] Shipping shipped #1974 (Air Conditioner | Assembled)
+[2025-11-17 16:49:51] [PRODUCTION] Generated #1988 (Toaster | New)
+[2025-11-17 16:49:51] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:51] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:51] [INFO] PipeManager: received from pipe #1976 (Toaster | Rework) → requeued
+[2025-11-17 16:49:51] [INFO] PipeManager: sent via pipe #1976 (Toaster | Rework)
+[2025-11-17 16:49:51] [PRODUCTION] Generated #1989 (Vacuum Cleaner | New)
+[2025-11-17 16:49:51] [INFO] QualityControl: Inspecting #1977 (Blender | Tested)
+[2025-11-17 16:49:51] [INFO] QualityControl: Inspecting #1977 (Blender | Tested)
+[2025-11-17 16:49:51] [INFO] Shipping shipped #1975 (Vacuum Cleaner | Packed)
+[2025-11-17 16:49:51] [INFO] Shipping shipped #1975 (Vacuum Cleaner | Packed)
+[2025-11-17 16:49:52] [PRODUCTION] Generated #1990 (Washing Machine | New)
+[2025-11-17 16:49:52] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:52] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:52] [INFO] QualityControl: Inspecting #1978 (Dryer | Tested)
+[2025-11-17 16:49:52] [INFO] QualityControl: Inspecting #1978 (Dryer | Tested)
+[2025-11-17 16:49:52] [INFO] Shipping shipped #1976 (Toaster | Assembled)
+[2025-11-17 16:49:52] [INFO] Shipping shipped #1976 (Toaster | Assembled)
+[2025-11-17 16:49:52] [PRODUCTION] Generated #1991 (Air Conditioner | New)
+[2025-11-17 16:49:53] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:53] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:53] [INFO] QualityControl: Inspecting #1979 (Refrigerator | Tested)
+[2025-11-17 16:49:53] [INFO] QualityControl: Inspecting #1979 (Refrigerator | Tested)
+[2025-11-17 16:49:53] [PRODUCTION] Generated #1992 (Microwave | New)
+[2025-11-17 16:49:53] [INFO] Shipping shipped #1977 (Blender | Packed)
+[2025-11-17 16:49:53] [INFO] Shipping shipped #1977 (Blender | Packed)
+[2025-11-17 16:49:53] [PRODUCTION] Generated #1993 (Dishwasher | New)
+[2025-11-17 16:49:53] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:53] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:53] [INFO] QualityControl: Inspecting #1980 (Oven | Tested)
+[2025-11-17 16:49:53] [INFO] QualityControl: Inspecting #1980 (Oven | Tested)
+[2025-11-17 16:49:54] [INFO] Shipping shipped #1978 (Dryer | Packed)
+[2025-11-17 16:49:54] [INFO] Shipping shipped #1978 (Dryer | Packed)
+[2025-11-17 16:49:54] [PRODUCTION] Generated #1994 (Refrigerator | New)
+[2025-11-17 16:49:54] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:54] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:54] [INFO] PipeManager: received from pipe #1980 (Oven | Rework) → requeued
+[2025-11-17 16:49:54] [INFO] PipeManager: sent via pipe #1980 (Oven | Rework)
+[2025-11-17 16:49:54] [INFO] QualityControl: Inspecting #1981 (Dishwasher | Tested)
+[2025-11-17 16:49:54] [INFO] QualityControl: Inspecting #1981 (Dishwasher | Tested)
+[2025-11-17 16:49:54] [INFO] Shipping shipped #1979 (Refrigerator | Packed)
+[2025-11-17 16:49:54] [INFO] Shipping shipped #1979 (Refrigerator | Packed)
+[2025-11-17 16:49:54] [PRODUCTION] Generated #1995 (Refrigerator | New)
+[2025-11-17 16:49:55] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:55] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:55] [INFO] PipeManager: received from pipe #1981 (Dishwasher | Rework) → requeued
+[2025-11-17 16:49:55] [INFO] PipeManager: sent via pipe #1981 (Dishwasher | Rework)
+[2025-11-17 16:49:55] [PRODUCTION] Generated #1996 (Dryer | New)
+[2025-11-17 16:49:55] [INFO] QualityControl: Inspecting #1982 (Blender | Tested)
+[2025-11-17 16:49:55] [INFO] QualityControl: Inspecting #1982 (Blender | Tested)
+[2025-11-17 16:49:55] [INFO] Shipping shipped #1980 (Oven | Assembled)
+[2025-11-17 16:49:55] [INFO] Shipping shipped #1980 (Oven | Assembled)
+[2025-11-17 16:49:55] [PRODUCTION] Generated #1997 (Vacuum Cleaner | New)
+[2025-11-17 16:49:55] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:55] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:55] [INFO] PipeManager: received from pipe #1982 (Blender | Rework) → requeued
+[2025-11-17 16:49:55] [INFO] PipeManager: sent via pipe #1982 (Blender | Rework)
+[2025-11-17 16:49:56] [INFO] QualityControl: Inspecting #1983 (Toaster | Tested)
+[2025-11-17 16:49:56] [INFO] QualityControl: Inspecting #1983 (Toaster | Tested)
+[2025-11-17 16:49:56] [INFO] Shipping shipped #1981 (Dishwasher | Assembled)
+[2025-11-17 16:49:56] [INFO] Shipping shipped #1981 (Dishwasher | Assembled)
+[2025-11-17 16:49:56] [PRODUCTION] Generated #1998 (Washing Machine | New)
+[2025-11-17 16:49:56] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:56] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:56] [INFO] QualityControl: Inspecting #1984 (Oven | Tested)
+[2025-11-17 16:49:56] [INFO] QualityControl: Inspecting #1984 (Oven | Tested)
+[2025-11-17 16:49:56] [PRODUCTION] Generated #1999 (Vacuum Cleaner | New)
+[2025-11-17 16:49:56] [INFO] Shipping shipped #1982 (Blender | Assembled)
+[2025-11-17 16:49:56] [INFO] Shipping shipped #1982 (Blender | Assembled)
+[2025-11-17 16:49:57] [PRODUCTION] Generated #2000 (Refrigerator | New)
+[2025-11-17 16:49:57] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:57] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:57] [INFO] QualityControl: Inspecting #1985 (Oven | Tested)
+[2025-11-17 16:49:57] [INFO] QualityControl: Inspecting #1985 (Oven | Tested)
+[2025-11-17 16:49:57] [INFO] Shipping shipped #1983 (Toaster | Packed)
+[2025-11-17 16:49:57] [INFO] Shipping shipped #1983 (Toaster | Packed)
+[2025-11-17 16:49:57] [PRODUCTION] Generated #2001 (Dishwasher | New)
+[2025-11-17 16:49:58] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:58] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:58] [INFO] QualityControl: Inspecting #1986 (Blender | Tested)
+[2025-11-17 16:49:58] [INFO] QualityControl: Inspecting #1986 (Blender | Tested)
+[2025-11-17 16:49:58] [INFO] Shipping shipped #1984 (Oven | Packed)
+[2025-11-17 16:49:58] [INFO] Shipping shipped #1984 (Oven | Packed)
+[2025-11-17 16:49:58] [PRODUCTION] Generated #2002 (Blender | New)
+[2025-11-17 16:49:58] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:58] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:49:58] [PRODUCTION] Generated #2003 (Microwave | New)
+[2025-11-17 16:49:58] [INFO] QualityControl: Inspecting #1987 (Toaster | Tested)
+[2025-11-17 16:49:58] [INFO] QualityControl: Inspecting #1987 (Toaster | Tested)
+[2025-11-17 16:49:58] [INFO] Shipping shipped #1985 (Oven | Packed)
+[2025-11-17 16:49:58] [INFO] Shipping shipped #1985 (Oven | Packed)
+[2025-11-17 16:49:59] [PRODUCTION] Generated #2004 (Oven | New)
+[2025-11-17 16:49:59] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:59] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:49:59] [INFO] PipeManager: received from pipe #1987 (Toaster | Rework) → requeued
+[2025-11-17 16:49:59] [INFO] PipeManager: sent via pipe #1987 (Toaster | Rework)
+[2025-11-17 16:49:59] [INFO] QualityControl: Inspecting #1988 (Toaster | Tested)
+[2025-11-17 16:49:59] [INFO] QualityControl: Inspecting #1988 (Toaster | Tested)
+[2025-11-17 16:49:59] [INFO] Shipping shipped #1986 (Blender | Packed)
+[2025-11-17 16:49:59] [INFO] Shipping shipped #1986 (Blender | Packed)
+[2025-11-17 16:49:59] [PRODUCTION] Generated #2005 (Vacuum Cleaner | New)
+[2025-11-17 16:50:00] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:00] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:00] [INFO] PipeManager: received from pipe #1988 (Toaster | Rework) → requeued
+[2025-11-17 16:50:00] [INFO] PipeManager: sent via pipe #1988 (Toaster | Rework)
+[2025-11-17 16:50:00] [INFO] QualityControl: Inspecting #1989 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:00] [INFO] QualityControl: Inspecting #1989 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:00] [PRODUCTION] Generated #2006 (Oven | New)
+[2025-11-17 16:50:00] [INFO] Shipping shipped #1987 (Toaster | Assembled)
+[2025-11-17 16:50:00] [INFO] Shipping shipped #1987 (Toaster | Assembled)
+[2025-11-17 16:50:00] [PRODUCTION] Generated #2007 (Washing Machine | New)
+[2025-11-17 16:50:00] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:00] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:00] [INFO] PipeManager: received from pipe #1989 (Vacuum Cleaner | Rework) → requeued
+[2025-11-17 16:50:00] [INFO] PipeManager: sent via pipe #1989 (Vacuum Cleaner | Rework)
+[2025-11-17 16:50:00] [ACTION] ProductionLine: stop()
+[2025-11-17 16:50:00] [ACTION] ProductionLine: stop()
+[2025-11-17 16:50:00] [ACTION] Assembler-1: stop()
+[2025-11-17 16:50:00] [ACTION] Assembler-1: stop()
+[2025-11-17 16:50:00] [ACTION] Assembler-2: stop()
+[2025-11-17 16:50:00] [ACTION] Assembler-2: stop()
+[2025-11-17 16:50:00] [ACTION] Tester: stop()
+[2025-11-17 16:50:00] [ACTION] Tester: stop()
+[2025-11-17 16:50:00] [ACTION] QualityControl: stop()
+[2025-11-17 16:50:00] [ACTION] QualityControl: stop()
+[2025-11-17 16:50:00] [ACTION] Packer: stop()
+[2025-11-17 16:50:00] [ACTION] Packer: stop()
+[2025-11-17 16:50:00] [ACTION] Shipping: stop()
+[2025-11-17 16:50:00] [ACTION] Shipping: stop()
+[2025-11-17 16:50:00] [ACTION] Controller: stop() - Contadores y gráfico reseteados
+[2025-11-17 16:50:01] [INFO] Shipping shipped #1988 (Toaster | Assembled)
+[2025-11-17 16:50:01] [INFO] Shipping shipped #1988 (Toaster | Assembled)
+[2025-11-17 16:50:04] [ACTION] ProductionLine: start()
+[2025-11-17 16:50:04] [ACTION] ProductionLine: start()
+[2025-11-17 16:50:04] [INFO] Assembler-1: resume()
+[2025-11-17 16:50:04] [INFO] Assembler-1: resume()
+[2025-11-17 16:50:04] [INFO] Assembler-2: resume()
+[2025-11-17 16:50:04] [INFO] Assembler-2: resume()
+[2025-11-17 16:50:04] [INFO] Tester: resume()
+[2025-11-17 16:50:04] [INFO] Tester: resume()
+[2025-11-17 16:50:04] [INFO] QualityControl: resume()
+[2025-11-17 16:50:04] [INFO] QualityControl: resume()
+[2025-11-17 16:50:04] [INFO] Packer: resume()
+[2025-11-17 16:50:04] [INFO] Packer: resume()
+[2025-11-17 16:50:04] [INFO] Shipping: resume()
+[2025-11-17 16:50:04] [INFO] Shipping: resume()
+[2025-11-17 16:50:04] [PRODUCTION] Generated #2008 (Refrigerator | New)
+[2025-11-17 16:50:04] [ACTION] Controller: start()
+[2025-11-17 16:50:04] [INFO] Shipping shipped #1989 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:50:04] [INFO] Shipping shipped #1989 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:50:04] [PRODUCTION] Generated #2009 (Washing Machine | New)
+[2025-11-17 16:50:05] [INFO] QualityControl: Inspecting #1991 (Air Conditioner | Tested)
+[2025-11-17 16:50:05] [INFO] QualityControl: Inspecting #1991 (Air Conditioner | Tested)
+[2025-11-17 16:50:05] [PRODUCTION] Generated #2010 (Blender | New)
+[2025-11-17 16:50:05] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:05] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:05] [INFO] QualityControl: Inspecting #1992 (Microwave | Tested)
+[2025-11-17 16:50:05] [INFO] QualityControl: Inspecting #1992 (Microwave | Tested)
+[2025-11-17 16:50:05] [PRODUCTION] Generated #2011 (Oven | New)
+[2025-11-17 16:50:06] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:06] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:06] [INFO] PipeManager: sent via pipe #1992 (Microwave | Rework)
+[2025-11-17 16:50:06] [INFO] PipeManager: received from pipe #1992 (Microwave | Rework) → requeued
+[2025-11-17 16:50:06] [PRODUCTION] Generated #2012 (Air Conditioner | New)
+[2025-11-17 16:50:06] [INFO] QualityControl: Inspecting #1993 (Dishwasher | Tested)
+[2025-11-17 16:50:06] [INFO] QualityControl: Inspecting #1993 (Dishwasher | Tested)
+[2025-11-17 16:50:06] [INFO] Shipping shipped #1991 (Air Conditioner | Packed)
+[2025-11-17 16:50:06] [INFO] Shipping shipped #1991 (Air Conditioner | Packed)
+[2025-11-17 16:50:06] [PRODUCTION] Generated #2013 (Microwave | New)
+[2025-11-17 16:50:07] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:07] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:07] [INFO] PipeManager: received from pipe #1993 (Dishwasher | Rework) → requeued
+[2025-11-17 16:50:07] [INFO] PipeManager: sent via pipe #1993 (Dishwasher | Rework)
+[2025-11-17 16:50:07] [INFO] QualityControl: Inspecting #1994 (Refrigerator | Tested)
+[2025-11-17 16:50:07] [INFO] QualityControl: Inspecting #1994 (Refrigerator | Tested)
+[2025-11-17 16:50:07] [INFO] Shipping shipped #1992 (Microwave | Assembled)
+[2025-11-17 16:50:07] [INFO] Shipping shipped #1992 (Microwave | Assembled)
+[2025-11-17 16:50:07] [PRODUCTION] Generated #2014 (Toaster | New)
+[2025-11-17 16:50:07] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:07] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:07] [INFO] QualityControl: Inspecting #1995 (Refrigerator | Tested)
+[2025-11-17 16:50:07] [INFO] QualityControl: Inspecting #1995 (Refrigerator | Tested)
+[2025-11-17 16:50:07] [PRODUCTION] Generated #2015 (Washing Machine | New)
+[2025-11-17 16:50:07] [INFO] Shipping shipped #1993 (Dishwasher | Assembled)
+[2025-11-17 16:50:07] [INFO] Shipping shipped #1993 (Dishwasher | Assembled)
+[2025-11-17 16:50:08] [PRODUCTION] Generated #2016 (Washing Machine | New)
+[2025-11-17 16:50:08] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:08] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:08] [INFO] QualityControl: Inspecting #1996 (Dryer | Tested)
+[2025-11-17 16:50:08] [INFO] QualityControl: Inspecting #1996 (Dryer | Tested)
+[2025-11-17 16:50:08] [INFO] Shipping shipped #1994 (Refrigerator | Packed)
+[2025-11-17 16:50:08] [INFO] Shipping shipped #1994 (Refrigerator | Packed)
+[2025-11-17 16:50:08] [PRODUCTION] Generated #2017 (Vacuum Cleaner | New)
+[2025-11-17 16:50:09] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:09] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:09] [INFO] QualityControl: Inspecting #1997 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:09] [INFO] QualityControl: Inspecting #1997 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:09] [INFO] Shipping shipped #1995 (Refrigerator | Packed)
+[2025-11-17 16:50:09] [INFO] Shipping shipped #1995 (Refrigerator | Packed)
+[2025-11-17 16:50:09] [PRODUCTION] Generated #2018 (Air Conditioner | New)
+[2025-11-17 16:50:09] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:09] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:09] [INFO] PipeManager: received from pipe #1997 (Vacuum Cleaner | Rework) → requeued
+[2025-11-17 16:50:09] [INFO] PipeManager: sent via pipe #1997 (Vacuum Cleaner | Rework)
+[2025-11-17 16:50:09] [PRODUCTION] Generated #2019 (Dishwasher | New)
+[2025-11-17 16:50:09] [INFO] QualityControl: Inspecting #1998 (Washing Machine | Tested)
+[2025-11-17 16:50:09] [INFO] QualityControl: Inspecting #1998 (Washing Machine | Tested)
+[2025-11-17 16:50:10] [INFO] Shipping shipped #1996 (Dryer | Packed)
+[2025-11-17 16:50:10] [INFO] Shipping shipped #1996 (Dryer | Packed)
+[2025-11-17 16:50:10] [PRODUCTION] Generated #2020 (Dryer | New)
+[2025-11-17 16:50:10] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:10] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:10] [INFO] PipeManager: received from pipe #1998 (Washing Machine | Rework) → requeued
+[2025-11-17 16:50:10] [INFO] PipeManager: sent via pipe #1998 (Washing Machine | Rework)
+[2025-11-17 16:50:10] [INFO] QualityControl: Inspecting #1999 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:10] [INFO] QualityControl: Inspecting #1999 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:10] [INFO] Shipping shipped #1997 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:50:10] [INFO] Shipping shipped #1997 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:50:10] [PRODUCTION] Generated #2021 (Toaster | New)
+[2025-11-17 16:50:11] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:11] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:11] [INFO] PipeManager: received from pipe #1999 (Vacuum Cleaner | Rework) → requeued
+[2025-11-17 16:50:11] [INFO] PipeManager: sent via pipe #1999 (Vacuum Cleaner | Rework)
+[2025-11-17 16:50:11] [INFO] QualityControl: Inspecting #2000 (Refrigerator | Tested)
+[2025-11-17 16:50:11] [INFO] QualityControl: Inspecting #2000 (Refrigerator | Tested)
+[2025-11-17 16:50:11] [PRODUCTION] Generated #2022 (Air Conditioner | New)
+[2025-11-17 16:50:11] [INFO] Shipping shipped #1998 (Washing Machine | Assembled)
+[2025-11-17 16:50:11] [INFO] Shipping shipped #1998 (Washing Machine | Assembled)
+[2025-11-17 16:50:11] [PRODUCTION] Generated #2023 (Dishwasher | New)
+[2025-11-17 16:50:11] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:11] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:11] [INFO] PipeManager: received from pipe #2000 (Refrigerator | Rework) → requeued
+[2025-11-17 16:50:11] [INFO] PipeManager: sent via pipe #2000 (Refrigerator | Rework)
+[2025-11-17 16:50:12] [INFO] QualityControl: Inspecting #2001 (Dishwasher | Tested)
+[2025-11-17 16:50:12] [INFO] QualityControl: Inspecting #2001 (Dishwasher | Tested)
+[2025-11-17 16:50:12] [INFO] Shipping shipped #1999 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:50:12] [INFO] Shipping shipped #1999 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:50:12] [PRODUCTION] Generated #2024 (Oven | New)
+[2025-11-17 16:50:12] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:12] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:12] [INFO] QualityControl: Inspecting #2002 (Blender | Tested)
+[2025-11-17 16:50:12] [INFO] QualityControl: Inspecting #2002 (Blender | Tested)
+[2025-11-17 16:50:12] [INFO] Shipping shipped #2000 (Refrigerator | Assembled)
+[2025-11-17 16:50:12] [INFO] Shipping shipped #2000 (Refrigerator | Assembled)
+[2025-11-17 16:50:12] [PRODUCTION] Generated #2025 (Dishwasher | New)
+[2025-11-17 16:50:13] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:13] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:13] [PRODUCTION] Generated #2026 (Vacuum Cleaner | New)
+[2025-11-17 16:50:13] [INFO] QualityControl: Inspecting #2003 (Microwave | Tested)
+[2025-11-17 16:50:13] [INFO] QualityControl: Inspecting #2003 (Microwave | Tested)
+[2025-11-17 16:50:13] [INFO] Shipping shipped #2001 (Dishwasher | Packed)
+[2025-11-17 16:50:13] [INFO] Shipping shipped #2001 (Dishwasher | Packed)
+[2025-11-17 16:50:13] [PRODUCTION] Generated #2027 (Washing Machine | New)
+[2025-11-17 16:50:14] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:14] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:14] [INFO] PipeManager: received from pipe #2003 (Microwave | Rework) → requeued
+[2025-11-17 16:50:14] [INFO] PipeManager: sent via pipe #2003 (Microwave | Rework)
+[2025-11-17 16:50:14] [INFO] QualityControl: Inspecting #2004 (Oven | Tested)
+[2025-11-17 16:50:14] [INFO] QualityControl: Inspecting #2004 (Oven | Tested)
+[2025-11-17 16:50:14] [INFO] Shipping shipped #2002 (Blender | Packed)
+[2025-11-17 16:50:14] [INFO] Shipping shipped #2002 (Blender | Packed)
+[2025-11-17 16:50:14] [PRODUCTION] Generated #2028 (Microwave | New)
+[2025-11-17 16:50:14] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:14] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:14] [INFO] PipeManager: received from pipe #2004 (Oven | Rework) → requeued
+[2025-11-17 16:50:14] [INFO] PipeManager: sent via pipe #2004 (Oven | Rework)
+[2025-11-17 16:50:14] [INFO] QualityControl: Inspecting #2005 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:14] [INFO] QualityControl: Inspecting #2005 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:14] [PRODUCTION] Generated #2029 (Washing Machine | New)
+[2025-11-17 16:50:14] [INFO] Shipping shipped #2003 (Microwave | Assembled)
+[2025-11-17 16:50:14] [INFO] Shipping shipped #2003 (Microwave | Assembled)
+[2025-11-17 16:50:15] [PRODUCTION] Generated #2030 (Refrigerator | New)
+[2025-11-17 16:50:15] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:15] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:15] [INFO] PipeManager: sent via pipe #2005 (Vacuum Cleaner | Rework)
+[2025-11-17 16:50:15] [INFO] PipeManager: received from pipe #2005 (Vacuum Cleaner | Rework) → requeued
+[2025-11-17 16:50:15] [INFO] QualityControl: Inspecting #2006 (Oven | Tested)
+[2025-11-17 16:50:15] [INFO] QualityControl: Inspecting #2006 (Oven | Tested)
+[2025-11-17 16:50:15] [INFO] Shipping shipped #2004 (Oven | Assembled)
+[2025-11-17 16:50:15] [INFO] Shipping shipped #2004 (Oven | Assembled)
+[2025-11-17 16:50:15] [PRODUCTION] Generated #2031 (Oven | New)
+[2025-11-17 16:50:16] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:16] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:16] [INFO] PipeManager: received from pipe #2006 (Oven | Rework) → requeued
+[2025-11-17 16:50:16] [INFO] PipeManager: sent via pipe #2006 (Oven | Rework)
+[2025-11-17 16:50:16] [INFO] QualityControl: Inspecting #2007 (Washing Machine | Tested)
+[2025-11-17 16:50:16] [INFO] QualityControl: Inspecting #2007 (Washing Machine | Tested)
+[2025-11-17 16:50:16] [INFO] Shipping shipped #2005 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:50:16] [INFO] Shipping shipped #2005 (Vacuum Cleaner | Assembled)
+[2025-11-17 16:50:16] [PRODUCTION] Generated #2032 (Refrigerator | New)
+[2025-11-17 16:50:16] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:16] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:16] [INFO] PipeManager: received from pipe #2007 (Washing Machine | Rework) → requeued
+[2025-11-17 16:50:16] [INFO] PipeManager: sent via pipe #2007 (Washing Machine | Rework)
+[2025-11-17 16:50:16] [PRODUCTION] Generated #2033 (Vacuum Cleaner | New)
+[2025-11-17 16:50:16] [INFO] QualityControl: Inspecting #2008 (Refrigerator | Tested)
+[2025-11-17 16:50:16] [INFO] QualityControl: Inspecting #2008 (Refrigerator | Tested)
+[2025-11-17 16:50:17] [INFO] Shipping shipped #2006 (Oven | Assembled)
+[2025-11-17 16:50:17] [INFO] Shipping shipped #2006 (Oven | Assembled)
+[2025-11-17 16:50:17] [PRODUCTION] Generated #2034 (Air Conditioner | New)
+[2025-11-17 16:50:17] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:17] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:17] [INFO] QualityControl: Inspecting #2009 (Washing Machine | Tested)
+[2025-11-17 16:50:17] [INFO] QualityControl: Inspecting #2009 (Washing Machine | Tested)
+[2025-11-17 16:50:17] [INFO] Shipping shipped #2007 (Washing Machine | Assembled)
+[2025-11-17 16:50:17] [INFO] Shipping shipped #2007 (Washing Machine | Assembled)
+[2025-11-17 16:50:17] [PRODUCTION] Generated #2035 (Vacuum Cleaner | New)
+[2025-11-17 16:50:18] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:18] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:18] [INFO] QualityControl: Inspecting #2010 (Blender | Tested)
+[2025-11-17 16:50:18] [INFO] QualityControl: Inspecting #2010 (Blender | Tested)
+[2025-11-17 16:50:18] [PRODUCTION] Generated #2036 (Blender | New)
+[2025-11-17 16:50:18] [INFO] Shipping shipped #2008 (Refrigerator | Packed)
+[2025-11-17 16:50:18] [INFO] Shipping shipped #2008 (Refrigerator | Packed)
+[2025-11-17 16:50:18] [PRODUCTION] Generated #2037 (Blender | New)
+[2025-11-17 16:50:18] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:18] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:18] [INFO] PipeManager: received from pipe #2010 (Blender | Rework) → requeued
+[2025-11-17 16:50:18] [INFO] PipeManager: sent via pipe #2010 (Blender | Rework)
+[2025-11-17 16:50:19] [INFO] QualityControl: Inspecting #2011 (Oven | Tested)
+[2025-11-17 16:50:19] [INFO] QualityControl: Inspecting #2011 (Oven | Tested)
+[2025-11-17 16:50:19] [INFO] Shipping shipped #2009 (Washing Machine | Packed)
+[2025-11-17 16:50:19] [INFO] Shipping shipped #2009 (Washing Machine | Packed)
+[2025-11-17 16:50:19] [PRODUCTION] Generated #2038 (Toaster | New)
+[2025-11-17 16:50:19] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:19] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:19] [INFO] QualityControl: Inspecting #2012 (Air Conditioner | Tested)
+[2025-11-17 16:50:19] [INFO] QualityControl: Inspecting #2012 (Air Conditioner | Tested)
+[2025-11-17 16:50:19] [INFO] Shipping shipped #2010 (Blender | Assembled)
+[2025-11-17 16:50:19] [INFO] Shipping shipped #2010 (Blender | Assembled)
+[2025-11-17 16:50:19] [PRODUCTION] Generated #2039 (Vacuum Cleaner | New)
+[2025-11-17 16:50:20] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:20] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:20] [INFO] PipeManager: received from pipe #2012 (Air Conditioner | Rework) → requeued
+[2025-11-17 16:50:20] [INFO] PipeManager: sent via pipe #2012 (Air Conditioner | Rework)
+[2025-11-17 16:50:20] [PRODUCTION] Generated #2040 (Toaster | New)
+[2025-11-17 16:50:20] [INFO] QualityControl: Inspecting #2013 (Microwave | Tested)
+[2025-11-17 16:50:20] [INFO] QualityControl: Inspecting #2013 (Microwave | Tested)
+[2025-11-17 16:50:20] [INFO] Shipping shipped #2011 (Oven | Packed)
+[2025-11-17 16:50:20] [INFO] Shipping shipped #2011 (Oven | Packed)
+[2025-11-17 16:50:20] [PRODUCTION] Generated #2041 (Blender | New)
+[2025-11-17 16:50:21] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:21] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:21] [INFO] QualityControl: Inspecting #2014 (Toaster | Tested)
+[2025-11-17 16:50:21] [INFO] QualityControl: Inspecting #2014 (Toaster | Tested)
+[2025-11-17 16:50:21] [INFO] Shipping shipped #2012 (Air Conditioner | Assembled)
+[2025-11-17 16:50:21] [INFO] Shipping shipped #2012 (Air Conditioner | Assembled)
+[2025-11-17 16:50:21] [PRODUCTION] Generated #2042 (Vacuum Cleaner | New)
+[2025-11-17 16:50:21] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:21] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:21] [INFO] PipeManager: received from pipe #2014 (Toaster | Rework) → requeued
+[2025-11-17 16:50:21] [INFO] PipeManager: sent via pipe #2014 (Toaster | Rework)
+[2025-11-17 16:50:21] [INFO] QualityControl: Inspecting #2015 (Washing Machine | Tested)
+[2025-11-17 16:50:21] [INFO] QualityControl: Inspecting #2015 (Washing Machine | Tested)
+[2025-11-17 16:50:21] [PRODUCTION] Generated #2043 (Oven | New)
+[2025-11-17 16:50:21] [INFO] Shipping shipped #2013 (Microwave | Packed)
+[2025-11-17 16:50:21] [INFO] Shipping shipped #2013 (Microwave | Packed)
+[2025-11-17 16:50:22] [PRODUCTION] Generated #2044 (Oven | New)
+[2025-11-17 16:50:22] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:22] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:22] [INFO] PipeManager: received from pipe #2015 (Washing Machine | Rework) → requeued
+[2025-11-17 16:50:22] [INFO] PipeManager: sent via pipe #2015 (Washing Machine | Rework)
+[2025-11-17 16:50:22] [INFO] QualityControl: Inspecting #2016 (Washing Machine | Tested)
+[2025-11-17 16:50:22] [INFO] QualityControl: Inspecting #2016 (Washing Machine | Tested)
+[2025-11-17 16:50:22] [INFO] Shipping shipped #2014 (Toaster | Assembled)
+[2025-11-17 16:50:22] [INFO] Shipping shipped #2014 (Toaster | Assembled)
+[2025-11-17 16:50:22] [PRODUCTION] Generated #2045 (Refrigerator | New)
+[2025-11-17 16:50:23] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:23] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:23] [INFO] QualityControl: Inspecting #2017 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:23] [INFO] QualityControl: Inspecting #2017 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:23] [INFO] Shipping shipped #2015 (Washing Machine | Assembled)
+[2025-11-17 16:50:23] [INFO] Shipping shipped #2015 (Washing Machine | Assembled)
+[2025-11-17 16:50:23] [PRODUCTION] Generated #2046 (Blender | New)
+[2025-11-17 16:50:23] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:23] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:23] [PRODUCTION] Generated #2047 (Refrigerator | New)
+[2025-11-17 16:50:23] [INFO] QualityControl: Inspecting #2018 (Air Conditioner | Tested)
+[2025-11-17 16:50:23] [INFO] QualityControl: Inspecting #2018 (Air Conditioner | Tested)
+[2025-11-17 16:50:24] [INFO] Shipping shipped #2016 (Washing Machine | Packed)
+[2025-11-17 16:50:24] [INFO] Shipping shipped #2016 (Washing Machine | Packed)
+[2025-11-17 16:50:24] [PRODUCTION] Generated #2048 (Refrigerator | New)
+[2025-11-17 16:50:24] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:24] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:24] [INFO] PipeManager: received from pipe #2018 (Air Conditioner | Rework) → requeued
+[2025-11-17 16:50:24] [INFO] PipeManager: sent via pipe #2018 (Air Conditioner | Rework)
+[2025-11-17 16:50:24] [INFO] QualityControl: Inspecting #2019 (Dishwasher | Tested)
+[2025-11-17 16:50:24] [INFO] QualityControl: Inspecting #2019 (Dishwasher | Tested)
+[2025-11-17 16:50:24] [INFO] Shipping shipped #2017 (Vacuum Cleaner | Packed)
+[2025-11-17 16:50:24] [INFO] Shipping shipped #2017 (Vacuum Cleaner | Packed)
+[2025-11-17 16:50:24] [PRODUCTION] Generated #2049 (Dryer | New)
+[2025-11-17 16:50:25] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:25] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:25] [INFO] PipeManager: received from pipe #2019 (Dishwasher | Rework) → requeued
+[2025-11-17 16:50:25] [INFO] PipeManager: sent via pipe #2019 (Dishwasher | Rework)
+[2025-11-17 16:50:25] [INFO] QualityControl: Inspecting #2020 (Dryer | Tested)
+[2025-11-17 16:50:25] [INFO] QualityControl: Inspecting #2020 (Dryer | Tested)
+[2025-11-17 16:50:25] [PRODUCTION] Generated #2050 (Oven | New)
+[2025-11-17 16:50:25] [INFO] Shipping shipped #2018 (Air Conditioner | Assembled)
+[2025-11-17 16:50:25] [INFO] Shipping shipped #2018 (Air Conditioner | Assembled)
+[2025-11-17 16:50:25] [PRODUCTION] Generated #2051 (Air Conditioner | New)
+[2025-11-17 16:50:25] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:25] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:26] [INFO] QualityControl: Inspecting #2021 (Toaster | Tested)
+[2025-11-17 16:50:26] [INFO] QualityControl: Inspecting #2021 (Toaster | Tested)
+[2025-11-17 16:50:26] [INFO] Shipping shipped #2019 (Dishwasher | Assembled)
+[2025-11-17 16:50:26] [INFO] Shipping shipped #2019 (Dishwasher | Assembled)
+[2025-11-17 16:50:26] [PRODUCTION] Generated #2052 (Blender | New)
+[2025-11-17 16:50:26] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:26] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:26] [INFO] QualityControl: Inspecting #2022 (Air Conditioner | Tested)
+[2025-11-17 16:50:26] [INFO] QualityControl: Inspecting #2022 (Air Conditioner | Tested)
+[2025-11-17 16:50:26] [INFO] Shipping shipped #2020 (Dryer | Packed)
+[2025-11-17 16:50:26] [INFO] Shipping shipped #2020 (Dryer | Packed)
+[2025-11-17 16:50:26] [PRODUCTION] Generated #2053 (Blender | New)
+[2025-11-17 16:50:27] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:27] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:27] [INFO] PipeManager: sent via pipe #2022 (Air Conditioner | Rework)
+[2025-11-17 16:50:27] [INFO] PipeManager: received from pipe #2022 (Air Conditioner | Rework) → requeued
+[2025-11-17 16:50:27] [PRODUCTION] Generated #2054 (Vacuum Cleaner | New)
+[2025-11-17 16:50:27] [INFO] QualityControl: Inspecting #2023 (Dishwasher | Tested)
+[2025-11-17 16:50:27] [INFO] QualityControl: Inspecting #2023 (Dishwasher | Tested)
+[2025-11-17 16:50:27] [INFO] Shipping shipped #2021 (Toaster | Packed)
+[2025-11-17 16:50:27] [INFO] Shipping shipped #2021 (Toaster | Packed)
+[2025-11-17 16:50:27] [PRODUCTION] Generated #2055 (Vacuum Cleaner | New)
+[2025-11-17 16:50:28] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:28] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:28] [INFO] QualityControl: Inspecting #2024 (Oven | Tested)
+[2025-11-17 16:50:28] [INFO] QualityControl: Inspecting #2024 (Oven | Tested)
+[2025-11-17 16:50:28] [INFO] Shipping shipped #2022 (Air Conditioner | Assembled)
+[2025-11-17 16:50:28] [INFO] Shipping shipped #2022 (Air Conditioner | Assembled)
+[2025-11-17 16:50:28] [PRODUCTION] Generated #2056 (Dishwasher | New)
+[2025-11-17 16:50:28] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:28] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:28] [INFO] QualityControl: Inspecting #2025 (Dishwasher | Tested)
+[2025-11-17 16:50:28] [INFO] QualityControl: Inspecting #2025 (Dishwasher | Tested)
+[2025-11-17 16:50:28] [PRODUCTION] Generated #2057 (Dishwasher | New)
+[2025-11-17 16:50:28] [INFO] Shipping shipped #2023 (Dishwasher | Packed)
+[2025-11-17 16:50:28] [INFO] Shipping shipped #2023 (Dishwasher | Packed)
+[2025-11-17 16:50:29] [PRODUCTION] Generated #2058 (Dishwasher | New)
+[2025-11-17 16:50:29] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:29] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:29] [INFO] QualityControl: Inspecting #2026 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:29] [INFO] QualityControl: Inspecting #2026 (Vacuum Cleaner | Tested)
+[2025-11-17 16:50:29] [INFO] Shipping shipped #2024 (Oven | Packed)
+[2025-11-17 16:50:29] [INFO] Shipping shipped #2024 (Oven | Packed)
+[2025-11-17 16:50:29] [PRODUCTION] Generated #2059 (Refrigerator | New)
+[2025-11-17 16:50:30] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:30] [INFO] QualityControl: PASSED inspection
+[2025-11-17 16:50:30] [INFO] QualityControl: Inspecting #2027 (Washing Machine | Tested)
+[2025-11-17 16:50:30] [INFO] QualityControl: Inspecting #2027 (Washing Machine | Tested)
+[2025-11-17 16:50:30] [INFO] Shipping shipped #2025 (Dishwasher | Packed)
+[2025-11-17 16:50:30] [INFO] Shipping shipped #2025 (Dishwasher | Packed)
+[2025-11-17 16:50:30] [PRODUCTION] Generated #2060 (Dryer | New)
+[2025-11-17 16:50:30] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:30] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:30] [INFO] PipeManager: received from pipe #2027 (Washing Machine | Rework) → requeued
+[2025-11-17 16:50:30] [INFO] PipeManager: sent via pipe #2027 (Washing Machine | Rework)
+[2025-11-17 16:50:30] [PRODUCTION] Generated #2061 (Washing Machine | New)
+[2025-11-17 16:50:30] [INFO] QualityControl: Inspecting #2028 (Microwave | Tested)
+[2025-11-17 16:50:30] [INFO] QualityControl: Inspecting #2028 (Microwave | Tested)
+[2025-11-17 16:50:31] [INFO] Shipping shipped #2026 (Vacuum Cleaner | Packed)
+[2025-11-17 16:50:31] [INFO] Shipping shipped #2026 (Vacuum Cleaner | Packed)
+[2025-11-17 16:50:31] [ACTION] ProductionLine: stop()
+[2025-11-17 16:50:31] [ACTION] ProductionLine: stop()
+[2025-11-17 16:50:31] [ACTION] Assembler-1: stop()
+[2025-11-17 16:50:31] [ACTION] Assembler-1: stop()
+[2025-11-17 16:50:31] [ACTION] Assembler-2: stop()
+[2025-11-17 16:50:31] [ACTION] Assembler-2: stop()
+[2025-11-17 16:50:31] [ACTION] Tester: stop()
+[2025-11-17 16:50:31] [ACTION] Tester: stop()
+[2025-11-17 16:50:31] [ACTION] QualityControl: stop()
+[2025-11-17 16:50:31] [ACTION] QualityControl: stop()
+[2025-11-17 16:50:31] [ACTION] Packer: stop()
+[2025-11-17 16:50:31] [ACTION] Packer: stop()
+[2025-11-17 16:50:31] [ACTION] Shipping: stop()
+[2025-11-17 16:50:31] [ACTION] Shipping: stop()
+[2025-11-17 16:50:31] [ACTION] Controller: stop() - Contadores y gráfico reseteados
+[2025-11-17 16:50:31] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:31] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 16:50:31] [INFO] PipeManager: received from pipe #2028 (Microwave | Rework) → requeued
+[2025-11-17 16:50:31] [INFO] PipeManager: sent via pipe #2028 (Microwave | Rework)
+[2025-11-17 17:13:05] [ACTION] Shipping: start()
+[2025-11-17 17:13:05] [ACTION] Shipping: start()
+[2025-11-17 17:13:05] [ACTION] Shipping: started
+[2025-11-17 17:13:05] [ACTION] Shipping runLoop started
+[2025-11-17 17:13:05] [ACTION] Shipping runLoop started
+[2025-11-17 17:13:05] [INFO] Shipping shipped #1939 (Blender | Packed)
+[2025-11-17 17:13:05] [INFO] Shipping shipped #1939 (Blender | Packed)
+[2025-11-17 17:13:06] [INFO] Shipping shipped #1941 (Blender | Packed)
+[2025-11-17 17:13:06] [INFO] Shipping shipped #1941 (Blender | Packed)
+[2025-11-17 17:13:06] [INFO] Shipping shipped #1942 (Vacuum Cleaner | Packed)
+[2025-11-17 17:13:06] [INFO] Shipping shipped #1942 (Vacuum Cleaner | Packed)
+[2025-11-17 17:13:06] [INFO] Shipping shipped #1943 (Dishwasher | Packed)
+[2025-11-17 17:13:06] [INFO] Shipping shipped #1943 (Dishwasher | Packed)
+[2025-11-17 17:13:07] [INFO] Shipping shipped #1944 (Air Conditioner | Assembled)
+[2025-11-17 17:13:07] [INFO] Shipping shipped #1944 (Air Conditioner | Assembled)
+[2025-11-17 17:13:07] [INFO] Shipping shipped #1945 (Air Conditioner | Packed)
+[2025-11-17 17:13:07] [INFO] Shipping shipped #1945 (Air Conditioner | Packed)
+[2025-11-17 17:13:08] [INFO] Shipping shipped #1946 (Air Conditioner | Packed)
+[2025-11-17 17:13:08] [INFO] Shipping shipped #1946 (Air Conditioner | Packed)
+[2025-11-17 17:13:08] [INFO] Shipping shipped #1947 (Refrigerator | Packed)
+[2025-11-17 17:13:08] [INFO] Shipping shipped #1947 (Refrigerator | Packed)
+[2025-11-17 17:13:10] [INFO] Shipping: already running
+[2025-11-17 17:13:11] [INFO] Shipping: already running
+[2025-11-17 17:13:15] [ACTION] Shipping: stop()
+[2025-11-17 17:13:15] [ACTION] Shipping: stop()
+[2025-11-17 17:13:15] [ACTION] Shipping: stopped
+[2025-11-17 17:13:17] [ACTION] Packer: start()
+[2025-11-17 17:13:17] [ACTION] Packer: start()
+[2025-11-17 17:13:17] [ACTION] Packer: started
+[2025-11-17 17:13:17] [ACTION] Packer runLoop started
+[2025-11-17 17:13:17] [ACTION] Packer runLoop started
+[2025-11-17 17:13:18] [INFO] Packer: already running
+[2025-11-17 17:13:21] [ACTION] Packer: stop()
+[2025-11-17 17:13:21] [ACTION] Packer: stop()
+[2025-11-17 17:13:21] [ACTION] Packer: stopped
+[2025-11-17 17:13:22] [ACTION] QualityControl: start()
+[2025-11-17 17:13:22] [ACTION] QualityControl: start()
+[2025-11-17 17:13:22] [ACTION] QualityControl: started
+[2025-11-17 17:13:22] [ACTION] QualityControl runLoop started
+[2025-11-17 17:13:22] [ACTION] QualityControl runLoop started
+[2025-11-17 17:13:23] [ACTION] QualityControl: stop()
+[2025-11-17 17:13:23] [ACTION] QualityControl: stop()
+[2025-11-17 17:13:23] [ACTION] QualityControl: stopped
+[2025-11-17 17:13:24] [ACTION] Tester: start()
+[2025-11-17 17:13:24] [ACTION] Tester: start()
+[2025-11-17 17:13:24] [ACTION] Tester: started
+[2025-11-17 17:13:24] [ACTION] Tester runLoop started
+[2025-11-17 17:13:24] [ACTION] Tester runLoop started
+[2025-11-17 17:13:25] [ACTION] Tester: stop()
+[2025-11-17 17:13:25] [ACTION] Tester: stop()
+[2025-11-17 17:13:25] [ACTION] Tester: stopped
+[2025-11-17 17:13:26] [ACTION] Assembler-1: start()
+[2025-11-17 17:13:26] [ACTION] Assembler-1: start()
+[2025-11-17 17:13:26] [ACTION] Assembler-1: started
+[2025-11-17 17:13:26] [ACTION] Assembler-2: start()
+[2025-11-17 17:13:26] [ACTION] Assembler-2: start()
+[2025-11-17 17:13:26] [ACTION] Assembler-2: started
+[2025-11-17 17:13:26] [ACTION] Assembler-1 runLoop started
+[2025-11-17 17:13:26] [ACTION] Assembler-1 runLoop started
+[2025-11-17 17:13:26] [ACTION] Assembler-2 runLoop started
+[2025-11-17 17:13:26] [ACTION] Assembler-2 runLoop started
+[2025-11-17 17:13:29] [INFO] Assembler-1: already running
+[2025-11-17 17:13:29] [INFO] Assembler-2: already running
+[2025-11-17 17:13:30] [INFO] Assembler-1: already running
+[2025-11-17 17:13:30] [INFO] Assembler-2: already running
+[2025-11-17 17:13:30] [INFO] Assembler-1: already running
+[2025-11-17 17:13:30] [INFO] Assembler-2: already running
+[2025-11-17 17:13:31] [ACTION] Assembler-1: stop()
+[2025-11-17 17:13:31] [ACTION] Assembler-1: stop()
+[2025-11-17 17:13:31] [ACTION] Assembler-1: stopped
+[2025-11-17 17:13:31] [ACTION] Assembler-2: stop()
+[2025-11-17 17:13:31] [ACTION] Assembler-2: stop()
+[2025-11-17 17:13:31] [ACTION] Assembler-2: stopped
+[2025-11-17 17:13:32] [INFO] Assembler-1: resume()
+[2025-11-17 17:13:32] [INFO] Assembler-1: resume()
+[2025-11-17 17:13:32] [ACTION] Assembler-1: started
+[2025-11-17 17:13:32] [INFO] Assembler-2: resume()
+[2025-11-17 17:13:32] [INFO] Assembler-2: resume()
+[2025-11-17 17:13:32] [ACTION] Assembler-2: started
+[2025-11-17 17:13:35] [ACTION] Assembler-1: stop()
+[2025-11-17 17:13:35] [ACTION] Assembler-1: stop()
+[2025-11-17 17:13:35] [ACTION] Assembler-1: stopped
+[2025-11-17 17:13:35] [ACTION] Assembler-2: stop()
+[2025-11-17 17:13:35] [ACTION] Assembler-2: stop()
+[2025-11-17 17:13:35] [ACTION] Assembler-2: stopped
+[2025-11-17 17:13:36] [ACTION] ProductionLine: start()
+[2025-11-17 17:13:36] [ACTION] ProductionLine: start()
+[2025-11-17 17:13:36] [INFO] Assembler-1: resume()
+[2025-11-17 17:13:36] [INFO] Assembler-1: resume()
+[2025-11-17 17:13:36] [INFO] Assembler-2: resume()
+[2025-11-17 17:13:36] [INFO] Assembler-2: resume()
+[2025-11-17 17:13:36] [INFO] Tester: resume()
+[2025-11-17 17:13:36] [INFO] Tester: resume()
+[2025-11-17 17:13:36] [INFO] QualityControl: resume()
+[2025-11-17 17:13:36] [INFO] QualityControl: resume()
+[2025-11-17 17:13:36] [INFO] Packer: resume()
+[2025-11-17 17:13:36] [INFO] Packer: resume()
+[2025-11-17 17:13:36] [INFO] Shipping: resume()
+[2025-11-17 17:13:36] [INFO] Shipping: resume()
+[2025-11-17 17:13:36] [PRODUCTION] Generated #1949 (Refrigerator | New)
+[2025-11-17 17:13:36] [ACTION] Controller: start()
+[2025-11-17 17:13:36] [PRODUCTION] Generated #1950 (Washing Machine | New)
+[2025-11-17 17:13:37] [PRODUCTION] Generated #1951 (Blender | New)
+[2025-11-17 17:13:37] [INFO] QualityControl: Inspecting #1949 (Refrigerator | Tested)
+[2025-11-17 17:13:37] [INFO] QualityControl: Inspecting #1949 (Refrigerator | Tested)
+[2025-11-17 17:13:37] [PRODUCTION] Generated #1952 (Toaster | New)
+[2025-11-17 17:13:38] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:38] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:38] [INFO] PipeManager: received from pipe #1949 (Refrigerator | Rework) → requeued
+[2025-11-17 17:13:38] [INFO] PipeManager: sent via pipe #1949 (Refrigerator | Rework)
+[2025-11-17 17:13:38] [INFO] QualityControl: Inspecting #1950 (Washing Machine | Tested)
+[2025-11-17 17:13:38] [INFO] QualityControl: Inspecting #1950 (Washing Machine | Tested)
+[2025-11-17 17:13:38] [PRODUCTION] Generated #1953 (Refrigerator | New)
+[2025-11-17 17:13:38] [INFO] QualityControl: PASSED inspection
+[2025-11-17 17:13:38] [INFO] QualityControl: PASSED inspection
+[2025-11-17 17:13:38] [PRODUCTION] Generated #1954 (Blender | New)
+[2025-11-17 17:13:38] [INFO] QualityControl: Inspecting #1951 (Blender | Tested)
+[2025-11-17 17:13:38] [INFO] QualityControl: Inspecting #1951 (Blender | Tested)
+[2025-11-17 17:13:39] [INFO] Shipping shipped #1949 (Refrigerator | Assembled)
+[2025-11-17 17:13:39] [INFO] Shipping shipped #1949 (Refrigerator | Assembled)
+[2025-11-17 17:13:39] [PRODUCTION] Generated #1955 (Refrigerator | New)
+[2025-11-17 17:13:39] [INFO] QualityControl: PASSED inspection
+[2025-11-17 17:13:39] [INFO] QualityControl: PASSED inspection
+[2025-11-17 17:13:39] [INFO] QualityControl: Inspecting #1952 (Toaster | Tested)
+[2025-11-17 17:13:39] [INFO] QualityControl: Inspecting #1952 (Toaster | Tested)
+[2025-11-17 17:13:39] [INFO] Shipping shipped #1950 (Washing Machine | Packed)
+[2025-11-17 17:13:39] [INFO] Shipping shipped #1950 (Washing Machine | Packed)
+[2025-11-17 17:13:39] [PRODUCTION] Generated #1956 (Oven | New)
+[2025-11-17 17:13:40] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:40] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:40] [INFO] PipeManager: received from pipe #1952 (Toaster | Rework) → requeued
+[2025-11-17 17:13:40] [INFO] PipeManager: sent via pipe #1952 (Toaster | Rework)
+[2025-11-17 17:13:40] [INFO] QualityControl: Inspecting #1953 (Refrigerator | Tested)
+[2025-11-17 17:13:40] [INFO] QualityControl: Inspecting #1953 (Refrigerator | Tested)
+[2025-11-17 17:13:40] [PRODUCTION] Generated #1957 (Refrigerator | New)
+[2025-11-17 17:13:40] [INFO] Shipping shipped #1951 (Blender | Packed)
+[2025-11-17 17:13:40] [INFO] Shipping shipped #1951 (Blender | Packed)
+[2025-11-17 17:13:40] [PRODUCTION] Generated #1958 (Refrigerator | New)
+[2025-11-17 17:13:40] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:40] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:40] [INFO] PipeManager: received from pipe #1953 (Refrigerator | Rework) → requeued
+[2025-11-17 17:13:40] [INFO] PipeManager: sent via pipe #1953 (Refrigerator | Rework)
+[2025-11-17 17:13:41] [INFO] QualityControl: Inspecting #1954 (Blender | Tested)
+[2025-11-17 17:13:41] [INFO] QualityControl: Inspecting #1954 (Blender | Tested)
+[2025-11-17 17:13:41] [INFO] Shipping shipped #1952 (Toaster | Assembled)
+[2025-11-17 17:13:41] [INFO] Shipping shipped #1952 (Toaster | Assembled)
+[2025-11-17 17:13:41] [PRODUCTION] Generated #1959 (Dishwasher | New)
+[2025-11-17 17:13:41] [INFO] QualityControl: PASSED inspection
+[2025-11-17 17:13:41] [INFO] QualityControl: PASSED inspection
+[2025-11-17 17:13:41] [INFO] QualityControl: Inspecting #1955 (Refrigerator | Tested)
+[2025-11-17 17:13:41] [INFO] QualityControl: Inspecting #1955 (Refrigerator | Tested)
+[2025-11-17 17:13:41] [INFO] Shipping shipped #1953 (Refrigerator | Assembled)
+[2025-11-17 17:13:41] [INFO] Shipping shipped #1953 (Refrigerator | Assembled)
+[2025-11-17 17:13:41] [PRODUCTION] Generated #1960 (Vacuum Cleaner | New)
+[2025-11-17 17:13:42] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:42] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:42] [INFO] PipeManager: received from pipe #1955 (Refrigerator | Rework) → requeued
+[2025-11-17 17:13:42] [INFO] PipeManager: sent via pipe #1955 (Refrigerator | Rework)
+[2025-11-17 17:13:42] [PRODUCTION] Generated #1961 (Refrigerator | New)
+[2025-11-17 17:13:42] [INFO] QualityControl: Inspecting #1956 (Oven | Tested)
+[2025-11-17 17:13:42] [INFO] QualityControl: Inspecting #1956 (Oven | Tested)
+[2025-11-17 17:13:42] [INFO] Shipping shipped #1954 (Blender | Packed)
+[2025-11-17 17:13:42] [INFO] Shipping shipped #1954 (Blender | Packed)
+[2025-11-17 17:13:42] [PRODUCTION] Generated #1962 (Toaster | New)
+[2025-11-17 17:13:43] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:43] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:43] [INFO] PipeManager: sent via pipe #1956 (Oven | Rework)
+[2025-11-17 17:13:43] [INFO] PipeManager: received from pipe #1956 (Oven | Rework) → requeued
+[2025-11-17 17:13:43] [INFO] QualityControl: Inspecting #1957 (Refrigerator | Tested)
+[2025-11-17 17:13:43] [INFO] QualityControl: Inspecting #1957 (Refrigerator | Tested)
+[2025-11-17 17:13:43] [INFO] Shipping shipped #1955 (Refrigerator | Assembled)
+[2025-11-17 17:13:43] [INFO] Shipping shipped #1955 (Refrigerator | Assembled)
+[2025-11-17 17:13:43] [PRODUCTION] Generated #1963 (Toaster | New)
+[2025-11-17 17:13:43] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:43] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:43] [INFO] PipeManager: received from pipe #1957 (Refrigerator | Rework) → requeued
+[2025-11-17 17:13:43] [INFO] PipeManager: sent via pipe #1957 (Refrigerator | Rework)
+[2025-11-17 17:13:43] [INFO] QualityControl: Inspecting #1958 (Refrigerator | Tested)
+[2025-11-17 17:13:43] [INFO] QualityControl: Inspecting #1958 (Refrigerator | Tested)
+[2025-11-17 17:13:43] [PRODUCTION] Generated #1964 (Toaster | New)
+[2025-11-17 17:13:43] [INFO] Shipping shipped #1956 (Oven | Assembled)
+[2025-11-17 17:13:43] [INFO] Shipping shipped #1956 (Oven | Assembled)
+[2025-11-17 17:13:44] [PRODUCTION] Generated #1965 (Refrigerator | New)
+[2025-11-17 17:13:44] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:44] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:44] [INFO] PipeManager: received from pipe #1958 (Refrigerator | Rework) → requeued
+[2025-11-17 17:13:44] [INFO] PipeManager: sent via pipe #1958 (Refrigerator | Rework)
+[2025-11-17 17:13:44] [INFO] QualityControl: Inspecting #1959 (Dishwasher | Tested)
+[2025-11-17 17:13:44] [INFO] QualityControl: Inspecting #1959 (Dishwasher | Tested)
+[2025-11-17 17:13:44] [INFO] Shipping shipped #1957 (Refrigerator | Assembled)
+[2025-11-17 17:13:44] [INFO] Shipping shipped #1957 (Refrigerator | Assembled)
+[2025-11-17 17:13:44] [PRODUCTION] Generated #1966 (Dryer | New)
+[2025-11-17 17:13:45] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:45] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:45] [INFO] PipeManager: received from pipe #1959 (Dishwasher | Rework) → requeued
+[2025-11-17 17:13:45] [INFO] PipeManager: sent via pipe #1959 (Dishwasher | Rework)
+[2025-11-17 17:13:45] [INFO] QualityControl: Inspecting #1960 (Vacuum Cleaner | Tested)
+[2025-11-17 17:13:45] [INFO] QualityControl: Inspecting #1960 (Vacuum Cleaner | Tested)
+[2025-11-17 17:13:45] [INFO] Shipping shipped #1958 (Refrigerator | Assembled)
+[2025-11-17 17:13:45] [INFO] Shipping shipped #1958 (Refrigerator | Assembled)
+[2025-11-17 17:13:45] [PRODUCTION] Generated #1967 (Vacuum Cleaner | New)
+[2025-11-17 17:13:45] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:45] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:45] [INFO] PipeManager: received from pipe #1960 (Vacuum Cleaner | Rework) → requeued
+[2025-11-17 17:13:45] [INFO] PipeManager: sent via pipe #1960 (Vacuum Cleaner | Rework)
+[2025-11-17 17:13:45] [PRODUCTION] Generated #1968 (Dishwasher | New)
+[2025-11-17 17:13:45] [INFO] QualityControl: Inspecting #1961 (Refrigerator | Tested)
+[2025-11-17 17:13:45] [INFO] QualityControl: Inspecting #1961 (Refrigerator | Tested)
+[2025-11-17 17:13:46] [INFO] Shipping shipped #1959 (Dishwasher | Assembled)
+[2025-11-17 17:13:46] [INFO] Shipping shipped #1959 (Dishwasher | Assembled)
+[2025-11-17 17:13:46] [PRODUCTION] Generated #1969 (Blender | New)
+[2025-11-17 17:13:46] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:46] [ERROR] QualityControl: FAILED inspection sending back to Assembly
+[2025-11-17 17:13:46] [INFO] PipeManager: received from pipe #1961 (Refrigerator | Rework) → requeued
+[2025-11-17 17:13:46] [INFO] PipeManager: sent via pipe #1961 (Refrigerator | Rework)
+[2025-11-17 17:13:46] [INFO] QualityControl: Inspecting #1962 (Toaster | Tested)
+[2025-11-17 17:13:46] [INFO] QualityControl: Inspecting #1962 (Toaster | Tested)
+[2025-11-17 17:13:46] [INFO] Shipping shipped #1960 (Vacuum Cleaner | Assembled)
+[2025-11-17 17:13:46] [INFO] Shipping shipped #1960 (Vacuum Cleaner | Assembled)
+[2025-11-17 17:13:46] [ACTION] ProductionLine: stop()
+[2025-11-17 17:13:46] [ACTION] ProductionLine: stop()
+[2025-11-17 17:13:46] [ACTION] Assembler-1: stop()
+[2025-11-17 17:13:46] [ACTION] Assembler-1: stop()
+[2025-11-17 17:13:46] [ACTION] Assembler-2: stop()
+[2025-11-17 17:13:46] [ACTION] Assembler-2: stop()
+[2025-11-17 17:13:46] [ACTION] Tester: stop()
+[2025-11-17 17:13:46] [ACTION] Tester: stop()
+[2025-11-17 17:13:46] [ACTION] QualityControl: stop()
+[2025-11-17 17:13:46] [ACTION] QualityControl: stop()
+[2025-11-17 17:13:46] [ACTION] Packer: stop()
+[2025-11-17 17:13:46] [ACTION] Packer: stop()
+[2025-11-17 17:13:46] [ACTION] Shipping: stop()
+[2025-11-17 17:13:46] [ACTION] Shipping: stop()
+[2025-11-17 17:13:46] [ACTION] Controller: stop() - Contadores y gráfico reseteados
+[2025-11-17 17:13:47] [INFO] QualityControl: PASSED inspection
+[2025-11-17 17:13:47] [INFO] QualityControl: PASSED inspection
