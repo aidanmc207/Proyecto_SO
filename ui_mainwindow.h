@@ -41,7 +41,7 @@ public:
     QPushButton *btnPause;
     QPushButton *btnStop;
     QSpacerItem *hspacer;
-    QComboBox *cmbSpeed;
+    QComboBox *comboBox;
     QWidget *layoutWidget1;
     QGridLayout *stationsLayout;
     QGroupBox *grpAssembler;
@@ -110,7 +110,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents_2 = new QWidget();
         scrollAreaWidgetContents_2->setObjectName(QString::fromUtf8("scrollAreaWidgetContents_2"));
-        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 1180, 1050));
+        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 1180, 857));
         layoutWidget = new QWidget(scrollAreaWidgetContents_2);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
         layoutWidget->setGeometry(QRect(0, 0, 1180, 28));
@@ -136,10 +136,10 @@ public:
 
         toolbarLayout->addItem(hspacer);
 
-        cmbSpeed = new QComboBox(layoutWidget);
-        cmbSpeed->setObjectName(QString::fromUtf8("cmbSpeed"));
+        comboBox = new QComboBox(layoutWidget);
+        comboBox->setObjectName(QString::fromUtf8("comboBox"));
 
-        toolbarLayout->addWidget(cmbSpeed);
+        toolbarLayout->addWidget(comboBox);
 
         layoutWidget1 = new QWidget(scrollAreaWidgetContents_2);
         layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
@@ -406,9 +406,6 @@ public:
         btnStart->setText(QCoreApplication::translate("MainWindow", "Start", nullptr));
         btnPause->setText(QCoreApplication::translate("MainWindow", "Pause", nullptr));
         btnStop->setText(QCoreApplication::translate("MainWindow", "Stop", nullptr));
-#if QT_CONFIG(tooltip)
-        cmbSpeed->setToolTip(QCoreApplication::translate("MainWindow", "Production speed", nullptr));
-#endif // QT_CONFIG(tooltip)
         grpAssembler->setTitle(QCoreApplication::translate("MainWindow", "Assembler", nullptr));
         lblAsmState->setText(QString());
         lblAsm1Processed->setText(QString());

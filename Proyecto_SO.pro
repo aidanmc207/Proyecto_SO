@@ -16,9 +16,7 @@ SOURCES += \
     Tester.cpp \
     Packer.cpp \
     Shipping.cpp \
-    Logger.cpp \
     StatsMonitor.cpp \
-    CleanUpService.cpp \
     Persistence.cpp \
     ThreadManager.cpp \
     PipeManager.cpp \
@@ -37,9 +35,7 @@ HEADERS += \
     Packer.h \
     Shipping.h \
     Buffer.h \
-    Logger.h \
     StatsMonitor.h \
-    CleanUpService.h \
     Persistence.h \
     ThreadManager.h \
     PipeManager.h \

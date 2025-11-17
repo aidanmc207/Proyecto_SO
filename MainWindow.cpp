@@ -22,10 +22,10 @@ MainWindow::MainWindow(QWidget* parent)
 
     d->controller = new ProductionController(this);
     //CB
-    d->ui.cmbSpeed->addItem("Fast");
-    d->ui.cmbSpeed->addItem("Normal");
-    d->ui.cmbSpeed->addItem("Slow");
-    d->ui.cmbSpeed->setCurrentIndex(1);//default
+    d->ui.comboBox->addItem("Fast");
+    d->ui.comboBox->addItem("Normal");
+    d->ui.comboBox->addItem("Slow");
+    d->ui.comboBox->setCurrentIndex(1);//default
 
 
     // Aplicar estilos modernos
@@ -121,7 +121,7 @@ MainWindow::MainWindow(QWidget* parent)
                 this, &MainWindow::updateCharts);
     }
     //CB
-    connect(d->ui.cmbSpeed,
+    connect(d->ui.comboBox,
             static_cast<void(QComboBox::*)(int)>(&QComboBox::currentIndexChanged),
             this,
             &MainWindow::changeSpeedMode);

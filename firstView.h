@@ -4,7 +4,6 @@
 
 class MainWindow;
 class LogWindow;
-class StatsWindow;
 
 namespace Ui {
 class FirstView;
@@ -26,6 +25,5 @@ private:
 
     MainWindow* productionWin = nullptr;
     LogWindow* logWin = nullptr;
-    StatsWindow* statsWin = nullptr;
 };
 
