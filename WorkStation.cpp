@@ -127,10 +127,11 @@ void WorkStation::runLoop()
 
         // Notificar que consumió uno (para producción "just in time")
         emit consumed(m_name);
+        barSize = processedCount() % 100;
 
         // Actualizar GUI
-        emit stationUpdated(m_name,stateString(), m_input ? m_input->size() : 0);
-        emit statsUpdated(m_name, processedCount(), m_input ? m_input->size() : 0 ,reworkCount());
+        emit stationUpdated(m_name,stateString(),barSize);
+        emit statsUpdated(m_name, processedCount(), barSize,reworkCount());
 
     }
 

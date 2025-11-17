@@ -66,6 +66,7 @@ private slots:
 private:
     long m_processed = 0;
     long m_reworkCount = 0;
+    int barSize=0;
     QString m_name;
     Buffer<Product>* m_input  = nullptr;
     Buffer<Product>* m_output = nullptr;

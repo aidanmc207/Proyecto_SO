@@ -73,6 +73,9 @@
            </property>
           </spacer>
          </item>
+         <item>
+          <widget class="QComboBox" name="comboBox"/>
+         </item>
         </layout>
        </widget>
        <widget class="QWidget" name="layoutWidget">

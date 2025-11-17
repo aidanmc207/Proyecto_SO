@@ -13,6 +13,7 @@
 #include "QualityControl.h"
 #include "PipeManager.h"
 #include "StatsMonitor.h"
+#include "LogWindow.h"
 
 
 class ProductionController : public QObject
@@ -21,7 +22,7 @@ class ProductionController : public QObject
 public:
     explicit ProductionController(QObject* parent = nullptr);
     void saveState();
-
+    void setLogWindow(LogWindow* win);
     // Obtener el StatsMonitor para acceder a los datos
     StatsMonitor* statsMonitor() const { return m_statsMonitor; }
 
@@ -60,4 +61,6 @@ private:
     Buffer<Product>* m_bufAsmToTest = nullptr;
     PipeManager*     m_pipeManager   = nullptr;
     StatsMonitor*    m_statsMonitor  = nullptr;
+    LogWindow* logWin = nullptr;
+
 };

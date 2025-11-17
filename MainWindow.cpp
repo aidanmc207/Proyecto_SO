@@ -21,6 +21,12 @@ MainWindow::MainWindow(QWidget* parent)
     d->ui.setupUi(this);
 
     d->controller = new ProductionController(this);
+    //CB
+    d->ui.cmbSpeed->addItem("Fast");
+    d->ui.cmbSpeed->addItem("Normal");
+    d->ui.cmbSpeed->addItem("Slow");
+    d->ui.cmbSpeed->setCurrentIndex(1);//default
+
 
     // Aplicar estilos modernos
     setupModernStyles();
@@ -114,6 +120,12 @@ MainWindow::MainWindow(QWidget* parent)
         connect(d->controller->statsMonitor(), &StatsMonitor::dataUpdated,
                 this, &MainWindow::updateCharts);
     }
+    //CB
+    connect(d->ui.cmbSpeed,
+            static_cast<void(QComboBox::*)(int)>(&QComboBox::currentIndexChanged),
+            this,
+            &MainWindow::changeSpeedMode);
+
 }
 
 MainWindow::~MainWindow()
@@ -462,7 +474,7 @@ void MainWindow::exportChartData()
 
 void MainWindow::setupModernStyles()
 {
-    // Estilo general de la aplicación
+    // Estilo general de la aplicación css interno
     QString mainStyle = R"(
         QMainWindow {
             background-color: #f5f5f5;
@@ -562,4 +574,35 @@ void MainWindow::reorganizeLayout()
     // Este método se llamará después de setupCharts para reorganizar
     // Por ahora lo dejamos vacío, la reorganización se hace en setupCharts
 }
+
+void MainWindow::changeSpeedMode(int index)
+{
+    switch (index) {
+
+    case 0: // Fast
+        Config::assemblerDelay = 150;
+        Config::testerDelay    = 200;
+        Config::qcDelay        = 200;
+        Config::packerDelay    = 150;
+        Config::shipDelay      = 100;
+        break;
+
+    case 1: // Normal
+        Config::assemblerDelay = 500;
+        Config::testerDelay    = 700;
+        Config::qcDelay        = 600;
+        Config::packerDelay    = 500;
+        Config::shipDelay      = 400;
+        break;
+
+    case 2: // Slow
+        Config::assemblerDelay = 900;
+        Config::testerDelay    = 1200;
+        Config::qcDelay        = 1000;
+        Config::packerDelay    = 900;
+        Config::shipDelay      = 800;
+        break;
+    }
+}
+
 

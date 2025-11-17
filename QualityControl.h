@@ -1,5 +1,6 @@
 #pragma once
 #include "WorkStation.h"
+#include "Config.h"
 
 class PipeManager;
 

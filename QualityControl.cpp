@@ -11,7 +11,7 @@ void QualityControl::process(Product& p)
 {
     emit log(QString("%1: Inspecting %2").arg(name(), p.show()));
 
-    QThread::msleep(300);
+    QThread::msleep(Config::qcDelay);
 
     bool fail = (QRandomGenerator::global()->bounded(100) < 20);//probabilidad de fallo
 

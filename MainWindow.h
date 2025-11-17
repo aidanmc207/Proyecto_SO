@@ -28,6 +28,7 @@ public slots:
     void updateStats(const QString& name, long processed, int queue,long rework);
     void updateGlobalRework();
     void updateCharts(); // Actualizar gráficos en tiempo real
+    void changeSpeedMode(int index);
 
 private:
     void setupCharts(); // Inicializar los gráficos

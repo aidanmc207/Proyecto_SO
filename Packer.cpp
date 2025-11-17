@@ -6,6 +6,6 @@ Packer::Packer(const QString& name): WorkStation(name){}
 
 void Packer::process(Product& p)
 {
-    QThread::msleep(50);
+    QThread::msleep(Config::packerDelay);
     p.advance();
 }

@@ -9,6 +9,6 @@ Tester::Tester(const QString& name)
 
 void Tester::process(Product& p)
 {
-    QThread::msleep(75);
+    QThread::msleep(Config::testerDelay);
     p.advance();
 }
