@@ -80,10 +80,9 @@ void ThreadManager::doStats()
     {
         if (!st) continue;
 
-        emit statsUpdated(
-            st->name(),
-            st->processedCount(),
-            st->inputBufferSize()
-            );
+        emit statsUpdated(st->name(),
+                          st->processedCount(),
+                          st->inputBuffer() ? st->inputBuffer()->size() : 0,
+                          st->reworkCount());
     }
 }

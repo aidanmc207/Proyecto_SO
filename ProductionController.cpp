@@ -23,9 +23,11 @@ ProductionController::ProductionController(QObject* parent)
     // buffer compartido entre assemblers y tester
     m_bufAsmToTest = new Buffer<Product>(128);
 
-    Buffer<Product>* entry = m_line->entryBuffer();
-    asmbl1->setInputBuffer(entry);
-    asmbl2->setInputBuffer(entry);
+    m_entry1 = new Buffer<Product>(128);
+    m_entry2 = new Buffer<Product>(128);
+
+    asmbl1->setInputBuffer(m_entry1);
+    asmbl2->setInputBuffer(m_entry2);
 
     asmbl1->setOutputBuffer(m_bufAsmToTest);
     asmbl2->setOutputBuffer(m_bufAsmToTest);
@@ -52,6 +54,12 @@ ProductionController::ProductionController(QObject* parent)
 
     connect(m_line, &ProductionLine::stationUpdated,
             this,   &ProductionController::stationUpdated);
+
+    for (auto* st : m_line->stations())
+    {
+        connect(st, &WorkStation::statsUpdated,
+                this, &ProductionController::statsUpdated);
+    }
 
     // cargar estado previo
     long savedId;
@@ -137,10 +145,17 @@ void ProductionController::generateProduct()
     int idx = QRandomGenerator::global()->bounded(productTypes.size());
     p.type = productTypes[idx];
 
-    m_line->entryBuffer()->push(p);
+    //alternar ensambladores
+    if (!m_toggle)
+        m_entry1->push(p);
+    else
+        m_entry2->push(p);
+
+    m_toggle = !m_toggle;
 
     emit logLine(QString("Generated %1").arg(p.show()));
 }
+
 
 void ProductionController::onStationConsumed(const QString& stationName)
 {

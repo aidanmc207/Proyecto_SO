@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[15];
-    char stringdata0[144];
+    QByteArrayData data[17];
+    char stringdata0[170];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -46,13 +46,16 @@ QT_MOC_LITERAL(10, 106, 4), // "line"
 QT_MOC_LITERAL(11, 111, 11), // "updateStats"
 QT_MOC_LITERAL(12, 123, 4), // "name"
 QT_MOC_LITERAL(13, 128, 9), // "processed"
-QT_MOC_LITERAL(14, 138, 5) // "queue"
+QT_MOC_LITERAL(14, 138, 5), // "queue"
+QT_MOC_LITERAL(15, 144, 6), // "rework"
+QT_MOC_LITERAL(16, 151, 18) // "updateGlobalRework"
 
     },
     "MainWindow\0startProduction\0\0pauseProduction\0"
     "stopProduction\0updateStation\0station\0"
     "state\0progress\0appendLog\0line\0updateStats\0"
-    "name\0processed\0queue"
+    "name\0processed\0queue\0rework\0"
+    "updateGlobalRework"
 };
 #undef QT_MOC_LITERAL
 
@@ -62,7 +65,7 @@ static const uint qt_meta_data_MainWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       6,   14, // methods
+       7,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -70,14 +73,15 @@ static const uint qt_meta_data_MainWindow[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   44,    2, 0x06 /* Public */,
-       3,    0,   45,    2, 0x06 /* Public */,
-       4,    0,   46,    2, 0x06 /* Public */,
+       1,    0,   49,    2, 0x06 /* Public */,
+       3,    0,   50,    2, 0x06 /* Public */,
+       4,    0,   51,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       5,    3,   47,    2, 0x0a /* Public */,
-       9,    1,   54,    2, 0x0a /* Public */,
-      11,    3,   57,    2, 0x0a /* Public */,
+       5,    3,   52,    2, 0x0a /* Public */,
+       9,    1,   59,    2, 0x0a /* Public */,
+      11,    4,   62,    2, 0x0a /* Public */,
+      16,    0,   71,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -87,7 +91,8 @@ static const uint qt_meta_data_MainWindow[] = {
  // slots: parameters
     QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::Int,    6,    7,    8,
     QMetaType::Void, QMetaType::QString,   10,
-    QMetaType::Void, QMetaType::QString, QMetaType::Long, QMetaType::Int,   12,   13,   14,
+    QMetaType::Void, QMetaType::QString, QMetaType::Long, QMetaType::Int, QMetaType::Long,   12,   13,   14,   15,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -103,7 +108,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 2: _t->stopProduction(); break;
         case 3: _t->updateStation((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
         case 4: _t->appendLog((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 5: _t->updateStats((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< long(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 5: _t->updateStats((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< long(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< long(*)>(_a[4]))); break;
+        case 6: _t->updateGlobalRework(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -161,13 +167,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 7;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 7)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 6;
+        _id -= 7;
     }
     return _id;
 }

@@ -26,6 +26,7 @@ inline QString productStateToString(ProductState s) {
 extern QStringList productTypes;
 
 
+
 struct Product {
     long id = 0;
     QString type;
@@ -44,7 +45,9 @@ struct Product {
         else if (state == ProductState::Rework)
             state = ProductState::Assembled;  // Rework vuelve al inicio
     }
-
+    inline bool isRework(const Product& p) {
+        return p.state == ProductState::Rework;
+    }
 
     QString show() const {
         return QString("#%1 (%2 | %3)")

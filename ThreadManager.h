@@ -17,7 +17,7 @@ public slots:
 
 signals:
     void log(const QString& text);
-    void statsUpdated(const QString& station, long processed, int bufferSize);
+    void statsUpdated(const QString& station, long processed, int bufferSize,long reworkCount);
 
 private slots:
     void doClean();   // "GeneralCleanThreads"

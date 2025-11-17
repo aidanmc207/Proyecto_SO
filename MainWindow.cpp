@@ -60,7 +60,7 @@ void MainWindow::updateStation(const QString& station,
 {
     if (station.startsWith("Assembler")) {
         d->ui.lblAsmState->setText(state);
-        d->ui.barAsm->setValue(queueSize);
+        d->ui.barAsm1->setValue(queueSize);
     }
     else if (station == "Tester") {
         d->ui.lblTesState->setText(state);
@@ -81,24 +81,32 @@ void MainWindow::updateStation(const QString& station,
 //STATS
 void MainWindow::updateStats(const QString& station,
                              long processed,
-                             int queueSize)
+                             int queueSize,
+                             long rework)
 {
-    if (station.startsWith("Assembler")) {//uso starts with por los dos assembler
-        d->ui.lblAsmProcessed->setText(QString::number(processed));
-        d->ui.barAsm->setValue(queueSize);
+    if (station == "Assembler-1") {
+        d->ui.lblAsm1Processed->setText(QString("Assembled: %1").arg(processed));
+        d->ui.barAsm1->setValue(queueSize);
+    }
+    else if (station == "Assembler-2") {
+        d->ui.lblAsm2Processed->setText(QString("Assembled: %1").arg(processed));
+        d->ui.barAsm2->setValue(queueSize);
     }
     else if (station == "Tester") {
-        d->ui.lblTesProcessed->setText(QString::number(processed));
+        d->ui.lblTesProcessed->setText(QString("Tested: %1").arg(processed));
         d->ui.barTes->setValue(queueSize);
     }
     else if (station == "QualityControl") {
-        d->ui.lblQCProcessed->setText(QString::number(processed));
+        d->ui.lblQCProcessed->setText(QString("Reviewed: %1").arg(processed));
+        d->ui.lblQCRework->setText(QString("Reworking: %1").arg(rework));
         d->ui.barQC->setValue(queueSize);
     }
     else if (station == "Packer") {
-        d->ui.lblPacProcessed->setText(QString::number(processed));
+        d->ui.lblPacProcessed->setText(QString("Packed: %1").arg(processed));
         d->ui.barPac->setValue(queueSize);
     }
+
+    updateGlobalRework();
 
     statusBar()->showMessage(
         QString("%1 → %2 items procesados")
@@ -107,8 +115,16 @@ void MainWindow::updateStats(const QString& station,
         2000
         );
 }
+
 //LOG
 void MainWindow::appendLog(const QString& line)
 {
     d->ui.txtLogs->appendPlainText(line);
 }
+void MainWindow::updateGlobalRework()
+{
+    long total = d->ui.lblQCRework->text().toLong();
+
+    d->ui.lblTotalRework->setText(QString::number(total));
+}
+

@@ -1,0 +1,52 @@
+{
+    "buffers": {
+        "buf_0": [
+        ],
+        "buf_1": [
+        ],
+        "buf_2": [
+        ],
+        "buf_3": [
+        ],
+        "entry": [
+        ]
+    },
+    "next_id": 89,
+    "stations": {
+        "Assembler-1": {
+            "paused": true,
+            "running": true,
+            "stats": {
+                "processed": 0
+            }
+        },
+        "Assembler-2": {
+            "paused": true,
+            "running": true,
+            "stats": {
+                "processed": 0
+            }
+        },
+        "Packer": {
+            "paused": true,
+            "running": true,
+            "stats": {
+                "processed": 0
+            }
+        },
+        "QualityControl": {
+            "paused": true,
+            "running": true,
+            "stats": {
+                "processed": 0
+            }
+        },
+        "Tester": {
+            "paused": true,
+            "running": true,
+            "stats": {
+                "processed": 0
+            }
+        }
+    }
+}

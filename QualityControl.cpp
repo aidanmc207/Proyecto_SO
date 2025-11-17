@@ -19,6 +19,7 @@ void QualityControl::process(Product& p)
         emit log(QString("%1: FAILED inspection sending back to Assembly").arg(name()));
 
         p.state = ProductState::Rework;
+        incrementRework();
 
         if (m_pipe)
             m_pipe->sendToPipe(p);

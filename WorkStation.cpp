@@ -110,7 +110,7 @@ void WorkStation::runLoop()
 
         // Actualizar GUI
         emit stationUpdated(m_name,stateString(), m_input ? m_input->size() : 0);
-        emit statsUpdated(m_name, processedCount(), m_input ? m_input->size() : 0);
+        emit statsUpdated(m_name, processedCount(), m_input ? m_input->size() : 0 ,reworkCount());
 
     }
 

@@ -21,7 +21,6 @@ public:
 
 
     QString name() const { return m_name; }
-
     long processedCount() const { return m_processed; }
     void incrementCount() { m_processed++; }
 
@@ -37,6 +36,8 @@ public:
     void injectProduct(const Product& p) {
         if (m_input) m_input->push(p);
     }
+    long reworkCount() const { return m_reworkCount; }
+    void incrementRework() { m_reworkCount++; }
 
 public slots:
     void start();
@@ -44,8 +45,7 @@ public slots:
     void stop();
 
 signals:
-signals:
-    void statsUpdated(const QString& name, long processed, int queueSize);
+    void statsUpdated(const QString& name, long processed, int queueSize,long reworks);
     void stationUpdated(const QString& name, const QString& state, int queueSize);
     void log(const QString& line);
     // Esta señal se usa para generar el siguiente producto justo a tiempo
@@ -61,6 +61,7 @@ private slots:
 
 private:
     long m_processed = 0;
+    long m_reworkCount = 0;
     QString m_name;
     Buffer<Product>* m_input  = nullptr;
     Buffer<Product>* m_output = nullptr;

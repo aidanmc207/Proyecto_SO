@@ -16,7 +16,8 @@ signals:
 public slots:
     void updateStation(const QString& station, const QString& state, int progress);
     void appendLog(const QString& line);
-    void updateStats(const QString& name, long processed, int queue);
+    void updateStats(const QString& name, long processed, int queue,long rework);
+    void updateGlobalRework();
 
 private:
     class Impl; Impl* d;

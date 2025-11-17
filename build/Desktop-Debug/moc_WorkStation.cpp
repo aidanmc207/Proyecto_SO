@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_WorkStation_t {
-    QByteArrayData data[16];
-    char stringdata0[127];
+    QByteArrayData data[17];
+    char stringdata0[135];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -38,22 +38,23 @@ QT_MOC_LITERAL(2, 25, 0), // ""
 QT_MOC_LITERAL(3, 26, 4), // "name"
 QT_MOC_LITERAL(4, 31, 9), // "processed"
 QT_MOC_LITERAL(5, 41, 9), // "queueSize"
-QT_MOC_LITERAL(6, 51, 14), // "stationUpdated"
-QT_MOC_LITERAL(7, 66, 5), // "state"
-QT_MOC_LITERAL(8, 72, 3), // "log"
-QT_MOC_LITERAL(9, 76, 4), // "line"
-QT_MOC_LITERAL(10, 81, 8), // "consumed"
-QT_MOC_LITERAL(11, 90, 11), // "stationName"
-QT_MOC_LITERAL(12, 102, 5), // "start"
-QT_MOC_LITERAL(13, 108, 5), // "pause"
-QT_MOC_LITERAL(14, 114, 4), // "stop"
-QT_MOC_LITERAL(15, 119, 7) // "runLoop"
+QT_MOC_LITERAL(6, 51, 7), // "reworks"
+QT_MOC_LITERAL(7, 59, 14), // "stationUpdated"
+QT_MOC_LITERAL(8, 74, 5), // "state"
+QT_MOC_LITERAL(9, 80, 3), // "log"
+QT_MOC_LITERAL(10, 84, 4), // "line"
+QT_MOC_LITERAL(11, 89, 8), // "consumed"
+QT_MOC_LITERAL(12, 98, 11), // "stationName"
+QT_MOC_LITERAL(13, 110, 5), // "start"
+QT_MOC_LITERAL(14, 116, 5), // "pause"
+QT_MOC_LITERAL(15, 122, 4), // "stop"
+QT_MOC_LITERAL(16, 127, 7) // "runLoop"
 
     },
     "WorkStation\0statsUpdated\0\0name\0processed\0"
-    "queueSize\0stationUpdated\0state\0log\0"
-    "line\0consumed\0stationName\0start\0pause\0"
-    "stop\0runLoop"
+    "queueSize\0reworks\0stationUpdated\0state\0"
+    "log\0line\0consumed\0stationName\0start\0"
+    "pause\0stop\0runLoop"
 };
 #undef QT_MOC_LITERAL
 
@@ -71,22 +72,22 @@ static const uint qt_meta_data_WorkStation[] = {
        4,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    3,   54,    2, 0x06 /* Public */,
-       6,    3,   61,    2, 0x06 /* Public */,
-       8,    1,   68,    2, 0x06 /* Public */,
-      10,    1,   71,    2, 0x06 /* Public */,
+       1,    4,   54,    2, 0x06 /* Public */,
+       7,    3,   63,    2, 0x06 /* Public */,
+       9,    1,   70,    2, 0x06 /* Public */,
+      11,    1,   73,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      12,    0,   74,    2, 0x0a /* Public */,
-      13,    0,   75,    2, 0x0a /* Public */,
-      14,    0,   76,    2, 0x0a /* Public */,
-      15,    0,   77,    2, 0x08 /* Private */,
+      13,    0,   76,    2, 0x0a /* Public */,
+      14,    0,   77,    2, 0x0a /* Public */,
+      15,    0,   78,    2, 0x0a /* Public */,
+      16,    0,   79,    2, 0x08 /* Private */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::QString, QMetaType::Long, QMetaType::Int,    3,    4,    5,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::Int,    3,    7,    5,
-    QMetaType::Void, QMetaType::QString,    9,
-    QMetaType::Void, QMetaType::QString,   11,
+    QMetaType::Void, QMetaType::QString, QMetaType::Long, QMetaType::Int, QMetaType::Long,    3,    4,    5,    6,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::Int,    3,    8,    5,
+    QMetaType::Void, QMetaType::QString,   10,
+    QMetaType::Void, QMetaType::QString,   12,
 
  // slots: parameters
     QMetaType::Void,
@@ -103,7 +104,7 @@ void WorkStation::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         auto *_t = static_cast<WorkStation *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->statsUpdated((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< long(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 0: _t->statsUpdated((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< long(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< long(*)>(_a[4]))); break;
         case 1: _t->stationUpdated((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
         case 2: _t->log((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 3: _t->consumed((*reinterpret_cast< const QString(*)>(_a[1]))); break;
@@ -116,7 +117,7 @@ void WorkStation::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (WorkStation::*)(const QString & , long , int );
+            using _t = void (WorkStation::*)(const QString & , long , int , long );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&WorkStation::statsUpdated)) {
                 *result = 0;
                 return;
@@ -187,9 +188,9 @@ int WorkStation::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void WorkStation::statsUpdated(const QString & _t1, long _t2, int _t3)
+void WorkStation::statsUpdated(const QString & _t1, long _t2, int _t3, long _t4)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t4))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 

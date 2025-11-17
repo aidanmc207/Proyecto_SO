@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_ThreadManager_t {
-    QByteArrayData data[11];
-    char stringdata0[90];
+    QByteArrayData data[12];
+    char stringdata0[102];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -40,14 +40,15 @@ QT_MOC_LITERAL(4, 24, 12), // "statsUpdated"
 QT_MOC_LITERAL(5, 37, 7), // "station"
 QT_MOC_LITERAL(6, 45, 9), // "processed"
 QT_MOC_LITERAL(7, 55, 10), // "bufferSize"
-QT_MOC_LITERAL(8, 66, 7), // "pushLog"
-QT_MOC_LITERAL(9, 74, 7), // "doClean"
-QT_MOC_LITERAL(10, 82, 7) // "doStats"
+QT_MOC_LITERAL(8, 66, 11), // "reworkCount"
+QT_MOC_LITERAL(9, 78, 7), // "pushLog"
+QT_MOC_LITERAL(10, 86, 7), // "doClean"
+QT_MOC_LITERAL(11, 94, 7) // "doStats"
 
     },
     "ThreadManager\0log\0\0text\0statsUpdated\0"
-    "station\0processed\0bufferSize\0pushLog\0"
-    "doClean\0doStats"
+    "station\0processed\0bufferSize\0reworkCount\0"
+    "pushLog\0doClean\0doStats"
 };
 #undef QT_MOC_LITERAL
 
@@ -66,16 +67,16 @@ static const uint qt_meta_data_ThreadManager[] = {
 
  // signals: name, argc, parameters, tag, flags
        1,    1,   39,    2, 0x06 /* Public */,
-       4,    3,   42,    2, 0x06 /* Public */,
+       4,    4,   42,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       8,    1,   49,    2, 0x0a /* Public */,
-       9,    0,   52,    2, 0x08 /* Private */,
-      10,    0,   53,    2, 0x08 /* Private */,
+       9,    1,   51,    2, 0x0a /* Public */,
+      10,    0,   54,    2, 0x08 /* Private */,
+      11,    0,   55,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString,    3,
-    QMetaType::Void, QMetaType::QString, QMetaType::Long, QMetaType::Int,    5,    6,    7,
+    QMetaType::Void, QMetaType::QString, QMetaType::Long, QMetaType::Int, QMetaType::Long,    5,    6,    7,    8,
 
  // slots: parameters
     QMetaType::Void, QMetaType::QString,    3,
@@ -92,7 +93,7 @@ void ThreadManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         (void)_t;
         switch (_id) {
         case 0: _t->log((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 1: _t->statsUpdated((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< long(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 1: _t->statsUpdated((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< long(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< long(*)>(_a[4]))); break;
         case 2: _t->pushLog((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 3: _t->doClean(); break;
         case 4: _t->doStats(); break;
@@ -108,7 +109,7 @@ void ThreadManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
             }
         }
         {
-            using _t = void (ThreadManager::*)(const QString & , long , int );
+            using _t = void (ThreadManager::*)(const QString & , long , int , long );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ThreadManager::statsUpdated)) {
                 *result = 1;
                 return;
@@ -165,9 +166,9 @@ void ThreadManager::log(const QString & _t1)
 }
 
 // SIGNAL 1
-void ThreadManager::statsUpdated(const QString & _t1, long _t2, int _t3)
+void ThreadManager::statsUpdated(const QString & _t1, long _t2, int _t3, long _t4)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t4))) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
 QT_WARNING_POP

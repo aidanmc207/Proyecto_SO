@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_ProductionController_t {
-    QByteArrayData data[16];
-    char stringdata0[149];
+    QByteArrayData data[17];
+    char stringdata0[156];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -43,17 +43,19 @@ QT_MOC_LITERAL(7, 61, 9), // "queueSize"
 QT_MOC_LITERAL(8, 71, 12), // "statsUpdated"
 QT_MOC_LITERAL(9, 84, 7), // "station"
 QT_MOC_LITERAL(10, 92, 9), // "processed"
-QT_MOC_LITERAL(11, 102, 5), // "start"
-QT_MOC_LITERAL(12, 108, 5), // "pause"
-QT_MOC_LITERAL(13, 114, 4), // "stop"
-QT_MOC_LITERAL(14, 119, 17), // "onStationConsumed"
-QT_MOC_LITERAL(15, 137, 11) // "stationName"
+QT_MOC_LITERAL(11, 102, 6), // "rework"
+QT_MOC_LITERAL(12, 109, 5), // "start"
+QT_MOC_LITERAL(13, 115, 5), // "pause"
+QT_MOC_LITERAL(14, 121, 4), // "stop"
+QT_MOC_LITERAL(15, 126, 17), // "onStationConsumed"
+QT_MOC_LITERAL(16, 144, 11) // "stationName"
 
     },
     "ProductionController\0logLine\0\0line\0"
     "stationUpdated\0name\0state\0queueSize\0"
-    "statsUpdated\0station\0processed\0start\0"
-    "pause\0stop\0onStationConsumed\0stationName"
+    "statsUpdated\0station\0processed\0rework\0"
+    "start\0pause\0stop\0onStationConsumed\0"
+    "stationName"
 };
 #undef QT_MOC_LITERAL
 
@@ -73,24 +75,24 @@ static const uint qt_meta_data_ProductionController[] = {
  // signals: name, argc, parameters, tag, flags
        1,    1,   49,    2, 0x06 /* Public */,
        4,    3,   52,    2, 0x06 /* Public */,
-       8,    3,   59,    2, 0x06 /* Public */,
+       8,    4,   59,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      11,    0,   66,    2, 0x0a /* Public */,
-      12,    0,   67,    2, 0x0a /* Public */,
-      13,    0,   68,    2, 0x0a /* Public */,
-      14,    1,   69,    2, 0x08 /* Private */,
+      12,    0,   68,    2, 0x0a /* Public */,
+      13,    0,   69,    2, 0x0a /* Public */,
+      14,    0,   70,    2, 0x0a /* Public */,
+      15,    1,   71,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString,    3,
     QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::Int,    5,    6,    7,
-    QMetaType::Void, QMetaType::QString, QMetaType::Long, QMetaType::Int,    9,   10,    7,
+    QMetaType::Void, QMetaType::QString, QMetaType::Long, QMetaType::Int, QMetaType::Long,    9,   10,    7,   11,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,   15,
+    QMetaType::Void, QMetaType::QString,   16,
 
        0        // eod
 };
@@ -103,7 +105,7 @@ void ProductionController::qt_static_metacall(QObject *_o, QMetaObject::Call _c,
         switch (_id) {
         case 0: _t->logLine((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 1: _t->stationUpdated((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
-        case 2: _t->statsUpdated((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< long(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 2: _t->statsUpdated((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< long(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< long(*)>(_a[4]))); break;
         case 3: _t->start(); break;
         case 4: _t->pause(); break;
         case 5: _t->stop(); break;
@@ -127,7 +129,7 @@ void ProductionController::qt_static_metacall(QObject *_o, QMetaObject::Call _c,
             }
         }
         {
-            using _t = void (ProductionController::*)(const QString & , long , int );
+            using _t = void (ProductionController::*)(const QString & , long , int , long );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ProductionController::statsUpdated)) {
                 *result = 2;
                 return;
@@ -191,9 +193,9 @@ void ProductionController::stationUpdated(const QString & _t1, const QString & _
 }
 
 // SIGNAL 2
-void ProductionController::statsUpdated(const QString & _t1, long _t2, int _t3)
+void ProductionController::statsUpdated(const QString & _t1, long _t2, int _t3, long _t4)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t4))) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 QT_WARNING_POP

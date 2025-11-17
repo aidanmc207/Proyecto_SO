@@ -28,13 +28,16 @@ public slots:
 signals:
     void logLine(const QString& line);
     void stationUpdated(const QString& name, const QString& state, int queueSize);
-    void statsUpdated(const QString& station, long processed, int queueSize);
+    void statsUpdated(const QString& station, long processed, int queueSize, long rework);
 
 private slots:
     void onStationConsumed(const QString& stationName);
 
 private:
     void generateProduct();
+    Buffer<Product>* m_entry1 = nullptr;
+    Buffer<Product>* m_entry2 = nullptr;
+    bool m_toggle = false;   // alternador Round-Robin
 
     ProductionLine* m_line = nullptr;
     bool m_running = false;
