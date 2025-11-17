@@ -9,34 +9,69 @@
         "buf_3": [
         ],
         "buf_4": [
+            {
+                "id": 1939,
+                "state": 3,
+                "type": "Blender"
+            },
+            {
+                "id": 1941,
+                "state": 3,
+                "type": "Blender"
+            },
+            {
+                "id": 1942,
+                "state": 3,
+                "type": "Vacuum Cleaner"
+            },
+            {
+                "id": 1943,
+                "state": 3,
+                "type": "Dishwasher"
+            },
+            {
+                "id": 1944,
+                "state": 1,
+                "type": "Air Conditioner"
+            },
+            {
+                "id": 1945,
+                "state": 3,
+                "type": "Air Conditioner"
+            },
+            {
+                "id": 1946,
+                "state": 3,
+                "type": "Air Conditioner"
+            },
+            {
+                "id": 1947,
+                "state": 3,
+                "type": "Refrigerator"
+            }
         ],
         "entry": [
             {
-                "id": 1404,
+                "id": 1944,
                 "state": 4,
-                "type": "Dryer"
-            },
-            {
-                "id": 1407,
-                "state": 4,
-                "type": "Oven"
+                "type": "Air Conditioner"
             }
         ]
     },
-    "next_id": 1413,
+    "next_id": 1949,
     "stations": {
         "Assembler-1": {
             "paused": false,
             "running": false,
             "stats": {
-                "processed": 0
+                "processed": 1
             }
         },
         "Assembler-2": {
             "paused": false,
             "running": false,
             "stats": {
-                "processed": 1
+                "processed": 0
             }
         },
         "Packer": {

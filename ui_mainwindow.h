@@ -100,7 +100,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(648, 900);
+        MainWindow->resize(1200, 900);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         rootLayout = new QVBoxLayout(centralwidget);
@@ -110,10 +110,10 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents_2 = new QWidget();
         scrollAreaWidgetContents_2->setObjectName(QString::fromUtf8("scrollAreaWidgetContents_2"));
-        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 628, 857));
+        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 1180, 1050));
         layoutWidget = new QWidget(scrollAreaWidgetContents_2);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(0, 0, 630, 28));
+        layoutWidget->setGeometry(QRect(0, 0, 1180, 28));
         toolbarLayout = new QHBoxLayout(layoutWidget);
         toolbarLayout->setObjectName(QString::fromUtf8("toolbarLayout"));
         toolbarLayout->setContentsMargins(0, 0, 0, 0);
@@ -143,7 +143,7 @@ public:
 
         layoutWidget1 = new QWidget(scrollAreaWidgetContents_2);
         layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
-        layoutWidget1->setGeometry(QRect(0, 30, 630, 450));
+        layoutWidget1->setGeometry(QRect(0, 30, 1180, 600));
         stationsLayout = new QGridLayout(layoutWidget1);
         stationsLayout->setObjectName(QString::fromUtf8("stationsLayout"));
         stationsLayout->setContentsMargins(0, 0, 0, 0);

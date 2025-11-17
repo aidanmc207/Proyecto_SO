@@ -18,6 +18,8 @@ public:
 
     QVector<double> getStationData(const QString& station) const;
 
+    void reset(); // Resetear todos los datos
+
 public slots:
     void recordStats(long totalProcessed, int totalInQueue, long totalRework);
     void recordStationData(const QString& station, long processed);
