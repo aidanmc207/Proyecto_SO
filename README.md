@@ -54,27 +54,37 @@ Este proyecto implementa una aplicación gráfica en C++ con Qt Creator que simu
 - **Uso**: Los productos que fallan en QualityControl se envían por pipe de vuelta a la entrada
 - **Implementación**: std::thread + Unix pipe() para comunicación asíncrona
 
-#### g. Logger / ThreadManager
-- **Ubicación**: `ThreadManager.h`, `ThreadManager.cpp`, `Logger.h`, `Logger.cpp`
+#### g. ThreadManager
+- **Ubicación**: `ThreadManager.h`, `ThreadManager.cpp`
 - **Funcionalidad**: Administra logs, estadísticas y métricas del sistema
 - **Características**:
   - Registro timestamped y categorizado
   - Métricas de throughput y rendimiento
   - Monitoreo de estados
 
+#### h. StatsMonitor
+- **Ubicación**: `StatsMonitor.h`, `StatsMonitor.cpp`
+- **Funcionalidad**: Sistema de monitoreo y graficación en tiempo real
+- **Características**:
+  - Mantiene historial de 60 segundos de datos
+  - Tres métricas principales: Procesados, En Cola, Retrabajo
+  - Alimenta el gráfico visual en MainWindow
+  - Sistema de reset para limpiar datos al detener
+
 ---
 
 ### 2. Interfaz Gráfica de Usuario (GUI) ✓
 
 #### a. Estaciones de Trabajo
-- **5+ Estaciones**: Assembler-1, Assembler-2, Tester, QualityControl, Packer
-- **Estados visibles**: Cada estación muestra su estado (Running, Paused, Stopped)
-- **Gestión individual**: Todas las estaciones responden a comandos start/pause/stop
+- **5 Estaciones**: Assembler-1, Assembler-2, Tester, QualityControl, Packer, Shipping
+- **Estados visibles**: Cada estación muestra su estado (Running, Paused, Stopped, Waiting)
+- **Gestión individual**: Todas las estaciones responden a comandos start/pause/stop individuales
 - **Indicadores visuales**:
   - Estado de cada estación (QLabel)
   - Productos procesados (contadores)
   - Tamaño de cola (QProgressBar)
   - Productos en retrabajo
+- **Gráfico en tiempo real**: Visualización de métricas históricas con tres líneas (Procesados, En Cola, Retrabajo)
 
 #### b. Comunicación entre Estaciones
 - **Señales Qt**: Para comunicación interna GUI
@@ -174,11 +184,13 @@ Implementados en `ThreadManager.h` y `ThreadManager.cpp`:
         ↓
     [Tester]
         ↓
-  [QualityControl] ← 20% fail rate
+  [QualityControl] ← 5% fail rate
     ↓         ↓
  [Pass]    [Fail]
     ↓         ↓
  [Packer]  [PipeManager] → (rework) → [Entry Buffer]
+    ↓
+ [Shipping]
     ↓
  [Finished]
 ```
@@ -241,7 +253,8 @@ make
 ## Características Destacadas
 
 ### ✓ Más de 5 Estaciones
-El sistema incluye exactamente 5 estaciones especializadas.
+El sistema incluye exactamente 6 estaciones especializadas (contando los dos ensambladores como instancias separadas de la misma clase):
+- Assembler-1, Assembler-2, Tester, QualityControl, Packer, Shipping
 
 ### ✓ Comunicación Multiproceso
 - Pipes Unix para IPC (productos fallados)
@@ -259,8 +272,9 @@ El sistema incluye exactamente 5 estaciones especializadas.
 - Timers para hilos de mantenimiento
 
 ### ✓ Sistema de Retrabajo Realista
-- 20% de productos fallan en Quality Control
-- Se reinyectan mediante pipes
+- 10% de productos fallan en Tester (marcados como defectuosos)
+- 5% de productos fallan en Quality Control
+- Se reinyectan mediante pipes Unix
 - Contadores separados de retrabajo
 
 ### ✓ Persistencia Completa
