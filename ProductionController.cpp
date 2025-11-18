@@ -55,6 +55,10 @@ ProductionController::ProductionController(QObject* parent)
     connect(asmbl2, &WorkStation::consumed,
             this, &ProductionController::onStationConsumed);
 
+    // Cuando Shipping procesa un producto, guardamos el estado automáticamente
+    connect(ship, &WorkStation::consumed,
+            this, &ProductionController::saveState);
+
     // Conectar logs y actualizaciones de la línea con el controller
     connect(m_line, &ProductionLine::log,
             this,   &ProductionController::logLine);
